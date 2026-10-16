@@ -69,6 +69,19 @@ def same(field, g, m):
         return g in m or m in g
     return g == m
 
+
+# Save the scores to the database, so every "find all" answer can show its measured accuracy.
+def save_scores(eval_set, scores):
+    import time as _t
+    con.execute("CREATE TABLE IF NOT EXISTS eval_results (run_at TEXT, eval_set TEXT, field TEXT, "
+                "precision REAL, recall REAL, n INTEGER, prompt_version TEXT)")
+    pv = ",".join(sorted({r[0] for r in con.execute("SELECT DISTINCT prompt_version FROM extractions")}))
+    con.execute("DELETE FROM eval_results WHERE eval_set = ?", (eval_set,))
+    con.executemany("INSERT INTO eval_results VALUES (?,?,?,?,?,?,?)",
+                    [(_t.strftime("%Y-%m-%d %H:%M"), eval_set, f, p, r, n, pv) for f, p, r, n in scores])
+    con.commit()
+
+saved = []
 print(f"Holdout: {len(holdout)} contracts, CUAD answer key, database {DB}\n")
 print(f"{'field':16} {'precision':>9} {'recall':>7}   correct wrong missed made-up both-absent skipped")
 misses = []
@@ -90,4 +103,7 @@ for field in ["parties", "effective_date", "governing_law"]:
     p = tp / (tp + wrong + made_up) if tp + wrong + made_up else float("nan")
     rc = tp / (tp + wrong + missed) if tp + wrong + missed else float("nan")
     print(f"{field:16} {p:9.0%} {rc:7.0%}   {tp:7} {wrong:5} {missed:6} {made_up:7} {absent:11} {skipped:7}")
+    saved.append((field, p, rc, len(holdout)))
+if DB == "data/legal.db":
+    save_scores("30-contract holdout (CUAD key)", saved)
 print("\nDisagreements:", ", ".join(f"{d} {f} ({k})" for d, f, k in misses) or "none")

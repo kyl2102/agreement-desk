@@ -233,6 +233,9 @@ def norm_law(s):
     s = re.sub(r"(?i)\s+and\s+the\s+federal\s+laws.*$", "", s)                       # v3
     s = re.sub(r"(?i)\b(the\s+)?(laws?\s+of\s+)?(the\s+)?(state|commonwealth|province)\s+of\s+", "", s)
     s = re.sub(r"(?i)^(the\s+)?laws?\s+of\s+(the\s+)?", "", s).strip(" .,")
+    s = re.sub(r"(?i),?\s*(the\s+)?united states(\s+of\s+america)?$", "", s).strip(" .,") or s   # "Colorado, United States"
+    if s.isupper():
+        s = s.lower()                                    # "COLORADO" -> "colorado" -> "Colorado" below
     small = {"and", "of", "the"}
     return " ".join(w if w.lower() in small else w[:1].upper() + w[1:] for w in s.split()) if s else None
 

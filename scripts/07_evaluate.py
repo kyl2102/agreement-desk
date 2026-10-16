@@ -79,6 +79,18 @@ def same(field, g, m):
         return abs(g - m) <= 0.01 * g
     return g == m
 
+
+# Save the scores to the database, so every "find all" answer can show its measured accuracy.
+def save_scores(eval_set, scores):
+    import time as _t
+    con.execute("CREATE TABLE IF NOT EXISTS eval_results (run_at TEXT, eval_set TEXT, field TEXT, "
+                "precision REAL, recall REAL, n INTEGER, prompt_version TEXT)")
+    pv = ",".join(sorted({r[0] for r in con.execute("SELECT DISTINCT prompt_version FROM extractions")}))
+    con.execute("DELETE FROM eval_results WHERE eval_set = ?", (eval_set,))
+    con.executemany("INSERT INTO eval_results VALUES (?,?,?,?,?,?,?)",
+                    [(_t.strftime("%Y-%m-%d %H:%M"), eval_set, f, p, r, n, pv) for f, p, r, n in scores])
+    con.commit()
+
 # ---------- Score ----------
 FIELDS = ["parties", "effective_date", "governing_law", "termination_notice_days", "cap_type", "cap_amount"]
 docs = sorted({r["doc_id"] for r in gold_rows})
@@ -86,6 +98,7 @@ disagreements = []
 print(f"Scored {len(docs)} contracts against your labels\n")
 print(f"{'field':24} {'precision':>9} {'recall':>7}   correct  wrong  missed  made-up  both-absent   page-match")
 totals = {"tp": 0, "fp": 0, "fn": 0}
+saved = []
 for field in FIELDS:
     tp = wrong = missed = made_up = both_absent = page_ok = 0
     for doc in docs:
@@ -113,9 +126,12 @@ for field in FIELDS:
     recall = tp / (tp + fn) if tp + fn else float("nan")
     totals["tp"] += tp; totals["fp"] += fp; totals["fn"] += fn
     print(f"{field:24} {precision:9.0%} {recall:7.0%}   {tp:7}  {wrong:5}  {missed:6}  {made_up:7}  {both_absent:11}   {page_ok}/{tp}")
+    saved.append(({"termination_notice_days": "termination_notice"}.get(field, field), precision, recall, len(docs)))
 
 t = totals
 print(f"\n{'ALL FIELDS':24} {t['tp'] / (t['tp'] + t['fp']):9.0%} {t['tp'] / (t['tp'] + t['fn']):7.0%}")
+
+save_scores("my 10 hand labels", saved)
 
 # Did the review queue catch the errors? (An error nobody is told to check is the dangerous kind.)
 flagged = sum(1 for d in disagreements if d["flagged_for_review"])
