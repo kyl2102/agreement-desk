@@ -209,6 +209,27 @@ def family_answer(tool, field, value=None, op=None, number=None):
             rows.append((root, v, hit, note))
     return rows
 
+# A second, independent check for "not found" answers: does the agreement's own text contain
+# language about this topic? If yes, extraction may have missed it. Keyword search vs. LLM extraction.
+ABSENCE_CHECK = {
+    "cap_type": '("liability" OR "liable") AND ("exceed" OR "limit" OR "limited" OR "limitation" '
+                'OR "consequential" OR "maximum")',
+}
+
+def absence_evidence(root, field):
+    """Return (number of matching chunks, best chunk's heading, page) within this agreement's family."""
+    query = ABSENCE_CHECK.get(field)
+    if not query:
+        return None
+    docs = [r[0] for r in con.execute("SELECT doc_id FROM documents WHERE doc_id = ? OR master_id = ?", (root, root))]
+    marks = ",".join("?" * len(docs))
+    hits = con.execute(f"SELECT c.heading_path, c.page_start FROM chunks_fts f JOIN chunks c ON c.chunk_id = f.chunk_id "
+                       f"WHERE chunks_fts MATCH ? AND c.doc_id IN ({marks}) "
+                       # a chunk whose HEADING is about liability is the best place to start reading
+                       f"ORDER BY (LOWER(c.heading_path) LIKE '%liab%') DESC, bm25(chunks_fts)",
+                       [query] + docs).fetchall()
+    return (len(hits), hits[0][0].split(" > ")[-1][:50], hits[0][1]) if hits else (0, None, None)
+
 def eval_op(a, op, b):
     return {"<": a < b, "<=": a <= b, ">": a > b, ">=": a >= b, "=": a == b}[op]
 
@@ -302,6 +323,26 @@ def print_family(question, p, rows):
             counts.setdefault(v if v is not None else "(not found)", []).append(root)
         for v, roots in sorted(counts.items(), key=lambda kv: -len(kv[1])):
             print(f"  {str(v)[:45]:45} {len(roots):3} agreements  ({', '.join(roots)})")
+    elif p["tool"] == "list_where" and all(hit is None for _, _, hit, _ in rows) and p["field"] in ABSENCE_CHECK:
+        # An absence question: sort the "not found" agreements by how likely the absence is real.
+        check, likely, unknown = [], [], []
+        for root, v, hit, note in rows:
+            n, heading, page = absence_evidence(root, p["field"])
+            if n:
+                check.append((n, root, f"{n} chunks; start at {heading}, p.{page}", note))
+            elif "master not in sample" in note:
+                unknown.append(root)
+            else:
+                likely.append(root)
+        print(f"{len(rows)} agreements with no {p['field']} extracted. Second check: the keyword index searched each "
+              f"agreement's own text for limitation language.\n")
+        print(f"{len(check)} to CHECK (limitation language found, but nothing extracted: possible miss):")
+        for n, root, where, note in sorted(check, reverse=True):
+            print(f"  {root}  {where}  [{note}]")
+        print(f"\n{len(likely)} LIKELY NONE (no limitation language in any family document): {', '.join(likely) or '-'}")
+        if unknown:
+            print(f"{len(unknown)} UNKNOWN (amendment only; the cap may be in the master, which isn't in the sample): "
+                  f"{', '.join(unknown)}")
     else:
         print(f"{len(rows)} agreements:")
         for root, v, hit, note in rows:
