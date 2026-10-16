@@ -1,0 +1,10 @@
+# Visual theme for the demo app: cool paper background, ink text, one ledger-blue accent.
+[theme]
+base = "light"
+primaryColor = "#2A5DB0"
+backgroundColor = "#F6F7F9"
+secondaryBackgroundColor = "#E9EDF3"
+textColor = "#1C2333"
+
+[client]
+toolbarMode = "minimal"

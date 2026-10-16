@@ -208,9 +208,10 @@ def family_terms(root_id):
         if doc_type == "ancillary":
             continue                      # e.g. a power of attorney: related, but it doesn't change terms
         for field, (src, expr) in FIELD_SQL.items():
-            if field in ("effective_date", "parties") and doc_type != "master":
+            if field in ("effective_date", "parties") and doc_type != "master" and doc != root_id:
                 continue                  # the agreement's start date and parties come from the master;
                                           # an amendment's date is when ITS changes took effect
+                                          # (an orphan amendment with no master here is its own root, so it keeps its own)
             row = con.execute(f"SELECT {expr}, e.page, e.quote FROM current_extractions e WHERE e.doc_id = ? AND e.field = ? "
                               f"AND e.found = 1", (doc, src)).fetchone()
             if row and row[0] not in (None, "none"):
@@ -222,8 +223,13 @@ def family_answer(tool, field, value=None, op=None, number=None, start=None, end
     """Same questions as the SQL tools, asked of each family's terms in force.
     Amendments roll up into their master, so a cap stated only in the master still counts."""
     rows = []
+    scope = tool != "date_between" and (start or end)   # "after 2000" etc.: limit WHICH agreements are counted
     for root in family_roots():
         family, terms = family_terms(root)
+        if scope:
+            eff = terms.get("effective_date", (None,))[0]
+            if not eff or not ((start or "0000") <= eff <= (end or "9999")):
+                continue                              # outside the date range, or date unknown (see scope_unknown)
         doc_type = next(t for d, t, _ in family if d == root)
         hit = terms.get(field)                       # (value, from_doc, page, quote) or None
         v = hit[0] if hit else None
@@ -273,6 +279,10 @@ def norm_value(v):
     v = re.sub(r"(?i)\b(law|laws|the|state of|commonwealth of)\b", " ", str(v))
     return re.sub(r"\s+", " ", v).strip().lower()
 
+def scope_unknown():
+    """Agreements with no known effective date: a date-scoped answer can't include them, so say how many."""
+    return [r for r in family_roots() if not family_terms(r)[1].get("effective_date")]
+
 def eval_op(a, op, b):
     return {"<": a < b, "<=": a <= b, ">": a > b, ">=": a >= b, "=": a == b}[op]
 
@@ -314,6 +324,9 @@ Tools:
   "agreements signed between 2000 and 2004" -> effective_date, start 2000-01-01, end 2004-12-31
   "contracts effective before 2005" -> start 1900-01-01, end 2004-12-31
 - terms_in_force(doc_id): current terms of one agreement family, e.g. "terms in force for D001".
+Any of count_by, list_where and compare can ALSO be limited to agreements effective in a date range: set start/end
+(YYYY-MM-DD). "notice periods for agreements after 2000" -> count_by termination_notice, start 2000-01-01, end null.
+Never drop part of the question: if it mentions a year or date range, set start/end.
 Fields: governing_law, effective_date, parties, termination_notice (days), cap_type
 (fixed_amount, fees_based, exclusion_only, none), cap_amount.
 Set unused blanks to null."""
@@ -345,6 +358,9 @@ def validate_plan(p):
             raise ValueError("date_between only works on effective_date")
         if not (ISO.match(str(p.get("start"))) and ISO.match(str(p.get("end")))) or p["start"] > p["end"]:
             raise ValueError(f"date_between needs start <= end as YYYY-MM-DD, got {p.get('start')}..{p.get('end')}")
+    for k in ("start", "end"):
+        if tool != "date_between" and p.get(k) and not ISO.match(str(p[k])):
+            raise ValueError(f"date scope {k}={p[k]!r} must be YYYY-MM-DD")
     if tool == "terms_in_force" and not re.match(r"^D\d{3}$", str(p.get("doc_id") or "").upper()):
         raise ValueError("terms_in_force needs a document id like D006")
 
