@@ -1,0 +1,41 @@
+doc_id,doc_type,master_id,confidence,reason
+D001,master,,,
+D002,amendment,D001,high,"parties: advisory, federated, investment, management; type: services; date: 2004-01-01"
+D003,ancillary,D001,high,"parties: advisory, federated, investment, management; type: services; date: 2004-01-01"
+D004,amendment,D001,high,"parties: advisory, federated, investment, management; type: services; date: 2004-01-01"
+D005,amendment,D006,high,"parties: netgear, networks; type: distributor; date: 1996-03-01"
+D006,master,,,
+D007,amendment,D006,high,"parties: netgear, networks; type: distributor; date: 1996-03-01"
+D008,amendment,D009,high,parties: cargill; type: development; date: 2010-04-15
+D009,master,,,
+D010,amendment,D011,high,"parties: bridge, delaware, neon, peregrine, transfer; type: distributor; date: 1996-01-01"
+D011,master,,,
+D012,amendment,,,master not found in sample
+D013,amendment,,,master not found in sample
+D014,amendment,,,master not found in sample
+D015,master,,,
+D016,master,,,
+D017,master,,,
+D018,master,,,
+D019,master,,,
+D020,master,,,
+D021,master,,,
+D022,master,,,
+D023,master,,,
+D024,master,,,
+D025,master,,,
+D026,master,,,
+D027,master,,,
+D028,amendment,,,master not found in sample
+D029,master,,,
+D030,master,,,
+D031,master,,,
+D032,master,,,
+D033,master,,,
+D034,master,,,
+D035,master,,,
+D036,master,,,
+D037,master,,,
+D038,master,,,
+D039,master,,,
+D040,master,,,
