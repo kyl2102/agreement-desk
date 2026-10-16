@@ -1,0 +1,1352 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement3",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 357477887580091127,
+    "filename": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement3.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/28"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 274.14374999999995,
+            "t": 794.8573375,
+            "r": 321.48751893750017,
+            "b": 787.6995480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "APPENDIX C",
+      "text": "APPENDIX C",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 169.35625,
+            "t": 784.7573375,
+            "r": 426.27494950000005,
+            "b": 767.5393807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT (BETWEEN FRANCHISEE AND ITS PERSONNEL)",
+      "text": "SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT (BETWEEN FRANCHISEE AND ITS PERSONNEL)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 764.5573375,
+            "r": 544.9500441874993,
+            "b": 737.1995480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            285
+          ]
+        }
+      ],
+      "orig": "THIS SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT ( \"Agreement\") is made this _____ day of _________, 20___, by and between ___________________________ (the \"Franchisee\"), and ___________________________, who is an officer, director, or employee of Franchisee (the \"Member\").",
+      "text": "THIS SAMPLE OF NON-DISCLOSURE AND NON-COMPETITION AGREEMENT ( \"Agreement\") is made this _____ day of _________, 20___, by and between ___________________________ (the \"Franchisee\"), and ___________________________, who is an officer, director, or employee of Franchisee (the \"Member\")."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 278.5625,
+            "t": 734.2573375,
+            "r": 317.06874999999997,
+            "b": 727.1393807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "RECITALS:",
+      "text": "RECITALS:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 724.1573374999999,
+            "r": 544.9501767499999,
+            "b": 706.8995480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "orig": "WHEREAS, __________________ (\"Franchisor\") has developed a distinctive set of specifications and operating procedures (collectively, the \"System\") for the operation of \"Pizza Fusion\" restaurant businesses (\"Franchised Businesses\").",
+      "text": "WHEREAS, __________________ (\"Franchisor\") has developed a distinctive set of specifications and operating procedures (collectively, the \"System\") for the operation of \"Pizza Fusion\" restaurant businesses (\"Franchised Businesses\")."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 703.9573375,
+            "r": 544.9499116249995,
+            "b": 686.7393807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions of the Franchise Agreement\u037e",
+      "text": "WHEREAS, Franchisor and Franchisee have executed a Franchise Agreement (\"Franchise Agreement\") granting Franchisee the right to operate a Franchised Business under the terms and conditions of the Franchise Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 683.7573375,
+            "r": 544.9504040000003,
+            "b": 656.4393807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            274
+          ]
+        }
+      ],
+      "orig": "WHEREAS, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound by.",
+      "text": "WHEREAS, the Member, by virtue of his or her position with Franchisee, will gain access to certain of Franchisor's Confidential Information, as defined herein, and must therefore be bound by the same confidentiality and non-competition agreement that Franchisee is bound by."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 653.4573375,
+            "r": 544.9497474999985,
+            "b": 636.2393807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "IN CONSIDERATION of these premises, the conditions stated herein, and for other good and valuable consideration, the sufficiency and receipt of which are hereby acknowledged, the parties agree as follows:",
+      "text": "IN CONSIDERATION of these premises, the conditions stated herein, and for other good and valuable consideration, the sufficiency and receipt of which are hereby acknowledged, the parties agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 633.2573375,
+            "r": 544.9502525000007,
+            "b": 575.6393807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            773
+          ]
+        }
+      ],
+      "orig": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member\u037e or which, at the time of the disclosure to Member, had become a part of the public domain.",
+      "text": "1. Confidential Information. Member shall not, during the term of the Franchise Agreement or thereafter, communicate, divulge or use, for any purpose other than the operation of the Franchised Business, any confidential information, knowledge, trade secrets or know-how which may be communicated to Member or which Member may learn by virtue of Member's relationship with Franchisee. All information, knowledge and know-how relating to Franchisor, its business plans, Franchised Businesses, or the System (\"Confidential Information\") is deemed confidential, except for information that Member can demonstrate came to Member's attention by lawful means prior to disclosure to Member\u037e or which, at the time of the disclosure to Member, had become a part of the public domain."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 572.6573375,
+            "r": 181.5078125,
+            "b": 565.5393807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "2. Covenants Not to Compete.",
+      "text": "2. Covenants Not to Compete.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 562.5573374999999,
+            "r": 544.950404000001,
+            "b": 535.2393807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            363
+          ]
+        }
+      ],
+      "orig": "(a) Member specifically acknowledges that, pursuant to the Franchise Agreement, and by virtue of its position with Franchisee, Member will receive valuable specialized training and Confidential Information, including, without limitation, information regarding the operational, sales, promotional, and marketing methods and techniques of Franchisor and the System.",
+      "text": "(a) Member specifically acknowledges that, pursuant to the Franchise Agreement, and by virtue of its position with Franchisee, Member will receive valuable specialized training and Confidential Information, including, without limitation, information regarding the operational, sales, promotional, and marketing methods and techniques of Franchisor and the System."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 532.2573375,
+            "r": 544.9500378749985,
+            "b": 504.9393807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            303
+          ]
+        }
+      ],
+      "orig": "(b) Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons, partnership, corporation, or entity:",
+      "text": "(b) Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons, partnership, corporation, or entity:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 501.9573375,
+            "r": 544.9501830624995,
+            "b": 474.5995480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            414
+          ]
+        }
+      ],
+      "orig": "(i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Competitive Business\")\u037e",
+      "text": "(i) Own, manage, engage in, be employed by, advise, make loans to, consult for, rent or lease to, or have any other interest in business that (directly or indirectly) operates, or grants franchises or licenses to operate, a restaurant featuring pizza and related food specialties or that offers products or services substantially similar to those then offered by Pizza Fusions Restaurants (\"Competitive Business\")\u037e"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 285.50625,
+            "t": 470.91056875,
+            "r": 310.63,
+            "b": 464.78538084150324,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "C - 1",
+      "text": "C - 1"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 257.52799999999996,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+      "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 110.64999999999999,
+            "t": 794.8571375,
+            "r": 523.4877525000006,
+            "b": 787.7391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "(ii) Divert or attempt to divert any business or customer, or potential business or customer, to any Competitive Business\u037e or",
+      "text": "(ii) Divert or attempt to divert any business or customer, or potential business or customer, to any Competitive Business\u037e or"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 110.64999999999999,
+            "t": 784.7571375,
+            "r": 394.08137625000023,
+            "b": 777.6391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "(iii) Induce any person to leave his or her employment with Franchisee or Franchisor.",
+      "text": "(iii) Induce any person to leave his or her employment with Franchisee or Franchisor."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 774.6571375,
+            "r": 544.9503282499984,
+            "b": 737.2391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            550
+          ]
+        }
+      ],
+      "orig": "(c) Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System.",
+      "text": "(c) Member covenants and agrees that during the Post-Term Period (defined below), except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, own, manage, engage in, be employed by, advise, make loans to, consult for, or have any other interest in any Competitive Business that is, or intends to operate, within a three (3) mile radius of the premises of your Franchised Business or within a three (3) mile radius of any Franchised Business then-operating or under construction to operate under the System."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 734.2571375,
+            "r": 544.9503724375014,
+            "b": 676.6391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            735
+          ]
+        }
+      ],
+      "orig": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement\u037e (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination)\u037e (c) termination of Member's employment with Franchisee\u037e and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement\u037e either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity).",
+      "text": "(d) As used in this Agreement, the term \"Post-Term Period\" shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement\u037e (b) expiration or termination of the Franchise Agreement (regardless of the cause for termination)\u037e (c) termination of Member's employment with Franchisee\u037e and/or (d) a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction (after all appeals have been taken) with respect to any of the foregoing or with respect to the enforcement of this Agreement\u037e either directly or indirectly (through, on behalf of, or in conjunction with any persons, partnership, corporation or entity)."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 673.6571375,
+            "r": 544.9502840624993,
+            "b": 646.3391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            358
+          ]
+        }
+      ],
+      "orig": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement.",
+      "text": "3. Injunctive Relief. Member acknowledges that any failure to comply with the requirements of this Agreement will cause Franchisor irreparable injury, and Member agrees to pay all court costs and reasonable attorney's fees incurred by Franchisor in obtaining specific performance of, or an injunction against violation of, the requirements of this Agreement."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 643.3571375,
+            "r": 544.9503787499992,
+            "b": 595.8391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            635
+          ]
+        }
+      ],
+      "orig": "4. Severability. All agreements and covenants contained herein are severable. If any of them, or any part or parts of them, shall be held invalid by any court of competent jurisdiction for any reason, then the Member agrees that the court shall have the authority to reform and modify that provision in order that the restriction shall be the maximum necessary to protect Franchisor's and/or Franchisee's legitimate business needs as permitted by applicable law and public policy. In so doing, the Member agrees that the court shall impose the provision with retroactive effect as close as possible to the provision held to be invalid.",
+      "text": "4. Severability. All agreements and covenants contained herein are severable. If any of them, or any part or parts of them, shall be held invalid by any court of competent jurisdiction for any reason, then the Member agrees that the court shall have the authority to reform and modify that provision in order that the restriction shall be the maximum necessary to protect Franchisor's and/or Franchisee's legitimate business needs as permitted by applicable law and public policy. In so doing, the Member agrees that the court shall impose the provision with retroactive effect as close as possible to the provision held to be invalid."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 592.8571375,
+            "r": 544.9501073124989,
+            "b": 565.5391807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            414
+          ]
+        }
+      ],
+      "orig": "5. Delay. No delay or failure by the Franchisor or Franchisee to exercise any right under this Agreement, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein, and no waiver of any violation of any terms and provisions of this Agreement shall be construed as a waiver of any succeeding violation of the same or any other provision of this Agreement.",
+      "text": "5. Delay. No delay or failure by the Franchisor or Franchisee to exercise any right under this Agreement, and no partial or single exercise of that right, shall constitute a waiver of that or any other right provided herein, and no waiver of any violation of any terms and provisions of this Agreement shall be construed as a waiver of any succeeding violation of the same or any other provision of this Agreement."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 562.5571375,
+            "r": 544.949999999999,
+            "b": 545.3391807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            210
+          ]
+        }
+      ],
+      "orig": "6. Third-Party Beneficiary. Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+      "text": "6. Third-Party Beneficiary. Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 257.52799999999996,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+      "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 285.50625,
+            "t": 541.61036875,
+            "r": 310.63,
+            "b": 535.4851808415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "C - 2",
+      "text": "C - 2"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8577375,
+            "r": 544.9498548125009,
+            "b": 777.6397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            191
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the Franchisee and the Member attest that each has read and understands the terms of this Agreement, and voluntarily signed this Agreement on the date first written above.",
+      "text": "IN WITNESS WHEREOF, the Franchisee and the Member attest that each has read and understands the terms of this Agreement, and voluntarily signed this Agreement on the date first written above."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 774.6577374999999,
+            "r": 98.02498106250002,
+            "b": 767.5397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "FRANCHISEE",
+      "text": "FRANCHISEE"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 303.18125,
+            "t": 774.6577374999999,
+            "r": 337.26874999999995,
+            "b": 767.5397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "MEMBER",
+      "text": "MEMBER"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 257.52799999999996,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015",
+      "text": "Source: PF HOSPITALITY GROUP INC., 10-12G, 9/23/2015"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.335636138916016,
+            "t": 769.9289779663086,
+            "r": 545.2107543945312,
+            "b": 721.8681945800781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 79.33601250000004,
+              "r": 61.412499999999994,
+              "b": 86.45396928210675,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "By:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 303.18125,
+              "t": 79.33601250000004,
+              "r": 314.54375,
+              "b": 86.45396928210675,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "By:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 90.06726249999997,
+              "r": 70.88125000000001,
+              "b": 97.1852192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Name:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 303.18125,
+              "t": 90.06726249999997,
+              "r": 324.01250000000005,
+              "b": 97.1852192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Name:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 100.79851250000002,
+              "r": 66.46249999999999,
+              "b": 107.91646928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Title:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 303.18125,
+              "t": 100.79851250000002,
+              "r": 319.59374999999994,
+              "b": 107.91646928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Title:",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 285.50625,
+              "t": 112.27653125000006,
+              "r": 310.63,
+              "b": 118.40171915849669,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 3,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 3,
+            "text": "C - 3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 4,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 79.33601250000004,
+                "r": 61.412499999999994,
+                "b": 86.45396928210675,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "By:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 303.18125,
+                "t": 79.33601250000004,
+                "r": 314.54375,
+                "b": 86.45396928210675,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "By:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 90.06726249999997,
+                "r": 70.88125000000001,
+                "b": 97.1852192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Name:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 303.18125,
+                "t": 90.06726249999997,
+                "r": 324.01250000000005,
+                "b": 97.1852192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Name:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 100.79851250000002,
+                "r": 66.46249999999999,
+                "b": 107.91646928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Title:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 303.18125,
+                "t": 100.79851250000002,
+                "r": 319.59374999999994,
+                "b": 107.91646928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Title:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 285.50625,
+                "t": 112.27653125000006,
+                "r": 310.63,
+                "b": 118.40171915849669,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "C - 3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 285.50625,
+                "t": 112.27653125000006,
+                "r": 310.63,
+                "b": 118.40171915849669,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "C - 3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 285.50625,
+                "t": 112.27653125000006,
+                "r": 310.63,
+                "b": 118.40171915849669,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "C - 3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    }
+  }
+}

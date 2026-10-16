@@ -1,0 +1,2813 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 6100847739641874808,
+    "filename": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 189.75303318159993,
+            "t": 768.5798796800004,
+            "r": 198.17787125919995,
+            "b": 763.4490304250985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "21",
+      "text": "21"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 155.32836232000002,
+            "t": 737.6465196800004,
+            "r": 232.5483400000003,
+            "b": 724.7823304250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "EXHIBIT C FORM OF SUBLICENSE",
+      "text": "EXHIBIT C FORM OF SUBLICENSE"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 159.6329198086,
+            "t": 714.4464996800007,
+            "r": 223.95567125920005,
+            "b": 709.3156504250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "[Form follows.]",
+      "text": "[Form follows.]"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 189.75303318159993,
+            "t": 652.5797796800007,
+            "r": 198.17787125919995,
+            "b": 647.4489304250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "22",
+      "text": "22"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 133.82257963240005,
+            "t": 621.6464196800007,
+            "r": 249.7336001482006,
+            "b": 608.7822304250985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "EXHIBIT D FORM OF AGREEMENT FOR TRIAL",
+      "text": "EXHIBIT D FORM OF AGREEMENT FOR TRIAL"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 159.6329198086,
+            "t": 598.4463996800005,
+            "r": 223.95567125920005,
+            "b": 593.3155504250985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "[Form follows.]",
+      "text": "[Form follows.]"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 189.75303318159993,
+            "t": 552.0463596800005,
+            "r": 198.17787125919995,
+            "b": 546.9155104250985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "23",
+      "text": "23"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 155.32836232000002,
+            "t": 528.8463396800003,
+            "r": 232.5483400000003,
+            "b": 523.7154904250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "FIRST AMENDMENT TO",
+      "text": "FIRST AMENDMENT TO",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 146.72675727520004,
+            "t": 513.3796596800003,
+            "r": 236.84457125920036,
+            "b": 508.2488104250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "DISTRIBUTOR AGREEMENT",
+      "text": "DISTRIBUTOR AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 490.1796396800005,
+            "r": 352.84480014820025,
+            "b": 461.84877042509834,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            277
+          ]
+        }
+      ],
+      "orig": "THIS FIRST AMENDMENT TO DISTRIBUTOR AGREEMENT (this \"Amendment\") is made and entered into as of the 1st day of January, 1999, by and between Peregrine/Bridge Transfer Corporation, a Delaware corporation (\"Licensor\"), and NEON Systems, Inc., a Delaware corporation (\"Licensee\").",
+      "text": "THIS FIRST AMENDMENT TO DISTRIBUTOR AGREEMENT (this \"Amendment\") is made and entered into as of the 1st day of January, 1999, by and between Peregrine/Bridge Transfer Corporation, a Delaware corporation (\"Licensor\"), and NEON Systems, Inc., a Delaware corporation (\"Licensee\")."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 451.5129396800003,
+            "r": 52.10374,
+            "b": 446.38209042509834,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "RECITALS:",
+      "text": "RECITALS:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 436.0462596800003,
+            "r": 339.95573259250085,
+            "b": 415.44873042509835,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "Licensor and Licensee are parties to that certain Distributor Agreement dated as of January 1, 1996 (the \"Distributor Agreement\"). Licensor and Licensee desire to amend the Distributor Agreement as set forth herein.",
+      "text": "Licensor and Licensee are parties to that certain Distributor Agreement dated as of January 1, 1996 (the \"Distributor Agreement\"). Licensor and Licensee desire to amend the Distributor Agreement as set forth herein."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 405.1128996800003,
+            "r": 327.06707748160056,
+            "b": 384.51537042509835,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, for and consideration of the mutual covenants of the parties set forth herein, the receipt and sufficiency of which are hereby acknowledged, the parties hereto hereby agree as follow:",
+      "text": "NOW, THEREFORE, for and consideration of the mutual covenants of the parties set forth herein, the receipt and sufficiency of which are hereby acknowledged, the parties hereto hereby agree as follow:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 374.1795396800003,
+            "r": 348.5482810369,
+            "b": 361.31535042509813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "1. AMENDMENT OF DEFINITIONS. Article 1 of the Distributor Agreement is hereby amended to add thereto the following:",
+      "text": "AMENDMENT OF DEFINITIONS. Article 1 of the Distributor Agreement is hereby amended to add thereto the following:",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 34.9301614915,
+            "t": 350.9795196800005,
+            "r": 352.84480014820025,
+            "b": 276.2486104250984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            649
+          ]
+        }
+      ],
+      "orig": "1.11 \"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in respect of Licensee's fiscal year beginning April 1, 1999, (ii) $2,000,000 in respect of Licensee's fiscal year beginning April 1, 2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning April 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year beginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's fiscal year beginning April 1, 2003. In the event that the term hereof extends beyond Licensee's fiscal year beginning April 1, 2003, the amount of the Annual Royalty Advance shall increase by $1,000,000 for each such fiscal year thereafter.",
+      "text": "\"Annual Royalty Advance Requirement\" shall mean (i) $1,000,000 in respect of Licensee's fiscal year beginning April 1, 1999, (ii) $2,000,000 in respect of Licensee's fiscal year beginning April 1, 2000, (iii) $3,000,000 in respect of Licensee's fiscal year beginning April 1, 2001, (iv) $4,000,000 in respect of Licensee's fiscal year beginning April 1, 2002 and (v) $5,000,000 in respect of Licensee's fiscal year beginning April 1, 2003. In the event that the term hereof extends beyond Licensee's fiscal year beginning April 1, 2003, the amount of the Annual Royalty Advance shall increase by $1,000,000 for each such fiscal year thereafter.",
+      "enumerated": true,
+      "marker": "1.11"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 34.92956000950001,
+            "t": 265.9127796800003,
+            "r": 352.84480014820025,
+            "b": 253.04859042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "1.12 \"Royalty Advance\" shall have the meaning provided therefor in Section 3.2 hereof.",
+      "text": "\"Royalty Advance\" shall have the meaning provided therefor in Section 3.2 hereof.",
+      "enumerated": true,
+      "marker": "1.12"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 34.92956000950001,
+            "t": 242.71275968000054,
+            "r": 352.84480014820025,
+            "b": 206.64855042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            318
+          ]
+        }
+      ],
+      "orig": "1.13 \"Specified Royalty Percentage\" shall mean fifty percent (50%) for the period from and including January 1, 1999 through and including March 31, 1994. Thereafter, the term \"Specified Royalty Percentage\" shall mean (i) fifty percent (50%) from and after the first day of each quarter of each fiscal year of Licensee",
+      "text": "\"Specified Royalty Percentage\" shall mean fifty percent (50%) for the period from and including January 1, 1999 through and including March 31, 1994. Thereafter, the term \"Specified Royalty Percentage\" shall mean (i) fifty percent (50%) from and after the first day of each quarter of each fiscal year of Licensee",
+      "enumerated": true,
+      "marker": "1.13"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.421779278,
+            "t": 173.11269968000033,
+            "r": 357.14092829620097,
+            "b": 113.84847042509818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            503
+          ]
+        }
+      ],
+      "orig": "commencing with Licensee's fiscal year beginning April 1, 1999) until such time, if any, during such quarter that the aggregate amount of all Royalty Advances outstanding as of the first day of such quarter (including the Royalty Advance payable on such first day) has been credited against royalties earned hereunder (a \"Satisfaction Date\"), and (ii) forty percent (40%) from and after a Satisfaction Date through and including the last day of the fiscal quarter in which such Satisfaction Date occurs.",
+      "text": "commencing with Licensee's fiscal year beginning April 1, 1999) until such time, if any, during such quarter that the aggregate amount of all Royalty Advances outstanding as of the first day of such quarter (including the Royalty Advance payable on such first day) has been credited against royalties earned hereunder (a \"Satisfaction Date\"), and (ii) forty percent (40%) from and after a Satisfaction Date through and including the last day of the fiscal quarter in which such Satisfaction Date occurs."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 103.51263968000058,
+            "r": 348.5482810369,
+            "b": 90.64845042509842,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "2. AMENDMENT OF SECTIONS 3.1 AND 3.2. Sections 3.1 and 3.2 of the Distributor Agreement are hereby amended to read in their entirety as follows:",
+      "text": "AMENDMENT OF SECTIONS 3.1 AND 3.2. Sections 3.1 and 3.2 of the Distributor Agreement are hereby amended to read in their entirety as follows:",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.437417809999985,
+            "t": 80.31261968000035,
+            "r": 215.36322592600033,
+            "b": 75.18177042509842,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Section 3.1 ROYALTIES TO LICENSOR.",
+      "text": "Section 3.1 ROYALTIES TO LICENSOR."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.423927427999985,
+            "t": 64.84593968000036,
+            "r": 339.95573259250085,
+            "b": 51.9817504250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "(a) Licensee shall pay to Licensor for each Licensed Product licensed to a Redistributor or a Customer a",
+      "text": "(a) Licensee shall pay to Licensor for each Licensed Product licensed to a Redistributor or a Customer a",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 120.90103634499997,
+            "t": 794.9122596800003,
+            "r": 344.25203688880043,
+            "b": 743.3813704250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            346
+          ]
+        }
+      ],
+      "orig": "royalty equal to the Specified Royalty Percentage of all revenues received (without deduction for value added tax, if any, but excluding any revenues for maintenance and support or upgrade services, which revenues are covered in paragraph (b) below) by Licensee under the Redistributor Agreement or Sublicense applicable to such Licensed Product.",
+      "text": "royalty equal to the Specified Royalty Percentage of all revenues received (without deduction for value added tax, if any, but excluding any revenues for maintenance and support or upgrade services, which revenues are covered in paragraph (b) below) by Licensee under the Redistributor Agreement or Sublicense applicable to such Licensed Product."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.42328298300001,
+            "t": 733.0455396800003,
+            "r": 357.14092829620097,
+            "b": 650.5812904250984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            529
+          ]
+        }
+      ],
+      "orig": "(b) Licensee shall pay to Licensor for maintenance and support and upgrade services provided under the applicable Sublicense or other written maintenance and support agreement with or approved by Licensee for each of the Licensed Products a royalty equal to the Specified Royalty Percentage of all revenues received (without deduction for value added tax, if any) by Licensee from a Redistributor or Customer relating to maintenance and support services or services for Upgrades or upgrades of systems for such Licensed Products.",
+      "text": "(b) Licensee shall pay to Licensor for maintenance and support and upgrade services provided under the applicable Sublicense or other written maintenance and support agreement with or approved by Licensee for each of the Licensed Products a royalty equal to the Specified Royalty Percentage of all revenues received (without deduction for value added tax, if any) by Licensee from a Redistributor or Customer relating to maintenance and support services or services for Upgrades or upgrades of systems for such Licensed Products.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.421779278,
+            "t": 640.2454596800003,
+            "r": 357.14092829620097,
+            "b": 519.1145104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1015
+          ]
+        }
+      ],
+      "orig": "Section 3.2 TERMS OF PAYMENT. The royalties payable to Licensor pursuant to Section 3.1 shall be payable in accordance with the provisions of this Section 3.2. On or before the first day of each fiscal quarter of each fiscal year during the term hereof, commencing with the Licensee's fiscal year which begins on April 1, 1999, Licensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of royalties anticipated to be paid hereunder during such fiscal year, an amount equal to twenty-five percent (25%) of the Annual Royalty Advance Requirement for such fiscal year. The aggregate amount of Royalty Advances outstanding from time to time shall be credited against royalties payable hereunder pursuant to Section 3.1 as and when such royalties are recognized as earned in accordance with generally accepted accounting principles. Royalty Advances made hereunder shall be made in respect of royalties that may become payable in respect of any and all Licensed Products and shall not be deemed made in respect",
+      "text": "Section 3.2 TERMS OF PAYMENT. The royalties payable to Licensor pursuant to Section 3.1 shall be payable in accordance with the provisions of this Section 3.2. On or before the first day of each fiscal quarter of each fiscal year during the term hereof, commencing with the Licensee's fiscal year which begins on April 1, 1999, Licensee shall pay to Licensor, as an advance (a \"Royalty Advance\") of royalties anticipated to be paid hereunder during such fiscal year, an amount equal to twenty-five percent (25%) of the Annual Royalty Advance Requirement for such fiscal year. The aggregate amount of Royalty Advances outstanding from time to time shall be credited against royalties payable hereunder pursuant to Section 3.1 as and when such royalties are recognized as earned in accordance with generally accepted accounting principles. Royalty Advances made hereunder shall be made in respect of royalties that may become payable in respect of any and all Licensed Products and shall not be deemed made in respect"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 501.0453396800003,
+            "r": 198.17787125919995,
+            "b": 495.9144904250984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.421779278,
+            "t": 477.84531968000056,
+            "r": 357.14092829620097,
+            "b": 372.1810504250984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            907
+          ]
+        }
+      ],
+      "orig": "of any particular Licensed Product. With respect to any royalty payments due hereunder from Licensee to Licensor in excess of the amount of Royalty Advances made by Licensee from time to time hereunder, such payments shall be payable on the later of (i) sixty (60) days after the date of the applicable invoice to a Redistributor or Customer, as the case may be, or (ii) five (5) business days following Licensee's receipt of payment from a Redistributor or Customer, as the case may be. Any royalty payment that is not paid when due will bear interest from the date such amount is due until the date payment is made at a rate equal to ten percent (10%) per annum. All royalty payments due to Licensor under this Agreement shall be paid in U.S. Dollars. Upon the expiration or any termination of this Agreement, Licensor shall repay to Licensee the aggregate amount of all Royalty Advances then outstanding.",
+      "text": "of any particular Licensed Product. With respect to any royalty payments due hereunder from Licensee to Licensor in excess of the amount of Royalty Advances made by Licensee from time to time hereunder, such payments shall be payable on the later of (i) sixty (60) days after the date of the applicable invoice to a Redistributor or Customer, as the case may be, or (ii) five (5) business days following Licensee's receipt of payment from a Redistributor or Customer, as the case may be. Any royalty payment that is not paid when due will bear interest from the date such amount is due until the date payment is made at a rate equal to ten percent (10%) per annum. All royalty payments due to Licensor under this Agreement shall be paid in U.S. Dollars. Upon the expiration or any termination of this Agreement, Licensor shall repay to Licensee the aggregate amount of all Royalty Advances then outstanding."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 361.84521968000035,
+            "r": 331.3632571852007,
+            "b": 348.9810304250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "3. AMENDMENT OF TERM. Section 14.1 of the Distributor Agreement is hereby amended to read in its entirety as follows:",
+      "text": "AMENDMENT OF TERM. Section 14.1 of the Distributor Agreement is hereby amended to read in its entirety as follows:",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.42495853999999,
+            "t": 338.64519968000013,
+            "r": 314.1781259260004,
+            "b": 287.1143104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            399
+          ]
+        }
+      ],
+      "orig": "Section 14.1 TERM. This Agreement shall be effective through and including March 31, 2004. Upon the expiration of such term, this Agreement will renew automatically for successive terms of one (1) year each unless either party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term.",
+      "text": "Section 14.1 TERM. This Agreement shall be effective through and including March 31, 2004. Upon the expiration of such term, this Agreement will renew automatically for successive terms of one (1) year each unless either party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 276.77847968000015,
+            "r": 348.5482810369,
+            "b": 256.1809504250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "4. AMENDMENT OF TERMINATION PROVISIONS. The provisions of Section 14.2 are amended by deleting in its entirety subsection (b) thereof and by amending Section 14.2(a)(2) to read in its entirety as follows:",
+      "text": "AMENDMENT OF TERMINATION PROVISIONS. The provisions of Section 14.2 are amended by deleting in its entirety subsection (b) thereof and by amending Section 14.2(a)(2) to read in its entirety as follows:",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.42263853799999,
+            "t": 245.84511968000015,
+            "r": 357.14092829620097,
+            "b": 178.84755042509823,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            546
+          ]
+        }
+      ],
+      "orig": "(2) Immediately upon written notice if the other party defaults in the performance of any obligation under this Agreement, including failure to promptly pay any amount due hereunder, and fails to cure such default within thirty (30) days after delivery of written notice specifying the default (with any termination as a result of Licensee's failure to pay amounts due under this Agreement resulting in acceleration of Licensee's obligation to pay all sums accrued and payable to Licensor under this Agreement as of the date of such termination).",
+      "text": "Immediately upon written notice if the other party defaults in the performance of any obligation under this Agreement, including failure to promptly pay any amount due hereunder, and fails to cure such default within thirty (30) days after delivery of written notice specifying the default (with any termination as a result of Licensee's failure to pay amounts due under this Agreement resulting in acceleration of Licensee's obligation to pay all sums accrued and payable to Licensor under this Agreement as of the date of such termination).",
+      "enumerated": true,
+      "marker": "(2)"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 168.5117196800004,
+            "r": 357.14092829620097,
+            "b": 101.51415042509825,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            644
+          ]
+        }
+      ],
+      "orig": "5. AMENDMENT OF NATURE OF DISTRIBUTORSHIP. Licensor and Licensee do hereby agree that this Amendment shall effect a change in the nature of the distributorship granted to Licensee pursuant to the Distributor Agreement from a non-exclusive to an exclusive distributorship (provided, however, that with respect to Licensor's Partitioned Database Facility product, Licensor also may license such product to International Business Machines Corporation for sublicensing and distribution). Any and all references in the Distributor Agreement to the rights granted to Licensee as non-exclusive rights are hereby amended to provide that such rights are",
+      "text": "AMENDMENT OF NATURE OF DISTRIBUTORSHIP. Licensor and Licensee do hereby agree that this Amendment shall effect a change in the nature of the distributorship granted to Licensee pursuant to the Distributor Agreement from a non-exclusive to an exclusive distributorship (provided, however, that with respect to Licensor's Partitioned Database Facility product, Licensor also may license such product to International Business Machines Corporation for sublicensing and distribution). Any and all references in the Distributor Agreement to the rights granted to Licensee as non-exclusive rights are hereby amended to provide that such rights are",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 83.44497968000042,
+            "r": 198.17787125919995,
+            "b": 78.31413042509826,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 60.24495968000042,
+            "r": 348.5482810369,
+            "b": 55.11411042509826,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "exclusive rights (including without limitation such references in Sections 2.1",
+      "text": "exclusive rights (including without limitation such references in Sections 2.1"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.9116196800003,
+            "r": 348.5482810369,
+            "b": 789.7807704250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "(Use of Master Copy), 2.2 (Sublicensing) and 2.8 (Trademarks and Copyright).).",
+      "text": "(Use of Master Copy), 2.2 (Sublicensing) and 2.8 (Trademarks and Copyright).)."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 771.7115996800003,
+            "r": 327.06707748160056,
+            "b": 758.8474104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "6. AMENDMENT OF SECTION 13.1. The Distributor Agreement is hereby amended by adding the following sentence to the end of Section 13.1:",
+      "text": "AMENDMENT OF SECTION 13.1. The Distributor Agreement is hereby amended by adding the following sentence to the end of Section 13.1:",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.42208001899999,
+            "t": 740.7782396800003,
+            "r": 352.84480014820025,
+            "b": 704.7140304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            328
+          ]
+        }
+      ],
+      "orig": "Notwithstanding the foregoing, the foregoing limitation on liability shall not be applicable in respect of any liability of Licensor to Licensee resulting from any misrepresentation in, or breach of, the terms of Section 6.2 hereof or in respect of Licensor's obligation to repay Royalty Advances pursuant to Section 3.2 hereof.",
+      "text": "Notwithstanding the foregoing, the foregoing limitation on liability shall not be applicable in respect of any liability of Licensor to Licensee resulting from any misrepresentation in, or breach of, the terms of Section 6.2 hereof or in respect of Licensor's obligation to repay Royalty Advances pursuant to Section 3.2 hereof."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 694.3781996800001,
+            "r": 331.3632571852007,
+            "b": 673.7806704250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "7. CHANGE OF ADDRESSES FOR NOTICE. Section 15.2 of the Distributor Agreement is hereby amended by changing the address for notice to each of Licensor and Licensee to the following:",
+      "text": "CHANGE OF ADDRESSES FOR NOTICE. Section 15.2 of the Distributor Agreement is hereby amended by changing the address for notice to each of Licensor and Licensee to the following:",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.43999559,
+            "t": 663.4448396800001,
+            "r": 202.47419703699995,
+            "b": 642.8473104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "14100 Southwest Freeway, Suite 500 Sugar Land, Texas 77478 Attn: President",
+      "text": "14100 Southwest Freeway, Suite 500 Sugar Land, Texas 77478 Attn: President"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 632.5114796800001,
+            "r": 344.25203688880043,
+            "b": 611.9139504250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            192
+          ]
+        }
+      ],
+      "orig": "8. ADDITION OF RIGHT OF FIRST REFUSAL. The Distributor Agreement is hereby amended by adding thereto a new Section 15.11 and a new Section 15.12, which shall read in their entirety as follows:",
+      "text": "ADDITION OF RIGHT OF FIRST REFUSAL. The Distributor Agreement is hereby amended by adding thereto a new Section 15.11 and a new Section 15.12, which shall read in their entirety as follows:",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.421779278,
+            "t": 601.5781196800001,
+            "r": 357.14092829620097,
+            "b": 434.047130425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1425
+          ]
+        }
+      ],
+      "orig": "Section 15.11 Right of First Refusal. If, at any time or from time to time during the term hereof, Licensor or any stockholder in Licensor shall have received a bona fide offer from any person or entity to sell, transfer or otherwise convey all or any stock in, or assets of, Licensor which Licensor or such stockholder, as the case may be (the \"Offeree\"), desires to accept, the Offeree shall first give written notice (the \"Offering Notice\") to Licensee of the financial and other terms and conditions (the \"Terms and Conditions\") of such offer. Licensee shall have the right and a first opportunity to purchase, lease or otherwise acquire, as the case may be, all or the applicable portion of such stock or assets (as specified in the applicable Offering Notice) on the Terms and Conditions set forth in the Offering Notice, such right to be exercised by notice in writing to the Offeree within ninety (90) days after the giving of the Offering Notice. If Licensee shall have exercised such right, the closing shall be held at the corporate offices of Licensee on the closing date specified in the Offering Notice or the date that is ninety (90) days after the date of Licensee's notice of its exercise of such right, whichever is later. If either party shall default under this Section, the other party shall be entitled to specific performance. If Licensee shall fail to give notice of the exercise of its right of first",
+      "text": "Section 15.11 Right of First Refusal. If, at any time or from time to time during the term hereof, Licensor or any stockholder in Licensor shall have received a bona fide offer from any person or entity to sell, transfer or otherwise convey all or any stock in, or assets of, Licensor which Licensor or such stockholder, as the case may be (the \"Offeree\"), desires to accept, the Offeree shall first give written notice (the \"Offering Notice\") to Licensee of the financial and other terms and conditions (the \"Terms and Conditions\") of such offer. Licensee shall have the right and a first opportunity to purchase, lease or otherwise acquire, as the case may be, all or the applicable portion of such stock or assets (as specified in the applicable Offering Notice) on the Terms and Conditions set forth in the Offering Notice, such right to be exercised by notice in writing to the Offeree within ninety (90) days after the giving of the Offering Notice. If Licensee shall have exercised such right, the closing shall be held at the corporate offices of Licensee on the closing date specified in the Offering Notice or the date that is ninety (90) days after the date of Licensee's notice of its exercise of such right, whichever is later. If either party shall default under this Section, the other party shall be entitled to specific performance. If Licensee shall fail to give notice of the exercise of its right of first"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 415.9779596799999,
+            "r": 198.17787125919995,
+            "b": 410.847110425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.421779278,
+            "t": 392.7779396799999,
+            "r": 357.14092829620097,
+            "b": 248.44697042509802,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1221
+          ]
+        }
+      ],
+      "orig": "refusal under this Section within such ninety (90) day period, or if Licensee shall notify the Offeree within such ninety (90) day period that Licensee has waived such right, then the Offeree shall have the right to sell, transfer or convey all or the applicable portion of the stock in, or assets of, Licensor (as specified in the Offering Notice) pursuant to the terms of the specific offer described in the applicable Offering Notice, but not otherwise. If such sale, transfer or conveyance is not consummated in accordance with the offer and the Terms and Conditions specified in the applicable Offering Notice, the rights of Licensee to an Offering Notice shall be reinstated. No exercise or waiver by Licensee of any of its rights hereunder shall modify, abridge, impair or affect any of Licensee's rights under any of the other terms or provisions of this Agreement. Any sale, transfer or other conveyance of all or any part of the stock in, or assets of, Licensor in violation of this Section shall be null and void. Skunkware, Inc., a Delaware corporation and the sole stockholder of Licensor (\"Skunkware\"), is joining in this Agreement for the purpose of agreeing to the terms of this Section and Section 15.12.",
+      "text": "refusal under this Section within such ninety (90) day period, or if Licensee shall notify the Offeree within such ninety (90) day period that Licensee has waived such right, then the Offeree shall have the right to sell, transfer or convey all or the applicable portion of the stock in, or assets of, Licensor (as specified in the Offering Notice) pursuant to the terms of the specific offer described in the applicable Offering Notice, but not otherwise. If such sale, transfer or conveyance is not consummated in accordance with the offer and the Terms and Conditions specified in the applicable Offering Notice, the rights of Licensee to an Offering Notice shall be reinstated. No exercise or waiver by Licensee of any of its rights hereunder shall modify, abridge, impair or affect any of Licensee's rights under any of the other terms or provisions of this Agreement. Any sale, transfer or other conveyance of all or any part of the stock in, or assets of, Licensor in violation of this Section shall be null and void. Skunkware, Inc., a Delaware corporation and the sole stockholder of Licensor (\"Skunkware\"), is joining in this Agreement for the purpose of agreeing to the terms of this Section and Section 15.12."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.421779278,
+            "t": 238.11113967999995,
+            "r": 357.14092829620097,
+            "b": 55.11347042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1627
+          ]
+        }
+      ],
+      "orig": "Section 15.12 OPTION TO PURCHASE. Skunkware and Licensor hereby grant to Licensee the exclusive and irrevocable right and option to purchase (the \"Option\"), at Licensee's election, either (i) all of the assets of Licensor or (ii) all of the issued and outstanding stock of Licensor. Such option shall be exercisable during a period (the \"Option Period\") commencing on and including the earlier of (i) the date upon which Licensee shall have paid to Licensor, in any single fiscal year of Licensee, royalty payments hereunder in the aggregate amount of $10,000,000 or (ii) January 1, 2002, and ending upon the expiration or sooner termination of this Agreement. Licensee's exercise of the Option is at its sole discretion. Licensee may exercise the Option by written notice to Licensor and Skunkware at any time during the Option Period. Upon any such exercise of the Option, Licensee and Licensor or Skunkware (as the case may be) shall proceed to diligently and in good faith negotiate and execute a definitive purchase and sale agreement for Licensor's acquisition of all of the assets of, or outstanding capital stock in, Licensor, as the case may be. In the event that Licensee and Licensor or Skunkware, as the case may be, are unable to agree on any terms or conditions for such acquisition, the same shall be submitted to arbitration in accordance with the rules and procedures of the American Arbitration Association, with the arbitrator(s) to be experienced in the mainframe software industry. Notwithstanding the foregoing provision for arbitration concerning the terms of any purchase and sale agreement, and without",
+      "text": "Section 15.12 OPTION TO PURCHASE. Skunkware and Licensor hereby grant to Licensee the exclusive and irrevocable right and option to purchase (the \"Option\"), at Licensee's election, either (i) all of the assets of Licensor or (ii) all of the issued and outstanding stock of Licensor. Such option shall be exercisable during a period (the \"Option Period\") commencing on and including the earlier of (i) the date upon which Licensee shall have paid to Licensor, in any single fiscal year of Licensee, royalty payments hereunder in the aggregate amount of $10,000,000 or (ii) January 1, 2002, and ending upon the expiration or sooner termination of this Agreement. Licensee's exercise of the Option is at its sole discretion. Licensee may exercise the Option by written notice to Licensor and Skunkware at any time during the Option Period. Upon any such exercise of the Option, Licensee and Licensor or Skunkware (as the case may be) shall proceed to diligently and in good faith negotiate and execute a definitive purchase and sale agreement for Licensor's acquisition of all of the assets of, or outstanding capital stock in, Licensor, as the case may be. In the event that Licensee and Licensor or Skunkware, as the case may be, are unable to agree on any terms or conditions for such acquisition, the same shall be submitted to arbitration in accordance with the rules and procedures of the American Arbitration Association, with the arbitrator(s) to be experienced in the mainframe software industry. Notwithstanding the foregoing provision for arbitration concerning the terms of any purchase and sale agreement, and without"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.46143412699998,
+            "t": 794.9108796800001,
+            "r": 133.72735214289995,
+            "b": 789.7800304250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "limiting any other",
+      "text": "limiting any other"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 771.7108596800001,
+            "r": 198.17787125919995,
+            "b": 766.5800104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.42208001899999,
+            "t": 748.5108396800001,
+            "r": 352.84480014820025,
+            "b": 580.9798504250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1414
+          ]
+        }
+      ],
+      "orig": "conditions that may be included in any such purchase and sale agreement, Licensee shall have no obligation to consummate the acquisition of the assets of, or stock in, Licensor pursuant to its exercise of the Option if Licensee's board of directors should determine, in its sole discretion, that such acquisition would not be accretive to the value of Licensee. The definitive purchase and sale agreement shall provide that License may pay the purchase price thereunder in cash, in shares of its Common Stock or in some combination thereof. So long as the Option shall be in existence (whether or not exercisable), Skunkware and Licensor agree that Licensor will conduct its business in the ordinary course and will not, without the prior written consent of Licensee, merge or consolidated with any other entity, sell all or substantially all of its assets, grant or permit to exist any lien or encumbrance on any material portion of its assets, issue any securities to any person other than Skunkware or engage in any other transaction or enter into any other agreement other than in the ordinary course of business. Skunkware further agrees that, so long as the Option shall be in existence (whether or not exercisable), it shall be and remain the sole Stockholder Licensor, and Licensor shall not issue to any other person or entity any stock, warrants or similar rights to acquire equity interests in Licensor.",
+      "text": "conditions that may be included in any such purchase and sale agreement, Licensee shall have no obligation to consummate the acquisition of the assets of, or stock in, Licensor pursuant to its exercise of the Option if Licensee's board of directors should determine, in its sole discretion, that such acquisition would not be accretive to the value of Licensee. The definitive purchase and sale agreement shall provide that License may pay the purchase price thereunder in cash, in shares of its Common Stock or in some combination thereof. So long as the Option shall be in existence (whether or not exercisable), Skunkware and Licensor agree that Licensor will conduct its business in the ordinary course and will not, without the prior written consent of Licensee, merge or consolidated with any other entity, sell all or substantially all of its assets, grant or permit to exist any lien or encumbrance on any material portion of its assets, issue any securities to any person other than Skunkware or engage in any other transaction or enter into any other agreement other than in the ordinary course of business. Skunkware further agrees that, so long as the Option shall be in existence (whether or not exercisable), it shall be and remain the sole Stockholder Licensor, and Licensor shall not issue to any other person or entity any stock, warrants or similar rights to acquire equity interests in Licensor."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 34.9558963285,
+            "t": 570.6440196799999,
+            "r": 116.5482271111,
+            "b": 565.5131704250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "9. MISCELLANEOUS.",
+      "text": "MISCELLANEOUS.",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 547.4439996799999,
+            "r": 348.5482810369,
+            "b": 534.579810425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "(a) Capitalized terms used in this Amendment that are not defined herein shall have the meanings provided therefor in the Distributor Agreement.",
+      "text": "(a) Capitalized terms used in this Amendment that are not defined herein shall have the meanings provided therefor in the Distributor Agreement.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 524.2439796799999,
+            "r": 357.14092829620097,
+            "b": 503.64645042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "(b) The captions used for the Sections in this Amendment are inserted only as a matter of convenience and for reference and in no way define, limit or describe the scope or the intent of this Amendment or any Section hereof.",
+      "text": "(b) The captions used for the Sections in this Amendment are inserted only as a matter of convenience and for reference and in no way define, limit or describe the scope or the intent of this Amendment or any Section hereof.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 493.31061968,
+            "r": 352.84480014820025,
+            "b": 472.7130904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "(c) This Amendment may be executed in one or more counterparts, each of which shall be deemed an original and all of which, taken together, shall be construed as a single instrument.",
+      "text": "(c) This Amendment may be executed in one or more counterparts, each of which shall be deemed an original and all of which, taken together, shall be construed as a single instrument.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 462.37725968,
+            "r": 357.14092829620097,
+            "b": 426.3130504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            335
+          ]
+        }
+      ],
+      "orig": "(d) In the event any provision of this Amendment is declared or adjudged to be unenforceable or unlawful by any court, then such unenforceable or unlawful provision shall be excised herefrom, and the remainder of this Amendment, together with all rights and remedies granted thereby, shall continue and remain in full force and effect.",
+      "text": "(d) In the event any provision of this Amendment is declared or adjudged to be unenforceable or unlawful by any court, then such unenforceable or unlawful provision shall be excised herefrom, and the remainder of this Amendment, together with all rights and remedies granted thereby, shall continue and remain in full force and effect."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 408.24387968,
+            "r": 198.17787125919995,
+            "b": 403.1130304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 385.04385968,
+            "r": 357.14092829620097,
+            "b": 302.57961042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            777
+          ]
+        }
+      ],
+      "orig": "(e) The Distributor Agreement, as amended by this Amendment, constitutes the entire agreement between the parties hereto with respect to the matters covered hereby and thereby. All prior negotiations, representations and agreements with respect thereto not incorporated in this Amendment or the Distributor Agreement are hereby canceled. As modified hereby, the Distributor Agreement shall continue in full force and effect and be binding upon the parties hereto and their respective successors and permitted assigns. References to the Distributor Agreement after the date hereof shall mean the Distributor Agreement as amended pursuant to this Amendment. The amendments to the Distributor Agreement effected by this Amendment shall be effective from and after the date hereof.",
+      "text": "(e) The Distributor Agreement, as amended by this Amendment, constitutes the entire agreement between the parties hereto with respect to the matters covered hereby and thereby. All prior negotiations, representations and agreements with respect thereto not incorporated in this Amendment or the Distributor Agreement are hereby canceled. As modified hereby, the Distributor Agreement shall continue in full force and effect and be binding upon the parties hereto and their respective successors and permitted assigns. References to the Distributor Agreement after the date hereof shall mean the Distributor Agreement as amended pursuant to this Amendment. The amendments to the Distributor Agreement effected by this Amendment shall be effective from and after the date hereof."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 292.24377968,
+            "r": 348.5482810369,
+            "b": 279.37959042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "(f) This Amendment shall be governed by and construed under the law governing the Distributor Agreement.",
+      "text": "(f) This Amendment shall be governed by and construed under the law governing the Distributor Agreement.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 69.32133410199998,
+            "t": 269.04375968,
+            "r": 314.1781259260004,
+            "b": 263.91291042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "[The remainder of this page is intentionally left blank.]",
+      "text": "[The remainder of this page is intentionally left blank.]"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 245.84373968,
+            "r": 17.561488,
+            "b": 240.71289042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 222.64371968,
+            "r": 348.5482810369,
+            "b": 209.77953042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties hereto have executed this Amendment as of the date first set forth above.",
+      "text": "IN WITNESS WHEREOF, the parties hereto have executed this Amendment as of the date first set forth above."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 142.42154674900007,
+            "t": 199.44369968,
+            "r": 249.7336001482006,
+            "b": 186.57951042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "PEREGRINE/BRIDGE TRANSFER CORPORATION",
+      "text": "PEREGRINE/BRIDGE TRANSFER CORPORATION"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 142.435724539,
+            "t": 160.77699968000002,
+            "r": 219.65942711110003,
+            "b": 155.64615042509809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "By: /s/ Joe Backer",
+      "text": "By: /s/ Joe Backer"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 155.3095058593001,
+            "t": 153.04365968000002,
+            "r": 275.5114259260003,
+            "b": 147.9128104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "----------------------------",
+      "text": "----------------------------"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 142.44062232100006,
+            "t": 145.31031968000002,
+            "r": 211.06686148150013,
+            "b": 140.1794704250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Name: Joe Backer",
+      "text": "Name: Joe Backer"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 163.90783712350012,
+            "t": 137.57697968000002,
+            "r": 275.5114259260003,
+            "b": 132.4461304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "--------------------------",
+      "text": "--------------------------"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 142.45828011399996,
+            "t": 129.84363968000002,
+            "r": 185.28910014820002,
+            "b": 124.71279042509809,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Title: CEO",
+      "text": "Title: CEO"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 168.20700275560014,
+            "t": 122.11029968000003,
+            "r": 275.5114259260003,
+            "b": 116.9794504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "-------------------------",
+      "text": "-------------------------"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 142.435724539,
+            "t": 98.91027968000003,
+            "r": 219.65942711110003,
+            "b": 93.7794304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "NEON SYSTEMS, INC.",
+      "text": "NEON SYSTEMS, INC."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 142.42515564100003,
+            "t": 67.97691968000004,
+            "r": 275.5114259260003,
+            "b": 55.11273042509811,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "By: /s/ John S. Reiland ----------------------------",
+      "text": "By: /s/ John S. Reiland ----------------------------"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 415.97697968,
+            "r": 129.43083303159997,
+            "b": 410.84613042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "66049:53214:DALLAS:277267.9",
+      "text": "66049:53214:DALLAS:277267.9"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 142.42915119999998,
+            "t": 794.91063968,
+            "r": 232.5483400000003,
+            "b": 789.7797904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Name: John S. Reiland",
+      "text": "Name: John S. Reiland"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 163.90783712350012,
+            "t": 787.17729968,
+            "r": 275.5114259260003,
+            "b": 782.0464504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "--------------------------",
+      "text": "--------------------------"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 142.45492900000005,
+            "t": 779.44395968,
+            "r": 185.28474370000026,
+            "b": 774.3131104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Title: CFO",
+      "text": "Title: CFO"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 168.20700275560014,
+            "t": 771.71061968,
+            "r": 275.5114259260003,
+            "b": 766.5797704250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "-------------------------",
+      "text": "-------------------------"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 748.51059968,
+            "r": 198.17787125919995,
+            "b": 743.3797504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 138.12206319070006,
+            "t": 725.31057968,
+            "r": 249.7336001482006,
+            "b": 720.1797304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "JOINDER OF SKUNKWARE, INC.",
+      "text": "JOINDER OF SKUNKWARE, INC."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 702.11055968,
+            "r": 357.14092829620097,
+            "b": 611.912970425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            849
+          ]
+        }
+      ],
+      "orig": "Skunkware, Inc., a Delaware corporation, hereby joins in that certain Distributor Agreement dated as of January 1, 1996, between Peregrine/Bridge Transfer Corporation (\"PBTC\") and NEON Systems, Inc. (\"NEON\"), as amended by the First Amendment to Distributor Agreement dated as of November 19, 1998 by and between PBTC and NEON, such joinder being for purposes of acknowledging and agreeing to be bound by the terms of the Right of First Refusal set forth in Section 15.11 of the Distributor Agreement and the Option to Purchase set forth in Section 15.12 of the Distributor Agreement. Skunkware hereby represents and warrants to NEON that Skunkware is the sole stockholder of PBTC. Skunkware further agrees that its agreements set forth herein shall be binding on its successors and assigns and inure to the benefit of NEON's successors and assigns.",
+      "text": "Skunkware, Inc., a Delaware corporation, hereby joins in that certain Distributor Agreement dated as of January 1, 1996, between Peregrine/Bridge Transfer Corporation (\"PBTC\") and NEON Systems, Inc. (\"NEON\"), as amended by the First Amendment to Distributor Agreement dated as of November 19, 1998 by and between PBTC and NEON, such joinder being for purposes of acknowledging and agreeing to be bound by the terms of the Right of First Refusal set forth in Section 15.11 of the Distributor Agreement and the Option to Purchase set forth in Section 15.12 of the Distributor Agreement. Skunkware hereby represents and warrants to NEON that Skunkware is the sole stockholder of PBTC. Skunkware further agrees that its agreements set forth herein shall be binding on its successors and assigns and inure to the benefit of NEON's successors and assigns."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 601.5771396800001,
+            "r": 357.14092829620097,
+            "b": 580.979610425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "Skunkware's address for any notice to it under the terms of the Distributor Agreement is as follows: Skunkware, Inc., 14100 Southwest Freeway, Suite 500, Sugar Land, Texas 77478, Attn: President.",
+      "text": "Skunkware's address for any notice to it under the terms of the Distributor Agreement is as follows: Skunkware, Inc., 14100 Southwest Freeway, Suite 500, Sugar Land, Texas 77478, Attn: President."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 34.936434089500004,
+            "t": 570.6437796800001,
+            "r": 223.95567125920005,
+            "b": 565.512930425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "Executed as of the 1st day of January, 1999.",
+      "text": "Executed as of the 1st day of January, 1999."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 185.4163823320003,
+            "t": 547.4437596800001,
+            "r": 249.7336001482006,
+            "b": 542.312910425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "SKUNKWARE, INC.",
+      "text": "SKUNKWARE, INC."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 185.409680104,
+            "t": 516.5103996800001,
+            "r": 262.62250014820006,
+            "b": 511.37955042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "By: /s/ Joe Backer",
+      "text": "By: /s/ Joe Backer"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 198.28823031730033,
+            "t": 508.77705968000004,
+            "r": 305.5854357037008,
+            "b": 503.64621042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "-------------------------",
+      "text": "-------------------------"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 185.41397640400004,
+            "t": 501.04371968000004,
+            "r": 254.0297755555002,
+            "b": 495.91287042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Name: Joe Backer",
+      "text": "Name: Joe Backer"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 206.88596009950035,
+            "t": 493.31037968,
+            "r": 305.5854357037008,
+            "b": 488.17953042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "-----------------------",
+      "text": "-----------------------"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 185.42927123200022,
+            "t": 485.57703968,
+            "r": 228.25197125920036,
+            "b": 480.44619042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Title: CEO",
+      "text": "Title: CEO"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 211.1848249906004,
+            "t": 477.84369968,
+            "r": 305.5854357037008,
+            "b": 472.71285042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "----------------------",
+      "text": "----------------------"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 194.05342325919995,
+            "t": 392.77695968,
+            "r": 198.17787125919995,
+            "b": 387.6461104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "9",
+      "text": "9"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    }
+  }
+}

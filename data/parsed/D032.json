@@ -1,0 +1,6113 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 6360055409125271789,
+    "filename": "XinhuaSportsEntertainmentLtd_20070221_F-1_EX-99.4_645553_EX-99.4_Content License Agreement.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/127"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/texts/129"
+      },
+      {
+        "$ref": "#/texts/130"
+      },
+      {
+        "$ref": "#/texts/131"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/texts/133"
+      },
+      {
+        "$ref": "#/texts/134"
+      },
+      {
+        "$ref": "#/texts/135"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/117"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/119"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 393.55860025000067,
+            "t": 789.0610187500001,
+            "r": 454.0499179375005,
+            "b": 782.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 99.4",
+      "text": "EXHIBIT 99.4"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 191.5571105000001,
+            "t": 768.8610187499994,
+            "r": 312.6500568125001,
+            "b": 762.7358308415037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "DATED 15TH DECEMBER 2001",
+      "text": "DATED 15TH DECEMBER 2001",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 110.67264924999998,
+            "t": 748.6610187499996,
+            "r": 393.4502083125002,
+            "b": 742.535830841503,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+      "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 247.1201395000002,
+            "t": 728.4610187499998,
+            "r": 262.15005050000025,
+            "b": 722.3358308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "AND",
+      "text": "AND",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 171.25,
+            "t": 708.26101875,
+            "r": 332.8499684375005,
+            "b": 702.1358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "XINHUA FINANCIAL NETWORK LIMITED",
+      "text": "XINHUA FINANCIAL NETWORK LIMITED",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 226.90052656250018,
+            "t": 688.0610187500001,
+            "r": 277.3001262500002,
+            "b": 681.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "----------",
+      "text": "----------"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 191.51804875,
+            "t": 667.8610187499994,
+            "r": 317.70012625,
+            "b": 661.7358308415037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "CONTENT LICENSE AGREEMENT",
+      "text": "CONTENT LICENSE AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.82963718749998,
+            "t": 657.76101875,
+            "r": 378.3002019999999,
+            "b": 651.6358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "SUPPLEMENT TO THE EXCLUSIVE BROADCASTING AGREEMENT",
+      "text": "SUPPLEMENT TO THE EXCLUSIVE BROADCASTING AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 226.90052656250018,
+            "t": 637.5610187500001,
+            "r": 277.3001262500002,
+            "b": 631.4358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "----------",
+      "text": "----------"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 186.46561843749998,
+            "t": 617.3610187499994,
+            "r": 317.70012625,
+            "b": 570.8358308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "BAKER & McKENZIE 14th Floor Hutchison House 10 Harcourt Road Hong Kong Tel: 2846-1888",
+      "text": "BAKER & McKENZIE 14th Floor Hutchison House 10 Harcourt Road Hong Kong Tel: 2846-1888"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 216.79061593750015,
+            "t": 566.8610187499994,
+            "r": 287.4000631250001,
+            "b": 560.7358308415037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Fax: 2845-0476",
+      "text": "Fax: 2845-0476"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 237.00860656250006,
+            "t": 526.4610187499998,
+            "r": 272.2499684375002,
+            "b": 520.3358308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "CONTENT",
+      "text": "CONTENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 263.8610187499994,
+            "r": 156.10000000000002,
+            "b": 257.7358308415037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Schedule 1 - Contents",
+      "text": "Schedule 1 - Contents"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 247.1201395000002,
+            "t": 233.56101874999968,
+            "r": 262.15005050000025,
+            "b": 227.4358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-i-",
+      "text": "-i-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 203.26101874999995,
+            "r": 317.70012625,
+            "b": 197.13583084150332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "THIS AGREEMENT is made the 15th day of December 2001.",
+      "text": "THIS AGREEMENT is made the 15th day of December 2001."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 183.06101874999968,
+            "r": 85.399987375,
+            "b": 176.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "BETWEEN",
+      "text": "BETWEEN",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 162.86101874999986,
+            "r": 448.9997979999995,
+            "b": 116.33583084150314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            316
+          ]
+        }
+      ],
+      "orig": "(1) CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation within the Xinhua News Agency that is responsible for news and information operations and business, registered in the People's Republic of China with offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China ( \"CEIS\")\u037e and",
+      "text": "CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation within the Xinhua News Agency that is responsible for news and information operations and business, registered in the People's Republic of China with offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China ( \"CEIS\")\u037e and",
+      "enumerated": true,
+      "marker": "(1)"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 102.26101874999995,
+            "r": 454.0499179375005,
+            "b": 75.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "(2) XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road Central, Hong Kong (\"XFN\"),",
+      "text": "XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road Central, Hong Kong (\"XFN\"),",
+      "enumerated": true,
+      "marker": "(2)"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 75.309153125,
+            "t": 61.86101874999986,
+            "r": 403.5500631250001,
+            "b": 55.73583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "(collectively referred to as \"PARTIES\"\u037e individually, a \"PARTY\").",
+      "text": "(collectively referred to as \"PARTIES\"\u037e individually, a \"PARTY\")."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 788.66101875,
+            "r": 90.44999368749998,
+            "b": 782.5358308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "WHEREAS:",
+      "text": "WHEREAS:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 768.4610187499998,
+            "r": 448.9997979999995,
+            "b": 752.2358308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "(A) CEIS is the owner and distributor of certain content of Xinhua News Agency relating to financial and economic information\u037e",
+      "text": "(A) CEIS is the owner and distributor of certain content of Xinhua News Agency relating to financial and economic information\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 738.16101875,
+            "r": 443.9501262499998,
+            "b": 711.8358308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "(B) CEIS wishes to appoint XFN as its licensee to distribute the content to users throughout the world in accordance with the terms and conditions of this Agreement.",
+      "text": "(B) CEIS wishes to appoint XFN as its licensee to distribute the content to users throughout the world in accordance with the terms and conditions of this Agreement.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 697.76101875,
+            "r": 206.60006312500013,
+            "b": 691.6358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "IT IS HEREBY AGREED as follows:",
+      "text": "IT IS HEREBY AGREED as follows:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 677.5610187499997,
+            "r": 226.7999495000001,
+            "b": 671.4358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "1. DEFINITIONS AND INTERPRETATION",
+      "text": "DEFINITIONS AND INTERPRETATION",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 657.3610187499999,
+            "r": 454.0499179375005,
+            "b": 641.1358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "1.1 In this Agreement unless the context otherwise requires the following words shall have the following meaning:",
+      "text": "In this Agreement unless the context otherwise requires the following words shall have the following meaning:",
+      "enumerated": true,
+      "marker": "1.1"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 606.8610187499999,
+            "r": 110.54131768749997,
+            "b": 600.7358308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\"AFFILIATES\"",
+      "text": "\"AFFILIATES\"",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 566.4610187499998,
+            "r": 95.38703149999998,
+            "b": 560.3358308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "\"CONTENT\"",
+      "text": "\"CONTENT\""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 495.76101874999995,
+            "r": 120.66937675,
+            "b": 489.6358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "EFFECTIVE DATE",
+      "text": "EFFECTIVE DATE"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 146.03034418749996,
+            "t": 606.8610187499999,
+            "r": 454.0499179375005,
+            "b": 580.5358308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            166
+          ]
+        }
+      ],
+      "orig": "means any company, corporation, partnership, joint venture or other entity that directly or indirectly controls, is controlled by or is under common control with XFN\u037e",
+      "text": "means any company, corporation, partnership, joint venture or other entity that directly or indirectly controls, is controlled by or is under common control with XFN\u037e"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 146.03070400000004,
+            "t": 566.4610187499998,
+            "r": 448.9997979999995,
+            "b": 509.83583084150314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            320
+          ]
+        }
+      ],
+      "orig": "means real-time economic news including articles, reports, data, information and such materials that have or have been and/or will be published from time to time and that is or will be in the possession or control of CEIS from time to time, in respect of the subject matters as more particularly described in Schedule 1\u037e",
+      "text": "means real-time economic news including articles, reports, data, information and such materials that have or have been and/or will be published from time to time and that is or will be in the possession or control of CEIS from time to time, in respect of the subject matters as more particularly described in Schedule 1\u037e"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 146.06668525,
+            "t": 495.76101874999995,
+            "r": 236.90010100000006,
+            "b": 489.6358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "means 18 May 2000\u037e",
+      "text": "means 18 May 2000\u037e"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 475.5610187499997,
+            "r": 448.9997979999995,
+            "b": 439.1358308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "\"INTELLECTUAL means patents, trade marks, service marks, trade names, PROPERTY RIGHTS\" design rights (whether registrable or not), any applications for the foregoing, copyright and other assignable intellectual property",
+      "text": "\"INTELLECTUAL means patents, trade marks, service marks, trade names, PROPERTY RIGHTS\" design rights (whether registrable or not), any applications for the foregoing, copyright and other assignable intellectual property"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 404.86101874999986,
+            "r": 257.10000000000014,
+            "b": 398.73583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-1-",
+      "text": "-1-"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 146.03034418749996,
+            "t": 344.26101874999995,
+            "r": 454.0499179375005,
+            "b": 317.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            145
+          ]
+        }
+      ],
+      "orig": "rights (whether registrable or not) in any country, including but not limited to the format, layout, and the look and feel of any of the Content\u037e",
+      "text": "rights (whether registrable or not) in any country, including but not limited to the format, layout, and the look and feel of any of the Content\u037e"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 303.86101874999986,
+            "r": 80.2342603125,
+            "b": 297.73583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\"TERM\"",
+      "text": "\"TERM\""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 146.03993918749995,
+            "t": 303.86101874999986,
+            "r": 358.09987375000014,
+            "b": 297.73583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "means the term as set out in Clause 7\u037e and",
+      "text": "means the term as set out in Clause 7\u037e and"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 283.66101875000004,
+            "r": 433.85015781250036,
+            "b": 277.5358308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "\"TERRITORY\" means the world excluding the People's Republic of China.",
+      "text": "\"TERRITORY\" means the world excluding the People's Republic of China.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 253.36101874999986,
+            "r": 423.7500126249998,
+            "b": 237.13583084150332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "1.2 Words importing the singular number shall include the plural and vice versa.",
+      "text": "Words importing the singular number shall include the plural and vice versa.",
+      "enumerated": true,
+      "marker": "1.2"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 223.06101874999968,
+            "r": 428.7998737500001,
+            "b": 216.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "1.3 Words importing any particular gender shall include all other genders.",
+      "text": "Words importing any particular gender shall include all other genders.",
+      "enumerated": true,
+      "marker": "1.3"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 202.86101874999986,
+            "r": 454.0499179375005,
+            "b": 186.63583084150332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            148
+          ]
+        }
+      ],
+      "orig": "1.4 References in this Agreement to Clauses and Schedules are to clauses of and schedules to this Agreement except where otherwise expressly stated.",
+      "text": "References in this Agreement to Clauses and Schedules are to clauses of and schedules to this Agreement except where otherwise expressly stated.",
+      "enumerated": true,
+      "marker": "1.4"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 172.56101874999968,
+            "r": 454.0499179375005,
+            "b": 136.13583084150332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "1.5 Headings are used in this Agreement for the convenience of the Parties only and shall not be incorporated into this Agreement and shall not be deemed to be any indication of the meaning of the Clauses or Schedules to which they relate.",
+      "text": "Headings are used in this Agreement for the convenience of the Parties only and shall not be incorporated into this Agreement and shall not be deemed to be any indication of the meaning of the Clauses or Schedules to which they relate.",
+      "enumerated": true,
+      "marker": "1.5"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 122.06101874999968,
+            "r": 151.05004418750005,
+            "b": 115.9358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "2. GRANT OF RIGHTS",
+      "text": "GRANT OF RIGHTS",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 101.86101874999986,
+            "r": 448.9997979999995,
+            "b": 65.4358308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "2.1 Exclusive Rights in the Territory: CEIS hereby grants XFN and its Affiliates an exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the Territory:",
+      "text": "Exclusive Rights in the Territory: CEIS hereby grants XFN and its Affiliates an exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the Territory:",
+      "enumerated": true,
+      "marker": "2.1"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3083009375,
+            "t": 794.1110187499999,
+            "r": 438.8999242499999,
+            "b": 777.8858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates\u037e",
+      "text": "(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 763.8110187499997,
+            "r": 454.0499179375005,
+            "b": 747.5858308415036,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content\u037e and",
+      "text": "(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 733.51101875,
+            "r": 454.0499179375005,
+            "b": 707.1858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in media now or hereafter known.",
+      "text": "(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in media now or hereafter known.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 693.1110187499999,
+            "r": 448.9997979999995,
+            "b": 656.6858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            262
+          ]
+        }
+      ],
+      "orig": "2.2 Non-exclusive Rights in the People's Republic of China: CEIS hereby grants XFN and its Affiliates a non-exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the People's Republic of China:",
+      "text": "Non-exclusive Rights in the People's Republic of China: CEIS hereby grants XFN and its Affiliates a non-exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the People's Republic of China:",
+      "enumerated": true,
+      "marker": "2.2"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3083009375,
+            "t": 642.6110187499999,
+            "r": 438.8999242499999,
+            "b": 626.3858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates\u037e",
+      "text": "(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 612.3110187499997,
+            "r": 454.0499179375005,
+            "b": 596.0858308415036,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content\u037e and",
+      "text": "(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 582.01101875,
+            "r": 454.0499179375005,
+            "b": 555.6858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in",
+      "text": "(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 531.51101875,
+            "r": 257.10000000000014,
+            "b": 525.3858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-2-",
+      "text": "-2-"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 100.58320374999998,
+            "t": 491.11101874999986,
+            "r": 246.99992425000025,
+            "b": 484.98583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "media now or hereafter known.",
+      "text": "media now or hereafter known."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.3084271875,
+            "t": 470.91101875000004,
+            "r": 433.85015781250036,
+            "b": 454.6858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "During the Term, CEIS agrees not to appoint any other licensees for the distribution of the Content in the People's Republic of China.",
+      "text": "During the Term, CEIS agrees not to appoint any other licensees for the distribution of the Content in the People's Republic of China."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 440.61101874999986,
+            "r": 443.9501262499998,
+            "b": 424.3858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "2.3 The Intellectual Property Rights to use \"Xinhua\" as the first name of XFN and its affiliates world-wide.",
+      "text": "The Intellectual Property Rights to use \"Xinhua\" as the first name of XFN and its affiliates world-wide.",
+      "enumerated": true,
+      "marker": "2.3"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 410.3110187499997,
+            "r": 438.8999242499999,
+            "b": 383.98583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            202
+          ]
+        }
+      ],
+      "orig": "2.4 All Intellectual Property Rights and other proprietary rights in any translated, amended, revised or updated Content independently created by XFN (\"AMENDED CONTENT\") shall automatically vest in XFN.",
+      "text": "All Intellectual Property Rights and other proprietary rights in any translated, amended, revised or updated Content independently created by XFN (\"AMENDED CONTENT\") shall automatically vest in XFN.",
+      "enumerated": true,
+      "marker": "2.4"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 369.91101875000004,
+            "r": 438.8999242499999,
+            "b": 353.6858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "2.5 XFN and/or its Affiliates have the right at any time to suspend or cease distributing or making the Content available to the public.",
+      "text": "XFN and/or its Affiliates have the right at any time to suspend or cease distributing or making the Content available to the public.",
+      "enumerated": true,
+      "marker": "2.5"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 339.61101874999986,
+            "r": 448.9997979999995,
+            "b": 313.2858308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "2.6 XFN and/or its Affiliates are entitled to publish or distribute content of any third party where such content is similar to or competitive with the Content.",
+      "text": "XFN and/or its Affiliates are entitled to publish or distribute content of any third party where such content is similar to or competitive with the Content.",
+      "enumerated": true,
+      "marker": "2.6"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 299.21101874999977,
+            "r": 448.9997979999995,
+            "b": 232.48583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            476
+          ]
+        }
+      ],
+      "orig": "2.7 XFN and/or its Affiliate(s) shall have the right to charge users to access or view the Content and/or sub-license the Content to third parties for re-distribution to users. Revenues generated thereby shall be for the account of XFN or its Affiliates, and CEIS shall not be entitled to, nor make any action, claim or demand in relation thereto. XFN's only payment obligation to CEIS in consideration of the rights granted pursuant to this Clause 2 is set forth in Clause 4.",
+      "text": "XFN and/or its Affiliate(s) shall have the right to charge users to access or view the Content and/or sub-license the Content to third parties for re-distribution to users. Revenues generated thereby shall be for the account of XFN or its Affiliates, and CEIS shall not be entitled to, nor make any action, claim or demand in relation thereto. XFN's only payment obligation to CEIS in consideration of the rights granted pursuant to this Clause 2 is set forth in Clause 4.",
+      "enumerated": true,
+      "marker": "2.7"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 218.41101875000004,
+            "r": 448.9997979999995,
+            "b": 192.0858308415036,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "2.8 XFN does not intend and is not under any obligation to edit or review the Content licensed herein for accuracy or appropriateness or compliance with any applicable laws or regulations.",
+      "text": "XFN does not intend and is not under any obligation to edit or review the Content licensed herein for accuracy or appropriateness or compliance with any applicable laws or regulations.",
+      "enumerated": true,
+      "marker": "2.8"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 178.01101874999995,
+            "r": 171.250063125,
+            "b": 171.88583084150332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "3. DELIVERY OF CONTENT",
+      "text": "DELIVERY OF CONTENT",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 157.81101875000013,
+            "r": 454.0499179375005,
+            "b": 131.48583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "3.1 During the Term of this Agreement, CEIS shall supply the Content of XFN by such means of delivery or transmission as may be reasonably required by XFN including by online transmission.",
+      "text": "During the Term of this Agreement, CEIS shall supply the Content of XFN by such means of delivery or transmission as may be reasonably required by XFN including by online transmission.",
+      "enumerated": true,
+      "marker": "3.1"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 117.41101875000004,
+            "r": 423.7500126249998,
+            "b": 101.1858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            138
+          ]
+        }
+      ],
+      "orig": "3.2 CEIS shall use its best endeavours to ensure that the Content is made available to XFN on a continuous, uninterrupted real-time basis.",
+      "text": "CEIS shall use its best endeavours to ensure that the Content is made available to XFN on a continuous, uninterrupted real-time basis.",
+      "enumerated": true,
+      "marker": "3.2"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 87.11101874999986,
+            "r": 140.9500568125,
+            "b": 80.98583084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "4. CONSIDERATION",
+      "text": "CONSIDERATION",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 66.91101875000004,
+            "r": 438.8999242499999,
+            "b": 50.6858308415035,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            146
+          ]
+        }
+      ],
+      "orig": "4.1 In consideration of the rights and obligations of the Parties, XFN shall pay to CEIS US$1.1 million (United States Dollars One Million and One",
+      "text": "In consideration of the rights and obligations of the Parties, XFN shall pay to CEIS US$1.1 million (United States Dollars One Million and One",
+      "enumerated": true,
+      "marker": "4.1"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 793.7110187499995,
+            "r": 443.9501262499998,
+            "b": 747.1858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            306
+          ]
+        }
+      ],
+      "orig": "Hundred Thousand) for a term of twenty (20) years, in cash or such other consideration as the Parties may agree. The payment schedule shall be by five (5) instalments of US$220,000 each. The first instalment will be effect on condition that XFN can raise at least US$1.1 million additional funding in 2002.",
+      "text": "Hundred Thousand) for a term of twenty (20) years, in cash or such other consideration as the Parties may agree. The payment schedule shall be by five (5) instalments of US$220,000 each. The first instalment will be effect on condition that XFN can raise at least US$1.1 million additional funding in 2002."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 723.0110187499997,
+            "r": 257.10000000000014,
+            "b": 716.8858308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-3-",
+      "text": "-3-"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 682.6110187499996,
+            "r": 226.7999495000001,
+            "b": 676.485830841503,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "5. REPRESENTATIONS AND WARRANTIES",
+      "text": "5. REPRESENTATIONS AND WARRANTIES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 662.4110187499998,
+            "r": 454.0499179375005,
+            "b": 656.2858308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "5.1 CEIS represents and warrants to XFN that during the Term of this Agreement:",
+      "text": "CEIS represents and warrants to XFN that during the Term of this Agreement:",
+      "enumerated": true,
+      "marker": "5.1"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 642.2110187499995,
+            "r": 454.0499179375005,
+            "b": 615.8858308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "(a) CEIS is and shall remain entitled to grant to XFN the license to use the Content and other rights contained herein, free of all third-party liens, claims and encumbrances\u037e",
+      "text": "(a) CEIS is and shall remain entitled to grant to XFN the license to use the Content and other rights contained herein, free of all third-party liens, claims and encumbrances\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 601.8110187499999,
+            "r": 454.0499179375005,
+            "b": 575.485830841503,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "(b) use of any Content by XFN in the manner contemplated by this Agreement does not and will not infringe any Intellectual Property Rights or other proprietary rights of any third party\u037e",
+      "text": "(b) use of any Content by XFN in the manner contemplated by this Agreement does not and will not infringe any Intellectual Property Rights or other proprietary rights of any third party\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3083009375,
+            "t": 561.4110187499998,
+            "r": 448.9997979999995,
+            "b": 524.985830841503,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            222
+          ]
+        }
+      ],
+      "orig": "(c) neither the Content nor any part thereof contains anything which is obscene, indecent, seditious, offensive, defamatory, threatening, liable to incite racial hatred, discriminatory, menacing or in breach of confidence\u037e",
+      "text": "(c) neither the Content nor any part thereof contains anything which is obscene, indecent, seditious, offensive, defamatory, threatening, liable to incite racial hatred, discriminatory, menacing or in breach of confidence\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 510.9110187499998,
+            "r": 454.0499179375005,
+            "b": 494.6858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "(d) the Content complies with and will comply with all applicable laws and regulations\u037e",
+      "text": "(d) the Content complies with and will comply with all applicable laws and regulations\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3083009375,
+            "t": 480.61101874999963,
+            "r": 454.0499179375005,
+            "b": 454.2858308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "(e) with respect to the provision of the Content, CEIS has acquired all requisite licenses, permissions and clearances for XFN to exercise the rights granted herein\u037e",
+      "text": "(e) with respect to the provision of the Content, CEIS has acquired all requisite licenses, permissions and clearances for XFN to exercise the rights granted herein\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3084271875,
+            "t": 440.21101874999954,
+            "r": 433.85015781250036,
+            "b": 423.985830841503,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "(f) the Content is and will be reasonably accurate at the time of each delivery to XFN\u037e",
+      "text": "(f) the Content is and will be reasonably accurate at the time of each delivery to XFN\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3084271875,
+            "t": 409.9110187499998,
+            "r": 448.9997979999995,
+            "b": 343.1858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            453
+          ]
+        }
+      ],
+      "orig": "(g) CEIS is a statutory body with legal person status validly existing under the laws of the People's Republic of China, being its jurisdiction of organization, and the execution, delivery and performance of this Agreement for and on its behalf has been duly and properly authorised by all required action, and Mr. Wang Zhongming, the Legal Representative of CEIS has been duly authorised to execute and deliver this Agreement for and on behalf of CEIS\u037e",
+      "text": "(g) CEIS is a statutory body with legal person status validly existing under the laws of the People's Republic of China, being its jurisdiction of organization, and the execution, delivery and performance of this Agreement for and on its behalf has been duly and properly authorised by all required action, and Mr. Wang Zhongming, the Legal Representative of CEIS has been duly authorised to execute and deliver this Agreement for and on behalf of CEIS\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3084271875,
+            "t": 329.11101874999963,
+            "r": 433.85015781250036,
+            "b": 312.8858308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "(h) this Agreement is a valid and binding legal obligation enforceable against it in accordance with its terms\u037e and",
+      "text": "(h) this Agreement is a valid and binding legal obligation enforceable against it in accordance with its terms\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 298.8110187499997,
+            "r": 443.9501262499998,
+            "b": 282.58583084150314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "(i) the execution, delivery and performance of this Agreement by it does not and will not:",
+      "text": "(i) the execution, delivery and performance of this Agreement by it does not and will not:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 100.56729625,
+            "t": 268.5110187499997,
+            "r": 448.9997979999995,
+            "b": 242.18583084150328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "(i) require any authorization, consent, filing, registration or notice of or with any government agency in the People's Republic of China or Hong Kong\u037e or",
+      "text": "(i) require any authorization, consent, filing, registration or notice of or with any government agency in the People's Republic of China or Hong Kong\u037e or",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 100.56597062499998,
+            "t": 228.11101874999963,
+            "r": 454.0499179375005,
+            "b": 211.8858308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "(ii) result in any violation or breach of any agreement, obligation or order to which it is a party or to which it is subject.",
+      "text": "(ii) result in any violation or breach of any agreement, obligation or order to which it is a party or to which it is subject.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 197.81101874999968,
+            "r": 120.74996212499997,
+            "b": 191.68583084150328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "6. INDEMNITY",
+      "text": "6. INDEMNITY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 167.51101874999972,
+            "r": 257.10000000000014,
+            "b": 161.3858308415031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-4-",
+      "text": "-4-"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 127.11101874999963,
+            "r": 454.0499179375005,
+            "b": 100.78583084150318,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            227
+          ]
+        }
+      ],
+      "orig": "6.1 CEIS shall fully indemnify XFN and hold XFN harmless from and against any and all costs, expenses, loss, damages, liabilities, claims and proceedings which may be incurred or suffered by or taken against XFN in relation to:",
+      "text": "CEIS shall fully indemnify XFN and hold XFN harmless from and against any and all costs, expenses, loss, damages, liabilities, claims and proceedings which may be incurred or suffered by or taken against XFN in relation to:",
+      "enumerated": true,
+      "marker": "6.1"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.3101946875,
+            "t": 86.71101874999977,
+            "r": 368.2001641250006,
+            "b": 80.58583084150314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "(a) the exercise by XFN of the rights granted herein\u037e and",
+      "text": "(a) the exercise by XFN of the rights granted herein\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 75.308521875,
+            "t": 66.51101874999972,
+            "r": 428.7998737500001,
+            "b": 60.38583084150309,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "(b) any breach by CEIS of any provision of this Agreement or any act,",
+      "text": "(b) any breach by CEIS of any provision of this Agreement or any act,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 753.87494375,
+            "r": 95.50000631249999,
+            "b": 747.4314040284357,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "7. TERM",
+      "text": "7. TERM",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 733.5108187499998,
+            "r": 438.8999242499999,
+            "b": 707.1856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "7.1 This Agreement shall take effect from the Effective Date and continue in full force and effect for twenty (20) years thereafter, unless otherwise terminated in accordance with Clause 8.",
+      "text": "This Agreement shall take effect from the Effective Date and continue in full force and effect for twenty (20) years thereafter, unless otherwise terminated in accordance with Clause 8.",
+      "enumerated": true,
+      "marker": "7.1"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 693.1108187499999,
+            "r": 443.9501262499998,
+            "b": 666.7856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "7.2 This Agreement may be renewed for an additional term of ten (10) years by notice in writing given by XFN to CEIS at the expiry of the Term, for a consideration to be mutually agreed.",
+      "text": "This Agreement may be renewed for an additional term of ten (10) years by notice in writing given by XFN to CEIS at the expiry of the Term, for a consideration to be mutually agreed.",
+      "enumerated": true,
+      "marker": "7.2"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 652.7108187499998,
+            "r": 130.84996843749997,
+            "b": 646.5856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "8. TERMINATION",
+      "text": "8. TERMINATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 632.5108187499998,
+            "r": 448.9997979999995,
+            "b": 616.2856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "8.1 XFN may terminate this Agreement by giving thirty (30) days written notice to the CEIS.",
+      "text": "XFN may terminate this Agreement by giving thirty (30) days written notice to the CEIS.",
+      "enumerated": true,
+      "marker": "8.1"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 602.2108187499998,
+            "r": 287.4000631250001,
+            "b": 596.0856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "8.2 Either Party may terminate this Agreement:",
+      "text": "Either Party may terminate this Agreement:",
+      "enumerated": true,
+      "marker": "8.2"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 582.0108187499998,
+            "r": 443.9501262499998,
+            "b": 565.7856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "(a) if the other Party commits a material breach of this Agreement which is not capable of being remedied\u037e",
+      "text": "(a) if the other Party commits a material breach of this Agreement which is not capable of being remedied\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 551.7108187499998,
+            "r": 448.9997979999995,
+            "b": 515.2856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "(b) if the other Party commits a material breach of this Agreement which is capable of being remedied but not remedied within thirty (30) days upon receiving written notice from the non-breaching party requiring remedy\u037e and",
+      "text": "(b) if the other Party commits a material breach of this Agreement which is capable of being remedied but not remedied within thirty (30) days upon receiving written notice from the non-breaching party requiring remedy\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.3108890625,
+            "t": 501.2108187499998,
+            "r": 348.0000631249999,
+            "b": 495.0856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "(c) if the other Party becomes insolvent or bankrupt.",
+      "text": "(c) if the other Party becomes insolvent or bankrupt.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 481.01081874999977,
+            "r": 246.99992425000025,
+            "b": 474.88563084150337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "8.3 Upon termination of the Agreement:",
+      "text": "8.3 Upon termination of the Agreement:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.3083009375,
+            "t": 460.8108187499997,
+            "r": 438.8999242499999,
+            "b": 444.5856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "(a) CEIS shall terminate the transmission of the Content with immediate effect\u037e and",
+      "text": "(a) CEIS shall terminate the transmission of the Content with immediate effect\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.30807999999999,
+            "t": 430.51081874999977,
+            "r": 454.0499179375005,
+            "b": 394.0856308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            265
+          ]
+        }
+      ],
+      "orig": "(b) in the event that this Agreement is terminated prior to the expiry of the Term, XFN shall recover any sums paid to CEIS in advance for the unexpired Term of this Agreement, together with interest from the date those sums were paid until the date of full refund.",
+      "text": "(b) in the event that this Agreement is terminated prior to the expiry of the Term, XFN shall recover any sums paid to CEIS in advance for the unexpired Term of this Agreement, together with interest from the date those sums were paid until the date of full refund.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 369.91081874999986,
+            "r": 257.10000000000014,
+            "b": 363.78563084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-5-",
+      "text": "-5-"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 100.56597062499998,
+            "t": 794.1108187499999,
+            "r": 454.0499179375005,
+            "b": 767.7856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "default, omission or negligence of any nature on the part of CEIS and any of CEIS's officers, employees or agents and otherwise howsoever in connection with the rights hereby granted.",
+      "text": "default, omission or negligence of any nature on the part of CEIS and any of CEIS's officers, employees or agents and otherwise howsoever in connection with the rights hereby granted."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 329.51081875,
+            "r": 161.14994950000002,
+            "b": 323.38563084150337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "9. FURTHER ASSURANCE",
+      "text": "9. FURTHER ASSURANCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 309.31081874999995,
+            "r": 454.0499179375005,
+            "b": 242.58563084150342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            466
+          ]
+        }
+      ],
+      "orig": "Each Party agrees, at its own expense, to take any further action and to execute any further documents or instruments as the other Party may reasonably request to give effect to the transactions contemplated by, and to the terms of, this Agreement. In particular, and without limiting the foregoing, the Parties agree to amend this Agreement as may be necessary to comply with applicable laws, including without limitation the laws of the People's Republic of China.",
+      "text": "Each Party agrees, at its own expense, to take any further action and to execute any further documents or instruments as the other Party may reasonably request to give effect to the transactions contemplated by, and to the terms of, this Agreement. In particular, and without limiting the foregoing, the Parties agree to amend this Agreement as may be necessary to comply with applicable laws, including without limitation the laws of the People's Republic of China."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 228.51081875,
+            "r": 216.70000000000022,
+            "b": 222.38563084150337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "10. ENTIRE AGREEMENT\u037e AMENDMENTS",
+      "text": "10. ENTIRE AGREEMENT\u037e AMENDMENTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 208.31081874999995,
+            "r": 454.0499179375005,
+            "b": 171.88563084150337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            247
+          ]
+        }
+      ],
+      "orig": "This Agreement constitutes the entire agreement between CEIS and XFN and supersedes any prior written or oral agreement between them in relation to its subject matter. Any amendment of this Agreement shall be in writing and signed by CEIS and XFN.",
+      "text": "This Agreement constitutes the entire agreement between CEIS and XFN and supersedes any prior written or oral agreement between them in relation to its subject matter. Any amendment of this Agreement shall be in writing and signed by CEIS and XFN."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 157.81081874999995,
+            "r": 120.74996212499997,
+            "b": 151.68563084150333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "11. SEVERANCE",
+      "text": "11. SEVERANCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 137.6108187499999,
+            "r": 443.9501262499998,
+            "b": 101.18563084150333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "orig": "If at any time any provision of this Agreement is or becomes illegal, invalid or unenforceable in any respect, the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby.",
+      "text": "If at any time any provision of this Agreement is or becomes illegal, invalid or unenforceable in any respect, the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 87.11081875000002,
+            "r": 120.74996212499997,
+            "b": 80.98563084150328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "12. NO WAIVER",
+      "text": "12. NO WAIVER",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 66.91081874999998,
+            "r": 443.9501262499998,
+            "b": 50.685630841503325,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "Failure of either Party to require strict performance of any of the terms and conditions herein shall not be deemed a waiver of any rights or",
+      "text": "Failure of either Party to require strict performance of any of the terms and conditions herein shall not be deemed a waiver of any rights or"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 96.81081874999995,
+            "r": 65.083105125,
+            "b": 90.68563084150333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "/s/",
+      "text": "/s/"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 793.7108187499999,
+            "r": 443.9501262499998,
+            "b": 777.4856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": "remedies that either Party shall have and shall not be deemed a waiver of any subsequent default of terms and conditions thereof.",
+      "text": "remedies that either Party shall have and shall not be deemed a waiver of any subsequent default of terms and conditions thereof."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 763.41081875,
+            "r": 166.19998737500006,
+            "b": 757.2856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "13. COSTS AND EXPENSES",
+      "text": "COSTS AND EXPENSES",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 75.30807999999999,
+            "t": 743.2108187499999,
+            "r": 448.9997979999995,
+            "b": 716.8856308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            211
+          ]
+        }
+      ],
+      "orig": "Each party shall bear its own costs (including but not limited to legal costs) and disbursements of and incidental to the preparation, negotiation and execution of this Agreement and all ancillary documentation.",
+      "text": "Each party shall bear its own costs (including but not limited to legal costs) and disbursements of and incidental to the preparation, negotiation and execution of this Agreement and all ancillary documentation."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 702.81081875,
+            "r": 135.90000000000003,
+            "b": 696.6856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "14. COUNTERPARTS",
+      "text": "COUNTERPARTS",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 75.30820625,
+            "t": 682.61081875,
+            "r": 443.9501262499998,
+            "b": 666.3856308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "This Agreement may be executed in any number of counterparts all of which taken together shall constitute one and the same instrument.",
+      "text": "This Agreement may be executed in any number of counterparts all of which taken together shall constitute one and the same instrument."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 652.31081875,
+            "r": 105.59999999999998,
+            "b": 646.1856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "15. NOTICE",
+      "text": "NOTICE",
+      "enumerated": true,
+      "marker": "15."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 75.308900625,
+            "t": 632.11081875,
+            "r": 413.6501388749994,
+            "b": 615.8856308415034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "Each notice, demand or other communication given or made under this Agreement shall",
+      "text": "Each notice, demand or other communication given or made under this Agreement shall"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 591.7108187499999,
+            "r": 257.10000000000014,
+            "b": 585.5856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-6-",
+      "text": "-6-",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 75.3079853125,
+            "t": 551.31081875,
+            "r": 454.0499179375005,
+            "b": 464.38563084150326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            600
+          ]
+        }
+      ],
+      "orig": "be in writing and delivered or sent to the relevant Party's Managing Director or General Manager at its aforesaid address (or such other address as the addressee may specify by five days' prior written notice to the other Party). Any notice, demand or other communication so addressed to the relevant Party shall be deemed to have been delivered (a) if given or made by letter by hand, when actually delivered to the relevant address against receipt\u037e (b) if given or made by letter by post, two business days after posting\u037e and (c) if given or made by fax, when dispatched and received in good order.",
+      "text": "be in writing and delivered or sent to the relevant Party's Managing Director or General Manager at its aforesaid address (or such other address as the addressee may specify by five days' prior written notice to the other Party). Any notice, demand or other communication so addressed to the relevant Party shall be deemed to have been delivered (a) if given or made by letter by hand, when actually delivered to the relevant address against receipt\u037e (b) if given or made by letter by post, two business days after posting\u037e and (c) if given or made by fax, when dispatched and received in good order."
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 450.31081874999995,
+            "r": 221.74998737500013,
+            "b": 444.1856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "16. GOVERNING LAW AND ARBITRATION",
+      "text": "GOVERNING LAW AND ARBITRATION",
+      "enumerated": true,
+      "marker": "16."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 430.11081875,
+            "r": 448.9997979999995,
+            "b": 393.6856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "16.1 The English language version shall prevail in the event of any discrepancy between the interpretation of the English and the Chinese versions of this Agreement. This Agreement is governed by and shall be construed in accordance with the laws of Hong Kong",
+      "text": "The English language version shall prevail in the event of any discrepancy between the interpretation of the English and the Chinese versions of this Agreement. This Agreement is governed by and shall be construed in accordance with the laws of Hong Kong",
+      "enumerated": true,
+      "marker": "16.1"
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 379.61081875,
+            "r": 454.0499179375005,
+            "b": 282.5856308415032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            654
+          ]
+        }
+      ],
+      "orig": "16.2 The Parties shall attempt to resolve any dispute, controversy or claim arising out of this Agreement through good faith consultation and negotiations. If the Parties fail to resolve the dispute through negotiation, such dispute shall be referred to and be resolved by arbitration in accordance with the UNCITRAL Arbitration Rules as may be amended from time to time. The place of arbitration shall be in Hong Kong. The language to be used in the arbitral proceedings shall be English. There shall be one arbitrator to be agreed by Parties. If the Parties are unable to agree on an arbitrator, the International Chamber of Commerce shall appoint one.",
+      "text": "The Parties shall attempt to resolve any dispute, controversy or claim arising out of this Agreement through good faith consultation and negotiations. If the Parties fail to resolve the dispute through negotiation, such dispute shall be referred to and be resolved by arbitration in accordance with the UNCITRAL Arbitration Rules as may be amended from time to time. The place of arbitration shall be in Hong Kong. The language to be used in the arbitral proceedings shall be English. There shall be one arbitrator to be agreed by Parties. If the Parties are unable to agree on an arbitrator, the International Chamber of Commerce shall appoint one.",
+      "enumerated": true,
+      "marker": "16.2"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 258.41081875,
+            "r": 257.10000000000014,
+            "b": 252.28563084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-7-",
+      "text": "-7-",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 218.01081875,
+            "r": 438.8999242499999,
+            "b": 201.78563084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF this Agreement has been executed on the day and year first above written.",
+      "text": "IN WITNESS WHEREOF this Agreement has been executed on the day and year first above written.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 187.71081875000004,
+            "r": 423.7500126249998,
+            "b": 120.98563084150328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "SIGNED BY ) ) for and on behalf of ) CHINA ECONOMIC INFORMATION ) /s/ SERVICE OF XINHUA NEWS ) ---------------------------------- AGENCY ) in the presence of:- )",
+      "text": "SIGNED BY ) ) for and on behalf of ) CHINA ECONOMIC INFORMATION ) /s/ SERVICE OF XINHUA NEWS ) ---------------------------------- AGENCY ) in the presence of:- )"
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 186.52629418750013,
+            "t": 117.01081875,
+            "r": 191.45004418750014,
+            "b": 110.88563084150326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ")",
+      "text": ")"
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 186.52629418750013,
+            "t": 106.91081874999998,
+            "r": 191.45004418750014,
+            "b": 100.78563084150323,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ")",
+      "text": ")"
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 186.52629418750013,
+            "t": 96.81081874999995,
+            "r": 191.45004418750014,
+            "b": 90.68563084150333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ")",
+      "text": ")"
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 86.71081875000004,
+            "r": 186.39996212500017,
+            "b": 80.5856308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        },
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.11101875,
+            "r": 423.7500126249998,
+            "b": 697.0858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            28,
+            201
+          ]
+        }
+      ],
+      "orig": "--------------------------- SIGNED BY ) ) for and on behalf of ) XINHUA FINANCIAL NETWORK ) /s/ LIMITED ) ---------------------------------- in the presence of:- ) ) ) /s/ ) ---------------------------",
+      "text": "--------------------------- SIGNED BY ) ) for and on behalf of ) XINHUA FINANCIAL NETWORK ) /s/ LIMITED ) ---------------------------------- in the presence of:- ) ) ) /s/ ) ---------------------------"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 683.01101875,
+            "r": 257.10000000000014,
+            "b": 676.8858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-8-",
+      "text": "-8-",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 201.6401425,
+            "t": 642.77514375,
+            "r": 302.5499873750001,
+            "b": 636.331604028436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "SCHEDULE 1 - CONTENT",
+      "text": "SCHEDULE 1 - CONTENT"
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 242.06993750000018,
+            "t": 612.31101875,
+            "r": 257.10000000000014,
+            "b": 606.1858308415033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "-9-",
+      "text": "-9-"
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.0,
+            "t": 39.0,
+            "r": 286.29600000000005,
+            "b": 33.91764705882349,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+      "text": "Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.252681732177734,
+            "t": 487.1682434082031,
+            "r": 454.5126953125,
+            "b": 288.2777099609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 355.93898124999987,
+              "r": 80.2317353125,
+              "b": 362.0641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Clause",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 433.97137675000056,
+              "t": 355.93898124999987,
+              "r": 454.0499179375005,
+              "b": 372.16416915849686,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Page ----",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 366.03898125000023,
+              "r": 418.69010199999985,
+              "b": 392.3641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "------ 1. Definitions and Interpretation.......................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 386.23898125000005,
+              "r": 448.9997979999995,
+              "b": 392.3641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "1",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 396.3389812500004,
+              "r": 418.69010199999985,
+              "b": 402.46416915849704,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "2. Grant of Rights......................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 396.3389812500004,
+              "r": 448.9997979999995,
+              "b": 402.46416915849704,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "2",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 406.43898124999987,
+              "r": 418.69010199999985,
+              "b": 412.5641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "3. Delivery of Content..................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 406.43898124999987,
+              "r": 448.9997979999995,
+              "b": 412.5641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 416.53898125000023,
+              "r": 418.69010199999985,
+              "b": 422.66416915849686,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "4. Consideration........................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 416.53898125000023,
+              "r": 448.9997979999995,
+              "b": 422.66416915849686,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "3",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 426.6389812500006,
+              "r": 418.69010199999985,
+              "b": 432.7641691584963,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "5. Representations and Warranties.......................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 426.6389812500006,
+              "r": 448.9997979999995,
+              "b": 432.7641691584963,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "4",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 436.73898125000005,
+              "r": 418.69010199999985,
+              "b": 442.8641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "6. Indemnity............................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 436.73898125000005,
+              "r": 448.9997979999995,
+              "b": 442.8641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "4",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 446.8389812500004,
+              "r": 418.69010199999985,
+              "b": 452.96416915849704,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "7. Term.................................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 446.8389812500004,
+              "r": 448.9997979999995,
+              "b": 452.96416915849704,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "5",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 456.93898124999987,
+              "r": 418.69010199999985,
+              "b": 463.0641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "8. Termination..........................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 456.93898124999987,
+              "r": 448.9997979999995,
+              "b": 463.0641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "5",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 467.03898125000023,
+              "r": 418.69010199999985,
+              "b": 473.16416915849686,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "9. Further Assurance....................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 467.03898125000023,
+              "r": 448.9997979999995,
+              "b": 473.16416915849686,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 477.1389812500006,
+              "r": 418.69010199999985,
+              "b": 483.2641691584963,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "10. Entire Agreement\u037e Amendments.........................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 477.1389812500006,
+              "r": 448.9997979999995,
+              "b": 483.2641691584963,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 487.23898125000005,
+              "r": 418.69010199999985,
+              "b": 493.3641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 11,
+            "end_row_offset_idx": 12,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "11. Severance............................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 487.23898125000005,
+              "r": 448.9997979999995,
+              "b": 493.3641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 11,
+            "end_row_offset_idx": 12,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 497.3389812500004,
+              "r": 418.69010199999985,
+              "b": 503.46416915849704,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 12,
+            "end_row_offset_idx": 13,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "12. No Waiver............................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 497.3389812500004,
+              "r": 448.9997979999995,
+              "b": 503.46416915849704,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 12,
+            "end_row_offset_idx": 13,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 507.43898124999987,
+              "r": 418.69010199999985,
+              "b": 513.5641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 13,
+            "end_row_offset_idx": 14,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "13. Costs And Expenses...................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 507.43898124999987,
+              "r": 448.9997979999995,
+              "b": 513.5641691584965,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 13,
+            "end_row_offset_idx": 14,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 517.5389812500002,
+              "r": 418.69010199999985,
+              "b": 523.6641691584969,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 14,
+            "end_row_offset_idx": 15,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "14. Counterparts.........................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 517.5389812500002,
+              "r": 448.9997979999995,
+              "b": 523.6641691584969,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 14,
+            "end_row_offset_idx": 15,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 527.6389812500006,
+              "r": 418.69010199999985,
+              "b": 533.7641691584963,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 15,
+            "end_row_offset_idx": 16,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "15. Notice...............................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 527.6389812500006,
+              "r": 448.9997979999995,
+              "b": 533.7641691584963,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 15,
+            "end_row_offset_idx": 16,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 537.73898125,
+              "r": 418.69010199999985,
+              "b": 543.8641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 16,
+            "end_row_offset_idx": 17,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "16. Governing Law And Arbitration........................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 537.73898125,
+              "r": 448.9997979999995,
+              "b": 543.8641691584967,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 16,
+            "end_row_offset_idx": 17,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "7",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 547.8389812500004,
+              "r": 418.69010199999985,
+              "b": 553.964169158497,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 17,
+            "end_row_offset_idx": 18,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Execution................................................................",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 444.0760479999995,
+              "t": 547.8389812500004,
+              "r": 448.9997979999995,
+              "b": 553.964169158497,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 17,
+            "end_row_offset_idx": 18,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "8",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 18,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 355.93898124999987,
+                "r": 80.2317353125,
+                "b": 362.0641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Clause",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 433.97137675000056,
+                "t": 355.93898124999987,
+                "r": 454.0499179375005,
+                "b": 372.16416915849686,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Page ----",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 366.03898125000023,
+                "r": 418.69010199999985,
+                "b": 392.3641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "------ 1. Definitions and Interpretation.......................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 386.23898125000005,
+                "r": 448.9997979999995,
+                "b": 392.3641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 396.3389812500004,
+                "r": 418.69010199999985,
+                "b": 402.46416915849704,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2. Grant of Rights......................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 396.3389812500004,
+                "r": 448.9997979999995,
+                "b": 402.46416915849704,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 406.43898124999987,
+                "r": 418.69010199999985,
+                "b": 412.5641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "3. Delivery of Content..................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 406.43898124999987,
+                "r": 448.9997979999995,
+                "b": 412.5641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 416.53898125000023,
+                "r": 418.69010199999985,
+                "b": 422.66416915849686,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "4. Consideration........................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 416.53898125000023,
+                "r": 448.9997979999995,
+                "b": 422.66416915849686,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 426.6389812500006,
+                "r": 418.69010199999985,
+                "b": 432.7641691584963,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "5. Representations and Warranties.......................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 426.6389812500006,
+                "r": 448.9997979999995,
+                "b": 432.7641691584963,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 436.73898125000005,
+                "r": 418.69010199999985,
+                "b": 442.8641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "6. Indemnity............................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 436.73898125000005,
+                "r": 448.9997979999995,
+                "b": 442.8641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 446.8389812500004,
+                "r": 418.69010199999985,
+                "b": 452.96416915849704,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "7. Term.................................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 446.8389812500004,
+                "r": 448.9997979999995,
+                "b": 452.96416915849704,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "5",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 456.93898124999987,
+                "r": 418.69010199999985,
+                "b": 463.0641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "8. Termination..........................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 456.93898124999987,
+                "r": 448.9997979999995,
+                "b": 463.0641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "5",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 467.03898125000023,
+                "r": 418.69010199999985,
+                "b": 473.16416915849686,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "9. Further Assurance....................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 467.03898125000023,
+                "r": 448.9997979999995,
+                "b": 473.16416915849686,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 477.1389812500006,
+                "r": 418.69010199999985,
+                "b": 483.2641691584963,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "10. Entire Agreement\u037e Amendments.........................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 477.1389812500006,
+                "r": 448.9997979999995,
+                "b": 483.2641691584963,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 487.23898125000005,
+                "r": 418.69010199999985,
+                "b": 493.3641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "11. Severance............................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 487.23898125000005,
+                "r": 448.9997979999995,
+                "b": 493.3641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 497.3389812500004,
+                "r": 418.69010199999985,
+                "b": 503.46416915849704,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "12. No Waiver............................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 497.3389812500004,
+                "r": 448.9997979999995,
+                "b": 503.46416915849704,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 507.43898124999987,
+                "r": 418.69010199999985,
+                "b": 513.5641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "13. Costs And Expenses...................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 507.43898124999987,
+                "r": 448.9997979999995,
+                "b": 513.5641691584965,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 517.5389812500002,
+                "r": 418.69010199999985,
+                "b": 523.6641691584969,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "14. Counterparts.........................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 517.5389812500002,
+                "r": 448.9997979999995,
+                "b": 523.6641691584969,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 527.6389812500006,
+                "r": 418.69010199999985,
+                "b": 533.7641691584963,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "15. Notice...............................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 527.6389812500006,
+                "r": 448.9997979999995,
+                "b": 533.7641691584963,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 537.73898125,
+                "r": 418.69010199999985,
+                "b": 543.8641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "16. Governing Law And Arbitration........................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 537.73898125,
+                "r": 448.9997979999995,
+                "b": 543.8641691584967,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "7",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 547.8389812500004,
+                "r": 418.69010199999985,
+                "b": 553.964169158497,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Execution................................................................",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 444.0760479999995,
+                "t": 547.8389812500004,
+                "r": 448.9997979999995,
+                "b": 553.964169158497,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "8",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    }
+  }
+}

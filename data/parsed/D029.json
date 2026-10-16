@@ -1,0 +1,1392 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1 UNDR AGMT-SERVICES AGREEMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 4307377376163266052,
+    "filename": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1 UNDR AGMT-SERVICES AGREEMENT.PDF"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/5"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 508.3375,
+            "t": 789.8075275,
+            "r": 544.9499999999999,
+            "b": 782.6497380612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Exhibit 1.2",
+      "text": "Exhibit 1.2"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 253.94375,
+            "t": 779.7075275,
+            "r": 341.68754418750007,
+            "b": 772.5497380612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "SERVICES AGREEMENT",
+      "text": "SERVICES AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 769.6075275,
+            "r": 541.162563125,
+            "b": 742.2895707178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            288
+          ]
+        }
+      ],
+      "orig": "This Services Agreement (\"Services Agreement\" or \"Agreement\") is entered into as of the date noted below (the \"Effective Date\") between StartEngine Crowdfunding, Inc., a Delaware corporation (\"Company\"), and Solutions Vending International, Inc a ___ DE corporation (\"Customer\" or \"you\").",
+      "text": "This Services Agreement (\"Services Agreement\" or \"Agreement\") is entered into as of the date noted below (the \"Effective Date\") between StartEngine Crowdfunding, Inc., a Delaware corporation (\"Company\"), and Solutions Vending International, Inc a ___ DE corporation (\"Customer\" or \"you\")."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 739.3075275,
+            "r": 94.86875631250001,
+            "b": 732.1497380612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "1. Services",
+      "text": "1. Services",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2075275,
+            "r": 531.694223437499,
+            "b": 691.7895707178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            556
+          ]
+        }
+      ],
+      "orig": "Company agrees to make available to Customer the ability to present information with respect to its securities offering (the \"Offering\") to Users, and to permit Users to create and manage online accounts, view information regarding the Customer, indicate interest in the Offering, and to subscribe to the Offering by signing a subscription agreement or similar instrument and transmitting payment instructions (together, the \"Services\"). A \"User\" means a natural person, corporation or other entity that has established an account on the Company's website.",
+      "text": "Company agrees to make available to Customer the ability to present information with respect to its securities offering (the \"Offering\") to Users, and to permit Users to create and manage online accounts, view information regarding the Customer, indicate interest in the Offering, and to subscribe to the Offering by signing a subscription agreement or similar instrument and transmitting payment instructions (together, the \"Services\"). A \"User\" means a natural person, corporation or other entity that has established an account on the Company's website."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 688.8075275,
+            "r": 127.69374999999998,
+            "b": 681.6497380612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "2. Fees and expenses",
+      "text": "2. Fees and expenses",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 678.7075275,
+            "r": 92.343787875,
+            "b": 671.5497380612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "a) Generally",
+      "text": "a) Generally",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6075275,
+            "r": 543.687657812501,
+            "b": 621.0895707178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            627
+          ]
+        }
+      ],
+      "orig": "In exchange for the Services, you shall pay the Company the then applicable fees and expenses set out below. The Company reserves the right to change the applicable charges and to institute new charges and fees at the end of the Initial Term (as defined below) or then current renewal term, upon 30 days prior notice to you. If you believe that the Company has billed you incorrectly, you must contact Company no later than 60 days after the closing date on the first billing statement in which the error or problem appeared, in order to receive an adjustment or credit. Inquiries should be directed to contact@startengine.com.",
+      "text": "In exchange for the Services, you shall pay the Company the then applicable fees and expenses set out below. The Company reserves the right to change the applicable charges and to institute new charges and fees at the end of the Initial Term (as defined below) or then current renewal term, upon 30 days prior notice to you. If you believe that the Company has billed you incorrectly, you must contact Company no later than 60 days after the closing date on the first billing statement in which the error or problem appeared, in order to receive an adjustment or credit. Inquiries should be directed to contact@startengine.com."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.1075275,
+            "r": 144.737487375,
+            "b": 610.9497380612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "b) Monthly Fees and Billing",
+      "text": "b) Monthly Fees and Billing",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0075274999999,
+            "r": 539.900157812501,
+            "b": 550.3895707178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            724
+          ]
+        }
+      ],
+      "orig": "The Company will bill you monthly for the Services. You authorize the Company to instruct Prime Trust or any escrow agent used by Company to deduct such fees, debts and any other amounts liabilities incurred under this Service Agreement, prior to releasing any amounts due to you or to any other person (including another escrow agent) from escrow. Amounts which remain unpaid for 30 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service. You shall be responsible for all taxes associated with Services other than U.S. taxes based on the Company's net income.",
+      "text": "The Company will bill you monthly for the Services. You authorize the Company to instruct Prime Trust or any escrow agent used by Company to deduct such fees, debts and any other amounts liabilities incurred under this Service Agreement, prior to releasing any amounts due to you or to any other person (including another escrow agent) from escrow. Amounts which remain unpaid for 30 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service. You shall be responsible for all taxes associated with Services other than U.S. taxes based on the Company's net income."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 547.4075274999999,
+            "r": 116.96248737500001,
+            "b": 540.2497380612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "c) Transaction Fees",
+      "text": "c) Transaction Fees",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 537.3075275,
+            "r": 356.83751893750053,
+            "b": 520.0895707178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "Company's transaction fees depend on the method of payment (e.g. ACH-US or WIRE-US). ACH transaction: $1",
+      "text": "Company's transaction fees depend on the method of payment (e.g. ACH-US or WIRE-US). ACH transaction: $1"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 517.1075275,
+            "r": 80.98122475,
+            "b": 509.9895707178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Wire: $15",
+      "text": "Wire: $15"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 507.0075274999999,
+            "r": 92.975,
+            "b": 499.84973806129983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "d) AML Fees",
+      "text": "d) AML Fees",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 496.9075274999999,
+            "r": 229.32500631249997,
+            "b": 469.58957071789314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "AML fees are charged per User per initial transaction. AML: $2 AML UK: $5",
+      "text": "AML fees are charged per User per initial transaction. AML: $2 AML UK: $5"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8074875,
+            "r": 139.056313125,
+            "b": 782.6496980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "e) Reimbursable expenses",
+      "text": "Reimbursable expenses",
+      "enumerated": true,
+      "marker": "e)"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7074875,
+            "r": 395.3436363749994,
+            "b": 732.1895307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            448
+          ]
+        }
+      ],
+      "orig": "You shall reimburse the Company for the following expenses: (i) All credit card charges charged to the Company by its third-party credit card processor. (ii) All transaction fees charged to the Company or its affiliates by its third-party transaction processor. (iii) Escrow agent fees charged to the Company or its affiliates by third-party escrow agents. (iv) Return fees as set out in Section 4 (Returns, Reversals, Disputes and Reserves) below.",
+      "text": "You shall reimburse the Company for the following expenses: (i) All credit card charges charged to the Company by its third-party credit card processor. (ii) All transaction fees charged to the Company or its affiliates by its third-party transaction processor. (iii) Escrow agent fees charged to the Company or its affiliates by third-party escrow agents. (iv) Return fees as set out in Section 4 (Returns, Reversals, Disputes and Reserves) below."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2074875,
+            "r": 467.9378156250012,
+            "b": 722.0895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "Credit cards: average is 3.5% (varies because it is a combination of fixed and a percentage charged by the credit card vendor)",
+      "text": "Credit cards: average is 3.5% (varies because it is a combination of fixed and a percentage charged by the credit card vendor)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 719.1074874999999,
+            "r": 212.91256312500016,
+            "b": 711.9496980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "2. Customer Representations and Warranties",
+      "text": "Customer Representations and Warranties",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 709.0074875,
+            "r": 539.2688383749994,
+            "b": 691.7895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "Customer represents and warrants to the Company that then executed and delivered by Customer, this Service Agreement will constitute the legal, valid, and binding obligation of Customer, enforceable in accordance with its terms.",
+      "text": "Customer represents and warrants to the Company that then executed and delivered by Customer, this Service Agreement will constitute the legal, valid, and binding obligation of Customer, enforceable in accordance with its terms."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 688.8074875,
+            "r": 143.475,
+            "b": 681.6496980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "4. Returns and Reversals",
+      "text": "Returns and Reversals",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 678.7074875,
+            "r": 136.53123106249996,
+            "b": 671.5496980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "a) Returns and Reversals",
+      "text": "Returns and Reversals",
+      "enumerated": true,
+      "marker": "a)"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6074874999999,
+            "r": 534.2185795624994,
+            "b": 550.3895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1409
+          ]
+        }
+      ],
+      "orig": "User transactions debited from bank accounts via ACH are subject to returns (e.g., non-sufficient funds) and reversals from chargebacks (e.g., unauthorized activity) per the Electronic Fund Transfer Act (15 U.S.C. 1693 et seq. as may be amended), Regulation E, and NACHA guidelines (collectively, such returns and reversals are \"Reversals\"). The Company will work to protect Customer and the receiving Users from unwarranted Reversals\u037e however, Customer acknowledges and agrees that: i) Customer is liable for all User Activity and Reversals associated with User Activity\u037e ii) If Company's agent receives a Reversal, the Company may in its sole discretion charge Customer the full amount of the Reversal (\"Reversed Payment\") plus an additional $7 reversal fee (\"Reversal Fee\" and collectively the \"Reversal Liability\")\u037e iii) The Company has sole discretion to determine who is at fault and liable for the Reversed Payment and Reversal Fee\u037e iv) Customer authorizes the Company to take any of the following actions (in any particular order): (i) collect the unpaid portion of the Reversal Liability from funds sent to your third party escrow account\u037e (ii) debit your bank account in the amount of the unpaid portion of the Reversal Liability\u037e (iv) engage in collection efforts to recover the unpaid portion of the Reversal Liability and/or (v) take legal action or any other action under this Service Agreement.",
+      "text": "User transactions debited from bank accounts via ACH are subject to returns (e.g., non-sufficient funds) and reversals from chargebacks (e.g., unauthorized activity) per the Electronic Fund Transfer Act (15 U.S.C. 1693 et seq. as may be amended), Regulation E, and NACHA guidelines (collectively, such returns and reversals are \"Reversals\"). The Company will work to protect Customer and the receiving Users from unwarranted Reversals\u037e however, Customer acknowledges and agrees that: i) Customer is liable for all User Activity and Reversals associated with User Activity\u037e ii) If Company's agent receives a Reversal, the Company may in its sole discretion charge Customer the full amount of the Reversal (\"Reversed Payment\") plus an additional $7 reversal fee (\"Reversal Fee\" and collectively the \"Reversal Liability\")\u037e iii) The Company has sole discretion to determine who is at fault and liable for the Reversed Payment and Reversal Fee\u037e iv) Customer authorizes the Company to take any of the following actions (in any particular order): (i) collect the unpaid portion of the Reversal Liability from funds sent to your third party escrow account\u037e (ii) debit your bank account in the amount of the unpaid portion of the Reversal Liability\u037e (iv) engage in collection efforts to recover the unpaid portion of the Reversal Liability and/or (v) take legal action or any other action under this Service Agreement."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 547.4074875,
+            "r": 127.69380050000004,
+            "b": 540.2496980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "5. Term and Survival",
+      "text": "Term and Survival",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 537.3074875,
+            "r": 533.5877524999996,
+            "b": 520.0895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            249
+          ]
+        }
+      ],
+      "orig": "a) Subject to earlier termination as provided below, this Service Agreement is for the total duration of the Company's Offering (the \"Initial Term\") unless either party requests termination at least 30 days prior to the end of the then-current term.",
+      "text": "a) Subject to earlier termination as provided below, this Service Agreement is for the total duration of the Company's Offering (the \"Initial Term\") unless either party requests termination at least 30 days prior to the end of the then-current term."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8075375,
+            "r": 314.5438257500006,
+            "b": 782.6497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "b) Additionally, either party may terminate this Service Agreement in the event:",
+      "text": "b) Additionally, either party may terminate this Service Agreement in the event:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7075375,
+            "r": 539.8998106249992,
+            "b": 752.3895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            337
+          ]
+        }
+      ],
+      "orig": "i) The other party's material breach that remains not cured and continues for a period of (A) in the case of a failure involving the payment of any undisputed amount due hereunder, 15 days and (B) in the case of any other failure, 30 days after the non performing party receives notice from the terminating party specifying such failure\u037e",
+      "text": "i) The other party's material breach that remains not cured and continues for a period of (A) in the case of a failure involving the payment of any undisputed amount due hereunder, 15 days and (B) in the case of any other failure, 30 days after the non performing party receives notice from the terminating party specifying such failure\u037e"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 749.4075375,
+            "r": 517.8062373750008,
+            "b": 742.2497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "ii) Any statement, representation or warranty of the other party is untrue or misleading in any material respect or omits material information\u037e",
+      "text": "ii) Any statement, representation or warranty of the other party is untrue or misleading in any material respect or omits material information\u037e"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 739.3075375,
+            "r": 519.6999305625011,
+            "b": 711.9895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "iii) The other party (A) voluntarily or involuntarily is subject to bankruptcy proceedings, (B) applies for or consents to the appointment of a receiver, trustee, custodian, sequestrator, or similar official, (C) makes a general assignment to creditors, (D) commences winding down or liquidation of its business affairs, (E)",
+      "text": "iii) The other party (A) voluntarily or involuntarily is subject to bankruptcy proceedings, (B) applies for or consents to the appointment of a receiver, trustee, custodian, sequestrator, or similar official, (C) makes a general assignment to creditors, (D) commences winding down or liquidation of its business affairs, (E)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 709.0075374999999,
+            "r": 534.2190277500015,
+            "b": 671.5895807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            446
+          ]
+        }
+      ],
+      "orig": "otherwise takes corporate action for the purpose of effecting any of the foregoing, or (F) ceases operating in the normal course of business\u037e iv) If any change to, enactment of, or change in interpretation or enforcement of any law occurs that would have a material adverse effect upon a party's ability to perform its obligations under this Service Agreement or a party's costs/revenues with respect to the services under this Service Agreement\u037e",
+      "text": "otherwise takes corporate action for the purpose of effecting any of the foregoing, or (F) ceases operating in the normal course of business\u037e iv) If any change to, enactment of, or change in interpretation or enforcement of any law occurs that would have a material adverse effect upon a party's ability to perform its obligations under this Service Agreement or a party's costs/revenues with respect to the services under this Service Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6075374999999,
+            "r": 519.6997475000003,
+            "b": 651.3895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            232
+          ]
+        }
+      ],
+      "orig": "v) Upon direction to a party from any regulatory authority or National Automated Clearing House Association to cease or materially limit the exercise or performance of such party's rights or obligations under this Service Agreement\u037e",
+      "text": "v) Upon direction to a party from any regulatory authority or National Automated Clearing House Association to cease or materially limit the exercise or performance of such party's rights or obligations under this Service Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 648.4075375,
+            "r": 397.23768306249946,
+            "b": 641.2497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "vi) If there shall have occurred a material adverse change in the financial condition of the other party\u037e or",
+      "text": "vi) If there shall have occurred a material adverse change in the financial condition of the other party\u037e or"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 638.3075375,
+            "r": 534.8501262499994,
+            "b": 621.0895807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "vii) Upon a force majeure event that materially prevents or impedes a party from performing its obligations hereunder for a period of more than 10 business days.",
+      "text": "vii) Upon a force majeure event that materially prevents or impedes a party from performing its obligations hereunder for a period of more than 10 business days."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.1075374999999,
+            "r": 158.62507575,
+            "b": 610.9497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "StartEngine Crowdfunding, Inc.",
+      "text": "StartEngine Crowdfunding, Inc.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 301.28749999999997,
+            "t": 618.1075374999999,
+            "r": 337.9000000000001,
+            "b": 610.9497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Customer:",
+      "text": "Customer:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0075374999999,
+            "r": 131.48122475000002,
+            "b": 600.8895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "By: /s/ Dawn Dickson,",
+      "text": "By: /s/ Dawn Dickson,"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 597.9075375,
+            "r": 104.968737375,
+            "b": 590.7895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Date: 08/19/2019",
+      "text": "Date: 08/19/2019"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.61875,
+            "t": 587.8075375,
+            "r": 130.21878156249994,
+            "b": 580.6895807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "/s/ Howard Marks",
+      "text": "/s/ Howard Marks"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.61875,
+            "t": 577.0762874999999,
+            "r": 119.4875315625,
+            "b": 569.9583307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Howard Marks",
+      "text": "Howard Marks"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 69.61875,
+            "t": 566.9762874999999,
+            "r": 84.76875,
+            "b": 559.8583307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "CEO",
+      "text": "CEO"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 301.28749999999997,
+            "t": 608.0075374999999,
+            "r": 425.64380049999966,
+            "b": 600.8895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "By:Dawn Dickson, CEO and Founder",
+      "text": "By:Dawn Dickson, CEO and Founder"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    }
+  }
+}

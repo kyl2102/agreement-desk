@@ -1,0 +1,511 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_AMENDMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 12235340705043808042,
+    "filename": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_AMENDMENT.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 206.6,
+            "t": 795.0620625000001,
+            "r": 389.03118687499995,
+            "b": 786.8490354437231,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "AMENDMENT TO SERVICES AGREEMENT",
+      "text": "AMENDMENT TO SERVICES AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 762.2370625000003,
+            "r": 544.9502209375005,
+            "b": 719.9365354437232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            420
+          ]
+        }
+      ],
+      "orig": "This AMENDMENT TO SERVICES AGREEMENT, dated and effective as of March 30, 2009 (this \"Amendment\"), is made between FEDERATED INVESTMENT MANAGEMENT COMPANY, a Delaware statutory trust (the \"Adviser\"), and FEDERATED ADVISORY SERVICES COMPANY, a Delaware statutory trust (\"FASC\"). Capitalized terms used, but not defined, in this Amendment have the meanings given to such terms in the Services Agreement (as defined below).",
+      "text": "This AMENDMENT TO SERVICES AGREEMENT, dated and effective as of March 30, 2009 (this \"Amendment\"), is made between FEDERATED INVESTMENT MANAGEMENT COMPANY, a Delaware statutory trust (the \"Adviser\"), and FEDERATED ADVISORY SERVICES COMPANY, a Delaware statutory trust (\"FASC\"). Capitalized terms used, but not defined, in this Amendment have the meanings given to such terms in the Services Agreement (as defined below)."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 275.40625,
+            "t": 706.6870625000001,
+            "r": 319.5937373749998,
+            "b": 698.4740354437231,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "RECITALS",
+      "text": "RECITALS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 685.2245625,
+            "r": 544.9502083125009,
+            "b": 631.5615354437232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            620
+          ]
+        }
+      ],
+      "orig": "WHEREAS, the Adviser and FASC have entered into that certain Services Agreement dated as of January 1, 2004 (as amended, the \"Services Agreement\"), pursuant to which FASC provides certain performance attribution, administration and risk management, equity trading and transaction settlement, fundamental analysis, and quantitative analysis services to Adviser in connection with Adviser providing investment advisory or sub-advisory services to investment companies registered under the Investment Company Act of 1940 (\"1940 Act\") and/or separate accounts not required to be so registered (collectively, \"Accounts\")\u037e and",
+      "text": "WHEREAS, the Adviser and FASC have entered into that certain Services Agreement dated as of January 1, 2004 (as amended, the \"Services Agreement\"), pursuant to which FASC provides certain performance attribution, administration and risk management, equity trading and transaction settlement, fundamental analysis, and quantitative analysis services to Adviser in connection with Adviser providing investment advisory or sub-advisory services to investment companies registered under the Investment Company Act of 1940 (\"1940 Act\") and/or separate accounts not required to be so registered (collectively, \"Accounts\")\u037e and"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.3120625000001,
+            "r": 544.9501262499988,
+            "b": 564.6490354437233,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            533
+          ]
+        }
+      ],
+      "orig": "WHEREAS, the Adviser and FASC desire to amend the Services indicated in Exhibit A to the Services Agreement, solely with respect to Accounts that are not investment companies registered under the 1940 Act, to provide that, as part of the administration and risk management services provided by FASC, FASC may provide certain coordination of client portfolios and related fixed income trade execution implementation and administration services to Adviser when Adviser is acting as adviser or sub-adviser with respect to such Accounts.",
+      "text": "WHEREAS, the Adviser and FASC desire to amend the Services indicated in Exhibit A to the Services Agreement, solely with respect to Accounts that are not investment companies registered under the 1940 Act, to provide that, as part of the administration and risk management services provided by FASC, FASC may provide certain coordination of client portfolios and related fixed income trade execution implementation and administration services to Adviser when Adviser is acting as adviser or sub-adviser with respect to such Accounts."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 65.2,
+            "t": 551.3995625000002,
+            "r": 389.6627020000005,
+            "b": 543.1865354437232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, the parties hereto, intending to be legally bound, agree as follows:",
+      "text": "NOW, THEREFORE, the parties hereto, intending to be legally bound, agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 529.9370625000001,
+            "r": 544.9500378749981,
+            "b": 498.9990354437232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "1. Amendment to Exhibit A to Services Agreement. Solely with respect to Accounts that are not investment companies registered under the 1940 Act, the section of Exhibit A to the Services Agreement entitled \"Administration and Risk Management\" shall be, and hereby is, deleted in its entirety and replaced with the following:",
+      "text": "1. Amendment to Exhibit A to Services Agreement. Solely with respect to Accounts that are not investment companies registered under the 1940 Act, the section of Exhibit A to the Services Agreement entitled \"Administration and Risk Management\" shall be, and hereby is, deleted in its entirety and replaced with the following:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 485.74956250000014,
+            "r": 544.9502903750008,
+            "b": 420.7240354437231,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            629
+          ]
+        }
+      ],
+      "orig": "\"2. Administration and Risk Management. Employees of Federated Advisory Services Company provide support to portfolio managers and other employees of affiliated advisers. Such services may include development of risk management programs, production of portfolio and compliance reports for clients and/or fund Boards, coordination of client portfolios and related fixed income trade execution implementation and administration, completion of required broker and custody documentation, development and documentation of operational procedures, coordination of proxy voting activities, on-site support of hardware and software, etc.\"",
+      "text": "\"2. Administration and Risk Management. Employees of Federated Advisory Services Company provide support to portfolio managers and other employees of affiliated advisers. Such services may include development of risk management programs, production of portfolio and compliance reports for clients and/or fund Boards, coordination of client portfolios and related fixed income trade execution implementation and administration, completion of required broker and custody documentation, development and documentation of operational procedures, coordination of proxy voting activities, on-site support of hardware and software, etc.\"",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 407.47456250000005,
+            "r": 544.9502966874985,
+            "b": 331.0865354437233,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            831
+          ]
+        }
+      ],
+      "orig": "2. Miscellaneous. This Amendment shall be effective as of the date first above written upon its execution and delivery by each of the parties hereto. The Services Agreement, as amended by this Amendment with respect to Accounts that are not investment companies registered under the 1940 Act, shall remain in full force and effect. The Services Agreement also shall remain in full force and effect without amendment with respect to Accounts that are investment companies under the 1940 Act. This Amendment shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania. This Amendment may be executed in one or more counterparts, each of which will be deemed to be an original copy of this Amendment and all of which, when taken together, will be deemed to constitute one and the same agreement.",
+      "text": "2. Miscellaneous. This Amendment shall be effective as of the date first above written upon its execution and delivery by each of the parties hereto. The Services Agreement, as amended by this Amendment with respect to Accounts that are not investment companies registered under the 1940 Act, shall remain in full force and effect. The Services Agreement also shall remain in full force and effect without amendment with respect to Accounts that are investment companies under the 1940 Act. This Amendment shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania. This Amendment may be executed in one or more counterparts, each of which will be deemed to be an original copy of this Amendment and all of which, when taken together, will be deemed to constitute one and the same agreement."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 317.83706250000023,
+            "r": 544.9500694375004,
+            "b": 298.261535443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties hereto, through their duly authorized officers, have executed this Amendment as of the date first above written.",
+      "text": "IN WITNESS WHEREOF, the parties hereto, through their duly authorized officers, have executed this Amendment as of the date first above written."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 285.01206249999996,
+            "r": 438.2688257499998,
+            "b": 276.79903544372337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "FEDERATED INVESTMENT MANAGEMENT FEDERATED ADVISORY SERVICES COMPANY",
+      "text": "FEDERATED INVESTMENT MANAGEMENT FEDERATED ADVISORY SERVICES COMPANY"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 263.5495625000003,
+            "r": 96.762487375,
+            "b": 255.33653544372328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "COMPANY",
+      "text": "COMPANY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 242.08706250000023,
+            "r": 246.99998737499982,
+            "b": 233.8740354437232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "By: /s/ John B. Fisher By: /s/ J. Christopher Donahue",
+      "text": "By: /s/ John B. Fisher By: /s/ J. Christopher Donahue"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 220.62456250000014,
+            "r": 248.26255050000003,
+            "b": 212.4115354437231,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Name: John B. Fisher Name: J. Christopher Donahue",
+      "text": "Name: John B. Fisher Name: J. Christopher Donahue"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 199.16206250000005,
+            "r": 163.67497475000005,
+            "b": 190.949035443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "Title: President Title: Chairman",
+      "text": "Title: President Title: Chairman"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    }
+  }
+}

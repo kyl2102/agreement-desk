@@ -1,0 +1,1845 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 3096149820424483555,
+    "filename": "LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 737.3417396800003,
+            "r": 64.99262281479997,
+            "b": 732.2108904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 10.2",
+      "text": "EXHIBIT 10.2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 159.64109996380006,
+            "t": 783.7417796800003,
+            "r": 211.06686148150013,
+            "b": 778.6109304250979,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 10.2",
+      "text": "EXHIBIT 10.2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 138.13140764320005,
+            "t": 768.2750996800003,
+            "r": 228.25197125920036,
+            "b": 763.1442504250979,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "DISTRIBUTOR AGREEMENT",
+      "text": "DISTRIBUTOR AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 120.92262525250001,
+            "t": 706.4083796800003,
+            "r": 254.0297755555002,
+            "b": 701.2775304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+      "text": "EXCLUSIVE DISTRIBUTOR AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 690.9416996800003,
+            "r": 357.14092829620097,
+            "b": 654.8774904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            351
+          ]
+        }
+      ],
+      "orig": "THIS EXCLUSIVE DISTRIBUTOR AGREEMENT (the \"Agreement\") shall be effective as of _Dec. 8, 2005 (hereinafter \"Effective Date\"), by and between LifeUSA/ Envision Health, Inc., a corporation (hereinafter collectively \"ENVISION\"), and Sierra Mountain Minerals, Inc., a Canadian company (hereinafter \"SIERRA\"), is made with reference to the following facts:",
+      "text": "THIS EXCLUSIVE DISTRIBUTOR AGREEMENT (the \"Agreement\") shall be effective as of _Dec. 8, 2005 (hereinafter \"Effective Date\"), by and between LifeUSA/ Envision Health, Inc., a corporation (hereinafter collectively \"ENVISION\"), and Sierra Mountain Minerals, Inc., a Canadian company (hereinafter \"SIERRA\"), is made with reference to the following facts:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 168.24768012399994,
+            "t": 644.5416596800003,
+            "r": 202.47419703699995,
+            "b": 639.4108104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Recitals",
+      "text": "Recitals",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 629.0749796800003,
+            "r": 357.14092829620097,
+            "b": 616.2107904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": "A. SIERRA is the manufacture and producer of a joint health product called \"SierraSil\" (hereinafter \"the Product\") for human use.",
+      "text": "SIERRA is the manufacture and producer of a joint health product called \"SierraSil\" (hereinafter \"the Product\") for human use.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 605.8749596800003,
+            "r": 357.14092829620097,
+            "b": 569.8107504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            292
+          ]
+        }
+      ],
+      "orig": "B. ENVISION is the manufacturer of certain nutritional supplements and is desirous of becoming an exclusive distributor for the Product in any blend with Krill Oil (hereinafter \"the Finished Product\") in all distribution channels in the Territory on the terms and conditions set forth herein.",
+      "text": "ENVISION is the manufacturer of certain nutritional supplements and is desirous of becoming an exclusive distributor for the Product in any blend with Krill Oil (hereinafter \"the Finished Product\") in all distribution channels in the Territory on the terms and conditions set forth herein.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 559.4749196800003,
+            "r": 357.14092829620097,
+            "b": 538.8773904250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            209
+          ]
+        }
+      ],
+      "orig": "C. SIERRA is desirous of having ENVISION act as its exclusive distributor for the Product in any blend with Krill Oil in all distribution channels in the Territory on the terms and conditions set forth herein.",
+      "text": "SIERRA is desirous of having ENVISION act as its exclusive distributor for the Product in any blend with Krill Oil in all distribution channels in the Territory on the terms and conditions set forth herein.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 528.5415596800003,
+            "r": 215.36322592600033,
+            "b": 523.4107104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, it is hereby agreed as follows:",
+      "text": "NOW, THEREFORE, it is hereby agreed as follows:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 513.0748796800001,
+            "r": 357.14092829620097,
+            "b": 500.21069042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "1. Incorporation of Recitals. The Recitals set forth in Paragraphs A through C, above, are incorporated herein as though set forth in full.",
+      "text": "Incorporation of Recitals. The Recitals set forth in Paragraphs A through C, above, are incorporated herein as though set forth in full.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 489.8748596800001,
+            "r": 357.14092829620097,
+            "b": 438.3439704250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            418
+          ]
+        }
+      ],
+      "orig": "2. Appointment. SIERRA hereby appoints ENVISION as its exclusive distributor for the Product in any blend with Krill Oil within the Territory subject to ENVISION fulfilling the terms and conditions of the best efforts marketing requirements set forth herein in Sections 4, 5, and 9. SIERRA shall cease making sales to any customer or distributor who, during the term of this Agreement, violates ENVISION's exclusivity.",
+      "text": "Appointment. SIERRA hereby appoints ENVISION as its exclusive distributor for the Product in any blend with Krill Oil within the Territory subject to ENVISION fulfilling the terms and conditions of the best efforts marketing requirements set forth herein in Sections 4, 5, and 9. SIERRA shall cease making sales to any customer or distributor who, during the term of this Agreement, violates ENVISION's exclusivity.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 428.0081396800001,
+            "r": 275.5114259260003,
+            "b": 422.8772904250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "3. Territory. The Territory shall be the entire world.",
+      "text": "Territory. The Territory shall be the entire world.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 412.5414596800001,
+            "r": 357.14092829620097,
+            "b": 330.0772104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            717
+          ]
+        }
+      ],
+      "orig": "4. Prices and Terms. The price for the Product as set forth in Section 9 herein, sold by SIERRA to ENVISION, shall be subject to change due to changes in manufacturing costs and so as to maximize profits\u037e any changes in price for the Product shall not be applicable to previously accepted orders and shall be made with at least ninety (90) days advance notice in writing and in good faith by conference of the parties. ENVISION shall not resell the Product alone. Terms of payment will be 1/3 upon placement of order and 2/3 balance net thirty (30) days or as mutually agreed upon in writing between the parties. Delivery will be F.O.B. ENVISION shall be responsible for all costs of shipping from SIERRA to ENVISION.",
+      "text": "Prices and Terms. The price for the Product as set forth in Section 9 herein, sold by SIERRA to ENVISION, shall be subject to change due to changes in manufacturing costs and so as to maximize profits\u037e any changes in price for the Product shall not be applicable to previously accepted orders and shall be made with at least ninety (90) days advance notice in writing and in good faith by conference of the parties. ENVISION shall not resell the Product alone. Terms of payment will be 1/3 upon placement of order and 2/3 balance net thirty (30) days or as mutually agreed upon in writing between the parties. Delivery will be F.O.B. ENVISION shall be responsible for all costs of shipping from SIERRA to ENVISION.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 319.7413796799999,
+            "r": 357.14092829620097,
+            "b": 299.143850425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "5. Product Support. ENVISION will use its best efforts to market and sell the Finished Product throughout the Territory. The parties also agree that:",
+      "text": "Product Support. ENVISION will use its best efforts to market and sell the Finished Product throughout the Territory. The parties also agree that:",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 288.8080196799999,
+            "r": 357.14092829620097,
+            "b": 275.943830425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "o If SIERRA customers are interested in purchasing the Product in any blend with Krill Oil, SIERRA will refer them to ENVISION.",
+      "text": "o If SIERRA customers are interested in purchasing the Product in any blend with Krill Oil, SIERRA will refer them to ENVISION.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 250.14131967999992,
+            "r": 357.14092829620097,
+            "b": 237.277130425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "o ENVISION will be responsible for all costs associated with developing and manufacturing the Finished Product.",
+      "text": "o ENVISION will be responsible for all costs associated with developing and manufacturing the Finished Product.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 226.94129967999993,
+            "r": 357.14092829620097,
+            "b": 175.410410425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            444
+          ]
+        }
+      ],
+      "orig": "6. Sales Disclosures. ENVISION will provide SIERRA with demand projections for the Product and SIERRA will produce enough Product to meet such demand projections. ENVISION will inform SIERRA of committed sales and SIERRA will increase or scale up its production of the Product accordingly. SIERRA will not unreasonably withhold the Product, but shall not be liable for unfulfilled or partially fulfilled orders given just cause for such action.",
+      "text": "Sales Disclosures. ENVISION will provide SIERRA with demand projections for the Product and SIERRA will produce enough Product to meet such demand projections. ENVISION will inform SIERRA of committed sales and SIERRA will increase or scale up its production of the Product accordingly. SIERRA will not unreasonably withhold the Product, but shall not be liable for unfulfilled or partially fulfilled orders given just cause for such action.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 165.07457967999994,
+            "r": 357.14092829620097,
+            "b": 129.01037042509802,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            299
+          ]
+        }
+      ],
+      "orig": "7. Term. The term of this Agreement shall be two (2) years from the Effective Date with automatic annual renewals thereafter provided either party does not provide sixty (60) days notice of termination prior to the renewal date or the Agreement is not otherwise terminated as set forth in Section 8.",
+      "text": "Term. The term of this Agreement shall be two (2) years from the Effective Date with automatic annual renewals thereafter provided either party does not provide sixty (60) days notice of termination prior to the renewal date or the Agreement is not otherwise terminated as set forth in Section 8.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 118.67453967999995,
+            "r": 103.65933999999993,
+            "b": 113.54369042509802,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "8. Termination.",
+      "text": "8. Termination.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 110.94119967999995,
+            "r": 357.14092829620097,
+            "b": 51.676970425098034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            547
+          ]
+        }
+      ],
+      "orig": "(a) Upon the occurrence of a material breach or default as to any obligation, term or provision contained herein by either party and the failure of the breaching party to promptly pursue (within thirty (30) days after receiving written notice thereof from the non-breaching party) a reasonable remedy designed to cure (in the reasonable judgment of the non-breaching party) such material breach or default, this Agreement may be terminated by the non-breaching party by giving written notice of termination to the breaching party, such termination",
+      "text": "(a) Upon the occurrence of a material breach or default as to any obligation, term or provision contained herein by either party and the failure of the breaching party to promptly pursue (within thirty (30) days after receiving written notice thereof from the non-breaching party) a reasonable remedy designed to cure (in the reasonable judgment of the non-breaching party) such material breach or default, this Agreement may be terminated by the non-breaching party by giving written notice of termination to the breaching party, such termination",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 794.91147968,
+            "r": 357.14092829620097,
+            "b": 782.047290425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "being immediately effective upon the giving of such notice of termination.",
+      "text": "being immediately effective upon the giving of such notice of termination."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 771.71145968,
+            "r": 357.14092829620097,
+            "b": 743.380590425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "(b) Upon the occurrence of bankruptcy of the other party, breach of confidentiality, government legislative interference, or force majeure extending beyond sixty (60) days, either party may immediately terminate the Agreement.",
+      "text": "(b) Upon the occurrence of bankruptcy of the other party, breach of confidentiality, government legislative interference, or force majeure extending beyond sixty (60) days, either party may immediately terminate the Agreement."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 733.04475968,
+            "r": 357.14092829620097,
+            "b": 712.447230425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            173
+          ]
+        }
+      ],
+      "orig": "9. Purchase Requirements. During the term of this Agreement, ENVISION will exclusively purchase the Product from SIERRA. The parties mutually agree to the Purchase Price of:",
+      "text": "Purchase Requirements. During the term of this Agreement, ENVISION will exclusively purchase the Product from SIERRA. The parties mutually agree to the Purchase Price of:",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.13185069089999,
+            "t": 702.11139968,
+            "r": 254.0297755555002,
+            "b": 696.980550425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Product Purchase Price",
+      "text": "Product Purchase Price"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 694.37805968,
+            "r": 357.14092829620097,
+            "b": 681.513870425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "----------------------------------------------- A. SierraSil Per Sierra Sil's wholesale price list.",
+      "text": "----------------------------------------------- A. SierraSil Per Sierra Sil's wholesale price list."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 671.17803968,
+            "r": 357.14092829620097,
+            "b": 611.9138104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            489
+          ]
+        }
+      ],
+      "orig": "10. Intellectual Property. SIERRA is responsible for all Patent costs for the Product. SIERRA warrants it owns pending patents for the Product in the U.S. and internationally. SIERRA hereby grants ENVISION an exclusive, royalty-free sub-license of the Product's future patents, and patent applications to distribute, sell and market the Finished Product. SIERRA hereby agrees to indemnify, defend and hold ENVISION harmless from any claims that the Product infringes upon any other patent.",
+      "text": "Intellectual Property. SIERRA is responsible for all Patent costs for the Product. SIERRA warrants it owns pending patents for the Product in the U.S. and internationally. SIERRA hereby grants ENVISION an exclusive, royalty-free sub-license of the Product's future patents, and patent applications to distribute, sell and market the Finished Product. SIERRA hereby agrees to indemnify, defend and hold ENVISION harmless from any claims that the Product infringes upon any other patent.",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 601.57797968,
+            "r": 378.6224712592009,
+            "b": 542.3137504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            532
+          ]
+        }
+      ],
+      "orig": "11. Trademarks SIERRA is the owner of the trademark&sbsp\u037e \"SierraSil\". This Agreement grants ENVISION a non-exclusive and non-royalty bearing license to use the mark \"SierraSil\". SIERRA shall at all times be the owner of the trademark and ENVISION shall acquire no rights thereto. Upon termination, ENVISION shall have eighteen (18) months to exhaust any inventories, packaging and advertising materials bearing the \"SierraSil\" trademark and SIERRA shall have first option to buy back any inventory at ENVISION's net purchase price.",
+      "text": "Trademarks SIERRA is the owner of the trademark&sbsp\u037e \"SierraSil\". This Agreement grants ENVISION a non-exclusive and non-royalty bearing license to use the mark \"SierraSil\". SIERRA shall at all times be the owner of the trademark and ENVISION shall acquire no rights thereto. Upon termination, ENVISION shall have eighteen (18) months to exhaust any inventories, packaging and advertising materials bearing the \"SierraSil\" trademark and SIERRA shall have first option to buy back any inventory at ENVISION's net purchase price.",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 516.51123968,
+            "r": 357.14092829620097,
+            "b": 488.1803704250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "12. Independent Contractor Status. The parties acknowledge that ENVISION is an independent contractor and shall not be deemed to be an employee, agent, or joint venturer of SIERRA for any purpose, including federal tax purposes.",
+      "text": "Independent Contractor Status. The parties acknowledge that ENVISION is an independent contractor and shall not be deemed to be an employee, agent, or joint venturer of SIERRA for any purpose, including federal tax purposes.",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 477.84453968,
+            "r": 357.14092829620097,
+            "b": 348.980250425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1161
+          ]
+        }
+      ],
+      "orig": "13. Warranty. SIERRA warrants that the Product shall be free from defects in material and workmanship for the reasonable shelf life of the Product. In the event of any breach of this warranty or in the event any user of Product makes a claim that the Product was the cause of personal injury or property damage (product liability claim), SIERRA shall indemnify, defend and hold ENVISION harmless from any liability occasioned by a breach of warranty or a product liability claim. SIERRA warrants that it carries general liability insurance of not less than $2 million per occurrence and product liability insurance of not less than $5 million per occurrence and that, upon the execution of this Agreement, it will name ENVISION as an additional insured on such policies. SIERRA further warrants that the Product will not be adulterated or misbranded within the meaning of any federal, state, or local law or regulation or other applicable law. SIERRA agrees to promptly notify ENVISION of any problem, anomaly, defect or condition which would reasonably cause ENVISION's concern relative to stability, reliability, form, fit, function or quality of the Product.",
+      "text": "Warranty. SIERRA warrants that the Product shall be free from defects in material and workmanship for the reasonable shelf life of the Product. In the event of any breach of this warranty or in the event any user of Product makes a claim that the Product was the cause of personal injury or property damage (product liability claim), SIERRA shall indemnify, defend and hold ENVISION harmless from any liability occasioned by a breach of warranty or a product liability claim. SIERRA warrants that it carries general liability insurance of not less than $2 million per occurrence and product liability insurance of not less than $5 million per occurrence and that, upon the execution of this Agreement, it will name ENVISION as an additional insured on such policies. SIERRA further warrants that the Product will not be adulterated or misbranded within the meaning of any federal, state, or local law or regulation or other applicable law. SIERRA agrees to promptly notify ENVISION of any problem, anomaly, defect or condition which would reasonably cause ENVISION's concern relative to stability, reliability, form, fit, function or quality of the Product.",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 338.64441967999994,
+            "r": 357.14092829620097,
+            "b": 248.44683042509803,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            803
+          ]
+        }
+      ],
+      "orig": "ENVISION warrants that the Finished Product will not be adulterated or misbranded within the meaning of any federal, state, or local law or regulation or other applicable law. In the event of any breach of this warranty or in the event any user of the Finished Product makes a claim that the Finished Product was the cause of personal injury or property damage (product liability claim), ENVISION shall indemnify, defend, and hold SIERRA harmless from any liability occasioned by a breach of warranty or a product liability claim. ENVISION warrants that it carries general liability insurance of $1 million per occurrence and product liability insurance of not less than $2 million per occurrence and that, upon execution of this Agreement, it will name SIERRA as an additional insured on such policies.",
+      "text": "ENVISION warrants that the Finished Product will not be adulterated or misbranded within the meaning of any federal, state, or local law or regulation or other applicable law. In the event of any breach of this warranty or in the event any user of the Finished Product makes a claim that the Finished Product was the cause of personal injury or property damage (product liability claim), ENVISION shall indemnify, defend, and hold SIERRA harmless from any liability occasioned by a breach of warranty or a product liability claim. ENVISION warrants that it carries general liability insurance of $1 million per occurrence and product liability insurance of not less than $2 million per occurrence and that, upon execution of this Agreement, it will name SIERRA as an additional insured on such policies."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 238.11099967999996,
+            "r": 357.14092829620097,
+            "b": 109.24671042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1125
+          ]
+        }
+      ],
+      "orig": "14. Confidential Information. The parties acknowledge that, during the term of this Agreement, each may receive certain Proprietary Information of the other. Proprietary Information includes, without limitation, formula, scientific studies, processes, plans, formulations, technical information, new product information, methods of product delivery, test procedures, product samples, specifications, scientific, clinical, commercial and other information or data, customer lists, customer contacts, and other distributors within the Territory which are considered confidential in nature whether communicated in writing or orally. The parties agree that each will treat such information as confidential. Neither party shall have the right to disclose the Proprietary Information to any third party without the express written consent of the disclosing party. Neither party may use the proprietary information except in furtherance of the goals of this Agreement and is further prohibited from utilizing the Proprietary Information directly nor indirectly to engage in any business activity which is competitive with the other.",
+      "text": "Confidential Information. The parties acknowledge that, during the term of this Agreement, each may receive certain Proprietary Information of the other. Proprietary Information includes, without limitation, formula, scientific studies, processes, plans, formulations, technical information, new product information, methods of product delivery, test procedures, product samples, specifications, scientific, clinical, commercial and other information or data, customer lists, customer contacts, and other distributors within the Territory which are considered confidential in nature whether communicated in writing or orally. The parties agree that each will treat such information as confidential. Neither party shall have the right to disclose the Proprietary Information to any third party without the express written consent of the disclosing party. Neither party may use the proprietary information except in furtherance of the goals of this Agreement and is further prohibited from utilizing the Proprietary Information directly nor indirectly to engage in any business activity which is competitive with the other.",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 98.91087968,
+            "r": 357.14092829620097,
+            "b": 55.11333042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            405
+          ]
+        }
+      ],
+      "orig": "15. Force Majeure. In no event shall any party be responsible for its failure to fulfill any of its obligations under this Agreement when such failure is due to fires, floods, riots, strikes, freight embargoes, acts of God or insurrection. In the event of a force majeure, the party affected thereby shall give immediate written notice to the other. If the event of force majeure continues for longer than",
+      "text": "Force Majeure. In no event shall any party be responsible for its failure to fulfill any of its obligations under this Agreement when such failure is due to fires, floods, riots, strikes, freight embargoes, acts of God or insurrection. In the event of a force majeure, the party affected thereby shall give immediate written notice to the other. If the event of force majeure continues for longer than",
+      "enumerated": true,
+      "marker": "15."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 52.1233053502,
+            "t": 794.91083968,
+            "r": 357.14092829620097,
+            "b": 782.046650425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "sixty (60) days, the party not so affected shall have the right to terminate this Agreement.",
+      "text": "sixty (60) days, the party not so affected shall have the right to terminate this Agreement."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 756.24413968,
+            "r": 357.14092829620097,
+            "b": 704.7132504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            417
+          ]
+        }
+      ],
+      "orig": "16. Non-Waiver of Default. The failure of either party at any time to require the performance by a party of any provision of this Agreement shall in no way affect the right to require performance at any time after such failure. The waiver of either party of a breach of any provision of this Agreement shall not be taken to be a waiver of any succeeding breach of the provision or as a waiver of the provision itself.",
+      "text": "Non-Waiver of Default. The failure of either party at any time to require the performance by a party of any provision of this Agreement shall in no way affect the right to require performance at any time after such failure. The waiver of either party of a breach of any provision of this Agreement shall not be taken to be a waiver of any succeeding breach of the provision or as a waiver of the provision itself.",
+      "enumerated": true,
+      "marker": "16."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 694.37741968,
+            "r": 357.14092829620097,
+            "b": 658.3132104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            336
+          ]
+        }
+      ],
+      "orig": "17. Attorney's Fees. In the event either party is required to institute litigation to enforce any provision of this Agreement, the prevailing party in such litigation shall be entitled to recover all costs including without limitation, reasonable attorney's fees and expenses incurred in connection with such enforcement and collection.",
+      "text": "Attorney's Fees. In the event either party is required to institute litigation to enforce any provision of this Agreement, the prevailing party in such litigation shall be entitled to recover all costs including without limitation, reasonable attorney's fees and expenses incurred in connection with such enforcement and collection.",
+      "enumerated": true,
+      "marker": "17."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 647.97737968,
+            "r": 357.14092829620097,
+            "b": 619.6465104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            260
+          ]
+        }
+      ],
+      "orig": "18. Venue. This Agreement is deemed to have been entered into in the State of Colorado, and its interpretation, construction, and the remedies for its enforcement or breach are to be applied pursuant to and in accordance with the laws of the State of Colorado.",
+      "text": "Venue. This Agreement is deemed to have been entered into in the State of Colorado, and its interpretation, construction, and the remedies for its enforcement or breach are to be applied pursuant to and in accordance with the laws of the State of Colorado.",
+      "enumerated": true,
+      "marker": "18."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 609.31067968,
+            "r": 357.14092829620097,
+            "b": 565.5131304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            354
+          ]
+        }
+      ],
+      "orig": "19. Notices. Any and all notices or other communication required or permitted to be given pursuant to this Agreement shall be in writing and shall be construed as properly given if mailed first class, postage prepaid to the address specified herein. Either party may designate, in writing, a change of address or other place to which notices may be sent.",
+      "text": "Notices. Any and all notices or other communication required or permitted to be given pursuant to this Agreement shall be in writing and shall be construed as properly given if mailed first class, postage prepaid to the address specified herein. Either party may designate, in writing, a change of address or other place to which notices may be sent.",
+      "enumerated": true,
+      "marker": "19."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 52.12407868419999,
+            "t": 555.17729968,
+            "r": 176.61169977880022,
+            "b": 511.37975042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 241.2607122514002,
+            "t": 555.17729968,
+            "r": 344.25203688880043,
+            "b": 519.1130904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            121,
+            229
+          ]
+        }
+      ],
+      "orig": "If to SIERRA: Mr. Michael Bentley Sierra Mountain Minerals Inc. 1501 West Broadway, Suite 500 Vancouver BC V6J4Z6 Canada If to LIFEUSA/ENVISION: Mr. Michael Schuett Envision Health, Inc. 2475 Broadway, Suite 202 Boulder, CO 80304",
+      "text": "If to SIERRA: Mr. Michael Bentley Sierra Mountain Minerals Inc. 1501 West Broadway, Suite 500 Vancouver BC V6J4Z6 Canada If to LIFEUSA/ENVISION: Mr. Michael Schuett Envision Health, Inc. 2475 Broadway, Suite 202 Boulder, CO 80304"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 485.57723968,
+            "r": 357.14092829620097,
+            "b": 472.713050425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "20. Amendment. This Agreement shall not be modified or amended except by a written agreement executed by both parties.",
+      "text": "Amendment. This Agreement shall not be modified or amended except by a written agreement executed by both parties.",
+      "enumerated": true,
+      "marker": "20."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 462.37721968,
+            "r": 357.14092829620097,
+            "b": 441.779690425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "21. Entire Agreement. This Agreement constitutes the entire agreement between the parties with respect to the subject matter thereof and supersedes all prior agreements, whether written or oral.",
+      "text": "Entire Agreement. This Agreement constitutes the entire agreement between the parties with respect to the subject matter thereof and supersedes all prior agreements, whether written or oral.",
+      "enumerated": true,
+      "marker": "21."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 431.44385968,
+            "r": 357.14092829620097,
+            "b": 403.112990425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "22. Assignment. The parties shall have the right to assign all, or part, of its rights under this Agreement to any wholly owned subsidiary or affiliate without the consent of the other Party. Any other assignment by the parties, requires the prior written consent of the other Party.",
+      "text": "Assignment. The parties shall have the right to assign all, or part, of its rights under this Agreement to any wholly owned subsidiary or affiliate without the consent of the other Party. Any other assignment by the parties, requires the prior written consent of the other Party.",
+      "enumerated": true,
+      "marker": "22."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 392.77715968,
+            "r": 82.17786148149999,
+            "b": 387.646310425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "ACKNOWLEDGEMENTS",
+      "text": "ACKNOWLEDGEMENTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 377.31047968,
+            "r": 357.14092829620097,
+            "b": 348.97961042509803,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            285
+          ]
+        }
+      ],
+      "orig": "Each party acknowledges that he or she has had an adequate opportunity to read and study this Agreement. The understanding of the aforesaid articles causes no difficulty whatsoever and each party has retained a copy of this agreement immediately after the signing of it by all parties.",
+      "text": "Each party acknowledges that he or she has had an adequate opportunity to read and study this Agreement. The understanding of the aforesaid articles causes no difficulty whatsoever and each party has retained a copy of this agreement immediately after the signing of it by all parties."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 323.1770996800001,
+            "r": 357.14092829620097,
+            "b": 310.31291042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties have executed this Agreement effective as of the date and year first written above.",
+      "text": "IN WITNESS WHEREOF, the parties have executed this Agreement effective as of the date and year first written above."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 299.97707968,
+            "r": 284.1038970370002,
+            "b": 294.84623042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "SIERRA MOUNTAIN MINERALS LIFEUSA/ENVISION HEALTH",
+      "text": "SIERRA MOUNTAIN MINERALS LIFEUSA/ENVISION HEALTH"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 276.77705968,
+            "r": 26.159630227,
+            "b": 271.64621042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "By:",
+      "text": "By:"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 43.530537794500006,
+            "t": 276.77705968,
+            "r": 125.03826583750003,
+            "b": 271.64621042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 185.39988454000022,
+            "t": 276.77705968,
+            "r": 284.1038970370002,
+            "b": 271.64621042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            20,
+            43
+          ]
+        }
+      ],
+      "orig": "/s/ Michael Bentley By: /s/ Michael Schuett",
+      "text": "/s/ Michael Bentley By: /s/ Michael Schuett"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 43.5288235708,
+            "t": 269.04371968,
+            "r": 142.22744850760003,
+            "b": 263.91287042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "-----------------------",
+      "text": "-----------------------"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 202.58539387360034,
+            "t": 269.04371968,
+            "r": 309.8816712592008,
+            "b": 263.91287042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "-------------------------",
+      "text": "-------------------------"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 43.531891128999995,
+            "t": 261.31037968,
+            "r": 107.84604138699999,
+            "b": 256.17953042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 202.60467566800023,
+            "t": 261.31037968,
+            "r": 266.91882592600024,
+            "b": 256.17953042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            16,
+            31
+          ]
+        }
+      ],
+      "orig": "Michael Bentley Michael Schuett",
+      "text": "Michael Bentley Michael Schuett"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 43.528582978,
+            "t": 238.11035968,
+            "r": 314.1781259260004,
+            "b": 217.51283042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "December 8, 2005 December 7, 2005 ----------------------- ------------------------------ Date Date",
+      "text": "December 8, 2005 December 7, 2005 ----------------------- ------------------------------ Date Date"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    }
+  }
+}

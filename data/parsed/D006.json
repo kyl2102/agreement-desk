@@ -1,0 +1,2900 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 13635676752551940078,
+    "filename": "NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 22.034048003800002,
+            "t": 768.2793796800006,
+            "r": 357.14092829620097,
+            "b": 747.6818504250987,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "CONFIDENTIAL TREATMENT REQUEST the Securities and Exchange Commission pursuant to a request for confidential",
+      "text": "CONFIDENTIAL TREATMENT REQUEST the Securities and Exchange Commission pursuant to a request for confidential"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 760.5460396800008,
+            "r": 357.14092829620097,
+            "b": 90.34795042509813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3519
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with treatment. EXHIBIT 10.16 DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR NETGEAR Agreement Number: N115 Effective Date: March 1, 1996 Term: 1 Year Ingram Micro, a corporation organized under the laws of the State of California, having a place of business located at 1600 E. St. Andrew Place, Santa Ana, California, USA, (\"Distributor\") and NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay Networks, Inc., organized under the laws of the State of Delaware, having a place of business at 4401 Great America Parkway, Santa Clara, California, USA, agree that the following terms govern the purchase, sale, and licensing of Products (as defined below) between the parties. NOTICES: All notices given under the Agreement are to be in writing and may be sent by mail, telefax, courier service or otherwise delivered to the party to be notified at the following address, or to such other address as may have been substituted by written notice: To Distributor: To NETGEAR: 1600 E. ST. ANDREWS PL. 4401 Great America Parkway P.O. BOX 25125 P.O. Box 58185 SANTA ANA, CA 92799-5125 Santa Clara, CA 95052-8185 (???) Patricia Dutra-Gerard DISTRIBUTOR AND NETGEAR ACKNOWLEDGE THAT EACH HAS READ THIS AGREEMENT TOGETHER WITH THE ATTACHED EXHIBIT, UNDERSTANDS IT AND AGREES TO BE BOUND BY ITS TERMS AND CONDITIONS. AGREED: AGREED: Distributor NETGEAR, Inc. By: /s/ Sanat K. Dutta By: /s/ Joe Booker ---------------------- ----------------------- (authorized signature) (authorized signature) Name: Sanat K. Dutta Name: Joe Booker --------------- ---------------- (type or print) (type or print) Title: Executive vice President Title: Vice President & General Manager Commercial Business Unit Date: October 16, 1996 Date: November 5, 1996 Ingram NETGEAR Distributor Agreement 083096 1. APPOINTMENT Subject to Distributor's performance of its obligations under this Agreement, Distributor is appointed as a NETGEAR Distributor and may purchase certain equipment (\"Hardware\") and licenses for software including revisions and updates (\"Software\"), as are listed in NETGEAR's then-current price list (the \"Price List\") for resale within the Territory (as defined below). During the initial one (1) year term of this Agreement. Distributor shall be the only distributor appointed by NETGEAR in the Territory, subject to Distributor conducting mutually agreed to marketing activities as described in the Marketing Plan to be developed and agreed to by and between the parties and which shall be attached to and made a part of this Agreement as Exhibit 4. For the purposes of this provision, distributor shall mean a company acquiring products directly from NETGEAR for resale or license to dealers or other second tier resellers which in turn resell or license the products to end use customers. The foregoing notwithstanding, during the initial one (1) year term and any subsequent period. NETGEAR reserves the right to sell or license Products in the Territory to customers other than distributors such as, but not limited to resellers who procure Products at centralized locations for resale to end-use customers solely through their wholly or majority owned retail outlets, both store-front and catalog. Following the initial one (1) year term, for any extension or renewal term, Distributor's appointment as Distributor shall be non-exclusive and NETGEAR may appoint other distributors in the Territory at its sole discretion. 2. TERRITORY",
+      "text": "* Portions denoted with an asterisk have been omitted and filed separately with treatment. EXHIBIT 10.16 DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR NETGEAR Agreement Number: N115 Effective Date: March 1, 1996 Term: 1 Year Ingram Micro, a corporation organized under the laws of the State of California, having a place of business located at 1600 E. St. Andrew Place, Santa Ana, California, USA, (\"Distributor\") and NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay Networks, Inc., organized under the laws of the State of Delaware, having a place of business at 4401 Great America Parkway, Santa Clara, California, USA, agree that the following terms govern the purchase, sale, and licensing of Products (as defined below) between the parties. NOTICES: All notices given under the Agreement are to be in writing and may be sent by mail, telefax, courier service or otherwise delivered to the party to be notified at the following address, or to such other address as may have been substituted by written notice: To Distributor: To NETGEAR: 1600 E. ST. ANDREWS PL. 4401 Great America Parkway P.O. BOX 25125 P.O. Box 58185 SANTA ANA, CA 92799-5125 Santa Clara, CA 95052-8185 (???) Patricia Dutra-Gerard DISTRIBUTOR AND NETGEAR ACKNOWLEDGE THAT EACH HAS READ THIS AGREEMENT TOGETHER WITH THE ATTACHED EXHIBIT, UNDERSTANDS IT AND AGREES TO BE BOUND BY ITS TERMS AND CONDITIONS. AGREED: AGREED: Distributor NETGEAR, Inc. By: /s/ Sanat K. Dutta By: /s/ Joe Booker ---------------------- ----------------------- (authorized signature) (authorized signature) Name: Sanat K. Dutta Name: Joe Booker --------------- ---------------- (type or print) (type or print) Title: Executive vice President Title: Vice President & General Manager Commercial Business Unit Date: October 16, 1996 Date: November 5, 1996 Ingram NETGEAR Distributor Agreement 083096 1. APPOINTMENT Subject to Distributor's performance of its obligations under this Agreement, Distributor is appointed as a NETGEAR Distributor and may purchase certain equipment (\"Hardware\") and licenses for software including revisions and updates (\"Software\"), as are listed in NETGEAR's then-current price list (the \"Price List\") for resale within the Territory (as defined below). During the initial one (1) year term of this Agreement. Distributor shall be the only distributor appointed by NETGEAR in the Territory, subject to Distributor conducting mutually agreed to marketing activities as described in the Marketing Plan to be developed and agreed to by and between the parties and which shall be attached to and made a part of this Agreement as Exhibit 4. For the purposes of this provision, distributor shall mean a company acquiring products directly from NETGEAR for resale or license to dealers or other second tier resellers which in turn resell or license the products to end use customers. The foregoing notwithstanding, during the initial one (1) year term and any subsequent period. NETGEAR reserves the right to sell or license Products in the Territory to customers other than distributors such as, but not limited to resellers who procure Products at centralized locations for resale to end-use customers solely through their wholly or majority owned retail outlets, both store-front and catalog. Following the initial one (1) year term, for any extension or renewal term, Distributor's appointment as Distributor shall be non-exclusive and NETGEAR may appoint other distributors in the Territory at its sole discretion. 2. TERRITORY"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 80.01211968000098,
+            "r": 352.84480014820025,
+            "b": 51.68125042509837,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.9157596800005,
+            "r": 357.14092829620097,
+            "b": 774.3182304250977,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            303,
+            473
+          ]
+        }
+      ],
+      "orig": "Except as may be otherwise provided by law, Distributor may not distribute or re-export any Products outside of the Territory identified herein as the United States without the specific written consent of NETGEAR. In the event that Distributor wishes to expand the scope of the Territory and is able to adequately sell and support Products within the additional region, then upon the approval of NETGEAR, the parties may choose by written agreement to modify the Territory.",
+      "text": "Except as may be otherwise provided by law, Distributor may not distribute or re-export any Products outside of the Territory identified herein as the United States without the specific written consent of NETGEAR. In the event that Distributor wishes to expand the scope of the Territory and is able to adequately sell and support Products within the additional region, then upon the approval of NETGEAR, the parties may choose by written agreement to modify the Territory."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 763.9823996800005,
+            "r": 77.88153140739998,
+            "b": 758.8515504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "3. ORDERS",
+      "text": "ORDERS",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 748.5157196800001,
+            "r": 357.14092829620097,
+            "b": 689.2514904250975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            594
+          ]
+        }
+      ],
+      "orig": "A. Distributor may purchase Products by placing orders under this Agreement which are accepted by NETGEAR. No order will be effective until accepted by delivery of NETGEAR's order acknowledgment. Distributor agrees that each order placed with NETGEAR for Products shall be governed by this Agreement, regardless of any additional or conflicting term in Distributor's order. Unless otherwise specifically stated in the Order, all Orders accepted by NETGEAR shall be deemed to be for immediate release. Orders may be sent by telefax or other electronic media approved by NETGEAR and must specify:",
+      "text": "Distributor may purchase Products by placing orders under this Agreement which are accepted by NETGEAR. No order will be effective until accepted by delivery of NETGEAR's order acknowledgment. Distributor agrees that each order placed with NETGEAR for Products shall be governed by this Agreement, regardless of any additional or conflicting term in Distributor's order. Unless otherwise specifically stated in the Order, all Orders accepted by NETGEAR shall be deemed to be for immediate release. Orders may be sent by telefax or other electronic media approved by NETGEAR and must specify:",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.1329333585,
+            "t": 678.9156596800003,
+            "r": 245.43730444450034,
+            "b": 673.7848104250979,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "(a) Distributor's Purchase Order number,",
+      "text": "(a) Distributor's Purchase Order number,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.12407868419999,
+            "t": 663.4489796799999,
+            "r": 344.25203688880043,
+            "b": 650.5847904250977,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "(b) Product and/or Service number and description for each item ordered\u037e",
+      "text": "(b) Product and/or Service number and description for each item ordered\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.14669870369998,
+            "t": 640.2489596800006,
+            "r": 172.40012281480014,
+            "b": 635.1181104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "(c) Desired quantities\u037e",
+      "text": "(c) Desired quantities\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.12647601959999,
+            "t": 624.7822796800001,
+            "r": 309.8816712592008,
+            "b": 619.6514304250977,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "(d) Purchase price for each Product or Service ordered\u037e",
+      "text": "(d) Purchase price for each Product or Service ordered\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.1246586847,
+            "t": 609.3155996800006,
+            "r": 335.6596860742002,
+            "b": 596.4514104250975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "(e) Tax status, including exemption certificate number if tax exempt\u037e",
+      "text": "(e) Tax status, including exemption certificate number if tax exempt\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.136645361700005,
+            "t": 586.1155796800003,
+            "r": 219.65942711110003,
+            "b": 580.984730425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "(f) Preferred shipping method\u037e and",
+      "text": "(f) Preferred shipping method\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 52.13185069089999,
+            "t": 570.6488996799999,
+            "r": 254.0297755555002,
+            "b": 565.5180504250975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "(g) Exact \"Bill to\" and \"Ship to\" address.",
+      "text": "(g) Exact \"Bill to\" and \"Ship to\" address.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 555.1822196800003,
+            "r": 352.84480014820025,
+            "b": 526.8513504250977,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            262
+          ]
+        }
+      ],
+      "orig": "B. MINIMUM/STANDARD LOT SIZES. Products must be ordered in the minimum and/or standard lot size quantities specified in the Price Schedule. Orders for less than minimum or non-standard lot size quantities of any Product may, at NETGEAR's discretion, be rejected.",
+      "text": "B. MINIMUM/STANDARD LOT SIZES. Products must be ordered in the minimum and/or standard lot size quantities specified in the Price Schedule. Orders for less than minimum or non-standard lot size quantities of any Product may, at NETGEAR's discretion, be rejected."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 516.5155196800006,
+            "r": 211.06686148150013,
+            "b": 511.3846704250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "4. PRICES, PRICE LIST, TAXES AND PAYMENT",
+      "text": "PRICES, PRICE LIST, TAXES AND PAYMENT",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 501.0488396800001,
+            "r": 189.50044511200005,
+            "b": 495.91799042509774,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 2",
+      "text": "INGRAM NETGEAR Distributor Agreement 2"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 501.0488396800001,
+            "r": 357.14092829620097,
+            "b": 495.91799042509774,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 470.11547968000013,
+            "r": 348.5482810369,
+            "b": 449.5179504250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "A. PRICES. Prices for Produce are those set out in NETGEAR's Price List, less the applicable discount specified in Exhibit 1. All Product prices are F.O.B. NETGEAR's point of shipment, except as specified in Section 5 D.",
+      "text": "PRICES. Prices for Produce are those set out in NETGEAR's Price List, less the applicable discount specified in Exhibit 1. All Product prices are F.O.B. NETGEAR's point of shipment, except as specified in Section 5 D.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 439.18211968000014,
+            "r": 357.14092829620097,
+            "b": 395.384570425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            417
+          ]
+        }
+      ],
+      "orig": "B. CHANGES. NETGEAR may modify the Price List at any time, including changes to the Products or their corresponding list prices, but NETGEAR will provide Distributor with written notice thirty days in advance of the effective date of any price increase or Product deletion. Price decreases will apply to the corresponding Products that art shipped by NETGEAR on or after the effective date of the list price decrease.",
+      "text": "CHANGES. NETGEAR may modify the Price List at any time, including changes to the Products or their corresponding list prices, but NETGEAR will provide Distributor with written notice thirty days in advance of the effective date of any price increase or Product deletion. Price decreases will apply to the corresponding Products that art shipped by NETGEAR on or after the effective date of the list price decrease.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 385.0487396799999,
+            "r": 352.84480014820025,
+            "b": 318.05117042509755,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            665
+          ]
+        }
+      ],
+      "orig": "C. INVENTORY PRICE PROTECTION. In the event of a list price decrease on any of the Products, Distributor may apply for a credit on those units of Product: a) which were shipped by NETGEAR to Distributor no more than [*] prior to the effective date of the list price decrease and remain unsold in Distributor's inventory or are being returned under open RMA's or are in the inventories of certain mutually agreed to Distributor retail accounts (\"CMD Named Accounts\") as listed in Exhibit 3 to this Agreement on the effective date of the list price decrease or b) which were in transit between NETGEAR and Distributor on the effective date of the list price decrease.",
+      "text": "INVENTORY PRICE PROTECTION. In the event of a list price decrease on any of the Products, Distributor may apply for a credit on those units of Product: a) which were shipped by NETGEAR to Distributor no more than [*] prior to the effective date of the list price decrease and remain unsold in Distributor's inventory or are being returned under open RMA's or are in the inventories of certain mutually agreed to Distributor retail accounts (\"CMD Named Accounts\") as listed in Exhibit 3 to this Agreement on the effective date of the list price decrease or b) which were in transit between NETGEAR and Distributor on the effective date of the list price decrease.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 307.7153396800004,
+            "r": 344.25203688880043,
+            "b": 287.11781042509756,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            227
+          ]
+        }
+      ],
+      "orig": "The amount of the credit on any unit shall be equal to [*]. The foregoing notwithstanding, in the event any of the Products were acquired under special competitive pricing arrangements, the credit on such Products shall be [*].",
+      "text": "The amount of the credit on any unit shall be equal to [*]. The foregoing notwithstanding, in the event any of the Products were acquired under special competitive pricing arrangements, the credit on such Products shall be [*]."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 276.7819796800004,
+            "r": 357.14092829620097,
+            "b": 225.25109042509757,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            479
+          ]
+        }
+      ],
+      "orig": "In order to receive a credit, Distributor a) must submit to NETGEAR within [*] of the effective date of the list price decrease, a report of inventory eligible for the price credit and must have submitted its regular monthly inventory report on time, according to Section 11, in each of the [*] prior to the effective date of the list price decrease. Upon verification by NETGEAR of the eligible units and credit amounts, NETGEAR will issue a credit to the Distributor's account.",
+      "text": "In order to receive a credit, Distributor a) must submit to NETGEAR within [*] of the effective date of the list price decrease, a report of inventory eligible for the price credit and must have submitted its regular monthly inventory report on time, according to Section 11, in each of the [*] prior to the effective date of the list price decrease. Upon verification by NETGEAR of the eligible units and credit amounts, NETGEAR will issue a credit to the Distributor's account."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 214.91525968000042,
+            "r": 352.84480014820025,
+            "b": 147.91769042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            634
+          ]
+        }
+      ],
+      "orig": "D. TAXES AND OTHER LEVIES. Prices are exclusive of any tax, value-added tax, fee, duty or governmental charge, however designated (except for NETGEAR's franchise taxes or for taxes on NETGEAR's net income) which may be levied or based on the Products, their sale, importation, use, or possession, or on this Agreement. All such taxes or duties shall be for the account of Distributor and any such taxes or duties required to be paid or collected by NETGEAR shall be paid by Distributor to NETGEAR unless Distributor provides NETGEAR with a valid certificate of exemption acceptable to the appropriate taxing or governmental authority.",
+      "text": "TAXES AND OTHER LEVIES. Prices are exclusive of any tax, value-added tax, fee, duty or governmental charge, however designated (except for NETGEAR's franchise taxes or for taxes on NETGEAR's net income) which may be levied or based on the Products, their sale, importation, use, or possession, or on this Agreement. All such taxes or duties shall be for the account of Distributor and any such taxes or duties required to be paid or collected by NETGEAR shall be paid by Distributor to NETGEAR unless Distributor provides NETGEAR with a valid certificate of exemption acceptable to the appropriate taxing or governmental authority.",
+      "enumerated": true,
+      "marker": "D."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 137.58185967999998,
+            "r": 357.14092829620097,
+            "b": 55.117610425098064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            837
+          ]
+        }
+      ],
+      "orig": "E. PAYMENT. Except as may be specifically authorized in writing by NETGEAR, and subject to NETGEAR's continuing approval of Distributor's credit status and financial condition, Distributor will pay NETGEAR for all Products ordered by Distributor within [*] of the date the corresponding invoice is issued by NETGEAR. The foregoing notwithstanding, the parties agree that payment for the initial order placed by Distributor under this Agreement shall be due and payable within [*] of the date the corresponding invoice is issued by NETGEAR. NETGEAR, in its sole discretion, reserves the right to specify, and to change from time to time, Distributor's credit line and payment terms. All payments are to be made in U.S. dollars. Payment for shipments made outside of the United States shall be made by wire transfer in accordance with wire",
+      "text": "PAYMENT. Except as may be specifically authorized in writing by NETGEAR, and subject to NETGEAR's continuing approval of Distributor's credit status and financial condition, Distributor will pay NETGEAR for all Products ordered by Distributor within [*] of the date the corresponding invoice is issued by NETGEAR. The foregoing notwithstanding, the parties agree that payment for the initial order placed by Distributor under this Agreement shall be due and payable within [*] of the date the corresponding invoice is issued by NETGEAR. NETGEAR, in its sole discretion, reserves the right to specify, and to change from time to time, Distributor's credit line and payment terms. All payments are to be made in U.S. dollars. Payment for shipments made outside of the United States shall be made by wire transfer in accordance with wire",
+      "enumerated": true,
+      "marker": "E."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.914119680001,
+            "r": 357.14092829620097,
+            "b": 751.116570425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            445
+          ]
+        }
+      ],
+      "orig": "transfer procedures provided by NETGEAR. If at any time Distributor is delinquent in the payment of any invoice, exceeds the credit line established by NETGEAR, or is otherwise in breach of the Agreement, NETGEAR may, in its discretion, withhold shipment (including partial shipments) of any order or may require Distributor to pay cash on delivery for further shipments. Payment not received by NETGEAR when due may be subject to a late payment",
+      "text": "transfer procedures provided by NETGEAR. If at any time Distributor is delinquent in the payment of any invoice, exceeds the credit line established by NETGEAR, or is otherwise in breach of the Agreement, NETGEAR may, in its discretion, withhold shipment (including partial shipments) of any order or may require Distributor to pay cash on delivery for further shipments. Payment not received by NETGEAR when due may be subject to a late payment"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 13.43704,
+            "t": 740.7807396800008,
+            "r": 357.14092829620097,
+            "b": 55.11597042509766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5344
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.9144796800001,
+            "r": 331.3632571852007,
+            "b": 789.7836304250977,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            5345,
+            5419
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 13.43704,
+            "t": 787.1811396800003,
+            "r": 357.14092829620097,
+            "b": 70.58301042509811,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            5420,
+            10612
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 3 083096 service charge provided NETGEAR has provided 10 days written notice to Distributor of Distributor's failure to pay. The foregoing notwithstanding, Distributor shall not be deemed in default under this provision if Distributor withholds payment of amounts legitimately in dispute on any invoice provided that (1) Distributor promptly pays the undisputed portion of the invoice in accordance with the terms of this Agreement\u037e (2) Distributor provides NETGEAR with written notice of the disputed amount within 10 days of receipt of the invoice\u037e and (3) Distributor works in good faith with NETGEAR to resolve any dispute within a reasonable time period. 5. SHIPMENT, CANCELLATION, RETURNS, TITLE, RISK OF LOSS, SECURITY INTEREST A. SHIPMENT. Unless otherwise instructed by Distributor, NETGEAR will ship Products ordered by Distributor using the method and carrier specified in Distributor's then current Routing Guide, as may be amended from time to time by written notice from Distributor. The version of the Routing Guide which is in force on the Effective Date of this Agreement is attached to and made a part of this Agreement as Exhibit 2. Distributor is responsible for all freight, handling, insurance and other transportation charges, and agrees to pay all such charges if separately identified on NETGEAR's invoice. NETGEAR will ship freight collect, uninsured, if so instructed by Distributor's order. B. CANCELLATION AND RESCHEDULING. Distributor may not cancel or reschedule any order, in whole or in part, less than five business days prior to the corresponding shipment date specified in NETGEAR's order acknowledgment. C. RETURNS. Products received by Distributor as a result of an error by NETGEAR in shipment may be returned for credit. Such credit will include an amount equal to the purchase price of the Product shipped in error as well as the cost of return freight paid by Distributor to return the Product to NETGEAR. Products with defects covered by the warranty may be returned for remedy under the warranty. Prior to returning any Product, whether for exchange or warranty or non-warranty action, Distributor must obtain a Return Materials Authorization (RMA) number from NETGEAR. Distributor should return the Product to NETGEAR, with shipping charges prepaid. NETGEAR will not accept collect shipments. Any Product returned to NETGEAR, which is not returned in accordance with the terms of this Agreement, may be refused. D. TITLE, RISK OF LOSS, SECURITY INTEREST. For all shipments to locations within the United States, title to the Hardware passes to Distributor when presented by NETGEAR or its agent to the carrier, from which point Distributor is responsible for risk of all loss, damage to, or theft of all Products. For shipments to locations outside of the United States, (i) risk of loss of all Products passes from NETGEAR to Distributor upon arrival at the point of entry in the destination country specified in Distributor's order. 6. SOFTWARE LICENSES A. INTERNAL USE BY DISTRIBUTOR. Distributor may purchase for its internal use licenses to Software and accompanying documentation by placing orders under this Agreement. Distributor's right to use the Software is subject to the \"shrink-wrap\" license agreement with the Software and in its accompanying documentation shipped by NETGEAR to Distributor. B. DISTRIBUTION OF SOFTWARE LICENSES TO END-USERS. Distributor may procure and distribute Software and accompanying documentation by placing orders under this Agreement. The terms of the licenses for such Software to which end-users are subject are included as a \"shrink-wrap\" license agreement with the Software and in its accompanying documentation when shipped by NETGEAR (the INGRAM NETGEAR Distributor Agreement 4 083096 \"License Agreement\"). Distributor agrees that for each Software product it procures under this Agreement, Distributor will (i) assure the deliver the License Agreement to its customers, and (ii) use reasonable efforts to inform its resale customers of the requirement to deliver the License Agreement to their end-user customers in the form supplied by NETGEAR with the Products. C. LIMITATIONS. Distributor may not, nor authorize its resale customers or the end-user to translate, decompile, disassemble, use for any competitive analysis, or reverse engineer the Software or its documentation, in any way, except for the event where the end-user locates Products within the European Union, in which case the Software Directive enacted by the Council of European Communities Directive dated 14 May 1991 will apply to the examination of the Software to facilitate interoperability\u037e in such event Distributor agrees to notify, and cause its end-user to notify NETGEAR of any such intended examination of the Software and procure from NETGEAR its support and assistance. Distributor agrees to not translate, nor allow end-users to translate any portion of the Software or associated documentation into any other format or foreign language without the prior written consent of NETGEAR. In no event will Distributor grant the U.S. Government rights in any Software greater than those set out in subparagraphs (a) through (d) of the Commercial Computer SoftwareRestricted Rights clause at FAR 52,227-19 and the limitations for civilian agencies set out the License Agreement\u037e and subparagraph (c)(l)(ii) of the Rights in Technical Data and Computer Software clause at DFARS 252.227-7013 for agencies of the Department of Defense. 7. WARRANTIES A. WARRANTY PERIOD. The warranty period for each Product is specified in the Price List that is in effect on the date NETGEAR receives Distributor's order, and shall apply regardless of any extended warranty period which Distributor may choose to provide to its customers. NETGEAR reserves the right to change a warranty period for a specific Product but only for orders placed after the effective date of such change, provided that the minimum warranty period for all Products is ninety days, except for those Products specifically identified in the Price List as provided \" AS IS\" with no warranties. B. HARDWARE WARRANTY. NETGEAR warrants to end-user that each item of Hardware will be free from defects in workmanship and materials for its respective warranty period which begins on the date of purchase by the end user. Should a Product fail within this warranty period, Distributor shall replace such defective Product from Distributor's inventory and accept return of the failed Product from Distributor's customer. At intervals to be mutually agreed upon between NETGEAR and Distributor. Distributor shall contact NETGEAR to receive a Return Material Authorization number for the collected failed Product. Upon receipt of the failed Product, NETGEAR shall issue a credit to Distributor for Distributor's purchase price of the replacement Product issued, less any prior credits or allowances. End-users' exclusive remedy is to receive replacement Product from reseller and NETGEAR's sole obligation and liability under this warranty is to issue an off-setting credit to reseller for Product returned by reseller on behalf of its end-user because of defects in workmanship or material. C. SOFTWARE WARRANTY. NETGEAR warrants to the end-user that each item of Software, as delivered or updated by NETGEAR and properly installed and operated on the Hardware or other equipment it is originally licensed for, will function substantially as described in its then-current user documentation during its respective warranty period. If any item of Software fails to so perform during its warranty period, as the sole remedy NETGEAR of NETGEAR's supplier will at its discretion provide a suitable fix, patch or workaround for the problem which may be included in a future revision of the Software. For specific Software which is distributed by NETGEAR as a licensee of third parties, additional warranty terms offered by such third parties to end-users may apply. INGRAM NETGEAR Distributor Agreement 5 083096 D. DISTRIBUTOR'S INTERNAL USE WARRANTY. For Products ordered under this Agreement for Distributor's internal use, NETGEAR provides Distributor the same warranties as described above for end-users. E. LIMITATIONS. NETGEAR does not warrant that any item of Software is error-free or that its use will be uninterrupted. NETGEAR is not obligated to remedy any Software defect which cannot be reproduced with the latest revision of the Software. These warranties do not apply to any Product which has been (i) altered, except by NETGEAR or in accordance with its instructions, or (ii) used in conjunction with another vendor's product resulting in the defect, or (iii) damaged by improper environment, abuse, misuse, accident or negligence. Replacement parts furnished under this warranty may be refurbished or contain refurbished components. THE FOREGOING WARRANTIES AND LIMITATIONS ARE EXCLUSIVE REMEDIES AND ARE IN LIEU OF ALL OTHER WARRANTIES EXPRESS OR IMPLIED, INCLUDING WITHOUT ANY LIMITATION WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. ANY PRODUCT THAT MAY BE FURNISHED BY NETGEAR WHICH IS NOT LISTED IN THE PRICE LIST, OR WHICH IS IDENTIFIED IN THE PRICE LIST AS AN \"AS IS\" PRODUCT, IS FURNISHED \"AS IS\" WITH NO WARRANTIES OF ANY KIND. 8. PRODUCT RETURNS Prior to returning any Product, whether for exchange or warranty or non-warranty action, Distributor must obtain a Return Materials Authorization (RMA) number from NETGEAR. Distributor should return the product to NETGEAR, [*]. NETGEAR will not accept collect shipments. Any Product returned to NETGEAR, which is not returned in accordance with the terms of this Agreement, may be rejected. 9. PRODUCT EXCHANGE PRIVILEGES A. Distributor may return previously purchased Products for replacement by an equal or greater value of different Products, under the following conditions: a) Distributor may return Products only within the [*] period following [*] of each year. b) The total value of the returned Products shall not exceed [*] of the Net Shipments invoiced by NETGEAR for all Products, [*], during the [*] immediately preceding each of the above dates. c) The replacement Products are not identical to the returned Products. Distributor shall be invoiced for the replacement Products at prices in effect at the time of return, and credited for the value of the returned products at the prices actually paid by the Distributor less any prior credits. d) The returned Products have not been in the Distributor's inventory for more than [*] after shipment from NETGEAR.",
+      "text": "INGRAM NETGEAR Distributor Agreement 3 083096 service charge provided NETGEAR has provided 10 days written notice to Distributor of Distributor's failure to pay. The foregoing notwithstanding, Distributor shall not be deemed in default under this provision if Distributor withholds payment of amounts legitimately in dispute on any invoice provided that (1) Distributor promptly pays the undisputed portion of the invoice in accordance with the terms of this Agreement\u037e (2) Distributor provides NETGEAR with written notice of the disputed amount within 10 days of receipt of the invoice\u037e and (3) Distributor works in good faith with NETGEAR to resolve any dispute within a reasonable time period. 5. SHIPMENT, CANCELLATION, RETURNS, TITLE, RISK OF LOSS, SECURITY INTEREST A. SHIPMENT. Unless otherwise instructed by Distributor, NETGEAR will ship Products ordered by Distributor using the method and carrier specified in Distributor's then current Routing Guide, as may be amended from time to time by written notice from Distributor. The version of the Routing Guide which is in force on the Effective Date of this Agreement is attached to and made a part of this Agreement as Exhibit 2. Distributor is responsible for all freight, handling, insurance and other transportation charges, and agrees to pay all such charges if separately identified on NETGEAR's invoice. NETGEAR will ship freight collect, uninsured, if so instructed by Distributor's order. B. CANCELLATION AND RESCHEDULING. Distributor may not cancel or reschedule any order, in whole or in part, less than five business days prior to the corresponding shipment date specified in NETGEAR's order acknowledgment. C. RETURNS. Products received by Distributor as a result of an error by NETGEAR in shipment may be returned for credit. Such credit will include an amount equal to the purchase price of the Product shipped in error as well as the cost of return freight paid by Distributor to return the Product to NETGEAR. Products with defects covered by the warranty may be returned for remedy under the warranty. Prior to returning any Product, whether for exchange or warranty or non-warranty action, Distributor must obtain a Return Materials Authorization (RMA) number from NETGEAR. Distributor should return the Product to NETGEAR, with shipping charges prepaid. NETGEAR will not accept collect shipments. Any Product returned to NETGEAR, which is not returned in accordance with the terms of this Agreement, may be refused. D. TITLE, RISK OF LOSS, SECURITY INTEREST. For all shipments to locations within the United States, title to the Hardware passes to Distributor when presented by NETGEAR or its agent to the carrier, from which point Distributor is responsible for risk of all loss, damage to, or theft of all Products. For shipments to locations outside of the United States, (i) risk of loss of all Products passes from NETGEAR to Distributor upon arrival at the point of entry in the destination country specified in Distributor's order. 6. SOFTWARE LICENSES A. INTERNAL USE BY DISTRIBUTOR. Distributor may purchase for its internal use licenses to Software and accompanying documentation by placing orders under this Agreement. Distributor's right to use the Software is subject to the \"shrink-wrap\" license agreement with the Software and in its accompanying documentation shipped by NETGEAR to Distributor. B. DISTRIBUTION OF SOFTWARE LICENSES TO END-USERS. Distributor may procure and distribute Software and accompanying documentation by placing orders under this Agreement. The terms of the licenses for such Software to which end-users are subject are included as a \"shrink-wrap\" license agreement with the Software and in its accompanying documentation when shipped by NETGEAR (the INGRAM NETGEAR Distributor Agreement 4 083096 \"License Agreement\"). Distributor agrees that for each Software product it procures under this Agreement, Distributor will (i) assure the deliver the License Agreement to its customers, and (ii) use reasonable efforts to inform its resale customers of the requirement to deliver the License Agreement to their end-user customers in the form supplied by NETGEAR with the Products. C. LIMITATIONS. Distributor may not, nor authorize its resale customers or the end-user to translate, decompile, disassemble, use for any competitive analysis, or reverse engineer the Software or its documentation, in any way, except for the event where the end-user locates Products within the European Union, in which case the Software Directive enacted by the Council of European Communities Directive dated 14 May 1991 will apply to the examination of the Software to facilitate interoperability\u037e in such event Distributor agrees to notify, and cause its end-user to notify NETGEAR of any such intended examination of the Software and procure from NETGEAR its support and assistance. Distributor agrees to not translate, nor allow end-users to translate any portion of the Software or associated documentation into any other format or foreign language without the prior written consent of NETGEAR. In no event will Distributor grant the U.S. Government rights in any Software greater than those set out in subparagraphs (a) through (d) of the Commercial Computer SoftwareRestricted Rights clause at FAR 52,227-19 and the limitations for civilian agencies set out the License Agreement\u037e and subparagraph (c)(l)(ii) of the Rights in Technical Data and Computer Software clause at DFARS 252.227-7013 for agencies of the Department of Defense. 7. WARRANTIES A. WARRANTY PERIOD. The warranty period for each Product is specified in the Price List that is in effect on the date NETGEAR receives Distributor's order, and shall apply regardless of any extended warranty period which Distributor may choose to provide to its customers. NETGEAR reserves the right to change a warranty period for a specific Product but only for orders placed after the effective date of such change, provided that the minimum warranty period for all Products is ninety days, except for those Products specifically identified in the Price List as provided \" AS IS\" with no warranties. B. HARDWARE WARRANTY. NETGEAR warrants to end-user that each item of Hardware will be free from defects in workmanship and materials for its respective warranty period which begins on the date of purchase by the end user. Should a Product fail within this warranty period, Distributor shall replace such defective Product from Distributor's inventory and accept return of the failed Product from Distributor's customer. At intervals to be mutually agreed upon between NETGEAR and Distributor. Distributor shall contact NETGEAR to receive a Return Material Authorization number for the collected failed Product. Upon receipt of the failed Product, NETGEAR shall issue a credit to Distributor for Distributor's purchase price of the replacement Product issued, less any prior credits or allowances. End-users' exclusive remedy is to receive replacement Product from reseller and NETGEAR's sole obligation and liability under this warranty is to issue an off-setting credit to reseller for Product returned by reseller on behalf of its end-user because of defects in workmanship or material. C. SOFTWARE WARRANTY. NETGEAR warrants to the end-user that each item of Software, as delivered or updated by NETGEAR and properly installed and operated on the Hardware or other equipment it is originally licensed for, will function substantially as described in its then-current user documentation during its respective warranty period. If any item of Software fails to so perform during its warranty period, as the sole remedy NETGEAR of NETGEAR's supplier will at its discretion provide a suitable fix, patch or workaround for the problem which may be included in a future revision of the Software. For specific Software which is distributed by NETGEAR as a licensee of third parties, additional warranty terms offered by such third parties to end-users may apply. INGRAM NETGEAR Distributor Agreement 5 083096 D. DISTRIBUTOR'S INTERNAL USE WARRANTY. For Products ordered under this Agreement for Distributor's internal use, NETGEAR provides Distributor the same warranties as described above for end-users. E. LIMITATIONS. NETGEAR does not warrant that any item of Software is error-free or that its use will be uninterrupted. NETGEAR is not obligated to remedy any Software defect which cannot be reproduced with the latest revision of the Software. These warranties do not apply to any Product which has been (i) altered, except by NETGEAR or in accordance with its instructions, or (ii) used in conjunction with another vendor's product resulting in the defect, or (iii) damaged by improper environment, abuse, misuse, accident or negligence. Replacement parts furnished under this warranty may be refurbished or contain refurbished components. THE FOREGOING WARRANTIES AND LIMITATIONS ARE EXCLUSIVE REMEDIES AND ARE IN LIEU OF ALL OTHER WARRANTIES EXPRESS OR IMPLIED, INCLUDING WITHOUT ANY LIMITATION WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. ANY PRODUCT THAT MAY BE FURNISHED BY NETGEAR WHICH IS NOT LISTED IN THE PRICE LIST, OR WHICH IS IDENTIFIED IN THE PRICE LIST AS AN \"AS IS\" PRODUCT, IS FURNISHED \"AS IS\" WITH NO WARRANTIES OF ANY KIND. 8. PRODUCT RETURNS Prior to returning any Product, whether for exchange or warranty or non-warranty action, Distributor must obtain a Return Materials Authorization (RMA) number from NETGEAR. Distributor should return the product to NETGEAR, [*]. NETGEAR will not accept collect shipments. Any Product returned to NETGEAR, which is not returned in accordance with the terms of this Agreement, may be rejected. 9. PRODUCT EXCHANGE PRIVILEGES A. Distributor may return previously purchased Products for replacement by an equal or greater value of different Products, under the following conditions: a) Distributor may return Products only within the [*] period following [*] of each year. b) The total value of the returned Products shall not exceed [*] of the Net Shipments invoiced by NETGEAR for all Products, [*], during the [*] immediately preceding each of the above dates. c) The replacement Products are not identical to the returned Products. Distributor shall be invoiced for the replacement Products at prices in effect at the time of return, and credited for the value of the returned products at the prices actually paid by the Distributor less any prior credits. d) The returned Products have not been in the Distributor's inventory for more than [*] after shipment from NETGEAR."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 52.1235760171,
+            "t": 60.2471796800005,
+            "r": 352.84480014820025,
+            "b": 55.11633042509811,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "e) The returned Products are in their original shipping containers and",
+      "text": "The returned Products are in their original shipping containers and",
+      "enumerated": true,
+      "marker": "e)"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 763.9804796800004,
+            "r": 357.14092829620097,
+            "b": 758.849630425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.9138396800004,
+            "r": 180.99280014820002,
+            "b": 789.782990425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "have not been altered, damaged or used.",
+      "text": "have not been altered, damaged or used."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 779.4471596800004,
+            "r": 180.99280014820002,
+            "b": 774.316310425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "10. DISTRIBUTOR'S RESPONSIBILITIES",
+      "text": "DISTRIBUTOR'S RESPONSIBILITIES",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 763.9804796800004,
+            "r": 189.50044511200005,
+            "b": 758.849630425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 6",
+      "text": "INGRAM NETGEAR Distributor Agreement 6"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 733.0471196800004,
+            "r": 352.84480014820025,
+            "b": 689.2495704250978,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            401
+          ]
+        }
+      ],
+      "orig": "A. PROMOTION AND SALE. Distributor shall sell or license Products only to resale customers which will in-turn resell or transfer the licenses to those Products to end use customers. Distributor may not sell or license Products directly to end use customers without the express written consent of NETGEAR. Distributor agrees to use commercially reasonable efforts to maximize sales of NETGEAR Products.",
+      "text": "PROMOTION AND SALE. Distributor shall sell or license Products only to resale customers which will in-turn resell or transfer the licenses to those Products to end use customers. Distributor may not sell or license Products directly to end use customers without the express written consent of NETGEAR. Distributor agrees to use commercially reasonable efforts to maximize sales of NETGEAR Products.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 678.9137396800006,
+            "r": 352.84480014820025,
+            "b": 642.8495304250978,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            320
+          ]
+        }
+      ],
+      "orig": "B. SUPPORT. Distributor shall be the sole point of contact for its resale customers and their end-use customers in all support situations. Distributor shall provide first level support for its customers, NETGEAR shall provide second and third level support to Distributor in order to resolve end user technical problems.",
+      "text": "SUPPORT. Distributor shall be the sole point of contact for its resale customers and their end-use customers in all support situations. Distributor shall provide first level support for its customers, NETGEAR shall provide second and third level support to Distributor in order to resolve end user technical problems.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 632.5136996800006,
+            "r": 344.25203688880043,
+            "b": 580.9828104250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            501
+          ]
+        }
+      ],
+      "orig": "C. TRAINING. Distributor agrees to maintain, and to adequately and thoroughly train on an on-going basis, a sufficient staff of qualified sales, marketing, technical and support personnel familiar with the applications, features, benefits, operation and configuration of the Products so as to effectively promote and support the Products and to assure end-user satisfaction. NETGEAR agrees to provide assistance to Distributor to allow Distributor to comply with the foregoing training responsibility.",
+      "text": "TRAINING. Distributor agrees to maintain, and to adequately and thoroughly train on an on-going basis, a sufficient staff of qualified sales, marketing, technical and support personnel familiar with the applications, features, benefits, operation and configuration of the Products so as to effectively promote and support the Products and to assure end-user satisfaction. NETGEAR agrees to provide assistance to Distributor to allow Distributor to comply with the foregoing training responsibility.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 570.6469796800006,
+            "r": 352.84480014820025,
+            "b": 503.64941042509827,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            609
+          ]
+        }
+      ],
+      "orig": "D. RESTRICTION ON APPOINTMENT OF ADDITIONAL DISTRIBUTORS. NETGEAR's agreement not to appoint additional distributors of NETGEAR Products in the Territory during the [*] of this Agreement is predicated upon Distributor performing the mutually agreed upon activities included in the Marketing Plan attached as Exhibit 4. In the event Distributor fails to perform the activities included in the Marketing plan in [*], NETGEAR may appoint additional distributors in the Territory and the provisions of this Agreement appointing Distributor as the only NETGEAR distributor in the Territory shall be deemed deleted.",
+      "text": "RESTRICTION ON APPOINTMENT OF ADDITIONAL DISTRIBUTORS. NETGEAR's agreement not to appoint additional distributors of NETGEAR Products in the Territory during the [*] of this Agreement is predicated upon Distributor performing the mutually agreed upon activities included in the Marketing Plan attached as Exhibit 4. In the event Distributor fails to perform the activities included in the Marketing plan in [*], NETGEAR may appoint additional distributors in the Territory and the provisions of this Agreement appointing Distributor as the only NETGEAR distributor in the Territory shall be deemed deleted.",
+      "enumerated": true,
+      "marker": "D."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 493.31357968000066,
+            "r": 82.17786148149999,
+            "b": 488.18273042509827,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "11. REPORTS",
+      "text": "REPORTS",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 477.84689968000066,
+            "r": 344.25203688880043,
+            "b": 449.5160304250985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            284
+          ]
+        }
+      ],
+      "orig": "A. Each month Distributor shall submit a Point of Sale (POS) shipments report covering the preceding month, broken out by Product. The report may be submitted via BBS and shall include, at a minimum, Distributor's reseller's name, address, part number, quantity shipped and unit cost.",
+      "text": "Each month Distributor shall submit a Point of Sale (POS) shipments report covering the preceding month, broken out by Product. The report may be submitted via BBS and shall include, at a minimum, Distributor's reseller's name, address, part number, quantity shipped and unit cost.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 439.18019968000044,
+            "r": 357.14092829620097,
+            "b": 403.1159904250985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            374
+          ]
+        }
+      ],
+      "orig": "B. Each month Distributor shall prepare and forward to NETGEAR a weekly report showing Distributor's inventory of the Products purchased and licensed from NETGEAR as of the end of the previous calendar month. The report may be submitted via BBS and shall include, at a minimum the part number and the number of units and purchase value of the inventory remaining by Product.",
+      "text": "Each month Distributor shall prepare and forward to NETGEAR a weekly report showing Distributor's inventory of the Products purchased and licensed from NETGEAR as of the end of the previous calendar month. The report may be submitted via BBS and shall include, at a minimum the part number and the number of units and purchase value of the inventory remaining by Product.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 392.78015968000045,
+            "r": 352.84480014820025,
+            "b": 348.9826104250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            431
+          ]
+        }
+      ],
+      "orig": "C. From time to time, but not more than twice per year, NETGEAR may request access to information about the Distributor's business reasonably required to insure that Distributor is in compliance with the terms of this Agreement and the Distributor will grant the right for a NETGEAR representative to visit the Distributor's place of business during normal business hours at a mutually agreed upon time to examine such information.",
+      "text": "From time to time, but not more than twice per year, NETGEAR may request access to information about the Distributor's business reasonably required to insure that Distributor is in compliance with the terms of this Agreement and the Distributor will grant the right for a NETGEAR representative to visit the Distributor's place of business during normal business hours at a mutually agreed upon time to examine such information.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 338.6467796800007,
+            "r": 198.17787125919995,
+            "b": 333.5159304250983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "12. PROPRIETARY RIGHTS AND INFORMATION",
+      "text": "PROPRIETARY RIGHTS AND INFORMATION",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 323.1800996800007,
+            "r": 357.14092829620097,
+            "b": 225.24917042509833,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            992
+          ]
+        }
+      ],
+      "orig": "A. USE OF PROPRIETARY INFORMATION. \"Proprietary information includes, without limitation, diagnostics, the Software, all documentation for Software, other user manuals, as well as electronically and visually transmitted printed materials and information disclosed by Distributor or NETGEAR, such as new product information, financial or technical data, information reported under section II above or other information or data that is marked with a proprietary or confidential legend. Each party agrees to hold the Proprietary Information of the other in confidence and to use the Proprietary Information only for the purposes expressly permitted under this Agreement, and to disclose Proprietary Information only to its employees and contractors as authorized in this Agreement and then only on a need-to-know basis. Each party agrees to maintain adequate internal procedures, including appropriate agreements with employees and authorized third parties, to protect the confidentiality of the",
+      "text": "USE OF PROPRIETARY INFORMATION. \"Proprietary information includes, without limitation, diagnostics, the Software, all documentation for Software, other user manuals, as well as electronically and visually transmitted printed materials and information disclosed by Distributor or NETGEAR, such as new product information, financial or technical data, information reported under section II above or other information or data that is marked with a proprietary or confidential legend. Each party agrees to hold the Proprietary Information of the other in confidence and to use the Proprietary Information only for the purposes expressly permitted under this Agreement, and to disclose Proprietary Information only to its employees and contractors as authorized in this Agreement and then only on a need-to-know basis. Each party agrees to maintain adequate internal procedures, including appropriate agreements with employees and authorized third parties, to protect the confidentiality of the",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 214.91333968000026,
+            "r": 189.50044511200005,
+            "b": 209.78249042509833,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 7",
+      "text": "INGRAM NETGEAR Distributor Agreement 7"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 214.91333968000026,
+            "r": 357.14092829620097,
+            "b": 209.78249042509833,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 183.97997968000027,
+            "r": 357.14092829620097,
+            "b": 163.38245042509834,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            212
+          ]
+        }
+      ],
+      "orig": "Proprietary Information as required by this Agreement. Each party is entitled to appropriate injunctive relief in the event of any unauthorized disclosure or use of its Proprietary Information by the other party.",
+      "text": "Proprietary Information as required by this Agreement. Each party is entitled to appropriate injunctive relief in the event of any unauthorized disclosure or use of its Proprietary Information by the other party."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 153.04661968000028,
+            "r": 357.14092829620097,
+            "b": 101.51573042509835,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            547
+          ]
+        }
+      ],
+      "orig": "B. LIMITATIONS. Proprietary Information does not include information which (i) is rightfully in the receiving party's possession in a complete and tangible form before it is received from the disclosing party, (ii) is or becomes a matter of public knowledge through no fault of the receiving party, (iii) is rightfully furnished to the receiving party by a third party without restriction on disclosure or use, or (iv) is independently developed by the receiving party without use of or reference to the disclosing party's Proprietary Information.",
+      "text": "LIMITATIONS. Proprietary Information does not include information which (i) is rightfully in the receiving party's possession in a complete and tangible form before it is received from the disclosing party, (ii) is or becomes a matter of public knowledge through no fault of the receiving party, (iii) is rightfully furnished to the receiving party by a third party without restriction on disclosure or use, or (iv) is independently developed by the receiving party without use of or reference to the disclosing party's Proprietary Information.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 13.43704,
+            "t": 91.17989968000029,
+            "r": 357.14092829620097,
+            "b": 55.115690425098364,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            384
+          ]
+        }
+      ],
+      "orig": "D. RESERVATION OF RIGHTS. NETGEAR, on behalf of itself and its suppliers, reserves all proprietary rights in and to (i) all designs, engineering details, and other data pertaining to the Products, (ii) all original works, computer programs, fixes, updates (but not Distributor's or 'end-users' developed programs), discoveries, inventions, patents, know-how and techniques arising out",
+      "text": "RESERVATION OF RIGHTS. NETGEAR, on behalf of itself and its suppliers, reserves all proprietary rights in and to (i) all designs, engineering details, and other data pertaining to the Products, (ii) all original works, computer programs, fixes, updates (but not Distributor's or 'end-users' developed programs), discoveries, inventions, patents, know-how and techniques arising out",
+      "enumerated": true,
+      "marker": "D."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.9131996800002,
+            "r": 357.14092829620097,
+            "b": 774.3156704250978,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            238
+          ]
+        }
+      ],
+      "orig": "of work done wholly or in part by NETGEAR or its subcontractors in connection with the Agreement, and (iii) any and all products developed as a result of such work. The performance by NETGEAR of professional Services shall not be deemed a",
+      "text": "of work done wholly or in part by NETGEAR or its subcontractors in connection with the Agreement, and (iii) any and all products developed as a result of such work. The performance by NETGEAR of professional Services shall not be deemed a"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 13.43704,
+            "t": 771.7131796799999,
+            "r": 357.14092829620097,
+            "b": 116.98177042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4758
+          ]
+        }
+      ],
+      "orig": "work-for-hire but shall instead be subject to this section. E. ADMINISTRATIVE PROCEDURES. Distributor and end-users are each responsible for the security of their own proprietary and confidential information and for maintaining adequate procedures apart from the Products to reconstruct lost or altered files, data or programs. 13. TRADEMARKS AND TRADE NAMES A. USE OF TRADEMARKS. In the advertising and promotion of the Products, Distributor agrees to use NETGEAR's and certain of Bay Networks' trade names, logos and trademarks (the \"Trademarks\") as reasonably instructed by NETGEAR during the term of the Agreement. Solely for this purpose, NETGEAR and Bay Networks grant Distributor a non-exclusive, royalty-free, limited right to use the Trademarks. Distributor will not make or permit the removal or modification of any Trademarks or tags, proprietary notices, labels, or other identifying marks placed by Bay Networks, NETGEAR or their agents on the Products or associated literature. B. RIGHTS TO TRADEMARKS. Distributor acknowledges that Bay Networks is the exclusive owner of the Trademarks and the use of the Trademarks by Distributor does not convey to Distributor any right, title or interest in or to the Trademarks. Distributor has no claim or right in the Trademarks, service marks, or trade names owned, used or claimed now or in the future by NETGEAR. Distributor agrees that it will not register, nor attempt to register any Trademark or any mark confusingly similar to any Trademark in any jurisdiction unless expressly approved in writing by Bay Networks in advance. C. NOTIFICATION. In order to assure proper use and protection of Trademarks, Distributor agrees to inform NETGEAR in writing if Distributor purchases, or is offered for purchase, any Products with a Trademark or other mark of NETGEAR from a source other than NETGEAR, its subsidiaries, or an authorized NETGEAR Distributor. 14. CLAIMS OF INFRINGEMENT A. INDEMNIFICATION. NETGEAR agrees to defend at its own expense any action brought against Distributor to the extent that it is based on a claim that any Product infringes a United States or Territory patent, copyright, trade mark, trade secret or other valid intellectual property right, and will pay any costs and damages finally awarded against Distributor in any such actions which are attributable to any such claim. NETGEAR shall have no liability for any settlement or compromise made without its prior written consent. NETGEAR shall, at its option and expense, (1) procure the right to continue using the Product. INGRAM NETGEAR Distributor Agreement 8 083096 (2) replace or modify the Product so that it becomes non-infringing or, if (1) or (2) are not reasonably or economically possible. (3) Distributor may return the Product to NETGEAR for a refund of an amount equal to the depreciated value of the equipment, or an amount equal to the Distributor's actual purchase price paid without any depreciation minus any prior credits or allowances if the returned Products are in their original shipping containers and have not been altered, damaged or used. B. LIMITATIONS. NETGEAR has no liability to Distributor under this section entitled CLAIMS OF INFRINGEMENT with respect to any claim which is based upon or results from (i) the combination of any Product with any equipment, device, firmware or software not furnished by NETGEAR, or (ii) any modification of any Product by a party other than NETGEAR. (iii) Distributor's failure to install or have installed changes, revisions or updates as instructed by NETGEAR, or (iv) NETGEAR's compliance with Distributor's or end-user's specifications, designs or instructions. 15. TERM OF AGREEMENT AND TERMINATION A. TERM. This Agreement will be in effect for one year from the Effective Date and will automatically renew for successive one (1) year periods unless terminated as provided below. B. TERMINATION. This Agreement may be canceled at any time without cause, by either party upon ninety (90) days written notice to the other party. Either party may terminate this Agreement immediately if (i) the other party becomes insolvent, files or has filed against it a petition in bankruptcy, or ceases doing business\u037e or (ii) the other party fails to cure a material breach of the Agreement within thirty (30) days after receipt of written notice of such breach from the party not in default. Upon termination of the Agreement by NETGEAR for Distributor's breach, NETGEAR may cancel all of Distributor's unfulfilled orders without further obligation. This Agreement may be terminated at any time without cause by either party upon ninety (90) days written notice to the other party. Agreement, neither party will be liable to the other for damages in any form by",
+      "text": "work-for-hire but shall instead be subject to this section. E. ADMINISTRATIVE PROCEDURES. Distributor and end-users are each responsible for the security of their own proprietary and confidential information and for maintaining adequate procedures apart from the Products to reconstruct lost or altered files, data or programs. 13. TRADEMARKS AND TRADE NAMES A. USE OF TRADEMARKS. In the advertising and promotion of the Products, Distributor agrees to use NETGEAR's and certain of Bay Networks' trade names, logos and trademarks (the \"Trademarks\") as reasonably instructed by NETGEAR during the term of the Agreement. Solely for this purpose, NETGEAR and Bay Networks grant Distributor a non-exclusive, royalty-free, limited right to use the Trademarks. Distributor will not make or permit the removal or modification of any Trademarks or tags, proprietary notices, labels, or other identifying marks placed by Bay Networks, NETGEAR or their agents on the Products or associated literature. B. RIGHTS TO TRADEMARKS. Distributor acknowledges that Bay Networks is the exclusive owner of the Trademarks and the use of the Trademarks by Distributor does not convey to Distributor any right, title or interest in or to the Trademarks. Distributor has no claim or right in the Trademarks, service marks, or trade names owned, used or claimed now or in the future by NETGEAR. Distributor agrees that it will not register, nor attempt to register any Trademark or any mark confusingly similar to any Trademark in any jurisdiction unless expressly approved in writing by Bay Networks in advance. C. NOTIFICATION. In order to assure proper use and protection of Trademarks, Distributor agrees to inform NETGEAR in writing if Distributor purchases, or is offered for purchase, any Products with a Trademark or other mark of NETGEAR from a source other than NETGEAR, its subsidiaries, or an authorized NETGEAR Distributor. 14. CLAIMS OF INFRINGEMENT A. INDEMNIFICATION. NETGEAR agrees to defend at its own expense any action brought against Distributor to the extent that it is based on a claim that any Product infringes a United States or Territory patent, copyright, trade mark, trade secret or other valid intellectual property right, and will pay any costs and damages finally awarded against Distributor in any such actions which are attributable to any such claim. NETGEAR shall have no liability for any settlement or compromise made without its prior written consent. NETGEAR shall, at its option and expense, (1) procure the right to continue using the Product. INGRAM NETGEAR Distributor Agreement 8 083096 (2) replace or modify the Product so that it becomes non-infringing or, if (1) or (2) are not reasonably or economically possible. (3) Distributor may return the Product to NETGEAR for a refund of an amount equal to the depreciated value of the equipment, or an amount equal to the Distributor's actual purchase price paid without any depreciation minus any prior credits or allowances if the returned Products are in their original shipping containers and have not been altered, damaged or used. B. LIMITATIONS. NETGEAR has no liability to Distributor under this section entitled CLAIMS OF INFRINGEMENT with respect to any claim which is based upon or results from (i) the combination of any Product with any equipment, device, firmware or software not furnished by NETGEAR, or (ii) any modification of any Product by a party other than NETGEAR. (iii) Distributor's failure to install or have installed changes, revisions or updates as instructed by NETGEAR, or (iv) NETGEAR's compliance with Distributor's or end-user's specifications, designs or instructions. 15. TERM OF AGREEMENT AND TERMINATION A. TERM. This Agreement will be in effect for one year from the Effective Date and will automatically renew for successive one (1) year periods unless terminated as provided below. B. TERMINATION. This Agreement may be canceled at any time without cause, by either party upon ninety (90) days written notice to the other party. Either party may terminate this Agreement immediately if (i) the other party becomes insolvent, files or has filed against it a petition in bankruptcy, or ceases doing business\u037e or (ii) the other party fails to cure a material breach of the Agreement within thirty (30) days after receipt of written notice of such breach from the party not in default. Upon termination of the Agreement by NETGEAR for Distributor's breach, NETGEAR may cancel all of Distributor's unfulfilled orders without further obligation. This Agreement may be terminated at any time without cause by either party upon ninety (90) days written notice to the other party. Agreement, neither party will be liable to the other for damages in any form by",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 13.43704,
+            "t": 129.8459596800003,
+            "r": 348.5482810369,
+            "b": 109.24843042509792,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            138
+          ]
+        }
+      ],
+      "orig": "C. EFFECT OF TERMINATION. Except as otherwise specifically stated in the reason of the expiration or earlier termination of the Agreement.",
+      "text": "EFFECT OF TERMINATION. Except as otherwise specifically stated in the reason of the expiration or earlier termination of the Agreement.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 13.43704,
+            "t": 98.91259967999986,
+            "r": 348.5482810369,
+            "b": 55.11505042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            450
+          ]
+        }
+      ],
+      "orig": "D. CONTINUING EFFECT. Any expiration or earlier termination of the Agreement does not modify or alter any of the obligations of the parties which accrued prior to such expiration or termination. The sections of the Agreement which address taxes\u037e duty\u037e fee\u037e payment\u037e security interest\u037e proprietary rights and information\u037e warranties\u037e foreign reshipment\u037e remedies\u037e limitations\u037e termination and governing law survive any expiration or termination of the",
+      "text": "CONTINUING EFFECT. Any expiration or earlier termination of the Agreement does not modify or alter any of the obligations of the parties which accrued prior to such expiration or termination. The sections of the Agreement which address taxes\u037e duty\u037e fee\u037e payment\u037e security interest\u037e proprietary rights and information\u037e warranties\u037e foreign reshipment\u037e remedies\u037e limitations\u037e termination and governing law survive any expiration or termination of the",
+      "enumerated": true,
+      "marker": "D."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.91255968,
+            "r": 357.14092829620097,
+            "b": 55.11441042509796,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5257
+          ]
+        },
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.91141968,
+            "r": 352.84480014820025,
+            "b": 774.3138904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            5258,
+            5465
+          ]
+        }
+      ],
+      "orig": "Agreement. The section entitled SOFTWARE LICENSES also survives any expiration or termination provided Distributor and end-users continues to comply with the provisions of the applicable software license terms. Except as expressly agreed in writing between the parties, no party is liable to the other for any dollar amounts, costs or damages by reason of the expiration or earlier termination of the Agreement. 16. LIMITATION OF LIABILITY A. NETGEAR agrees to indemnify Distributor against any claim arising out of or resulting from the Products or the Agreement, provided that any such claim (i) is attributable to bodily injury, death, or to injury to or destruction of physical property (other than the Products), and (ii) is caused by the negligent act or omission of NETGEAR or a material defect in the Product. This obligation on the part of NETGEAR is subject to Distributor's obligation to (a) give NETGEAR prompt written notice of any such claim, (b) grant NETGEAR control of the defense and settlement of such claim, and (c) assist fully in the defense provided that NETGEAR reimburses Distributor's out-of pocket costs. NETGEAR has no liability for any settlement or compromise made without its prior written consent. Under no circumstances INGRAM NETGEAR Distributor AGREEMENT 9 083096 is NETGEAR liable for any third-party claims except for those described in this section and in the section entitled CLAIMS OF INFRINGEMENT. B. NETGEAR, at its expense, agrees to maintain insurance coverage to protect against its liabilities under the Agreement in an amount no less than is reasonable or required by applicable statute. This insurance will include (a) worker's compensation insurance, (b) comprehensive general liability insurance, including coverage for product liability, bodily injury and property damage, and (c) automobile liability insurance. Upon Distributor's written request, NETGEAR will furnish the applicable certificate of insurance. IN NO EVENT WILL EITHER PARTY OR THEIR RESPECTIVE PARENT CORPORATIONS OR SUPPLIERS BE LIABLE FOR (1) THE COST OF SUBSTITUTE PROCUREMENT, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, OR (2) ANY DAMAGES RESULTING FROM INACCURATE OR LOST DATA OR LOSS OF USE OR PROFITS ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, THE FURNISHING OF SERVICES, OR THE USE OR PERFORMANCE OF PRODUCTS, EVEN IF INFORMED OF SUCH DAMAGES. EXCEPT FOR DAMAGES ARISING UNDER SECTIONS 14.A AND 16.A, IN NO EVENT WILL NETGEAR's OR BAY NETWORKS' TOTAL LIABILITY FOR ANY DAMAGES IN ANY ACTION BASED ON OR ARISING OUT OF OR IN CONNECTION WITH THE AGREEMENT EXCEED THE [*] TO NETGEAR PURSUANT TO THE AGREEMENT. EXCEPT FOR DAMAGES ARISING FROM BREACH OF SECTIONS 6.C AND 12,13 OR 17, IN NO EVENT WELL DISTRIBUTOR's TOTAL LIABILITY FOR ANY DAMAGES IN ANY ACTION BASED ON OR ARISING OUT OF OR IN CONNECTION WITH THE AGREEMENT EXCEED THE [*] TO NETGEAR PURSUANT TO THE AGREEMENT. 17. FOREIGN RESHIPMENT This Agreement is made subject to all laws, regulations, orders or other restrictions on the export from the United States of Products and accompanying documentation, or of other technical data and information about such Products, which may be imposed from time to time. Distributor agrees not to export, directly or indirectly, any such Products or information to any country for which an export license or other governmental approval is required at the time of export without first obtaining such license or approval. Distributor is solely responsible, at its own expense, for obtaining all necessary import and re-export permits and certificates and for the payment of any and all taxes and duties imposed upon the movement and delivery of Products. 18. GENERAL A. The relationship of NETGEAR and Distributor is that of independent contractors. There is no relationship of agency, partnership, joint venture, employment or franchise between the parties. Neither party has the authority to bind the other or to incur any obligation on the other's behalf or to represent itself as the other's agent or in any way which might result in confusion as to the fact that the parties are separate and distinct entities. B. If any provision of this Agreement is held to be invalid or unenforceable, the remainder of the provisions shall remain in full force and effect. C. NETGEAR and Distributor agree to comply with the provisions of all applicable federal, state, county and local laws, ordinances, regulations and codes, domestic and foreign. INGRAM NETGEAR Distributor Agreement 10 083096 D. NETGEAR reserves the right to change the discount schedule, policy or program, whether referred to in the Agreement or set forth in an Exhibit to the Agreement. For changes which, in NETGEAR's opinion, may adversely affect Distributor, NETGEAR will provide thirty (30) days notice, or such longer period as NETGEAR deems appropriate, prior to the effective date of such change. E. Distributor will keep suitable records to demonstrate compliance with this Agreement. NETGEAR or its representative, at NETGEAR's cost may review these records during normal business hours for the sole purpose of determining Distributor's compliance with this Agreement. F. Any waiver, amendment or modification of any right, remedy or other term under the Agreement will not be effective unless mutually agreed to in writing and signed by authorized representatives of both parties. Neither party shall be bound by typographical or clerical errors.",
+      "text": "Agreement. The section entitled SOFTWARE LICENSES also survives any expiration or termination provided Distributor and end-users continues to comply with the provisions of the applicable software license terms. Except as expressly agreed in writing between the parties, no party is liable to the other for any dollar amounts, costs or damages by reason of the expiration or earlier termination of the Agreement. 16. LIMITATION OF LIABILITY A. NETGEAR agrees to indemnify Distributor against any claim arising out of or resulting from the Products or the Agreement, provided that any such claim (i) is attributable to bodily injury, death, or to injury to or destruction of physical property (other than the Products), and (ii) is caused by the negligent act or omission of NETGEAR or a material defect in the Product. This obligation on the part of NETGEAR is subject to Distributor's obligation to (a) give NETGEAR prompt written notice of any such claim, (b) grant NETGEAR control of the defense and settlement of such claim, and (c) assist fully in the defense provided that NETGEAR reimburses Distributor's out-of pocket costs. NETGEAR has no liability for any settlement or compromise made without its prior written consent. Under no circumstances INGRAM NETGEAR Distributor AGREEMENT 9 083096 is NETGEAR liable for any third-party claims except for those described in this section and in the section entitled CLAIMS OF INFRINGEMENT. B. NETGEAR, at its expense, agrees to maintain insurance coverage to protect against its liabilities under the Agreement in an amount no less than is reasonable or required by applicable statute. This insurance will include (a) worker's compensation insurance, (b) comprehensive general liability insurance, including coverage for product liability, bodily injury and property damage, and (c) automobile liability insurance. Upon Distributor's written request, NETGEAR will furnish the applicable certificate of insurance. IN NO EVENT WILL EITHER PARTY OR THEIR RESPECTIVE PARENT CORPORATIONS OR SUPPLIERS BE LIABLE FOR (1) THE COST OF SUBSTITUTE PROCUREMENT, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, OR (2) ANY DAMAGES RESULTING FROM INACCURATE OR LOST DATA OR LOSS OF USE OR PROFITS ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, THE FURNISHING OF SERVICES, OR THE USE OR PERFORMANCE OF PRODUCTS, EVEN IF INFORMED OF SUCH DAMAGES. EXCEPT FOR DAMAGES ARISING UNDER SECTIONS 14.A AND 16.A, IN NO EVENT WILL NETGEAR's OR BAY NETWORKS' TOTAL LIABILITY FOR ANY DAMAGES IN ANY ACTION BASED ON OR ARISING OUT OF OR IN CONNECTION WITH THE AGREEMENT EXCEED THE [*] TO NETGEAR PURSUANT TO THE AGREEMENT. EXCEPT FOR DAMAGES ARISING FROM BREACH OF SECTIONS 6.C AND 12,13 OR 17, IN NO EVENT WELL DISTRIBUTOR's TOTAL LIABILITY FOR ANY DAMAGES IN ANY ACTION BASED ON OR ARISING OUT OF OR IN CONNECTION WITH THE AGREEMENT EXCEED THE [*] TO NETGEAR PURSUANT TO THE AGREEMENT. 17. FOREIGN RESHIPMENT This Agreement is made subject to all laws, regulations, orders or other restrictions on the export from the United States of Products and accompanying documentation, or of other technical data and information about such Products, which may be imposed from time to time. Distributor agrees not to export, directly or indirectly, any such Products or information to any country for which an export license or other governmental approval is required at the time of export without first obtaining such license or approval. Distributor is solely responsible, at its own expense, for obtaining all necessary import and re-export permits and certificates and for the payment of any and all taxes and duties imposed upon the movement and delivery of Products. 18. GENERAL A. The relationship of NETGEAR and Distributor is that of independent contractors. There is no relationship of agency, partnership, joint venture, employment or franchise between the parties. Neither party has the authority to bind the other or to incur any obligation on the other's behalf or to represent itself as the other's agent or in any way which might result in confusion as to the fact that the parties are separate and distinct entities. B. If any provision of this Agreement is held to be invalid or unenforceable, the remainder of the provisions shall remain in full force and effect. C. NETGEAR and Distributor agree to comply with the provisions of all applicable federal, state, county and local laws, ordinances, regulations and codes, domestic and foreign. INGRAM NETGEAR Distributor Agreement 10 083096 D. NETGEAR reserves the right to change the discount schedule, policy or program, whether referred to in the Agreement or set forth in an Exhibit to the Agreement. For changes which, in NETGEAR's opinion, may adversely affect Distributor, NETGEAR will provide thirty (30) days notice, or such longer period as NETGEAR deems appropriate, prior to the effective date of such change. E. Distributor will keep suitable records to demonstrate compliance with this Agreement. NETGEAR or its representative, at NETGEAR's cost may review these records during normal business hours for the sole purpose of determining Distributor's compliance with this Agreement. F. Any waiver, amendment or modification of any right, remedy or other term under the Agreement will not be effective unless mutually agreed to in writing and signed by authorized representatives of both parties. Neither party shall be bound by typographical or clerical errors."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 763.97805968,
+            "r": 335.6596860742002,
+            "b": 727.9138504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "G. Neither party is liable for its failure or delay to perform its obligations under the Agreement due to strikes, wars, revolutions, acts of terrorism, fires, floods, explosions, earthquakes, shortages in labor, components or materials, government regulations, or other causes beyond its control.",
+      "text": "G. Neither party is liable for its failure or delay to perform its obligations under the Agreement due to strikes, wars, revolutions, acts of terrorism, fires, floods, explosions, earthquakes, shortages in labor, components or materials, government regulations, or other causes beyond its control."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 717.57801968,
+            "r": 335.6596860742002,
+            "b": 681.5138104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            331
+          ]
+        }
+      ],
+      "orig": "H. This Agreement may not be assigned by either party without prior written permission from the other party, which permission shall not be unreasonably withheld or delayed. Any attempt by either party to assign any right, or delegate any duty or obligation which arises under the Agreement without such permission will be voidable.",
+      "text": "This Agreement may not be assigned by either party without prior written permission from the other party, which permission shall not be unreasonably withheld or delayed. Any attempt by either party to assign any right, or delegate any duty or obligation which arises under the Agreement without such permission will be voidable.",
+      "enumerated": true,
+      "marker": "H."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 671.17797968,
+            "r": 185.28910014820002,
+            "b": 666.0471304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "19. ENTIRE AGREEMENT, GOVERNING LAW",
+      "text": "19. ENTIRE AGREEMENT, GOVERNING LAW"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 655.71129968,
+            "r": 357.14092829620097,
+            "b": 619.6470904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            332
+          ]
+        }
+      ],
+      "orig": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law.",
+      "text": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 609.31125968,
+            "r": 193.79891903980004,
+            "b": 604.1804104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 11",
+      "text": "INGRAM NETGEAR Distributor Agreement 11"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 609.31125968,
+            "r": 357.14092829620097,
+            "b": 604.1804104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 586.11123968,
+            "r": 331.3632571852007,
+            "b": 565.5137104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 547.44453968,
+            "r": 206.77052281480007,
+            "b": 542.3136904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 1",
+      "text": "EXHIBIT 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 151.03316217280002,
+            "t": 531.97785968,
+            "r": 223.95567125920005,
+            "b": 526.8470104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "DISCOUNT SCHEDULE",
+      "text": "DISCOUNT SCHEDULE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 516.51117968,
+            "r": 348.5482810369,
+            "b": 495.9136504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "The initial Discount offered Distributor for purchase or license of NETGEAR Products included on the NETGEAR Price List in effect on the Effective Date of this Agreement is [*] off of the then current NETGEAR list price.",
+      "text": "The initial Discount offered Distributor for purchase or license of NETGEAR Products included on the NETGEAR Price List in effect on the Effective Date of this Agreement is [*] off of the then current NETGEAR list price."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 485.57781968000006,
+            "r": 348.5482810369,
+            "b": 449.51361042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            346
+          ]
+        }
+      ],
+      "orig": "Distributor agrees that the foregoing Discount is only applicable to Products included on the NETGEAR Price List on the Effective Date of this Agreement. NETGEAR reserves the right to add Products to the Price List at its sole discretion and any such additional Products shall be offered to Distributor at discounts to be determined at that time.",
+      "text": "Distributor agrees that the foregoing Discount is only applicable to Products included on the NETGEAR Price List on the Effective Date of this Agreement. NETGEAR reserves the right to add Products to the Price List at its sole discretion and any such additional Products shall be offered to Distributor at discounts to be determined at that time."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 439.17777968000007,
+            "r": 168.00807547300002,
+            "b": 434.04693042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement",
+      "text": "INGRAM NETGEAR Distributor Agreement"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 185.37599711200002,
+            "t": 439.17777968000007,
+            "r": 193.79891903980004,
+            "b": 434.04693042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "12",
+      "text": "12"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 439.17777968000007,
+            "r": 357.14092829620097,
+            "b": 434.04693042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 408.2444196800001,
+            "r": 206.77052281480007,
+            "b": 403.11357042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 2",
+      "text": "EXHIBIT 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 129.52472007549994,
+            "t": 392.7777396800001,
+            "r": 245.43730444450034,
+            "b": 387.64689042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "DISTRIBUTOR'S ROUTING GUIDE",
+      "text": "DISTRIBUTOR'S ROUTING GUIDE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 377.3110596800001,
+            "r": 193.79891903980004,
+            "b": 372.18021042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 13",
+      "text": "INGRAM NETGEAR Distributor Agreement 13"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 377.3110596800001,
+            "r": 357.14092829620097,
+            "b": 372.18021042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 354.1110396800001,
+            "r": 142.32600133330007,
+            "b": 348.98019042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CONFIDENTIAL TREATMENT REQUEST",
+      "text": "CONFIDENTIAL TREATMENT REQUEST",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 338.6443596800001,
+            "r": 352.84480014820025,
+            "b": 318.04683042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 299.97765968,
+            "r": 206.77052281480007,
+            "b": 294.84681042509817,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 3",
+      "text": "EXHIBIT 3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 146.7332833549,
+            "t": 284.51097968,
+            "r": 223.95567125920005,
+            "b": 279.3801304250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "CMD NAMED ACCOUNTS",
+      "text": "CMD NAMED ACCOUNTS"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 276.77763968,
+            "r": 26.325940000000003,
+            "b": 271.6467904250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "[*]",
+      "text": "[*]"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 261.31095968,
+            "r": 193.79891903980004,
+            "b": 256.1801104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 14",
+      "text": "INGRAM NETGEAR Distributor Agreement 14"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 261.31095968,
+            "r": 357.14092829620097,
+            "b": 256.1801104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "092696",
+      "text": "092696"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 230.37759968,
+            "r": 206.77052281480007,
+            "b": 225.24675042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 4",
+      "text": "EXHIBIT 4",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 155.33828677300014,
+            "t": 214.91091968,
+            "r": 215.36322592600033,
+            "b": 209.78007042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "MARKETING PLAN",
+      "text": "MARKETING PLAN",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 199.44423968,
+            "r": 193.79891903980004,
+            "b": 194.31339042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 15",
+      "text": "INGRAM NETGEAR Distributor Agreement 15"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 199.44423968,
+            "r": 357.14092829620097,
+            "b": 194.31339042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 120.92412895749997,
+            "t": 176.24421968000001,
+            "r": 249.7336001482006,
+            "b": 171.11337042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CONFIDENTIAL TREATMENT REQUEST",
+      "text": "CONFIDENTIAL TREATMENT REQUEST",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 13.43704,
+            "t": 160.77753968000002,
+            "r": 352.84480014820025,
+            "b": 140.1800104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 142.42915119999998,
+            "t": 114.37749968000003,
+            "r": 232.5483400000003,
+            "b": 70.5799504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND",
+      "text": "AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 172.54797568299995,
+            "t": 67.97745968000004,
+            "r": 202.47419703699995,
+            "b": 62.846610425098106,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "NETGEAR",
+      "text": "NETGEAR"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    }
+  }
+}

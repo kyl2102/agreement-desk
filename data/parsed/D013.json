@@ -1,0 +1,2284 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "Cerus Corporation - FIRST AMEND TO SUPPLY AND MANUFACTURING AGREEMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 15178841462169801539,
+    "filename": "Cerus Corporation - FIRST AMEND TO SUPPLY AND MANUFACTURING AGREEMENT.PDF"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8070375,
+            "r": 537.3747979999995,
+            "b": 762.4492480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = CERTAIN CONFIDENTIAL INFORMATION CONTAINED IN THIS DOCUMENT, MARKED BY BRACKETS, HAS BEEN OMITTED AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION PURSUANT TO RULE 24B-2 OF THE SECURITIES EXCHANGE ACT OF 1934, AS AMENDED.",
+      "text": "[*] = CERTAIN CONFIDENTIAL INFORMATION CONTAINED IN THIS DOCUMENT, MARKED BY BRACKETS, HAS BEEN OMITTED AND FILED SEPARATELY WITH THE SECURITIES AND EXCHANGE COMMISSION PURSUANT TO RULE 24B-2 OF THE SECURITIES EXCHANGE ACT OF 1934, AS AMENDED."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 433.21875,
+            "t": 759.5070375,
+            "r": 481.8249936874996,
+            "b": 752.3492480612997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 10.2",
+      "text": "EXHIBIT 10.2"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 138.425,
+            "t": 749.4821562499999,
+            "r": 456.5750505000003,
+            "b": 740.7590703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "FIRST AMENDMENT TO SUPPLY AND MANUFACTURING AGREEMENT",
+      "text": "FIRST AMENDMENT TO SUPPLY AND MANUFACTURING AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 738.1291249999997,
+            "r": 536.7440656250006,
+            "b": 718.6625889423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "This First Amendment (\"Amendment\") to the Supply and Manufacturing Agreement dated April 1, 2017 between Cerus Corporation (\"Cerus\") and Porex Corporation (\"Porex\") (the \"Agreement\") is made this 22 day of June 2018.",
+      "text": "This First Amendment (\"Amendment\") to the Supply and Manufacturing Agreement dated April 1, 2017 between Cerus Corporation (\"Cerus\") and Porex Corporation (\"Porex\") (the \"Agreement\") is made this 22 day of June 2018."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 274.775,
+            "t": 716.6571562499998,
+            "r": 320.85625000000005,
+            "b": 707.9340703124999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "RECITALS",
+      "text": "RECITALS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 705.3041249999997,
+            "r": 536.112367437499,
+            "b": 675.1063389423075,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            227
+          ]
+        }
+      ],
+      "orig": "A. Cerus and Porex have agreed to make certain changes to the raw material and process to develop Components and such changes have resulted in a change to the cost and expense structure originally contemplated by the Agreement\u037e",
+      "text": "A. Cerus and Porex have agreed to make certain changes to the raw material and process to develop Components and such changes have resulted in a change to the cost and expense structure originally contemplated by the Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 673.1103749999997,
+            "r": 531.0627272499987,
+            "b": 653.6438389423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            229
+          ]
+        }
+      ],
+      "orig": "B. Pursuant to Section 3 of the Agreement, Cerus and Porex have mutually agreed to temporarily modify the pricing for Platelet Wafers set forth on Exhibit D and to proactively set a cost structure for non-production related work.",
+      "text": "Pursuant to Section 3 of the Agreement, Cerus and Porex have mutually agreed to temporarily modify the pricing for Platelet Wafers set forth on Exhibit D and to proactively set a cost structure for non-production related work.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 651.6478749999997,
+            "r": 512.7564393749985,
+            "b": 632.1813389423075,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "NOW THEREFORE, for good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged and accepted, the parties hereby agree to amend the Agreement as follows:",
+      "text": "NOW THEREFORE, for good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged and accepted, the parties hereby agree to amend the Agreement as follows:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.09375,
+            "t": 630.1853749999998,
+            "r": 544.9502903749997,
+            "b": 546.3313389423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            856
+          ]
+        }
+      ],
+      "orig": "1. New Exhibits AA-1, AA-2, AA-3 and AA-4, as set forth in Schedule 1 to this Amendment, shall be attached to the Agreement (inserted between Exhibit A-5 and Exhibit B-1) and incorporated therein by reference. The parties acknowledge and agree that Exhibits AA-1, AA-2, AA-3 and AA-4 set forth the revised specifications for Platelet Wafers manufactured by Porex for Cerus (collectively, the \"Revised Wafer Specifications\"). Unless otherwise agreed in writing, Porex shall continue to manufacture and produce Platelet Wafers using the existing specifications for Platelet Wafers until Cerus gives written notice to Porex that Platelet Wafers shall be thereafter manufactured in accordance with the Revised Wafer Specifications. References in the Agreement to \"Specifications\" shall be interpreted to include the Revised Wafer Specifications, as applicable.",
+      "text": "New Exhibits AA-1, AA-2, AA-3 and AA-4, as set forth in Schedule 1 to this Amendment, shall be attached to the Agreement (inserted between Exhibit A-5 and Exhibit B-1) and incorporated therein by reference. The parties acknowledge and agree that Exhibits AA-1, AA-2, AA-3 and AA-4 set forth the revised specifications for Platelet Wafers manufactured by Porex for Cerus (collectively, the \"Revised Wafer Specifications\"). Unless otherwise agreed in writing, Porex shall continue to manufacture and produce Platelet Wafers using the existing specifications for Platelet Wafers until Cerus gives written notice to Porex that Platelet Wafers shall be thereafter manufactured in accordance with the Revised Wafer Specifications. References in the Agreement to \"Specifications\" shall be interpreted to include the Revised Wafer Specifications, as applicable.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.09375,
+            "t": 544.3353749999997,
+            "r": 544.9502588125008,
+            "b": 439.01883894230764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1031
+          ]
+        }
+      ],
+      "orig": "2. A new Exhibit D-1, as set forth in Schedule 2 to this Amendment, shall be attached to the Agreement and incorporated therein by reference. As of April 1, 2018 and continuing until Cerus determines, in its sole discretion, that the Protocol EPP-029-886 under which Porex is currently operating can be discontinued, the price for Platelet Wafers shall be the prices set forth in Exhibit D-1. Upon Cerus' determination that the Protocol EPP-029886 can be discontinued, Cerus shall provide written notice thereof to Porex, along with a new purchase order for Platelet Wafers (the \"New Pricing PO\"). On and after the date of such notice, the \"Pricing\" table for Platelet Wafers in Exhibit D, as of the date immediately preceding the date of this Amendment, shall be reinstated and apply to Platelet Wafers that are produced pursuant to the New Pricing PO and were also produced after the date of the written notice. References in Section 1.5.1 of the Agreement to \"Exhibit D\" shall be amended to include \"Exhibit D-1,\" as applicable.",
+      "text": "A new Exhibit D-1, as set forth in Schedule 2 to this Amendment, shall be attached to the Agreement and incorporated therein by reference. As of April 1, 2018 and continuing until Cerus determines, in its sole discretion, that the Protocol EPP-029-886 under which Porex is currently operating can be discontinued, the price for Platelet Wafers shall be the prices set forth in Exhibit D-1. Upon Cerus' determination that the Protocol EPP-029886 can be discontinued, Cerus shall provide written notice thereof to Porex, along with a new purchase order for Platelet Wafers (the \"New Pricing PO\"). On and after the date of such notice, the \"Pricing\" table for Platelet Wafers in Exhibit D, as of the date immediately preceding the date of this Amendment, shall be reinstated and apply to Platelet Wafers that are produced pursuant to the New Pricing PO and were also produced after the date of the written notice. References in Section 1.5.1 of the Agreement to \"Exhibit D\" shall be amended to include \"Exhibit D-1,\" as applicable.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.09375,
+            "t": 437.02287499999966,
+            "r": 544.318383874999,
+            "b": 406.82508894230773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            263
+          ]
+        }
+      ],
+      "orig": "3. The penultimate sentence in Section 1.3 shall be deleted in its entirety and replaced with the following: \"In no event shall any Purchase Order: require delivery of more than [*] units of [*] and [*] units of [*] in any [*] (the \"Porex Capacity Limitations\").\"",
+      "text": "The penultimate sentence in Section 1.3 shall be deleted in its entirety and replaced with the following: \"In no event shall any Purchase Order: require delivery of more than [*] units of [*] and [*] units of [*] in any [*] (the \"Porex Capacity Limitations\").\"",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.09375,
+            "t": 404.82912499999975,
+            "r": 345.4748737499994,
+            "b": 396.0938389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "4. A new Section 1.5.3 shall be added to the Agreement as follows:",
+      "text": "A new Section 1.5.3 shall be added to the Agreement as follows:",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 84.76875,
+            "t": 789.8920749999997,
+            "r": 544.3190024999983,
+            "b": 748.9630389423075,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            375
+          ]
+        }
+      ],
+      "orig": "1.5.3 Porex will invoice Cerus monthly for Services performed by Porex during the prior month. Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex. Payment information, including Tax Identification Number will be included on each invoice.",
+      "text": "Porex will invoice Cerus monthly for Services performed by Porex during the prior month. Unless otherwise expressly provided in the applicable Statement of Work payment to Porex of undisputed fees shall be due [*] days following Cerus' receipt of the invoice submitted by Porex. Payment information, including Tax Identification Number will be included on each invoice.",
+      "enumerated": true,
+      "marker": "1.5.3"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 84.76875,
+            "t": 736.8670749999997,
+            "r": 544.3189709374992,
+            "b": 620.1880389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1248
+          ]
+        }
+      ],
+      "orig": "Cerus shall have the right to accept or reject the Services, or any portion thereof, in writing within [*] days from Porex's completion of the Services. Such acceptance or rejection shall be consistent with the criteria set forth in the Statement of Work, if any. If Cerus does not reject in writing within [*] days, the Services shall be considered accepted by Cerus. Within [*] days of any notice of rejection, Porex shall present a corrective plan of action to Cerus. Upon approval by Cerus of the corrective plan, Porex, at no additional expense to Cerus, shall then make the corrections and, where applicable, Porex shall resubmit the corrected Services to Cerus. For disputed invoices or the disputed portion of an invoice, Cerus shall use reasonable efforts to provide to Porex, in writing, within [*] days, a description of the disputed amounts. Cerus and Porex shall negotiate in a timely, good faith manner to resolve billing queries. Cerus will not have responsibility to pay for identified errors, incomplete or inaccurate items (collectively the \"invoice errors\") which result in increases to previously invoiced amounts if the aforementioned invoice errors are communicated to Cerus later than [*] days from the original invoice date.",
+      "text": "Cerus shall have the right to accept or reject the Services, or any portion thereof, in writing within [*] days from Porex's completion of the Services. Such acceptance or rejection shall be consistent with the criteria set forth in the Statement of Work, if any. If Cerus does not reject in writing within [*] days, the Services shall be considered accepted by Cerus. Within [*] days of any notice of rejection, Porex shall present a corrective plan of action to Cerus. Upon approval by Cerus of the corrective plan, Porex, at no additional expense to Cerus, shall then make the corrections and, where applicable, Porex shall resubmit the corrected Services to Cerus. For disputed invoices or the disputed portion of an invoice, Cerus shall use reasonable efforts to provide to Porex, in writing, within [*] days, a description of the disputed amounts. Cerus and Porex shall negotiate in a timely, good faith manner to resolve billing queries. Cerus will not have responsibility to pay for identified errors, incomplete or inaccurate items (collectively the \"invoice errors\") which result in increases to previously invoiced amounts if the aforementioned invoice errors are communicated to Cerus later than [*] days from the original invoice date."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.09375,
+            "t": 608.0920749999998,
+            "r": 335.37515781249925,
+            "b": 599.3567889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "5. A new Section 3a shall be added to the Agreement as follows:",
+      "text": "A new Section 3a shall be added to the Agreement as follows:",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 84.76875,
+            "t": 597.3608249999997,
+            "r": 544.3190782500001,
+            "b": 425.76303894230773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1711
+          ]
+        }
+      ],
+      "orig": "\"3a Non-Production Related Work. From time to time, Cerus may submit to Porex written work orders substantially in the form of Schedule 3 that specify development activities, engineering analysis, part, material and/or fixture design and development, or other services or activities that Cerus requests Porex to perform that are not activities or services that are necessary for the then-current manufacture and production of Components for Cerus under the Agreement (collectively, as defined in each work order, the \"Services\"). Each work order shall set forth the terms and conditions (including specifications (if applicable), delivery and performance schedules, and fees) pursuant to which Porex will perform the Services. Upon acceptance of a work order by Porex (in writing), such work order shall become a \"Statement of Work.\" If Porex begins to perform services under a work order that has not been formally agreed in writing, then Porex shall bear the costs of any expenses incurred prior to formal written agreement of the Statement of Work. Cerus hereby consents to Porex's use of the Cerus Dedicated Space and Equipment, as specified in a Statement of Work, solely as necessary to perform the Services under that Statement of Work. Such consent shall automatically terminate upon the completion of the applicable Statement of Work and is limited by the terms of the Agreement. In the event of any conflict between the Agreement and a Statement of Work, the Agreement shall control unless the Statement of Work expressly refers to the Parties' intent to alter the terms of the Agreement with respect to that Statement of Work and shall not be construed as an amendment to the terms of the Agreement.\"",
+      "text": "\"3a Non-Production Related Work. From time to time, Cerus may submit to Porex written work orders substantially in the form of Schedule 3 that specify development activities, engineering analysis, part, material and/or fixture design and development, or other services or activities that Cerus requests Porex to perform that are not activities or services that are necessary for the then-current manufacture and production of Components for Cerus under the Agreement (collectively, as defined in each work order, the \"Services\"). Each work order shall set forth the terms and conditions (including specifications (if applicable), delivery and performance schedules, and fees) pursuant to which Porex will perform the Services. Upon acceptance of a work order by Porex (in writing), such work order shall become a \"Statement of Work.\" If Porex begins to perform services under a work order that has not been formally agreed in writing, then Porex shall bear the costs of any expenses incurred prior to formal written agreement of the Statement of Work. Cerus hereby consents to Porex's use of the Cerus Dedicated Space and Equipment, as specified in a Statement of Work, solely as necessary to perform the Services under that Statement of Work. Such consent shall automatically terminate upon the completion of the applicable Statement of Work and is limited by the terms of the Agreement. In the event of any conflict between the Agreement and a Statement of Work, the Agreement shall control unless the Statement of Work expressly refers to the Parties' intent to alter the terms of the Agreement with respect to that Statement of Work and shall not be construed as an amendment to the terms of the Agreement.\"",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.09375,
+            "t": 423.767075,
+            "r": 543.6872727499986,
+            "b": 393.5692889423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            286
+          ]
+        }
+      ],
+      "orig": "6. A new section titled \"Pricing for Non-Production Related Work Orders from Cerus\" is added to Exhibit D as set forth in Schedule 2 attached. Such pricing, upon mutual agreement of the Parties, shall apply to any Statement of Work mutually agreed by the Parties pursuant to Section 3a.",
+      "text": "A new section titled \"Pricing for Non-Production Related Work Orders from Cerus\" is added to Exhibit D as set forth in Schedule 2 attached. Such pricing, upon mutual agreement of the Parties, shall apply to any Statement of Work mutually agreed by the Parties pursuant to Section 3a.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.09375,
+            "t": 391.57332499999984,
+            "r": 544.9501262499995,
+            "b": 372.10678894230773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            210
+          ]
+        }
+      ],
+      "orig": "7. No other changes are made to the Agreement, including without limitation, the original Exhibit D, and the Agreement, the Plasma Disk pricing and related information as set forth in Exhibit D remain the same.",
+      "text": "No other changes are made to the Agreement, including without limitation, the original Exhibit D, and the Agreement, the Plasma Disk pricing and related information as set forth in Exhibit D remain the same.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 370.110825,
+            "r": 533.5873989999986,
+            "b": 350.64428894230764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "Except as amended herein, the Agreement shall remain in full force and effect. Capitalized terms not otherwise defined herein shall have the same meanings as set forth in the Agreement.",
+      "text": "Except as amended herein, the Agreement shall remain in full force and effect. Capitalized terms not otherwise defined herein shall have the same meanings as set forth in the Agreement."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 348.6483249999999,
+            "r": 527.9062500000005,
+            "b": 329.18178894230755,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the undersigned have caused this First Amendment to be signed, all as of the date first written above.",
+      "text": "IN WITNESS WHEREOF, the undersigned have caused this First Amendment to be signed, all as of the date first written above."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 317.0012374999999,
+            "r": 543.056060625001,
+            "b": 299.78328071789315,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.68125,
+            "t": 789.260875,
+            "r": 156.73127524999998,
+            "b": 780.5255889423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Porex: Porex Corporation",
+      "text": "Porex: Porex Corporation"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.68125,
+            "t": 777.8983750000001,
+            "r": 130.84999999999997,
+            "b": 769.1630889423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "By: /s/ Tore Wistedt",
+      "text": "By: /s/ Tore Wistedt"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.68125,
+            "t": 767.167125,
+            "r": 132.11252525,
+            "b": 758.4318389423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Name: Tore Wistedt",
+      "text": "Name: Tore Wistedt"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.68125,
+            "t": 756.435875,
+            "r": 206.59999999999997,
+            "b": 747.7005889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Title: SR VP Global Strategy Marketing",
+      "text": "Title: SR VP Global Strategy Marketing"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 282.35,
+            "t": 789.260875,
+            "r": 390.29373737500003,
+            "b": 780.5255889423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Cerus: Cerus Corporation",
+      "text": "Cerus: Cerus Corporation"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 282.35,
+            "t": 777.8983750000001,
+            "r": 373.2500505000001,
+            "b": 769.1630889423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "By: /s/ Kevin D. Green",
+      "text": "By: /s/ Kevin D. Green"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 282.35,
+            "t": 767.167125,
+            "r": 374.5125126249997,
+            "b": 758.4318389423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Name: Kevin D. Green",
+      "text": "Name: Kevin D. Green"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 282.35,
+            "t": 756.435875,
+            "r": 391.5562815624995,
+            "b": 747.7005889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Title: VP Finance and CFO",
+      "text": "Title: VP Finance and CFO"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 723.5262875,
+            "r": 543.056060625001,
+            "b": 706.3083307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 272.88125,
+            "t": 789.88260625,
+            "r": 322.7500126249998,
+            "b": 781.1595203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Schedule 1",
+      "text": "Schedule 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 270.98749999999995,
+            "t": 778.5201062499999,
+            "r": 324.0125189374999,
+            "b": 769.7970203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Exhibit AA-1",
+      "text": "Exhibit AA-1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 261.51874999999995,
+            "t": 767.167075,
+            "r": 333.48122475,
+            "b": 747.7005389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "SPC 00562 {7 pages omitted}",
+      "text": "SPC 00562 {7 pages omitted}",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 724.1574875,
+            "r": 543.056060625001,
+            "b": 706.9395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 270.98749999999995,
+            "t": 789.88265625,
+            "r": 324.0125189374999,
+            "b": 781.1595703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Exhibit AA-2",
+      "text": "Exhibit AA-2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 261.51874999999995,
+            "t": 778.529625,
+            "r": 333.48122475,
+            "b": 759.0630889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "SPC 00628 {3 pages omitted}",
+      "text": "SPC 00628 {3 pages omitted}"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 735.5200375,
+            "r": 543.056060625001,
+            "b": 718.3020807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 270.98749999999995,
+            "t": 789.8826362499999,
+            "r": 324.0125189374999,
+            "b": 781.1595503125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Exhibit AA-3",
+      "text": "Exhibit AA-3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 261.51874999999995,
+            "t": 778.529605,
+            "r": 333.48122475,
+            "b": 759.0630689423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "SPC 00628A {3 pages omitted}",
+      "text": "SPC 00628A {3 pages omitted}",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 735.5200174999999,
+            "r": 543.056060625001,
+            "b": 718.3020607178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 270.98749999999995,
+            "t": 789.88260625,
+            "r": 324.0125189374999,
+            "b": 781.1595203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Exhibit AA-4",
+      "text": "Exhibit AA-4",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 270.98749999999995,
+            "t": 778.529575,
+            "r": 324.6437436874998,
+            "b": 769.7942889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "SPC 00628B",
+      "text": "SPC 00628B",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 261.51874999999995,
+            "t": 767.798325,
+            "r": 333.48122475,
+            "b": 759.0630389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "{2 pages omitted}",
+      "text": "{2 pages omitted}",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 735.5199875000001,
+            "r": 543.056060625001,
+            "b": 718.3020307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 272.88125,
+            "t": 789.88270625,
+            "r": 322.7500126249998,
+            "b": 724.3471203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Schedule 2 Exhibit D-1 Pricing [*] Pricing [*]",
+      "text": "Schedule 2 Exhibit D-1 Pricing [*] Pricing [*]",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 700.8013375,
+            "r": 543.056060625001,
+            "b": 683.5833807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 276.0375,
+            "t": 789.88275625,
+            "r": 319.80837499999996,
+            "b": 781.1596703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "SCHEDULE 3",
+      "text": "SCHEDULE 3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 247.63125,
+            "t": 768.42025625,
+            "r": 347.36875000000003,
+            "b": 759.6971703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "FORM STATEMENT OF WORK",
+      "text": "FORM STATEMENT OF WORK",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 736.867225,
+            "r": 544.9499936875,
+            "b": 684.5756889423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            576
+          ]
+        }
+      ],
+      "orig": "This Statement of Work is incorporated into the Amended and Restated Supply and Manufacturing Agreement dated April 1, 2017 by and between Cerus Corporation and Porex Corporation, as amended by First Amendment to Supply and Manufacturing Agreement, effective April 1, 2018 (for the purposes of this Statement of Work, the \"Agreement\"). This Statement of Work describes Services to be performed and provided by Porex pursuant to the Agreement. All capitalized terms used and not expressly defined in this Statement of Work will have the meanings given to them in the Agreement.",
+      "text": "This Statement of Work is incorporated into the Amended and Restated Supply and Manufacturing Agreement dated April 1, 2017 by and between Cerus Corporation and Porex Corporation, as amended by First Amendment to Supply and Manufacturing Agreement, effective April 1, 2018 (for the purposes of this Statement of Work, the \"Agreement\"). This Statement of Work describes Services to be performed and provided by Porex pursuant to the Agreement. All capitalized terms used and not expressly defined in this Statement of Work will have the meanings given to them in the Agreement."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 682.57025625,
+            "r": 168.7250252500001,
+            "b": 628.3971703125001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "Approach Deliverables Obligations of Cerus, if any Specifications Points of Contact",
+      "text": "Approach Deliverables Obligations of Cerus, if any Specifications Points of Contact",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 625.767225,
+            "r": 162.41250000000008,
+            "b": 617.0319389423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "For Cerus:",
+      "text": "For Cerus:"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 615.035975,
+            "r": 176.2999873750001,
+            "b": 606.3006889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Contact name",
+      "text": "Contact name"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 604.304725,
+            "r": 152.312487375,
+            "b": 595.5694389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Address",
+      "text": "Address"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 593.573475,
+            "r": 145.36874999999998,
+            "b": 584.8381889423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Phone",
+      "text": "Phone"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 582.842225,
+            "r": 142.21249999999998,
+            "b": 574.1069389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Email",
+      "text": "Email"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 572.110975,
+            "r": 161.1499936875,
+            "b": 563.3756889423078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "For Porex:",
+      "text": "For Porex:"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 561.379725,
+            "r": 176.2999873750001,
+            "b": 552.6444389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Contact name",
+      "text": "Contact name"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 550.648475,
+            "r": 152.312487375,
+            "b": 541.9131889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Address",
+      "text": "Address"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 539.917225,
+            "r": 145.36874999999998,
+            "b": 531.1819389423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Phone",
+      "text": "Phone"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 118.85625,
+            "t": 529.185975,
+            "r": 142.21249999999998,
+            "b": 520.4506889423077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Email",
+      "text": "Email"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 518.44525625,
+            "r": 82.24375,
+            "b": 509.7221703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Budget",
+      "text": "Budget",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 507.08275625,
+            "r": 131.48125,
+            "b": 498.35967031250004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Payment Schedule",
+      "text": "Payment Schedule",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 495.72972500000003,
+            "r": 539.2689709375004,
+            "b": 486.99443894230774,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "In full consideration for Porex's timely and satisfactory performance of the Services, Porex will be compensated as follows:",
+      "text": "In full consideration for Porex's timely and satisfactory performance of the Services, Porex will be compensated as follows:"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 484.98900625,
+            "r": 72.775,
+            "b": 476.26592031250004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Term",
+      "text": "Term",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 463.4513875,
+            "r": 543.056060625001,
+            "b": 446.2334307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.891975,
+            "r": 455.31219700000065,
+            "b": 781.1566889423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "The term of this Statement of Work will begin on ___________ and shall terminate on ____________.",
+      "text": "The term of this Statement of Work will begin on ___________ and shall terminate on ____________."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 769.0512562499999,
+            "r": 363.15005049999957,
+            "b": 760.3281703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Cerus Corporation Porex Corporation",
+      "text": "Cerus Corporation Porex Corporation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 747.598225,
+            "r": 312.0187499999998,
+            "b": 706.6691889423076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Signed: Name: Title: Dated: Signed: Name: Title: Dated:",
+      "text": "Signed: Name: Title: Dated: Signed: Name: Title: Dated:"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 694.4886375,
+            "r": 543.056060625001,
+            "b": 677.2706807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "[*] = Certain confidential information contained in this document, marked by brackets, has been omitted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 10
+    }
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement4",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 12158296053719719188,
+    "filename": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement4.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.031552,
+            "t": 788.1783755839999,
+            "r": 544.4840741990406,
+            "b": 781.2290663300444,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "AMENDMENT NO. 3 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+      "text": "AMENDMENT NO. 3 TO STREMICK'S HERITAGE FOODS, LLC and PREMIER NUTRITION CORPORATION MANUFACTURING AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 768.566727584,
+            "r": 540.8072824319992,
+            "b": 732.2386188072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            444
+          ]
+        }
+      ],
+      "orig": "This Amendment No. 3 (the \"Third Amendment\"), entered into by and between Stremicks Heritage Foods, LLC (\"Heritage\") Premier Nutrition Corporation (\"Premier\") is effective as of July 3, 2019 (\"Third Amendment Effective Date\") and amends that certain Manufacturing Agreement between Heritage and Premier dated July 1, 2017 as amended (\"Agreement\"). Heritage and Premier are each referred to herein as a \"Party\" and collectively as the \"Parties.\"",
+      "text": "This Amendment No. 3 (the \"Third Amendment\"), entered into by and between Stremicks Heritage Foods, LLC (\"Heritage\") Premier Nutrition Corporation (\"Premier\") is effective as of July 3, 2019 (\"Third Amendment Effective Date\") and amends that certain Manufacturing Agreement between Heritage and Premier dated July 1, 2017 as amended (\"Agreement\"). Heritage and Premier are each referred to herein as a \"Party\" and collectively as the \"Parties.\""
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 591.449031584,
+            "r": 67.675968,
+            "b": 584.5383948072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 571.2245195840001,
+            "r": 549.3871578009612,
+            "b": 554.5080588072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "2. Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and effect.",
+      "text": "2. Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and effect."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 541.807047584,
+            "r": 510.16367794176114,
+            "b": 525.0905868072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            159
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the Parties have caused this Amendment to be signed by their respective duly authorized representatives as of the Amendment Effective Date.",
+      "text": "IN WITNESS WHEREOF, the Parties have caused this Amendment to be signed by their respective duly authorized representatives as of the Amendment Effective Date."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 522.195399584,
+            "r": 153.47687897087997,
+            "b": 515.2460903300444,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.59584,
+            "t": 522.195399584,
+            "r": 421.91136000000034,
+            "b": 515.2460903300444,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            30,
+            61
+          ]
+        }
+      ],
+      "orig": "Premier Nutrition Corporation Stremick's Heritage Foods, LLC.",
+      "text": "Premier Nutrition Corporation Stremick's Heritage Foods, LLC."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 501.358023584,
+            "r": 60.934464,
+            "b": 494.4473868072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "By:",
+      "text": "By:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.32038399999999,
+            "t": 502.583751584,
+            "r": 146.12254774272006,
+            "b": 495.6731148072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "/s/ Darcy Davenport",
+      "text": "/s/ Darcy Davenport"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 491.552199584,
+            "r": 135.70388425727998,
+            "b": 484.64156280727275,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.59584,
+            "t": 501.358023584,
+            "r": 322.627392,
+            "b": 494.4473868072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            22,
+            25
+          ]
+        }
+      ],
+      "orig": "Name: Darcy Davenport By:",
+      "text": "Name: Darcy Davenport By:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 341.013312,
+            "t": 502.583751584,
+            "r": 394.3324799999999,
+            "b": 495.6731148072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "/s/ Sam Stremick",
+      "text": "/s/ Sam Stremick"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.59584,
+            "t": 491.552199584,
+            "r": 383.9138165145599,
+            "b": 484.64156280727275,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Name: Sam Stremick",
+      "text": "Name: Sam Stremick"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.12742399999999,
+            "t": 719.5376075839999,
+            "r": 272.98553057280014,
+            "b": 712.5882983300444,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Heritage and Premier entered into the Agreement\u037e",
+      "text": "WHEREAS, Heritage and Premier entered into the Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.12742399999999,
+            "t": 699.925959584,
+            "r": 444.5872421990397,
+            "b": 692.9766503300443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "WHEREAS, the Parties wish to amend the Agreement in accordance with the terms and conditions set forth herein.",
+      "text": "WHEREAS, the Parties wish to amend the Agreement in accordance with the terms and conditions set forth herein."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 680.314311584,
+            "r": 537.742974689281,
+            "b": 663.5978508072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, in consideration of the promises and of the mutual covenants, representations and warranties contained in the Agreement and set forth herein, the Parties hereby agree that the following changes shall be made to the Agreement:",
+      "text": "NOW, THEREFORE, in consideration of the promises and of the mutual covenants, representations and warranties contained in the Agreement and set forth herein, the Parties hereby agree that the following changes shall be made to the Agreement:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.12742399999999,
+            "t": 650.896839584,
+            "r": 390.04243199999996,
+            "b": 643.9862028072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "1. The Parties hereby agree to remove Schedule C-1 in its entirety and replace it with the following:",
+      "text": "1. The Parties hereby agree to remove Schedule C-1 in its entirety and replace it with the following:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.12742399999999,
+            "t": 630.672327584,
+            "r": 382.07519999999994,
+            "b": 623.7616908072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "Schedule C-1. The following is attached to an incorporated into the Agreement as Schedule C-1:",
+      "text": "Schedule C-1. The following is attached to an incorporated into the Agreement as Schedule C-1:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 267.469632,
+            "t": 611.060679584,
+            "r": 333.04606774271986,
+            "b": 604.1500428072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Schedule C-1([***])",
+      "text": "Schedule C-1([***])"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 481.746375584,
+            "r": 109.96358400000003,
+            "b": 474.8357388072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.59584,
+            "t": 481.746375584,
+            "r": 371.65651200000013,
+            "b": 474.8357388072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            17,
+            33
+          ]
+        }
+      ],
+      "orig": "Title: President Title: President",
+      "text": "Title: President Title: President"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.1015625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019",
+      "text": "Source: BELLRING BRANDS, INC., S-1, 9/20/2019"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    }
+  }
+}

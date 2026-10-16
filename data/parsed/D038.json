@@ -1,0 +1,1163 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "GRIDIRONBIONUTRIENTS,INC_02_05_2020-EX-10.3-SUPPLY AGREEMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2861621921893125155,
+    "filename": "GRIDIRONBIONUTRIENTS,INC_02_05_2020-EX-10.3-SUPPLY AGREEMENT.PDF"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 466.04375,
+            "t": 794.8574974999999,
+            "r": 514.6499936874997,
+            "b": 787.6997080612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 10.3",
+      "text": "EXHIBIT 10.3"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 258.36249999999995,
+            "t": 784.7574974999999,
+            "r": 337.2687184375003,
+            "b": 777.5997080612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "SUPPLY AGREEMENT",
+      "text": "SUPPLY AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 774.6574975,
+            "r": 514.6500504999999,
+            "b": 747.3395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            268
+          ]
+        }
+      ],
+      "orig": "This Agreement (\"the Agreement\"), is made by and between EWSD 1, LLC, d/b/a/ SHI FARMS (\"Shi Farms\"), a Delaware limited liability company and Gridiron BioNutrients, Inc, a Nevada Corporation (\"Gridiron\") , each individually \"a Party,\" and collectively, \"the Parties.\"",
+      "text": "This Agreement (\"the Agreement\"), is made by and between EWSD 1, LLC, d/b/a/ SHI FARMS (\"Shi Farms\"), a Delaware limited liability company and Gridiron BioNutrients, Inc, a Nevada Corporation (\"Gridiron\") , each individually \"a Party,\" and collectively, \"the Parties.\""
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 744.3574974999999,
+            "r": 400.3939898750002,
+            "b": 737.1997080612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "WHEREAS Shi Farms grows industrial hemp and wishes to sell hemp biomass (\"Product\")\u037e and",
+      "text": "WHEREAS Shi Farms grows industrial hemp and wishes to sell hemp biomass (\"Product\")\u037e and"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 734.2574974999999,
+            "r": 271.6189141250002,
+            "b": 727.1395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Gridiron wishes to purchase Product from Shi Farms\u037e and",
+      "text": "Gridiron wishes to purchase Product from Shi Farms\u037e and"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 724.1574975,
+            "r": 514.6498485000009,
+            "b": 706.9395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "orig": "Both Parties acknowledge that Shi Farms is the owner of the Product as defined below\u037e and Shi Farms is willing to sell Product to Gridiron and Gridiron desires to acquire in accordance with the terms and conditions set forth below.",
+      "text": "Both Parties acknowledge that Shi Farms is the owner of the Product as defined below\u037e and Shi Farms is willing to sell Product to Gridiron and Gridiron desires to acquire in accordance with the terms and conditions set forth below."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 703.9574974999999,
+            "r": 514.6501893749996,
+            "b": 686.7395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE for good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties agree as follows:",
+      "text": "NOW, THEREFORE for good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 683.7574974999999,
+            "r": 177.56250000000006,
+            "b": 676.5997080612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "1. Products and Payments",
+      "text": "1. Products and Payments",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 97.39375,
+            "t": 673.6574975,
+            "r": 514.6503913749991,
+            "b": 616.0395407178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            590
+          ]
+        }
+      ],
+      "orig": "A. Product. Shi Farms agrees to sell Product and Gridiron agrees to purchase 30,000 lbs. of hemp biomass (\"Biomass\") from Shi Farms. Biomass must contain a minimum of six percent (6%) total Cannabidiol (CBD/and or CBDA) and all Biomass must have less than three percent (3%) total TCH content. The Biomass must contain no contaminates that are above acceptable industry standards for processing Biomass including but not limited to: Mold and Mildew\u037e NonHemp Plant Material\u037e Soil\u037e Insects\u037e Rodent Droppings\u037e Wet or Rotting Material\u037e Heavy Metals\u037e Residual Pesticides or Herbicides\u037e Bacteria.",
+      "text": "Product. Shi Farms agrees to sell Product and Gridiron agrees to purchase 30,000 lbs. of hemp biomass (\"Biomass\") from Shi Farms. Biomass must contain a minimum of six percent (6%) total Cannabidiol (CBD/and or CBDA) and all Biomass must have less than three percent (3%) total TCH content. The Biomass must contain no contaminates that are above acceptable industry standards for processing Biomass including but not limited to: Mold and Mildew\u037e NonHemp Plant Material\u037e Soil\u037e Insects\u037e Rodent Droppings\u037e Wet or Rotting Material\u037e Heavy Metals\u037e Residual Pesticides or Herbicides\u037e Bacteria.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 97.39375,
+            "t": 613.0574975,
+            "r": 514.6502272499996,
+            "b": 595.8395407178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "B. Pricing. Both Parties mutually agree that the Purchase Price of the Product is determined on a $5.00 per pound basis for a total cost of one hundred fifty thousand dollars ($150,000).",
+      "text": "Pricing. Both Parties mutually agree that the Purchase Price of the Product is determined on a $5.00 per pound basis for a total cost of one hundred fifty thousand dollars ($150,000).",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 97.39375,
+            "t": 592.8574974999999,
+            "r": 514.6499242499992,
+            "b": 565.5395407178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            260
+          ]
+        }
+      ],
+      "orig": "C. Certificate of Analysis (COA). Both Parties agree that CBD potency numbers are determined by a third-party lab according to standard testing protocol which was provided by the seller. Buyer may take their own samples (\"Product Samples\") for testing as well.",
+      "text": "Certificate of Analysis (COA). Both Parties agree that CBD potency numbers are determined by a third-party lab according to standard testing protocol which was provided by the seller. Buyer may take their own samples (\"Product Samples\") for testing as well.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 97.39375,
+            "t": 562.5574975,
+            "r": 514.649697000001,
+            "b": 545.3395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "D. Payment. Both Parties agree that once the Parties have agreed to transaction which includes the purchase and sale of the Product that the Buyer will remit payment upon execution of this agreement.",
+      "text": "Payment. Both Parties agree that once the Parties have agreed to transaction which includes the purchase and sale of the Product that the Buyer will remit payment upon execution of this agreement.",
+      "enumerated": true,
+      "marker": "D."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 97.39375,
+            "t": 542.3574975,
+            "r": 514.6498990000009,
+            "b": 525.1395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            192
+          ]
+        }
+      ],
+      "orig": "E. Quarantine. Once the payment has been received, Shi Farms will use its best efforts to quarantine product to ensure safe keeping of the Product until delivery date as agreed by the Parties.",
+      "text": "Quarantine. Once the payment has been received, Shi Farms will use its best efforts to quarantine product to ensure safe keeping of the Product until delivery date as agreed by the Parties.",
+      "enumerated": true,
+      "marker": "E."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 97.39375,
+            "t": 522.1574975,
+            "r": 514.6503661250009,
+            "b": 484.7395407178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            456
+          ]
+        }
+      ],
+      "orig": "F. Delivery. Product Samples. The point of delivery of the Product Samples shall be a laboratory determined by Gridiron, if Gridiron determines that third party analysis of the Biomass is required for processing. Shi Farms shall be responsible to ship the Product Samples to the designated laboratory. Biomass. Shi Farms shall be responsible for delivery of the Biomass to the processor determined by Gridiron, in good form as described above \"A. Product\".",
+      "text": "Delivery. Product Samples. The point of delivery of the Product Samples shall be a laboratory determined by Gridiron, if Gridiron determines that third party analysis of the Biomass is required for processing. Shi Farms shall be responsible to ship the Product Samples to the designated laboratory. Biomass. Shi Farms shall be responsible for delivery of the Biomass to the processor determined by Gridiron, in good form as described above \"A. Product\".",
+      "enumerated": true,
+      "marker": "F."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 295.60625,
+            "t": 473.5512475,
+            "r": 299.709375,
+            "b": 466.4332907178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.35,
+            "t": 794.8574874999999,
+            "r": 175.66874999999996,
+            "b": 787.6996980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "2. Term and Termination.",
+      "text": "Term and Termination.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 784.7574875,
+            "r": 447.73751893750017,
+            "b": 777.5996980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "A. Termination. Either Party may terminate this Agreement at any time prior to delivery of the Product.",
+      "text": "Termination. Either Party may terminate this Agreement at any time prior to delivery of the Product.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.35,
+            "t": 774.6574875,
+            "r": 514.6502588125002,
+            "b": 727.1395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            617
+          ]
+        }
+      ],
+      "orig": "3. Indemnification. Gridiron and affiliated parties shall indemnify and hold Shi Farms harmless from any claims, losses, actions, damages, liabilities, taxes , obligations, fines, proceedings, deficiencies and out of pocket costs and expenses (including but not limited to attorneys' fees and disbursements) without limitation resulting from or arising out of any inaccuracy or breach of any representation or warranty\u037e any non-performance or any obligation incurred by Gridiron and its affiliated parties. If any claim or legal proceeding is filed by a third party, prompt notice is required by the one to the other.",
+      "text": "Indemnification. Gridiron and affiliated parties shall indemnify and hold Shi Farms harmless from any claims, losses, actions, damages, liabilities, taxes , obligations, fines, proceedings, deficiencies and out of pocket costs and expenses (including but not limited to attorneys' fees and disbursements) without limitation resulting from or arising out of any inaccuracy or breach of any representation or warranty\u037e any non-performance or any obligation incurred by Gridiron and its affiliated parties. If any claim or legal proceeding is filed by a third party, prompt notice is required by the one to the other.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.35,
+            "t": 724.1574875,
+            "r": 514.6497222500013,
+            "b": 696.8395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            315
+          ]
+        }
+      ],
+      "orig": "4. Notices. All notices required or permitted under this Agreement must be in writing and delivered by email or personal delivery on the date sent\u037e or if my facsimile on the date sent\u037e or if by certified US mail on the third business day following such mailing\u037e or if by overnight courier, on the next business day.",
+      "text": "Notices. All notices required or permitted under this Agreement must be in writing and delivered by email or personal delivery on the date sent\u037e or if my facsimile on the date sent\u037e or if by certified US mail on the third business day following such mailing\u037e or if by overnight courier, on the next business day.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 693.8574874999999,
+            "r": 177.56250000000003,
+            "b": 684.2145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Shi Farms:214 39 th Lane",
+      "text": "Shi Farms:214 39 th Lane"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.1125,
+            "t": 681.2324874999999,
+            "r": 190.8187184375,
+            "b": 674.1145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Pueblo, CO 81006",
+      "text": "Pueblo, CO 81006"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.1125,
+            "t": 671.1324875,
+            "r": 211.65000000000003,
+            "b": 664.0145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "ATTN: Steven Turetsky",
+      "text": "ATTN: Steven Turetsky"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 661.0324875,
+            "r": 223.64369950000003,
+            "b": 653.9145307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Gridiron: 1119 West 1st Ave - Suite G",
+      "text": "Gridiron: 1119 West 1st Ave - Suite G"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.1125,
+            "t": 650.9324875,
+            "r": 198.3937752499999,
+            "b": 643.8145307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Spokane, WA 99021",
+      "text": "Spokane, WA 99021"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.1125,
+            "t": 640.8324875000001,
+            "r": 181.3500252500001,
+            "b": 633.7145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "ATTN: Tim Orr",
+      "text": "ATTN: Tim Orr"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.35,
+            "t": 630.7324874999999,
+            "r": 161.15005050000002,
+            "b": 623.5746980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "5. Entire Agreement.",
+      "text": "5. Entire Agreement.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 620.6324875,
+            "r": 514.6502020000005,
+            "b": 603.4145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "A. Amendment, Waiver, Assignment. This Agreement may not be waived, amended or assigned without an agreed written and signed document, signed by both Parties.",
+      "text": "Amendment, Waiver, Assignment. This Agreement may not be waived, amended or assigned without an agreed written and signed document, signed by both Parties.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 600.4324875,
+            "r": 514.6503282499987,
+            "b": 573.1145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            247
+          ]
+        }
+      ],
+      "orig": "B. Governing Law. This Agreement and any amendments thereto shall be construed according to the laws of the State of Colorado without regard to conflicts of law principles and any disputes hereunder shall be litigated in a state court in Colorado.",
+      "text": "Governing Law. This Agreement and any amendments thereto shall be construed according to the laws of the State of Colorado without regard to conflicts of law principles and any disputes hereunder shall be litigated in a state court in Colorado.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 570.1324875,
+            "r": 514.6502777500018,
+            "b": 512.5145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            705
+          ]
+        }
+      ],
+      "orig": "C. Confidential Information. In the course of performing their respective obligations, each party will enter into possession of information of the other party which the Parties wish to protect and deem \"Confidential Information.\" This will include all Intellectual Property, processes, pricing, and any information that is marked confidential. When the Agreement ends, each party shall return all copies of any such information to the other and take every reasonable measure to preclude its representatives from sharing or keeping such information. Failure to do so shall constitute a material breach of this Agreement with all rights and remedies available to the party whose material has been Disclosed.",
+      "text": "Confidential Information. In the course of performing their respective obligations, each party will enter into possession of information of the other party which the Parties wish to protect and deem \"Confidential Information.\" This will include all Intellectual Property, processes, pricing, and any information that is marked confidential. When the Agreement ends, each party shall return all copies of any such information to the other and take every reasonable measure to preclude its representatives from sharing or keeping such information. Failure to do so shall constitute a material breach of this Agreement with all rights and remedies available to the party whose material has been Disclosed.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.39375,
+            "t": 509.5324875,
+            "r": 514.6499684375013,
+            "b": 482.21453071789324,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            289
+          ]
+        }
+      ],
+      "orig": "D. Counterparts and Severability. This document may be signed in counterparts which, when taken together, constitute the whole. Should any provision of this Agreement deemed unenforceable and thus stricken, the remainder of the Agreement remains in full force and effect upon both parties.",
+      "text": "Counterparts and Severability. This document may be signed in counterparts which, when taken together, constitute the whole. Should any provision of this Agreement deemed unenforceable and thus stricken, the remainder of the Agreement remains in full force and effect upon both parties.",
+      "enumerated": true,
+      "marker": "D."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 218.59375,
+            "t": 470.3949875,
+            "r": 377.0375441875001,
+            "b": 463.23719806129986,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "[Remainder of Page Intentionally Left Blank]",
+      "text": "[Remainder of Page Intentionally Left Blank]"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 295.60625,
+            "t": 459.6637375,
+            "r": 299.709375,
+            "b": 452.5457807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.35,
+            "t": 794.8574874999999,
+            "r": 380.82480431250025,
+            "b": 735.3059480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            293
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date below. EWSD 1, LLC d/b/a Shi Farms Gridiron BioNutrients, Inc. BY: /s/ Thomas A. Gallo BY: /s/ Timothy S Orr Date: 1/26/2020 Date: 1/27/2020 Name: Thomas A. Gallo Name: Timothy Orr- President Title: Executive Director",
+      "text": "IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date below. EWSD 1, LLC d/b/a Shi Farms Gridiron BioNutrients, Inc. BY: /s/ Thomas A. Gallo BY: /s/ Timothy S Orr Date: 1/26/2020 Date: 1/27/2020 Name: Thomas A. Gallo Name: Timothy Orr- President Title: Executive Director"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 295.60625,
+            "t": 731.7324874999999,
+            "r": 299.709375,
+            "b": 724.6145307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    }
+  }
+}

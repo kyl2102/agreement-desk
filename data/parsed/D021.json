@@ -1,0 +1,1843 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2562856484838717276,
+    "filename": "MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 641.686819392,
+            "r": 241.72934399999994,
+            "b": 631.5301366362185,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "MASTER SERVICES AGREEMENT",
+      "text": "MASTER SERVICES AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 628.2209715840002,
+            "r": 78.09464374272,
+            "b": 621.3103348072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Between",
+      "text": "Between"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 617.7937034880001,
+            "r": 125.28521464320002,
+            "b": 609.2407074831315,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "RadialSpark, LLC",
+      "text": "RadialSpark, LLC"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 606.1578675840001,
+            "r": 62.160191999999995,
+            "b": 599.2472308072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "and",
+      "text": "and"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.902912,
+            "t": 595.730599488,
+            "r": 104.44778348544,
+            "b": 587.1776034831316,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Clear Capital",
+      "text": "Clear Capital",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 502.19654399999996,
+            "t": 790.0170675840002,
+            "r": 549.9999237427194,
+            "b": 783.0677583300442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Exhibit 10(xiv)",
+      "text": "Exhibit 10(xiv)"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 579.1918515840002,
+            "r": 545.0970239999998,
+            "b": 572.2812148072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 1 of 10",
+      "text": "Page 1 of 10"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9196595840001,
+            "r": 536.5172221747191,
+            "b": 778.2031988072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "THIS MASTER SERVICES AGREEMENT (\"Agreement\"), dated as of 09/24/2018 (the \"Effective Date\"), is between Clear Capital (the \"Company\") and RadialSpark, LLC (the \"Contractor\").",
+      "text": "THIS MASTER SERVICES AGREEMENT (\"Agreement\"), dated as of 09/24/2018 (the \"Effective Date\"), is between Clear Capital (the \"Company\") and RadialSpark, LLC (the \"Contractor\")."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.902912,
+            "t": 775.308011584,
+            "r": 497.29347265536114,
+            "b": 758.5915508072726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Company desires from time to time to retain Contractor to perform certain management consulting services for Company\u037e and WHEREAS, Contractor desires to perform such management consulting services for Company\u037e",
+      "text": "WHEREAS, Company desires from time to time to retain Contractor to perform certain management consulting services for Company\u037e and WHEREAS, Contractor desires to perform such management consulting services for Company\u037e"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.902912,
+            "t": 755.696363584,
+            "r": 537.7425824563206,
+            "b": 738.9799028072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "NOW THEREFORE, in consideration of the foregoing premises, and the mutual covenants and agreements set forth herein, the parties hereto agree as follows:",
+      "text": "NOW THEREFORE, in consideration of the foregoing premises, and the mutual covenants and agreements set forth herein, the parties hereto agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.902912,
+            "t": 736.0847155840002,
+            "r": 157.15408748544002,
+            "b": 729.1740788072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "1. PURPOSE OF ENGAGEMENT.",
+      "text": "1. PURPOSE OF ENGAGEMENT."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.902912,
+            "t": 726.2788915840001,
+            "r": 548.7741344563192,
+            "b": 650.7274868072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1086
+          ]
+        }
+      ],
+      "orig": "(a) Company agrees to retain Contractor to perform the consulting services for Company, on a task by task basis (the \"Services\"), and Contractor agrees to furnish the Services on the terms and subject to the conditions set forth in this Agreement. During the term of this Agreement, Company and Contractor will develop and agree upon statements of work defining the Services and work product to be provided by Contractor, Contractor's compensation, additional terms and conditions, if any, applicable to a particular engagement and such other details as the parties deem appropriate (each a \"Statement of Work\"). A Statement of Work may provide specifications for deliverables to be provided thereunder (the \"Specifications\"). Statements of Work that are from time to time agreed upon shall reference this Agreement, and shall be executed by the parties and attached hereto and shall form a part hereof. In all instances of a conflict, between the provisions of this Agreement and the specific provisions set forth in a Statement of Work, the provisions of this Agreement shall control.",
+      "text": "(a) Company agrees to retain Contractor to perform the consulting services for Company, on a task by task basis (the \"Services\"), and Contractor agrees to furnish the Services on the terms and subject to the conditions set forth in this Agreement. During the term of this Agreement, Company and Contractor will develop and agree upon statements of work defining the Services and work product to be provided by Contractor, Contractor's compensation, additional terms and conditions, if any, applicable to a particular engagement and such other details as the parties deem appropriate (each a \"Statement of Work\"). A Statement of Work may provide specifications for deliverables to be provided thereunder (the \"Specifications\"). Statements of Work that are from time to time agreed upon shall reference this Agreement, and shall be executed by the parties and attached hereto and shall form a part hereof. In all instances of a conflict, between the provisions of this Agreement and the specific provisions set forth in a Statement of Work, the provisions of this Agreement shall control."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.902912,
+            "t": 647.8322995840001,
+            "r": 546.9356650291215,
+            "b": 591.8925428072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            816
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9197515840001,
+            "r": 549.3870658713613,
+            "b": 748.7858188072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            817,
+            1442
+          ]
+        }
+      ],
+      "orig": "(b) Contractor shall provide sufficient qualified personnel to perform the Services in a professional and workmanlike manner in accordance with industry standards. A Statement of Work may designate certain individuals as \"Key Personnel\" for an engagement, and the parties subsequently may agree in writing that additional individuals are Key Personnel for such engagement. If there are Key Personnel for an engagement, Contractor shall provide the Services through those personnel and such additional personnel of Contractor as Contractor may from time to time determine to be required for the performance of the Services. Company shall have the right to interview and approve such additional personnel at Company's request. If one or more Key Personnel terminate their employment with Contractor or otherwise become unavailable to work on an engagement for reasons beyond Contractor's reasonable control, Contractor may provide the Services through other personnel with comparable training and experience. If Company becomes dissatisfied with any of Contractor's personnel providing the Services, Company may notify Contractor of the details of its dissatisfaction, and the parties shall cooperate to remedy the problem as soon as possible. If Company reasonably requests, Contractor shall reassign the individual who is the subject of Company's dissatisfaction and replace that person with other personnel in accordance with this Agreement.",
+      "text": "(b) Contractor shall provide sufficient qualified personnel to perform the Services in a professional and workmanlike manner in accordance with industry standards. A Statement of Work may designate certain individuals as \"Key Personnel\" for an engagement, and the parties subsequently may agree in writing that additional individuals are Key Personnel for such engagement. If there are Key Personnel for an engagement, Contractor shall provide the Services through those personnel and such additional personnel of Contractor as Contractor may from time to time determine to be required for the performance of the Services. Company shall have the right to interview and approve such additional personnel at Company's request. If one or more Key Personnel terminate their employment with Contractor or otherwise become unavailable to work on an engagement for reasons beyond Contractor's reasonable control, Contractor may provide the Services through other personnel with comparable training and experience. If Company becomes dissatisfied with any of Contractor's personnel providing the Services, Company may notify Contractor of the details of its dissatisfaction, and the parties shall cooperate to remedy the problem as soon as possible. If Company reasonably requests, Contractor shall reassign the individual who is the subject of Company's dissatisfaction and replace that person with other personnel in accordance with this Agreement."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 584.0944435840001,
+            "r": 545.0970239999998,
+            "b": 577.1838068072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 2 of 10",
+      "text": "Page 2 of 10"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.902912,
+            "t": 745.890631584,
+            "r": 545.0971894732793,
+            "b": 680.1450508072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            918
+          ]
+        }
+      ],
+      "orig": "(c) Unless otherwise provided in a Statement of Work, Contractor shall provide the Services at Contractor's facility. Contractor shall provide computing equipment consistent with the Services to be provided under the Statement of Work. When services are provided at a Company facility, Company shall provide workspace and other facilities such as computer support consistent with the requirements of the Services to be provided under the Statement of Work. Contractor shall cause its personnel at Company's facility to comply with Company's (i) safety and security rules and other rules applicable to those working in the facility, and (ii) Company's policies concerning access to and security of any Company computer system to which Contractor may have access\u037e provided, that Company has provided Contractor with copies of such rules and policies or has advised Contractor of the existence of such rules and policies.",
+      "text": "(c) Unless otherwise provided in a Statement of Work, Contractor shall provide the Services at Contractor's facility. Contractor shall provide computing equipment consistent with the Services to be provided under the Statement of Work. When services are provided at a Company facility, Company shall provide workspace and other facilities such as computer support consistent with the requirements of the Services to be provided under the Statement of Work. Contractor shall cause its personnel at Company's facility to comply with Company's (i) safety and security rules and other rules applicable to those working in the facility, and (ii) Company's policies concerning access to and security of any Company computer system to which Contractor may have access\u037e provided, that Company has provided Contractor with copies of such rules and policies or has advised Contractor of the existence of such rules and policies."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.902912,
+            "t": 677.249863584,
+            "r": 548.7742079999991,
+            "b": 621.3101068072726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            837
+          ]
+        }
+      ],
+      "orig": "(d) Company may request changes that affect the scope or duration of the Services relating to any Statement of Work, including changes in the Specifications and changes in the deliverables to be delivered. Company acknowledges that any change in Specifications may result in changes to estimated fees and estimated timeline for creation of deliverables. Company also may request a change in the Schedule without changing the scope of the Services relating to the applicable Statement of Work. In either case, the parties shall negotiate in good faith a reasonable and equitable adjustment in the applicable fees, Schedule and Specifications. Contractor shall continue work pursuant to the existing Statement of Work, and shall not be bound by any change requested by Company, until such change has been accepted in writing by Contractor.",
+      "text": "(d) Company may request changes that affect the scope or duration of the Services relating to any Statement of Work, including changes in the Specifications and changes in the deliverables to be delivered. Company acknowledges that any change in Specifications may result in changes to estimated fees and estimated timeline for creation of deliverables. Company also may request a change in the Schedule without changing the scope of the Services relating to the applicable Statement of Work. In either case, the parties shall negotiate in good faith a reasonable and equitable adjustment in the applicable fees, Schedule and Specifications. Contractor shall continue work pursuant to the existing Statement of Work, and shall not be bound by any change requested by Company, until such change has been accepted in writing by Contractor."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.902912,
+            "t": 618.414919584,
+            "r": 543.2586955315192,
+            "b": 582.0868108072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            581
+          ]
+        }
+      ],
+      "orig": "(e) The obligations of Company in connection with a particular engagement shall be set forth in the applicable Statement of Work. Company agrees to perform such obligations in accordance with, and subject to, such Statement of Work. Company acknowledges that when a Statement of Work provides that Company's personnel are to work with Contractor's personnel in connection with an engagement, Company's failure to assign Company personnel having skills commensurate with their role with respect to such engagement could adversely affect Contractor's ability to provide the Services.",
+      "text": "(e) The obligations of Company in connection with a particular engagement shall be set forth in the applicable Statement of Work. Company agrees to perform such obligations in accordance with, and subject to, such Statement of Work. Company acknowledges that when a Statement of Work provides that Company's personnel are to work with Contractor's personnel in connection with an engagement, Company's failure to assign Company personnel having skills commensurate with their role with respect to such engagement could adversely affect Contractor's ability to provide the Services."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 574.2887115840001,
+            "r": 545.0970239999998,
+            "b": 567.3780748072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 3 of 10",
+      "text": "Page 3 of 10"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9197195840001,
+            "r": 543.2582113689614,
+            "b": 778.2032588072726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            279
+          ]
+        }
+      ],
+      "orig": "(f) To the extent Contractor provides any third party materials and products Contractor acknowledges that it shall be solely responsible for ensuring the functionality and specifications of such third party materials and products used in performing Services under this Agreement.",
+      "text": "(f) To the extent Contractor provides any third party materials and products Contractor acknowledges that it shall be solely responsible for ensuring the functionality and specifications of such third party materials and products used in performing Services under this Agreement."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 775.308071584,
+            "r": 539.5809967257603,
+            "b": 758.5916108072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "2. TERM. The term of this Agreement shall begin on the date hereof and shall continue until terminated by either party pursuant to Paragraph 6 hereof. 3. CONTRACTOR'S COMPENSATION.",
+      "text": "2. TERM. The term of this Agreement shall begin on the date hereof and shall continue until terminated by either party pursuant to Paragraph 6 hereof. 3. CONTRACTOR'S COMPENSATION."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 755.6964235840002,
+            "r": 549.3871455436783,
+            "b": 729.1741388072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            385
+          ]
+        }
+      ],
+      "orig": "(a) During the term of this Agreement, Company agrees to compensate Contractor as set forth in each Statement of Work. Contractor will be compensated on a time and materials. In addition, Company shall reimburse Contractor its actual out-of-pocket expenses as reasonably incurred by Contractor in connection with its performance of the Services as negotiated in each Statement of Work.",
+      "text": "(a) During the term of this Agreement, Company agrees to compensate Contractor as set forth in each Statement of Work. Contractor will be compensated on a time and materials. In addition, Company shall reimburse Contractor its actual out-of-pocket expenses as reasonably incurred by Contractor in connection with its performance of the Services as negotiated in each Statement of Work."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 726.2789515840001,
+            "r": 542.6452983398381,
+            "b": 689.9508428072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            520
+          ]
+        }
+      ],
+      "orig": "(b) Contractor shall bill Company as set forth in the relevant Statement of Work. Each invoice submitted by Contractor will provide supporting detail for the Services invoiced, including, to the extent applicable to a particular engagement, the dates of Services and hours worked at the applicable rate by Statement of Work. Invoices shall also include receipts or other supporting detail concerning related expenses within the billing cycle. Contractor reserves the right to change rates with 30 days notice to Company.",
+      "text": "(b) Contractor shall bill Company as set forth in the relevant Statement of Work. Each invoice submitted by Contractor will provide supporting detail for the Services invoiced, including, to the extent applicable to a particular engagement, the dates of Services and hours worked at the applicable rate by Statement of Work. Invoices shall also include receipts or other supporting detail concerning related expenses within the billing cycle. Contractor reserves the right to change rates with 30 days notice to Company."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 687.0556555840002,
+            "r": 545.0969014271991,
+            "b": 640.9217228072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            633
+          ]
+        }
+      ],
+      "orig": "(c) All fees, charges and other amounts payable to Contractor hereunder do not include any sales, use, excise, value added or other applicable taxes, tariffs or duties, payment of which shall be the sole responsibility of Company (excluding any applicable taxes based on Contractor's net income or taxes arising from the independent contractor relationship between Contractor and its personnel). In the event that such taxes, tariffs or duties are assessed against Contractor, Company shall reimburse Contractor for any such amounts paid by Contractor or provide Contractor with valid tax exemption certificates with respect thereto.",
+      "text": "(c) All fees, charges and other amounts payable to Contractor hereunder do not include any sales, use, excise, value added or other applicable taxes, tariffs or duties, payment of which shall be the sole responsibility of Company (excluding any applicable taxes based on Contractor's net income or taxes arising from the independent contractor relationship between Contractor and its personnel). In the event that such taxes, tariffs or duties are assessed against Contractor, Company shall reimburse Contractor for any such amounts paid by Contractor or provide Contractor with valid tax exemption certificates with respect thereto."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 638.026535584,
+            "r": 296.88719592960035,
+            "b": 631.1158988072726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "4. OWNERSHIP OF MATERIALS RELATED TO SERVICES\u037e ACCEPTANCE.",
+      "text": "4. OWNERSHIP OF MATERIALS RELATED TO SERVICES\u037e ACCEPTANCE."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.902912,
+            "t": 628.220711584,
+            "r": 550.0000218009616,
+            "b": 591.8926028072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            539
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9198115840001,
+            "r": 524.2595989708809,
+            "b": 778.2033508072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            540,
+            705
+          ]
+        }
+      ],
+      "orig": "(a) The parties agree that all drawings, documents, designs, models, inventions, computer programs, computer systems, data, computer documentation and other tangible materials authored or prepared by Contractor for Company as the work product required by a Statement of Work (collectively, the \"Works\"), are the property of Company to the extent that such Works were created by Contractor for Company over a time period for which Company has been invoiced and said invoice has been paid. Contractor agrees to render, at Company's sole cost and expense, all reasonably required assistance to Company to protect the rights herein above described, including executing other documents as requested by Company.",
+      "text": "(a) The parties agree that all drawings, documents, designs, models, inventions, computer programs, computer systems, data, computer documentation and other tangible materials authored or prepared by Contractor for Company as the work product required by a Statement of Work (collectively, the \"Works\"), are the property of Company to the extent that such Works were created by Contractor for Company over a time period for which Company has been invoiced and said invoice has been paid. Contractor agrees to render, at Company's sole cost and expense, all reasonably required assistance to Company to protect the rights herein above described, including executing other documents as requested by Company."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 584.0945035839999,
+            "r": 545.0970239999998,
+            "b": 577.1838668072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 4 of 10",
+      "text": "Page 4 of 10"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.902912,
+            "t": 775.308163584,
+            "r": 544.4844664320001,
+            "b": 689.9509348072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1252
+          ]
+        }
+      ],
+      "orig": "(b) Company acknowledges that Contractor provides consulting and development services to other clients, and agrees that nothing in this Agreement shall be deemed or construed to prevent Contractor from delivering on such business. In particular, Company agrees that, notwithstanding anything to the contrary set forth herein: (i) as part of Contractor's provision of the Services hereunder, Contractor may utilize its own proprietary works of authorship, that have not been created specifically for Company, including without limitation software, methodologies, tools, specifications, drawings, sketches, models, samples, records and documentation, as well as copyrights, trademarks, servicemarks, ideas, concepts, know-how, techniques, knowledge or data, which have been originated, developed or purchased by Contractor or by third parties under contract to Contractor, and, (ii) Contractor's Information and Contractor's administrative communications and records relating to the Services shall not be deemed to be Works and are and shall remain the sole and exclusive property of Contractor and Company shall not resell or make use of said property in any other manner other than in connection with the software Company receives under this Agreement.",
+      "text": "(b) Company acknowledges that Contractor provides consulting and development services to other clients, and agrees that nothing in this Agreement shall be deemed or construed to prevent Contractor from delivering on such business. In particular, Company agrees that, notwithstanding anything to the contrary set forth herein: (i) as part of Contractor's provision of the Services hereunder, Contractor may utilize its own proprietary works of authorship, that have not been created specifically for Company, including without limitation software, methodologies, tools, specifications, drawings, sketches, models, samples, records and documentation, as well as copyrights, trademarks, servicemarks, ideas, concepts, know-how, techniques, knowledge or data, which have been originated, developed or purchased by Contractor or by third parties under contract to Contractor, and, (ii) Contractor's Information and Contractor's administrative communications and records relating to the Services shall not be deemed to be Works and are and shall remain the sole and exclusive property of Contractor and Company shall not resell or make use of said property in any other manner other than in connection with the software Company receives under this Agreement."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.902912,
+            "t": 687.055747584,
+            "r": 544.4844664320008,
+            "b": 660.5334628072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            389
+          ]
+        }
+      ],
+      "orig": "(c) To the extent that Contractor incorporates any of Contractor's Information into the Works, Contractor hereby grants to Company a royalty-free, nonexclusive perpetual license (including the right to grant a sublicense) to use, copy, modify, create, derivative version, publicly perform and publicly display such Contractor's Information in connection with Company's business operations.",
+      "text": "(c) To the extent that Contractor incorporates any of Contractor's Information into the Works, Contractor hereby grants to Company a royalty-free, nonexclusive perpetual license (including the right to grant a sublicense) to use, copy, modify, create, derivative version, publicly perform and publicly display such Contractor's Information in connection with Company's business operations."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.902912,
+            "t": 657.6382755839999,
+            "r": 548.7745144319993,
+            "b": 631.1159908072729,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            391
+          ]
+        }
+      ],
+      "orig": "(d) Consultant agrees that after Company pays Contractor in full, or after the termination of this agreement, Company may make any changes or additions to the software Consultant created for Company under this Agreement, which Company in Company's discretion may consider necessary, and Company may engage others to make any such changes or additions, without further payments to Consultant.",
+      "text": "(d) Consultant agrees that after Company pays Contractor in full, or after the termination of this agreement, Company may make any changes or additions to the software Consultant created for Company under this Agreement, which Company in Company's discretion may consider necessary, and Company may engage others to make any such changes or additions, without further payments to Consultant."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.902912,
+            "t": 628.220803584,
+            "r": 371.65651812864064,
+            "b": 621.3101668072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "5. CONTRACTOR'S REPRESENTATIONS AND WARRANTIES AND WARRANTY DISCLAIMER.",
+      "text": "5. CONTRACTOR'S REPRESENTATIONS AND WARRANTIES AND WARRANTY DISCLAIMER."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.902912,
+            "t": 618.414979584,
+            "r": 537.7423250534393,
+            "b": 601.6985188072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "(a) Contractor represents and warrants to Company that Contractor's performance of the Services called for by this Agreement, to its knowledge, does not and shall not violate any applicable law, rule, or regulation\u037e",
+      "text": "(a) Contractor represents and warrants to Company that Contractor's performance of the Services called for by this Agreement, to its knowledge, does not and shall not violate any applicable law, rule, or regulation\u037e"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 593.9004195839999,
+            "r": 545.0970239999998,
+            "b": 586.9897828072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 5 of 10",
+      "text": "Page 5 of 10"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9198275839999,
+            "r": 545.7099309004791,
+            "b": 768.3975428072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            337
+          ]
+        }
+      ],
+      "orig": "(b) Contractor represents and warrants to Company that Contractor has full authority and sufficient rights, except for rights respecting programs, data and materials provided by Company or identified by Contractor as furnished to Company by third-party vendors, to grant and convey the rights granted to Company under Paragraph 4 hereof\u037e",
+      "text": "(b) Contractor represents and warrants to Company that Contractor has full authority and sufficient rights, except for rights respecting programs, data and materials provided by Company or identified by Contractor as furnished to Company by third-party vendors, to grant and convey the rights granted to Company under Paragraph 4 hereof\u037e"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.902912,
+            "t": 765.5023555839999,
+            "r": 535.2914145024004,
+            "b": 748.7858948072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            255
+          ]
+        }
+      ],
+      "orig": "(c) Contractor represents and warrants that the Works provided hereunder, including any Contractor Information and any third party products do not infringe any trade secret, trademark, copyright, patent or other proprietary right of any other third party.",
+      "text": "(c) Contractor represents and warrants that the Works provided hereunder, including any Contractor Information and any third party products do not infringe any trade secret, trademark, copyright, patent or other proprietary right of any other third party."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.902912,
+            "t": 745.8907075839999,
+            "r": 546.935812116481,
+            "b": 621.3101828072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1935
+          ]
+        }
+      ],
+      "orig": "(d) Contractor covenants that it will not offer or pay any bribes (including any offer to provide improper gifts or entertainment) to secure or retain a business advantage (for the benefit of Contractor or for the benefit of Company) at any time during the term of this agreement. Specifically, Contractor agrees that it will not offer or pay any bribes to any person (including, in particular, to any government official) in connection with any aspect of the performance of services under this agreement. Contractor also covenants that at all times during the term of this agreement that it will maintain internal policies and procedures that are reasonably designed to ensure that Contractor's employees and representatives will not offer to pay or pay bribes (or offer or provide improper gifts or entertainment) to any person in connection with Contractor's performance under this agreement. Contractor also covenants that it will provide suitable training to its employees and representatives during the term of this agreement about Contractor's anti-corruption policies and procedures. Contractor represents and warrants to Company that Contractor has not offered or paid any bribes (or offered or provided any improper gifts and entertainment) to secure business under this agreement or otherwise in connection with the performance of its obligations under this agreement. Notwithstanding any other provision of this agreement, if Contractor offers or pays a bribe or provides improper gifts or entertainment to any government official or to any other person in connection with the performance of Contractor's obligations under this agreement, Company shall be entitled to elect to terminate this agreement effective immediately upon providing to Contractor written notice of such termination, in which case Company shall have no obligation to pay any fees or other consideration to Contractor under this agreement or otherwise.",
+      "text": "(d) Contractor covenants that it will not offer or pay any bribes (including any offer to provide improper gifts or entertainment) to secure or retain a business advantage (for the benefit of Contractor or for the benefit of Company) at any time during the term of this agreement. Specifically, Contractor agrees that it will not offer or pay any bribes to any person (including, in particular, to any government official) in connection with any aspect of the performance of services under this agreement. Contractor also covenants that at all times during the term of this agreement that it will maintain internal policies and procedures that are reasonably designed to ensure that Contractor's employees and representatives will not offer to pay or pay bribes (or offer or provide improper gifts or entertainment) to any person in connection with Contractor's performance under this agreement. Contractor also covenants that it will provide suitable training to its employees and representatives during the term of this agreement about Contractor's anti-corruption policies and procedures. Contractor represents and warrants to Company that Contractor has not offered or paid any bribes (or offered or provided any improper gifts and entertainment) to secure business under this agreement or otherwise in connection with the performance of its obligations under this agreement. Notwithstanding any other provision of this agreement, if Contractor offers or pays a bribe or provides improper gifts or entertainment to any government official or to any other person in connection with the performance of Contractor's obligations under this agreement, Company shall be entitled to elect to terminate this agreement effective immediately upon providing to Contractor written notice of such termination, in which case Company shall have no obligation to pay any fees or other consideration to Contractor under this agreement or otherwise."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.902912,
+            "t": 618.4149955839999,
+            "r": 534.6783972864006,
+            "b": 601.6985348072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "(e) THE EXPRESS WARRANTIES IN THIS AGREEMENT SHALL BE IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE.",
+      "text": "(e) THE EXPRESS WARRANTIES IN THIS AGREEMENT SHALL BE IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 593.9004355839999,
+            "r": 545.0970239999998,
+            "b": 586.9897988072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 6 of 10",
+      "text": "Page 6 of 10"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9199135839999,
+            "r": 548.1612827136018,
+            "b": 582.0869728072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2335
+          ]
+        },
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9199115839999,
+            "r": 548.161632046081,
+            "b": 768.3976268072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            2336,
+            2728
+          ]
+        }
+      ],
+      "orig": "6. TERMINATION. (a) At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other. (b) In addition, either party may terminate this Agreement or any outstanding Statement of Work, upon fifteen (15) days written notice to the other party, in the event such other party breaches a material term of this Agreement or any Statement of Work and such breach remains uncured at the end of such fifteen (15) day period. Upon any such termination, Contractor will be paid all fees and expenses that have been incurred or earned in connection with the performance of the Services through the effective date of such termination. Contractor shall provide to Company, and hereby assigns to Company, all right, title and interest to any Works in progress. 7. LIMITATIONS OF LIABILITY\u037e INDEMNIFICATION OF CONTRACTOR. (a) EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES. COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR. (b) NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. (c) IN ANY SUIT ARISING FROM THIS AGREEMENT EACH PARTY SHALL BE RESPONSIBLE FOR ITS OWN ATTORNEYS FEES. COMPANY AND CONTRACTOR HEREBY WAIVE ANY CLAIM TO AWARD OF ATTORNEYS FEES IN SUCH A SUIT. 8. CONFIDENTIAL INFORMATION. \"Confidential Information\" means all documents, software, reports, data, records, forms, conversations and other materials obtained by Contractor from Company in the course of performing any Services (including, but not limited to, Company records and information). Notwithstanding the foregoing, Confidential Information does not include information which: (i) is or becomes publicly known through no wrongful act of Contractor\u037e or (ii) is independently developed by Contractor without benefit of Company's Confidential Information. Contractor shall not use or disclose to any person, firm or entity any Confidential Information without Company's express, prior written permission\u037e provided, however, that notwithstanding the foregoing, Contractor may disclose Confidential Information to the extent that it is required to be disclosed pursuant to a statutory or regulatory provision or court order.",
+      "text": "6. TERMINATION. (a) At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other. (b) In addition, either party may terminate this Agreement or any outstanding Statement of Work, upon fifteen (15) days written notice to the other party, in the event such other party breaches a material term of this Agreement or any Statement of Work and such breach remains uncured at the end of such fifteen (15) day period. Upon any such termination, Contractor will be paid all fees and expenses that have been incurred or earned in connection with the performance of the Services through the effective date of such termination. Contractor shall provide to Company, and hereby assigns to Company, all right, title and interest to any Works in progress. 7. LIMITATIONS OF LIABILITY\u037e INDEMNIFICATION OF CONTRACTOR. (a) EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES. COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR. (b) NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. (c) IN ANY SUIT ARISING FROM THIS AGREEMENT EACH PARTY SHALL BE RESPONSIBLE FOR ITS OWN ATTORNEYS FEES. COMPANY AND CONTRACTOR HEREBY WAIVE ANY CLAIM TO AWARD OF ATTORNEYS FEES IN SUCH A SUIT. 8. CONFIDENTIAL INFORMATION. \"Confidential Information\" means all documents, software, reports, data, records, forms, conversations and other materials obtained by Contractor from Company in the course of performing any Services (including, but not limited to, Company records and information). Notwithstanding the foregoing, Confidential Information does not include information which: (i) is or becomes publicly known through no wrongful act of Contractor\u037e or (ii) is independently developed by Contractor without benefit of Company's Confidential Information. Contractor shall not use or disclose to any person, firm or entity any Confidential Information without Company's express, prior written permission\u037e provided, however, that notwithstanding the foregoing, Contractor may disclose Confidential Information to the extent that it is required to be disclosed pursuant to a statutory or regulatory provision or court order."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 574.2888735839999,
+            "r": 545.0970239999998,
+            "b": 567.3782368072726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 7 of 10",
+      "text": "Page 7 of 10"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 49.902912,
+            "t": 765.502439584,
+            "r": 549.386765567999,
+            "b": 689.9510348072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1110
+          ]
+        }
+      ],
+      "orig": "9. INDEPENDENT CONTRACTOR. Contractor is performing the Services as an independent contractor and not as an employee of Company and none of Contractor's personnel shall be entitled to receive any compensation, benefits or other incidents of employment from Company. Subject to Section 3(c), Contractor shall be responsible for all taxes and other expenses arising from the employment or independent contractor relationship between Contractor and its personnel and the rendition of Services hereunder by such personnel to Company. Nothing in this Agreement shall be deemed to constitute a partnership or joint venture between Company and Contractor, nor shall anything in this Agreement be deemed to constitute Contractor or Company the agent of the other. Neither Contractor nor Company shall be or become liable or bound by any representation, act or omission whatsoever of the other. 10. NONASSIGNABILITY. Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.",
+      "text": "9. INDEPENDENT CONTRACTOR. Contractor is performing the Services as an independent contractor and not as an employee of Company and none of Contractor's personnel shall be entitled to receive any compensation, benefits or other incidents of employment from Company. Subject to Section 3(c), Contractor shall be responsible for all taxes and other expenses arising from the employment or independent contractor relationship between Contractor and its personnel and the rendition of Services hereunder by such personnel to Company. Nothing in this Agreement shall be deemed to constitute a partnership or joint venture between Company and Contractor, nor shall anything in this Agreement be deemed to constitute Contractor or Company the agent of the other. Neither Contractor nor Company shall be or become liable or bound by any representation, act or omission whatsoever of the other. 10. NONASSIGNABILITY. Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 49.902912,
+            "t": 687.0558475839999,
+            "r": 547.5486516019191,
+            "b": 650.7277388072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            502
+          ]
+        }
+      ],
+      "orig": "11. SEVERABILITY\u037e GOVERNING LAW. In the event that any term or provision of this Agreement shall be held to be invalid, void or unenforceable, then the remainder of this Agreement shall not be affected, impaired or invalidated, and each such term and provision of this Agreement shall be valid and enforceable to the fullest extent permitted by law. This Agreement shall be governed by and construed in accordance with the laws of the Arizona, without regard to the conflict of laws provisions thereof.",
+      "text": "11. SEVERABILITY\u037e GOVERNING LAW. In the event that any term or provision of this Agreement shall be held to be invalid, void or unenforceable, then the remainder of this Agreement shall not be affected, impaired or invalidated, and each such term and provision of this Agreement shall be valid and enforceable to the fullest extent permitted by law. This Agreement shall be governed by and construed in accordance with the laws of the Arizona, without regard to the conflict of laws provisions thereof."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 49.902912,
+            "t": 647.8325515839999,
+            "r": 548.7737789951985,
+            "b": 621.3102668072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            416
+          ]
+        }
+      ],
+      "orig": "(c) In the event of termination under either section 6(a) or 6(b) of this agreement, Contractor shall be paid all fees and expenses that have been incurred or earned in connection with the performance of the Services through the effective date of such termination. Upon receipt of final payment Contractor shall provide to Company, and will assigns to Company, all right, title and interest to any Works in progress.",
+      "text": "(c) In the event of termination under either section 6(a) or 6(b) of this agreement, Contractor shall be paid all fees and expenses that have been incurred or earned in connection with the performance of the Services through the effective date of such termination. Upon receipt of final payment Contractor shall provide to Company, and will assigns to Company, all right, title and interest to any Works in progress."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 49.902912,
+            "t": 618.415079584,
+            "r": 538.9680775679999,
+            "b": 591.8927948072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            365
+          ]
+        },
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.9199035839999,
+            "r": 545.0974836480018,
+            "b": 758.5917948072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            366,
+            875
+          ]
+        }
+      ],
+      "orig": "12. INTEGRATION. This Agreement, including The Mutual Non-Disclosure Agreement and, any Statements of Work entered into pursuant hereto, constitutes the entire agreement of the parties hereto with respect to its subject matter and supersedes all prior and contemporaneous representations, proposals, discussions, and communications, whether oral or in writing. This Agreement may be modified only in writing and shall be enforceable in accordance with its terms when signed by each of the parties hereto. 13. NON-SOLICITATION OF EMPLOYEES. Neither party shall, during the term of this Agreement and for one (1) year after its termination, solicit for hire as an employee, consultant or otherwise any of the other party's personnel who have had direct involvement with the Services, without such other party's express written consent, which shall not be unreasonably withheld.",
+      "text": "12. INTEGRATION. This Agreement, including The Mutual Non-Disclosure Agreement and, any Statements of Work entered into pursuant hereto, constitutes the entire agreement of the parties hereto with respect to its subject matter and supersedes all prior and contemporaneous representations, proposals, discussions, and communications, whether oral or in writing. This Agreement may be modified only in writing and shall be enforceable in accordance with its terms when signed by each of the parties hereto. 13. NON-SOLICITATION OF EMPLOYEES. Neither party shall, during the term of this Agreement and for one (1) year after its termination, solicit for hire as an employee, consultant or otherwise any of the other party's personnel who have had direct involvement with the Services, without such other party's express written consent, which shall not be unreasonably withheld."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 584.094695584,
+            "r": 545.0970239999998,
+            "b": 577.1840588072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 8 of 10",
+      "text": "Page 8 of 10"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 49.902912,
+            "t": 755.696607584,
+            "r": 549.3874458470409,
+            "b": 680.1452028072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1084
+          ]
+        }
+      ],
+      "orig": "14. INSURANCE. Throughout the term of this Agreement, Contractor shall maintain workers compensation insurance in the amount required by statute, comprehensive general liability insurance with coverage of at least one million dollars ($1,000,000) and professional errors and omissions insurance for bodily injury, property damage or other losses with coverage of at least one million dollars ($1,000,000), in connection with the provision of Services by Contractor pursuant to the terms of this Agreement. At Company's request, Contractor shall provide Company with certificates or other acceptable evidence of insurance or self-insurance evidencing the above coverage and shall provide Company with prompt written notice of any material change. 15. Force Majeure. Except for payment obligations hereunder, nonperformance by either party shall be excused to the extent that performance is rendered impossible by strike, acts of God, governmental acts or restrictions, failure of suppliers, or any other reason where failure to perform is beyond the control of the nonperforming party.",
+      "text": "14. INSURANCE. Throughout the term of this Agreement, Contractor shall maintain workers compensation insurance in the amount required by statute, comprehensive general liability insurance with coverage of at least one million dollars ($1,000,000) and professional errors and omissions insurance for bodily injury, property damage or other losses with coverage of at least one million dollars ($1,000,000), in connection with the provision of Services by Contractor pursuant to the terms of this Agreement. At Company's request, Contractor shall provide Company with certificates or other acceptable evidence of insurance or self-insurance evidencing the above coverage and shall provide Company with prompt written notice of any material change. 15. Force Majeure. Except for payment obligations hereunder, nonperformance by either party shall be excused to the extent that performance is rendered impossible by strike, acts of God, governmental acts or restrictions, failure of suppliers, or any other reason where failure to perform is beyond the control of the nonperforming party."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 49.902912,
+            "t": 677.250015584,
+            "r": 518.1314002329611,
+            "b": 660.5335548072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            205
+          ]
+        }
+      ],
+      "orig": "16. Counterparts. This Agreement may be signed in any number of counterparts, each of which shall be an original, with the same effect as if the signatures thereto and hereto were upon the same instrument.",
+      "text": "16. Counterparts. This Agreement may be signed in any number of counterparts, each of which shall be an original, with the same effect as if the signatures thereto and hereto were upon the same instrument."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 49.902912,
+            "t": 657.638367584,
+            "r": 545.7100534732812,
+            "b": 640.9219068072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            268
+          ]
+        }
+      ],
+      "orig": "17. Entire Agreement. This Agreement constitutes the complete and exclusive agreement between Company and Consultant concerning the work on this project, and it supersedes all other prior agreements, proposals, and representations, whether stated orally or in writing.",
+      "text": "17. Entire Agreement. This Agreement constitutes the complete and exclusive agreement between Company and Consultant concerning the work on this project, and it supersedes all other prior agreements, proposals, and representations, whether stated orally or in writing."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 49.902912,
+            "t": 638.026719584,
+            "r": 547.548234854399,
+            "b": 611.5044348072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            437
+          ]
+        },
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 49.902912,
+            "t": 794.919943584,
+            "r": 549.3866675097588,
+            "b": 748.7860108072728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            438,
+            1140
+          ]
+        }
+      ],
+      "orig": "18. Severability. If any provision of this Agreement is invalid, illegal, or unenforceable, the remainder of this Agreement will remain in full force and effect. 19. Arbitration. Except as otherwise specified below, all actions, disputes, claims and controversies under common law, statutory law or in equity of any type or nature whatsoever, whether arising before or after the date of this Agreement, and whether directly or indirectly relating to: (a) this Agreement and/or any amendments and addenda hereto, or the breach, invalidity or termination hereof\u037e (b) any previous or subsequent agreement between the parties\u037e and/or (c) any other relationship, transaction or dealing between the parties (collectively the \"Disputes\"), will be subject to and resolved by binding arbitration pursuant to the Arbitration Rules of U.S. Arbitration & Mediation, (www.usam.com). Any award or order rendered by the arbitrator may be confirmed as a judgment or order in any state or federal court of competent jurisdiction, which includes within the federal judicial district of the residence of the party against whom such award or order was entered.",
+      "text": "18. Severability. If any provision of this Agreement is invalid, illegal, or unenforceable, the remainder of this Agreement will remain in full force and effect. 19. Arbitration. Except as otherwise specified below, all actions, disputes, claims and controversies under common law, statutory law or in equity of any type or nature whatsoever, whether arising before or after the date of this Agreement, and whether directly or indirectly relating to: (a) this Agreement and/or any amendments and addenda hereto, or the breach, invalidity or termination hereof\u037e (b) any previous or subsequent agreement between the parties\u037e and/or (c) any other relationship, transaction or dealing between the parties (collectively the \"Disputes\"), will be subject to and resolved by binding arbitration pursuant to the Arbitration Rules of U.S. Arbitration & Mediation, (www.usam.com). Any award or order rendered by the arbitrator may be confirmed as a judgment or order in any state or federal court of competent jurisdiction, which includes within the federal judicial district of the residence of the party against whom such award or order was entered."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 505.87372799999997,
+            "t": 603.706335584,
+            "r": 545.0970239999998,
+            "b": 596.7956988072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Page 9 of 10",
+      "text": "Page 9 of 10"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 49.902912,
+            "t": 745.8908235839999,
+            "r": 547.548406456319,
+            "b": 738.9801868072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed by their duly authorized representatives as of the Effective Date.",
+      "text": "IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed by their duly authorized representatives as of the Effective Date."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 49.902912,
+            "t": 736.084999584,
+            "r": 118.54368612864003,
+            "b": 729.1743628072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "/s/ Michael Rockford",
+      "text": "/s/ Michael Rockford"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 385.13952,
+            "t": 736.084999584,
+            "r": 440.29730451456027,
+            "b": 729.1743628072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "/s/ John Marcum",
+      "text": "/s/ John Marcum"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 49.902912,
+            "t": 725.666311584,
+            "r": 116.70506348543996,
+            "b": 718.7556748072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "for RadialSpark, LLC",
+      "text": "for RadialSpark, LLC"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 385.13952,
+            "t": 725.666311584,
+            "r": 437.2329354854403,
+            "b": 718.7556748072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        },
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 502.19654399999996,
+            "t": 710.957575584,
+            "r": 545.0970239999998,
+            "b": 704.0469388072727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            18,
+            31
+          ]
+        }
+      ],
+      "orig": "for Clear Capital Page 10 of 10",
+      "text": "for Clear Capital Page 10 of 10"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 145.87533569335938,
+            "t": 785.7133293151855,
+            "r": 451.7937316894531,
+            "b": 639.4557800292969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 10
+    }
+  }
+}

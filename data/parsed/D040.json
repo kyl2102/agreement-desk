@@ -1,0 +1,4942 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 8639055399781946264,
+    "filename": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 777.1822874999998,
+            "r": 544.950429250001,
+            "b": 749.8244980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            299
+          ]
+        }
+      ],
+      "orig": "Exhibit 10.36 [Pursuant to Item 601(b)(10) of Regulation S-K, certain confidential portions of this exhibit have been omitted by means of marking such portions with asterisks as the identified confidential portions (i) are not material and (ii) would be competitively harmful if publicly disclosed.]",
+      "text": "Exhibit 10.36 [Pursuant to Item 601(b)(10) of Regulation S-K, certain confidential portions of this exhibit have been omitted by means of marking such portions with asterisks as the identified confidential portions (i) are not material and (ii) would be competitively harmful if publicly disclosed.]"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 213.54375,
+            "t": 744.9885374999999,
+            "r": 382.08752525,
+            "b": 677.2307480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "MANUFACTURING AND SUPPLY AGREEMENT (DA-9801 Licensed Products) Between DONG-A ST CO., LTD. And NEUROBO PHARMACEUTICALS, INC. Dated: September 28, 2018",
+      "text": "MANUFACTURING AND SUPPLY AGREEMENT (DA-9801 Licensed Products) Between DONG-A ST CO., LTD. And NEUROBO PHARMACEUTICALS, INC. Dated: September 28, 2018"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 213.54375,
+            "t": 794.8580374999999,
+            "r": 381.4562815625001,
+            "b": 777.6002480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "MANUFACTURING AND SUPPLY AGREEMENT (DA-9801 Licensed Products)",
+      "text": "MANUFACTURING AND SUPPLY AGREEMENT (DA-9801 Licensed Products)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 774.6580375000001,
+            "r": 540.5312499999999,
+            "b": 756.7689980612997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "This MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement\") is made and entered into as of September 28, 2018 (\"Effective Date\") by and between:",
+      "text": "This MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement\") is made and entered into as of September 28, 2018 (\"Effective Date\") by and between:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 753.1955375,
+            "r": 541.7936111250012,
+            "b": 735.9377480613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "Dong-A ST Co., Ltd., a corporation duly incorporated under the laws of the Republic of Korea, having its principal place of business at 64 Cheonho-daero, Dongdaemun-gu, Seoul 02587, Republic of Korea (\"Dong-A\") and",
+      "text": "Dong-A ST Co., Ltd., a corporation duly incorporated under the laws of the Republic of Korea, having its principal place of business at 64 Cheonho-daero, Dongdaemun-gu, Seoul 02587, Republic of Korea (\"Dong-A\") and"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 732.3642875000003,
+            "r": 524.1184785625,
+            "b": 715.1064980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "NeuroBo Pharmaceuticals, Inc., a corporation duly incorporated under the laws of the State of Delaware, having its principal place of business at 177 Huntington Avenue, Suite 1700, Boston, MA 02115, U.S.A. (\"NeuroBo\").",
+      "text": "NeuroBo Pharmaceuticals, Inc., a corporation duly incorporated under the laws of the State of Delaware, having its principal place of business at 177 Huntington Avenue, Suite 1700, Boston, MA 02115, U.S.A. (\"NeuroBo\")."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 278.5625,
+            "t": 711.5330375000001,
+            "r": 317.068737375,
+            "b": 704.3752480613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "RECITALS",
+      "text": "RECITALS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 701.4330375000002,
+            "r": 542.4250252499994,
+            "b": 663.3838307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            428
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Dong-A and NeuroBo entered into the License Agreement (DA-9801) dated January 18, 2018, as amended by the Amendment to License Agreement (DA-9801) dated April 18, 2018 (the \"License Agreement\") whereby Dong-A granted to NeuroBo an exclusive license under the Licensed Technology in the Field and in the Territory, to make, use, offer to sell, sell and import the Licensed Products (as defined by the License Agreement)\u037e",
+      "text": "WHEREAS, Dong-A and NeuroBo entered into the License Agreement (DA-9801) dated January 18, 2018, as amended by the Amendment to License Agreement (DA-9801) dated April 18, 2018 (the \"License Agreement\") whereby Dong-A granted to NeuroBo an exclusive license under the Licensed Technology in the Field and in the Territory, to make, use, offer to sell, sell and import the Licensed Products (as defined by the License Agreement)\u037e"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 660.4017875000002,
+            "r": 539.2684848750017,
+            "b": 633.0838307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            378
+          ]
+        }
+      ],
+      "orig": "WHEREAS, NeuroBo wishes that Dong-A manufacture and supply to NeuroBo the entire requirement of the Licensed Products and their matching placebo for the purpose of research and development of the Licensed Products, including the use in phase III clinical trials to be conducted by NeuroBo for the purpose of obtaining the NDA in the Territory, pursuant to the License Agreement\u037e",
+      "text": "WHEREAS, NeuroBo wishes that Dong-A manufacture and supply to NeuroBo the entire requirement of the Licensed Products and their matching placebo for the purpose of research and development of the Licensed Products, including the use in phase III clinical trials to be conducted by NeuroBo for the purpose of obtaining the NDA in the Territory, pursuant to the License Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 630.1017875,
+            "r": 543.6874242500003,
+            "b": 592.6838307178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            439
+          ]
+        }
+      ],
+      "orig": "WHEREAS, NeuroBo wishes that Dong-A supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A as of the Effective Date in compliance with the Korea Good Manufacturing Practices promulgated by the Governmental Authority in the Republic of Korea (the \"KGMP\") and the Licensed Products and/or their matching placebo to be manufactured by Dong-A after the Effective Date in compliance with the KGMP\u037e and",
+      "text": "WHEREAS, NeuroBo wishes that Dong-A supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A as of the Effective Date in compliance with the Korea Good Manufacturing Practices promulgated by the Governmental Authority in the Republic of Korea (the \"KGMP\") and the Licensed Products and/or their matching placebo to be manufactured by Dong-A after the Effective Date in compliance with the KGMP\u037e and"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 589.7017874999999,
+            "r": 542.4247790624995,
+            "b": 552.2838307178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            482
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Dong-A agrees (i) to supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A as of the Effective Date in compliance with the KGMP, and (ii) to manufacture and supply to NeuroBo the Licensed Products and their matching placebo in compliance with the KGMP, and NeuroBo agrees to purchase from Dong-A, the Licensed Products and/or their matching placebo for research and development, on the terms and conditions hereinafter set forth.",
+      "text": "WHEREAS, Dong-A agrees (i) to supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A as of the Effective Date in compliance with the KGMP, and (ii) to manufacture and supply to NeuroBo the Licensed Products and their matching placebo in compliance with the KGMP, and NeuroBo agrees to purchase from Dong-A, the Licensed Products and/or their matching placebo for research and development, on the terms and conditions hereinafter set forth."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 549.3017875,
+            "r": 540.5314078124984,
+            "b": 532.0838307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, in consideration of the foregoing premises and the mutual covenants contained herein and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, Dong-A and NeuroBo mutually agree as follows:",
+      "text": "NOW, THEREFORE, in consideration of the foregoing premises and the mutual covenants contained herein and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, Dong-A and NeuroBo mutually agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 529.1017875000002,
+            "r": 106.86250000000001,
+            "b": 521.9439980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "1. DEFINITIONS",
+      "text": "1. DEFINITIONS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.98124999999999,
+            "t": 519.0017875000001,
+            "r": 384.6126641250007,
+            "b": 511.88383071789326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8570375000002,
+            "r": 240.05623737500005,
+            "b": 787.7390807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            93,
+            147
+          ]
+        }
+      ],
+      "orig": "Unless otherwise defined in this Agreement, the capitalized terms utilized herein shall have the same meanings as defined in the License Agreement.",
+      "text": "Unless otherwise defined in this Agreement, the capitalized terms utilized herein shall have the same meanings as defined in the License Agreement."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 295.60625,
+            "t": 508.9017875000002,
+            "r": 299.709375,
+            "b": 501.78383071789335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 784.7570375,
+            "r": 166.20005050000003,
+            "b": 777.5992480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "2. MANUFACTURE AND SUPPLY",
+      "text": "2. MANUFACTURE AND SUPPLY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 774.6570375000001,
+            "r": 537.3754292499999,
+            "b": 726.5078307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            679
+          ]
+        }
+      ],
+      "orig": "2.1 Subject to the provisions hereof, Dong-A shall (i) supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A as of the Effective Date in compliance with the KGMP, and (ii) manufacture in compliance with the KGMP and in conformity with the specifications separately agreed upon between the Parties and attached hereto as Exhibit A (the \"Product Specifications\") and supply to NeuroBo the Licensed Products and/or their matching placebo, and NeuroBo shall purchase from Dong-A the entire requirement of the Licensed Products and/or their matching placebo for research and development of the Licensed Products under the License Agreement.",
+      "text": "2.1 Subject to the provisions hereof, Dong-A shall (i) supply to NeuroBo the Licensed Products and their matching placebo already manufactured by Dong-A as of the Effective Date in compliance with the KGMP, and (ii) manufacture in compliance with the KGMP and in conformity with the specifications separately agreed upon between the Parties and attached hereto as Exhibit A (the \"Product Specifications\") and supply to NeuroBo the Licensed Products and/or their matching placebo, and NeuroBo shall purchase from Dong-A the entire requirement of the Licensed Products and/or their matching placebo for research and development of the Licensed Products under the License Agreement."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 723.5257875000002,
+            "r": 529.799772750001,
+            "b": 696.1679980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            412
+          ]
+        }
+      ],
+      "orig": "2.2 NeuroBo shall manufacture, or have manufactured, and supply to Dong-A the active pharmaceutical ingredients (API), which are necessary to manufacture the Licensed Products, in the quantity and in conformity with the specifications separately agreed upon between the Parties and attached hereto as Exhibit C (the \"API Specifications\") as may be amended by the Parties's agreement in writing from time to time.",
+      "text": "2.2 NeuroBo shall manufacture, or have manufactured, and supply to Dong-A the active pharmaceutical ingredients (API), which are necessary to manufacture the Licensed Products, in the quantity and in conformity with the specifications separately agreed upon between the Parties and attached hereto as Exhibit C (the \"API Specifications\") as may be amended by the Parties's agreement in writing from time to time."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 692.5945375000001,
+            "r": 522.8559975000009,
+            "b": 675.3765807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "2.3 NeuroBo shall, at its costs and expenses, deliver the API to the place designated by Dong-A no later than [***] days prior to the requested delivery date for the Licensed Products and/or their matching placebo in accordance with the Firm Order.",
+      "text": "2.3 NeuroBo shall, at its costs and expenses, deliver the API to the place designated by Dong-A no later than [***] days prior to the requested delivery date for the Licensed Products and/or their matching placebo in accordance with the Firm Order."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 672.3945375000001,
+            "r": 544.3188194374995,
+            "b": 592.6828307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1085
+          ]
+        }
+      ],
+      "orig": "2.4 Within [***] days after receipt of the API from NeuroBo, Dong-A shall perform quality control test (the \"API Test\") in accordance with the methods of the API Test on such API for acceptance (the \"API Test Methods\"), which shall be separately agreed in writing by and between the Parties and attached hereto as Exhibit D\") as may be amended by the Parties's agreement in writing from time to time. NeuroBo shall provide Dong-A with all available information and technical assistance necessary for Dong-A to perform the API Test expeditiously. If the API Test indicates that the API is deficient in quantity or does not meet the API Specifications, Dong-A shall notify NeuroBo thereof in writing within the [***]-day period together with results of the API Test. If the quantity is deficient, NeuroBo shall, as soon as commercially reasonable, ship, or have shipped, the sufficient amount of additional API to cover the deficiency. If the API does not meet the API Specifications, NeuroBo shall retrieve the API at its own expense and replace the API at no additional cost to Dong-A.",
+      "text": "2.4 Within [***] days after receipt of the API from NeuroBo, Dong-A shall perform quality control test (the \"API Test\") in accordance with the methods of the API Test on such API for acceptance (the \"API Test Methods\"), which shall be separately agreed in writing by and between the Parties and attached hereto as Exhibit D\") as may be amended by the Parties's agreement in writing from time to time. NeuroBo shall provide Dong-A with all available information and technical assistance necessary for Dong-A to perform the API Test expeditiously. If the API Test indicates that the API is deficient in quantity or does not meet the API Specifications, Dong-A shall notify NeuroBo thereof in writing within the [***]-day period together with results of the API Test. If the quantity is deficient, NeuroBo shall, as soon as commercially reasonable, ship, or have shipped, the sufficient amount of additional API to cover the deficiency. If the API does not meet the API Specifications, NeuroBo shall retrieve the API at its own expense and replace the API at no additional cost to Dong-A."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 589.7007875000002,
+            "r": 543.6879545000006,
+            "b": 511.8828307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1028
+          ]
+        }
+      ],
+      "orig": "2.5 Upon [***] days' notice and at time mutually agreed upon by the Parties during Dong-A's normal business hours, but no more frequently than [***] every year during the term of this Agreement, NeuroBo may, at its cost and expense, inspect Dong-A's manufacturing facilities where the Licensed Products are manufactured. Within [***] days after the completion of the inspection, NeuroBo shall provide a written report detailing the results of such audit to Dong-A. In case of any inspection by any Governmental Authority of Dong-A's manufacturing facilities where the Licensed Products are manufactured, NeuroBo shall promptly provide Dong-A with a notice of the inspection and all notices, correspondence and related documents received from or sent to the applicable Governmental Authority. Dong-A shall permit such Governmental Authority to inspect the facilities to the fullest extent permitted by Laws and shall make its [***] and cooperate with the Governmental Authority in conducting the inspection. NeuroBo shall provide",
+      "text": "2.5 Upon [***] days' notice and at time mutually agreed upon by the Parties during Dong-A's normal business hours, but no more frequently than [***] every year during the term of this Agreement, NeuroBo may, at its cost and expense, inspect Dong-A's manufacturing facilities where the Licensed Products are manufactured. Within [***] days after the completion of the inspection, NeuroBo shall provide a written report detailing the results of such audit to Dong-A. In case of any inspection by any Governmental Authority of Dong-A's manufacturing facilities where the Licensed Products are manufactured, NeuroBo shall promptly provide Dong-A with a notice of the inspection and all notices, correspondence and related documents received from or sent to the applicable Governmental Authority. Dong-A shall permit such Governmental Authority to inspect the facilities to the fullest extent permitted by Laws and shall make its [***] and cooperate with the Governmental Authority in conducting the inspection. NeuroBo shall provide"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 295.60625,
+            "t": 508.9007875000002,
+            "r": 299.709375,
+            "b": 501.78283071789315,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 486.8070375000002,
+            "r": 536.1126956874984,
+            "b": 429.18908071789315,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            773
+          ]
+        }
+      ],
+      "orig": "such assistance as reasonably requested by Dong-A for the preparation of and during such inspection and furnish Dong-A with copies of all reports and notices received as a result of any such inspection. NeuroBo agrees that Dong-A shall not be obligated to correct any deficiencies documented by the Governmental Authority as a result of any such inspection. NeuroBo further agrees that it shall not hold Dong-A responsible nor shall bring any claims or actions against Dong-A for any such deficiencies and/or costs or damages NeuroBo may incur resulting therefrom. Upon request of Dong-A, the Parties may discuss in good faith a plan for NeuroBo to assist in correcting such deficiencies and the terms and conditions for implementing the corrective actions under such plan.",
+      "text": "such assistance as reasonably requested by Dong-A for the preparation of and during such inspection and furnish Dong-A with copies of all reports and notices received as a result of any such inspection. NeuroBo agrees that Dong-A shall not be obligated to correct any deficiencies documented by the Governmental Authority as a result of any such inspection. NeuroBo further agrees that it shall not hold Dong-A responsible nor shall bring any claims or actions against Dong-A for any such deficiencies and/or costs or damages NeuroBo may incur resulting therefrom. Upon request of Dong-A, the Parties may discuss in good faith a plan for NeuroBo to assist in correcting such deficiencies and the terms and conditions for implementing the corrective actions under such plan."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 426.20703750000007,
+            "r": 541.1628787500016,
+            "b": 388.7890807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            558
+          ]
+        }
+      ],
+      "orig": "2.6 The Parties acknowledge and agree that prior to commercialization of the Licensed Products by NeuroBo, its Affiliates and/or sublicensees, the Parties shall, in good faith, negotiate the terms and conditions for, including, without limitation, the supply price, and enter into a definitive non-exclusive supply agreement pursuant to which Dong-A shall supply to NeuroBo the Licensed Products for the commercialization by NeuroBo, its Affiliates and/or sublicensees of the Licensed Products in the Field in the Territory pursuant to the License Agreement.",
+      "text": "2.6 The Parties acknowledge and agree that prior to commercialization of the Licensed Products by NeuroBo, its Affiliates and/or sublicensees, the Parties shall, in good faith, negotiate the terms and conditions for, including, without limitation, the supply price, and enter into a definitive non-exclusive supply agreement pursuant to which Dong-A shall supply to NeuroBo the Licensed Products for the commercialization by NeuroBo, its Affiliates and/or sublicensees of the Licensed Products in the Field in the Territory pursuant to the License Agreement."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 385.8070375000002,
+            "r": 538.637537875,
+            "b": 328.1890807178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            761
+          ]
+        }
+      ],
+      "orig": "2.7 In case NeuroBo requests Dong-A to conduct any additional activities, including testing (e.g. AMV, PV), documentation (e.g. CMC packaging), which NeuroBo requires for obtaining the NDA for the Licensed Product in the Territory, the Parties shall, in good faith, negotiate the terms and conditions, including, without limitation, the costs and expenses for conducting such additional testing activities of the Licensed Products and/or their matching placebo. For any such activities, NeuroBo shall pay to Dong-A [***] ([***]%) of the fees as agreed by the Parties within [***] days prior to conducting such activities by Dong-A, and shall pay the balance due within [***] days after delivery by Dong-A to NeuroBo of the deliverables as agreed by the Parties.",
+      "text": "2.7 In case NeuroBo requests Dong-A to conduct any additional activities, including testing (e.g. AMV, PV), documentation (e.g. CMC packaging), which NeuroBo requires for obtaining the NDA for the Licensed Product in the Territory, the Parties shall, in good faith, negotiate the terms and conditions, including, without limitation, the costs and expenses for conducting such additional testing activities of the Licensed Products and/or their matching placebo. For any such activities, NeuroBo shall pay to Dong-A [***] ([***]%) of the fees as agreed by the Parties within [***] days prior to conducting such activities by Dong-A, and shall pay the balance due within [***] days after delivery by Dong-A to NeuroBo of the deliverables as agreed by the Parties."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 325.20703750000007,
+            "r": 157.3625,
+            "b": 318.0492480613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "3. ORDERING AND DELIVERY",
+      "text": "3. ORDERING AND DELIVERY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 315.10703750000016,
+            "r": 543.6875504999997,
+            "b": 186.15783071789338,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1715
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8575375,
+            "r": 544.3185984999993,
+            "b": 777.6395807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            1716,
+            2003
+          ]
+        }
+      ],
+      "orig": "3.1 NeuroBo shall submit to Dong-A an order for the Licensed Products and/or their matching placebo no later than [***] days prior to the requested delivery date thereof. For each order, NeuroBo shall be obligated to order the Licensed Products and/or their matching placebo in [***] tablets. NeuroBo acknowledges and agrees that certain quantity of the Licensed Products and/or their matching placebo from each batch ordered shall be retained by Dong-A for use in the stability tests and as retention samples, and NeuroBo shall order the Licensed Products and/or their matching placebo in consideration of such quantity to be retained by Dong-A. Each order shall specify at least (i) the quantity of the Licensed Products and/or their matching placebo, (ii) the specifications of the Licensed Products and/or their matching placebo, including the specifics of packaging, (iii) the expected delivery date for the API, (iv) the requested delivery date for the Licensed Products and/or their matching placebo, (v) the shipment terms for the Licensed Products and/or their matching placebo and (vi) the supply price for the Licensed Products and/or their matching placebo. Upon receipt of the order from NeuroBo, Dong-A shall promptly acknowledge the receipt of such order. No order shall be binding upon the Parties until agreed in writing by Dong-A and NeuroBo\u037e provided, however, that such agreement shall not be unreasonably withheld or delayed. Upon such agreement, the order shall be deemed to be the \"Firm Order\" which shall be binding and may only be revised by agreement of the Parties in writing. Dong-A shall deliver the Licensed Products and/or their matching placebo to NeuroBo in accordance with the Firm Order on the shipment terms of [***] manufacturing facility of Dong-A (ICC Incoterms 2010), including the delivery date and place set forth therein, within the later of (i) [***] days after the date of the Firm Order and (ii) [***] days after the date of acceptance by Dong-A of the API.",
+      "text": "3.1 NeuroBo shall submit to Dong-A an order for the Licensed Products and/or their matching placebo no later than [***] days prior to the requested delivery date thereof. For each order, NeuroBo shall be obligated to order the Licensed Products and/or their matching placebo in [***] tablets. NeuroBo acknowledges and agrees that certain quantity of the Licensed Products and/or their matching placebo from each batch ordered shall be retained by Dong-A for use in the stability tests and as retention samples, and NeuroBo shall order the Licensed Products and/or their matching placebo in consideration of such quantity to be retained by Dong-A. Each order shall specify at least (i) the quantity of the Licensed Products and/or their matching placebo, (ii) the specifications of the Licensed Products and/or their matching placebo, including the specifics of packaging, (iii) the expected delivery date for the API, (iv) the requested delivery date for the Licensed Products and/or their matching placebo, (v) the shipment terms for the Licensed Products and/or their matching placebo and (vi) the supply price for the Licensed Products and/or their matching placebo. Upon receipt of the order from NeuroBo, Dong-A shall promptly acknowledge the receipt of such order. No order shall be binding upon the Parties until agreed in writing by Dong-A and NeuroBo\u037e provided, however, that such agreement shall not be unreasonably withheld or delayed. Upon such agreement, the order shall be deemed to be the \"Firm Order\" which shall be binding and may only be revised by agreement of the Parties in writing. Dong-A shall deliver the Licensed Products and/or their matching placebo to NeuroBo in accordance with the Firm Order on the shipment terms of [***] manufacturing facility of Dong-A (ICC Incoterms 2010), including the delivery date and place set forth therein, within the later of (i) [***] days after the date of the Firm Order and (ii) [***] days after the date of acceptance by Dong-A of the API."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 295.60625,
+            "t": 183.17578750000007,
+            "r": 299.709375,
+            "b": 176.05783071789324,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 774.6575375,
+            "r": 535.4810353749994,
+            "b": 747.3395807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            377
+          ]
+        }
+      ],
+      "orig": "3.2 Dong-A shall supply NeuroBo with the Licensed Products and/or their matching placebo together with a certificate of analysis, as described in the Product Specifications, for each batch of the Licensed Products and/or their matching placebo shipped hereunder certifying that such batch of the Licensed Products and/or their matching placebo meets the Product Specifications.",
+      "text": "3.2 Dong-A shall supply NeuroBo with the Licensed Products and/or their matching placebo together with a certificate of analysis, as described in the Product Specifications, for each batch of the Licensed Products and/or their matching placebo shipped hereunder certifying that such batch of the Licensed Products and/or their matching placebo meets the Product Specifications."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 744.3575375,
+            "r": 543.0564014999992,
+            "b": 593.9458307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2085
+          ]
+        }
+      ],
+      "orig": "3.3 Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time. Dong-A shall provide NeuroBo with all available information and technical assistance necessary for NeuroBo to perform the Product Test expeditiously. If the Product Test indicates that the Licensed Products and/or their matching placebo is deficient in quantity or does not meet the Product Specifications, NeuroBo shall notify Dong-A thereof in writing within the [***]-day period together with results of the Product Test. If the quantity is deficient, Dong-A shall immediately ship the sufficient amount of additional Licensed Products and/or their matching placebo to cover the deficiency. If Dong-A does not agree that the Licensed Products and/or their matching placebo does not meet the Product Specifications, the Parties shall refer their disagreement for decision by an independent testing laboratory agreed by the Parties. The decision by the independent testing laboratory shall be conclusive and binding on both Parties, and the losing Party shall bear the costs of the independent testing laboratory. If Dong-A agrees that the Licensed Products and/or their matching placebo does not meet the Product Specifications, or if the decision by the testing laboratory confirms that the Licensed Products and/or their matching placebo does not meet the Product Specifications, (i) Dong-A shall arrange for the return from NeuroBo of the Licensed Products and/or their matching placebo at Dong-A's expense, and (ii) without waiting for the return, Dong-A shall promptly replace the Licensed Products and/or their matching placebo at no additional cost to NeuroBo.",
+      "text": "3.3 Within [***] days after receipt of the Licensed Products and/or their matching placebo hereunder, NeuroBo may, in its discretion, perform a quality control test (the \"Product Test\") in accordance with the methods of the test on such Licensed Products and/or their matching placebo for acceptance (the \"Product Test Methods\"), which shall be separately agreed in writing by and between Dong-A and NeuroBo and attached hereto as Exhibit B, as may be amended by the Parties' agreement in writing from time to time. Dong-A shall provide NeuroBo with all available information and technical assistance necessary for NeuroBo to perform the Product Test expeditiously. If the Product Test indicates that the Licensed Products and/or their matching placebo is deficient in quantity or does not meet the Product Specifications, NeuroBo shall notify Dong-A thereof in writing within the [***]-day period together with results of the Product Test. If the quantity is deficient, Dong-A shall immediately ship the sufficient amount of additional Licensed Products and/or their matching placebo to cover the deficiency. If Dong-A does not agree that the Licensed Products and/or their matching placebo does not meet the Product Specifications, the Parties shall refer their disagreement for decision by an independent testing laboratory agreed by the Parties. The decision by the independent testing laboratory shall be conclusive and binding on both Parties, and the losing Party shall bear the costs of the independent testing laboratory. If Dong-A agrees that the Licensed Products and/or their matching placebo does not meet the Product Specifications, or if the decision by the testing laboratory confirms that the Licensed Products and/or their matching placebo does not meet the Product Specifications, (i) Dong-A shall arrange for the return from NeuroBo of the Licensed Products and/or their matching placebo at Dong-A's expense, and (ii) without waiting for the return, Dong-A shall promptly replace the Licensed Products and/or their matching placebo at no additional cost to NeuroBo."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 590.9637874999999,
+            "r": 189.5562752500001,
+            "b": 583.8059980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "4. TERMS AND CONDITIONS OF SALE",
+      "text": "4. TERMS AND CONDITIONS OF SALE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 580.8637875,
+            "r": 542.4246212500001,
+            "b": 563.6458307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "4.1 The terms and conditions of sale and purchase of the Licensed Products and/or their matching placebo between Dong-A and NeuroBo shall be set forth in each Firm Order.",
+      "text": "4.1 The terms and conditions of sale and purchase of the Licensed Products and/or their matching placebo between Dong-A and NeuroBo shall be set forth in each Firm Order."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 79.71875,
+            "t": 560.6637874999999,
+            "r": 447.10640781250095,
+            "b": 553.5059980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "4.2 The supply prices for the Licensed Products and their matching placebo shall be specified in Schedule 4.2.",
+      "text": "4.2 The supply prices for the Licensed Products and their matching placebo shall be specified in Schedule 4.2."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 550.5637875,
+            "r": 537.3753030000016,
+            "b": 513.1458307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            552
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8576374999999,
+            "r": 538.0061742500008,
+            "b": 757.4396807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            553,
+            1005
+          ]
+        }
+      ],
+      "orig": "4.3 Upon agreement by the Parties of the Firm Order, Dong-A shall issue to NeuroBo an invoice in Korean Won for each shipment of the Licensed Products and/or their matching placebo based on the Firm Order. Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days prior to the shipment date by way of wire transfer to Dong-A. NeuroBo shall be responsible for and pay all wire transfer fees incurred in the Territory. If Dong-A does not receive payment of any sum due to it on or before the due date, [***] interest shall thereafter accrue on the sum due to until the date of payment at the [***] rate of [***] percent ([***]%) over the then-current prime rate quoted by Citibank in New York, New York or the maximum rate allowable by New York law, whichever is lower.",
+      "text": "4.3 Upon agreement by the Parties of the Firm Order, Dong-A shall issue to NeuroBo an invoice in Korean Won for each shipment of the Licensed Products and/or their matching placebo based on the Firm Order. Unless otherwise agreed in writing by Dong-A, NeuroBo shall pay the invoiced supply price (i) in Korean Won (KRW) or (ii) in United States Dollars (USD) which amount shall correspond the invoiced amount converted from KRW to USD at the exchange rate of the payment date, no later than [***] days prior to the shipment date by way of wire transfer to Dong-A. NeuroBo shall be responsible for and pay all wire transfer fees incurred in the Territory. If Dong-A does not receive payment of any sum due to it on or before the due date, [***] interest shall thereafter accrue on the sum due to until the date of payment at the [***] rate of [***] percent ([***]%) over the then-current prime rate quoted by Citibank in New York, New York or the maximum rate allowable by New York law, whichever is lower."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 295.60625,
+            "t": 510.1637874999999,
+            "r": 299.709375,
+            "b": 503.0458307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 754.4576374999999,
+            "r": 543.0563131250008,
+            "b": 737.2396807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "4.4 Dong-A shall not be responsible for any taxes levied on account of the payments under this Agreement. In the event that any taxes are required to be paid on account of any payment hereunder, NeuroBo shall pay all such taxes.",
+      "text": "4.4 Dong-A shall not be responsible for any taxes levied on account of the payments under this Agreement. In the event that any taxes are required to be paid on account of any payment hereunder, NeuroBo shall pay all such taxes."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 734.2576375,
+            "r": 543.0560543125011,
+            "b": 706.9396807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            391
+          ]
+        }
+      ],
+      "orig": "4.5 In performing its obligations under this Agreement, NeuroBo shall, and shall cause its Affiliates and sublicensees to, comply with all applicable laws, including any applicable anti-corruption or anti-bribery laws or regulation, of any governmental authority with jurisdiction over the activities performed by NeuroBo or its Affiliates or sublicensees in furtherance of such obligations.",
+      "text": "4.5 In performing its obligations under this Agreement, NeuroBo shall, and shall cause its Affiliates and sublicensees to, comply with all applicable laws, including any applicable anti-corruption or anti-bribery laws or regulation, of any governmental authority with jurisdiction over the activities performed by NeuroBo or its Affiliates or sublicensees in furtherance of such obligations."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 703.9576374999999,
+            "r": 154.83749999999992,
+            "b": 696.7998480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "5. TERM AND TERMINATION",
+      "text": "5. TERM AND TERMINATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 693.8576375,
+            "r": 543.0563888750016,
+            "b": 676.6396807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "5.1 This Agreement shall commence on the Effective Date and, unless earlier terminated, shall continue in full force and effect for a period of [***] years thereafter.",
+      "text": "5.1 This Agreement shall commence on the Effective Date and, unless earlier terminated, shall continue in full force and effect for a period of [***] years thereafter."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 74.66875,
+            "t": 673.6576375,
+            "r": 496.97490531249935,
+            "b": 666.4998480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "5.2 This Agreement shall automatically terminate in case the License Agreement is terminated for any reason specified therein.",
+      "text": "5.2 This Agreement shall automatically terminate in case the License Agreement is terminated for any reason specified therein."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 663.5576374999999,
+            "r": 514.650252500001,
+            "b": 646.3396807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "5.3 A Party may terminate this Agreement by notice to the other Party if the other Party is in material breach of any provision of this Agreement, and",
+      "text": "5.3 A Party may terminate this Agreement by notice to the other Party if the other Party is in material breach of any provision of this Agreement, and"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 99.91874999999999,
+            "t": 643.3576375,
+            "r": 494.45015781249947,
+            "b": 636.2396807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "(a) the breaching Party has not cured the breach within [***] days after receiving notice from the terminating Party\u037e or",
+      "text": "(a) the breaching Party has not cured the breach within [***] days after receiving notice from the terminating Party\u037e or"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 633.2576375,
+            "r": 535.4810921874991,
+            "b": 616.0396807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "(b) if the breach cannot reasonably be cured within the [***]-day period, the breaching Party has not started to remedy the breach within the [***]-day period and diligently endeavored to cure the breach within a reasonable time thereafter.",
+      "text": "(b) if the breach cannot reasonably be cured within the [***]-day period, the breaching Party has not started to remedy the breach within the [***]-day period and diligently endeavored to cure the breach within a reasonable time thereafter."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 613.0576374999999,
+            "r": 542.425025249999,
+            "b": 575.6396807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            483
+          ]
+        }
+      ],
+      "orig": "5.4 Either Party may terminate this Agreement immediately upon notice to the other Party in the event that (a) the other Party is the subject of a petition for bankruptcy, reorganization, or arrangement, whether voluntary or involuntary, and the same is not dismissed within thirty (30) days thereof, (b) a receiver or trustee is appointed for all or a substantial portion of the assets of the other Party, or (c) the other Party makes an assignment for the benefit of its creditors.",
+      "text": "5.4 Either Party may terminate this Agreement immediately upon notice to the other Party in the event that (a) the other Party is the subject of a petition for bankruptcy, reorganization, or arrangement, whether voluntary or involuntary, and the same is not dismissed within thirty (30) days thereof, (b) a receiver or trustee is appointed for all or a substantial portion of the assets of the other Party, or (c) the other Party makes an assignment for the benefit of its creditors."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 572.6576375,
+            "r": 544.3186490000007,
+            "b": 535.2396807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            565
+          ]
+        }
+      ],
+      "orig": "5.6 The termination or expiration of this Agreement, in whole or in part, shall be without prejudice to the right of either Dong-A and NeuroBo to receive all payments accrued and unpaid at the effective date of such termination or expiration, without prejudice to the remedy of either Dong-A and NeuroBo in respect to any previous breach of any of the representations, warranties, covenants or obligations herein contained and without prejudice to any other provisions hereof which expressly or necessarily call for performance after such termination or expiration.",
+      "text": "5.6 The termination or expiration of this Agreement, in whole or in part, shall be without prejudice to the right of either Dong-A and NeuroBo to receive all payments accrued and unpaid at the effective date of such termination or expiration, without prejudice to the remedy of either Dong-A and NeuroBo in respect to any previous breach of any of the representations, warranties, covenants or obligations herein contained and without prejudice to any other provisions hereof which expressly or necessarily call for performance after such termination or expiration."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 295.60625,
+            "t": 532.2576375,
+            "r": 299.709375,
+            "b": 525.1396807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8577375,
+            "r": 123.90627524999996,
+            "b": 787.6999480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "6. GOVERNING LAW",
+      "text": "6. GOVERNING LAW",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 784.7577375,
+            "r": 536.1126704374985,
+            "b": 757.4397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            305
+          ]
+        }
+      ],
+      "orig": "The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement.",
+      "text": "The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 754.4577375,
+            "r": 91.7125,
+            "b": 747.2999480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "7. NOTICES",
+      "text": "7. NOTICES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 744.3577375,
+            "r": 541.7941855625014,
+            "b": 706.9397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            536
+          ]
+        }
+      ],
+      "orig": "All notices, consents, and approvals under this Agreement must be delivered in writing by courier, electronic facsimile (fax), or certified or registered mail, (postage prepaid and return receipt requested) to the other Party\u037e and shall be effective upon receipt or three (3) business days after being deposited in the mail, whichever occurs sooner. Notices to the Parties shall be sent to the addresses set forth at the beginning of this Agreement. Notice of change of address shall be given in the same manner as other communications.",
+      "text": "All notices, consents, and approvals under this Agreement must be delivered in writing by courier, electronic facsimile (fax), or certified or registered mail, (postage prepaid and return receipt requested) to the other Party\u037e and shall be effective upon receipt or three (3) business days after being deposited in the mail, whichever occurs sooner. Notices to the Parties shall be sent to the addresses set forth at the beginning of this Agreement. Notice of change of address shall be given in the same manner as other communications."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 703.9577375,
+            "r": 183.24375,
+            "b": 696.7999480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "8. INCORPORATION BY REFERENCE",
+      "text": "8. INCORPORATION BY REFERENCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 693.8577375,
+            "r": 532.3250505000017,
+            "b": 666.5397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            390
+          ]
+        }
+      ],
+      "orig": "Articles or Sections 8.2 (Limitation of Liability), 9 (Indemnification), 12.2 (Force Majeure), 12.3 (Assignment), 12.4 (Severability), 12.6 (Remedies), 12.8 (Submission to Jurisdiction/Waiver of Jury Trial), 12.9 (Independent Contractor/No Agency), 12.10 (Entire Agreement) of the License Agreement shall be deemed to be incorporated herein by reference as it is set forth in this Agreement",
+      "text": "Articles or Sections 8.2 (Limitation of Liability), 9 (Indemnification), 12.2 (Force Majeure), 12.3 (Assignment), 12.4 (Severability), 12.6 (Remedies), 12.8 (Submission to Jurisdiction/Waiver of Jury Trial), 12.9 (Independent Contractor/No Agency), 12.10 (Entire Agreement) of the License Agreement shall be deemed to be incorporated herein by reference as it is set forth in this Agreement"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 252.68125,
+            "t": 663.5577374999999,
+            "r": 342.31874999999997,
+            "b": 656.4397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "<Signature page follows.>",
+      "text": "<Signature page follows.>"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 295.60625,
+            "t": 653.4577375,
+            "r": 299.709375,
+            "b": 646.3397807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 80.98124999999999,
+            "t": 794.8576375,
+            "r": 432.58763887500027,
+            "b": 787.6998480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the Parties hereto have duly executed this Agreement as of the Effective Date.",
+      "text": "IN WITNESS WHEREOF, the Parties hereto have duly executed this Agreement as of the Effective Date."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 298.13125,
+            "t": 784.7576375,
+            "r": 377.82656249999997,
+            "b": 777.5998480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "DONG-A ST CO., LTD.",
+      "text": "DONG-A ST CO., LTD.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 298.13125,
+            "t": 774.6576375,
+            "r": 309.49375,
+            "b": 767.5396807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "By:",
+      "text": "By:"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 322.75,
+            "t": 774.6576375,
+            "r": 372.61872474999996,
+            "b": 767.5396807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "/s/ Daesik Eom",
+      "text": "/s/ Daesik Eom"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 322.75,
+            "t": 763.9263874999999,
+            "r": 428.7999684374995,
+            "b": 756.8084307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Daesik Eom, Chairman and CEO",
+      "text": "Daesik Eom, Chairman and CEO"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 298.13125,
+            "t": 753.8263875,
+            "r": 437.63757574999977,
+            "b": 746.6685980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "NEUROBO PHARMACEUTICALS, INC.",
+      "text": "NEUROBO PHARMACEUTICALS, INC.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 298.13125,
+            "t": 743.7263875,
+            "r": 309.49375,
+            "b": 736.6084307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "By:",
+      "text": "By:"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 322.75,
+            "t": 743.7263875,
+            "r": 395.34380049999965,
+            "b": 736.6084307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "/s/ John L. Brooks, III",
+      "text": "/s/ John L. Brooks, III"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 322.75,
+            "t": 732.9951374999999,
+            "r": 443.31880050000035,
+            "b": 725.8771807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "John L. Brooks III, President & CEO",
+      "text": "John L. Brooks III, President & CEO"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 295.60625,
+            "t": 722.8951375,
+            "r": 299.709375,
+            "b": 715.7771807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 260.25625,
+            "t": 794.8575874999999,
+            "r": 334.7437500000002,
+            "b": 757.4396307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Exhibit B Product Test Methods [***] Schedule 1-2",
+      "text": "Exhibit B Product Test Methods [***] Schedule 1-2"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 281.71875,
+            "t": 794.8576375,
+            "r": 313.5249125,
+            "b": 787.6998480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Exhibit C",
+      "text": "Exhibit C",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 265.9375,
+            "t": 784.7576375,
+            "r": 329.6937878750001,
+            "b": 777.5998480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "API Specifications",
+      "text": "API Specifications",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 269.725,
+            "t": 774.4531125,
+            "r": 303.81252525,
+            "b": 768.3965214364845,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Analytical",
+      "text": "Analytical"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 766.2468624999999,
+            "r": 62.675,
+            "b": 760.1902714364844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Test",
+      "text": "Test"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 274.775,
+            "t": 766.2468624999999,
+            "r": 299.39374999999984,
+            "b": 760.1902714364844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Method",
+      "text": "Method"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 416.175,
+            "t": 766.2468624999999,
+            "r": 507.70624999999967,
+            "b": 760.1902714364844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Specification Requirements",
+      "text": "Specification Requirements"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 757.6138874999999,
+            "r": 68.35625,
+            "b": 750.4959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 757.6138874999999,
+            "r": 212.91250000000002,
+            "b": 750.4959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 757.6138874999999,
+            "r": 408.59999999999997,
+            "b": 750.4959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 742.4638875,
+            "r": 68.35625,
+            "b": 735.3459307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 747.5138875,
+            "r": 212.91250000000002,
+            "b": 740.3959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 747.5138875,
+            "r": 408.59999999999997,
+            "b": 740.3959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 737.4138875,
+            "r": 212.91250000000002,
+            "b": 730.2959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 737.4138875,
+            "r": 408.59999999999997,
+            "b": 730.2959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 727.3138875,
+            "r": 68.35625,
+            "b": 720.1959307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 727.3138875,
+            "r": 212.91250000000002,
+            "b": 720.1959307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 727.3138875,
+            "r": 408.59999999999997,
+            "b": 720.1959307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 717.2138875,
+            "r": 68.35625,
+            "b": 710.0959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 717.2138875,
+            "r": 212.91250000000002,
+            "b": 710.0959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 717.2138875,
+            "r": 408.59999999999997,
+            "b": 710.0959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 707.1138874999999,
+            "r": 68.35625,
+            "b": 699.9959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 707.1138874999999,
+            "r": 212.91250000000002,
+            "b": 699.9959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 707.1138874999999,
+            "r": 408.59999999999997,
+            "b": 699.9959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 697.0138875,
+            "r": 68.35625,
+            "b": 689.8959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 697.0138875,
+            "r": 212.91250000000002,
+            "b": 689.8959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 697.0138875,
+            "r": 408.59999999999997,
+            "b": 689.8959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 686.9138875,
+            "r": 68.35625,
+            "b": 679.7959307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 686.9138875,
+            "r": 212.91250000000002,
+            "b": 679.7959307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 686.9138875,
+            "r": 408.59999999999997,
+            "b": 679.7959307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 676.8138875,
+            "r": 68.35625,
+            "b": 669.6959307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 676.8138875,
+            "r": 212.91250000000002,
+            "b": 669.6959307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 676.8138875,
+            "r": 408.59999999999997,
+            "b": 669.6959307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 666.7138875,
+            "r": 68.35625,
+            "b": 659.5959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 666.7138875,
+            "r": 212.91250000000002,
+            "b": 659.5959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 666.7138875,
+            "r": 408.59999999999997,
+            "b": 659.5959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 656.6138874999999,
+            "r": 68.35625,
+            "b": 649.4959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 194.60625,
+            "t": 656.6138874999999,
+            "r": 212.91250000000002,
+            "b": 649.4959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 390.29375,
+            "t": 656.6138874999999,
+            "r": 408.59999999999997,
+            "b": 649.4959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "[***]",
+      "text": "[***]"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 276.0375,
+            "t": 646.5138875,
+            "r": 319.278125,
+            "b": 639.3959307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Schedule 1-3",
+      "text": "Schedule 1-3"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 267.2,
+            "t": 624.4201375,
+            "r": 327.80001893750006,
+            "b": 607.1623480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Exhibit D API Test Methods",
+      "text": "Exhibit D API Test Methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 276.0375,
+            "t": 604.2201375,
+            "r": 319.278125,
+            "b": 587.0021807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "[***] Schedule 1-4",
+      "text": "[***] Schedule 1-4"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 275.40625,
+            "t": 794.8576875000001,
+            "r": 319.5937815625,
+            "b": 757.4397307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "Schedule 4.2 Supply Price [***] Schedule 1-5",
+      "text": "Schedule 4.2 Supply Price [***] Schedule 1-5"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 273.0859375,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019",
+      "text": "Source: NEUROBO PHARMACEUTICALS, INC., S-4, 9/3/2019"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 48.67854309082031,
+            "t": 768.432731628418,
+            "r": 545.5460815429688,
+            "b": 635.3312530517578,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 48.76325225830078,
+            "t": 704.3396911621094,
+            "r": 546.3309326171875,
+            "b": 558.5872497558594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 258.99375,
+              "t": 141.19861250000008,
+              "r": 336.63748737500026,
+              "b": 175.86597856351545,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Exhibit A Product Specifications Analytical Method",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 169.80938749999996,
+              "r": 62.675,
+              "b": 175.86597856351545,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Test",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 416.175,
+              "t": 169.80938749999996,
+              "r": 507.70624999999967,
+              "b": 175.86597856351545,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Specification Requirements",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 178.44236249999994,
+              "r": 68.35625,
+              "b": 185.56031928210678,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 178.44236249999994,
+              "r": 212.91250000000002,
+              "b": 185.56031928210678,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 178.44236249999994,
+              "r": 408.59999999999997,
+              "b": 185.56031928210678,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 193.59236250000004,
+              "r": 68.35625,
+              "b": 200.71031928210687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 188.54236250000008,
+              "r": 212.91250000000002,
+              "b": 205.76031928210682,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***] [***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 188.54236250000008,
+              "r": 408.59999999999997,
+              "b": 205.76031928210682,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***] [***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 208.7423625,
+              "r": 68.35625,
+              "b": 215.86031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 208.7423625,
+              "r": 212.91250000000002,
+              "b": 215.86031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 208.7423625,
+              "r": 408.59999999999997,
+              "b": 215.86031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 218.84236250000004,
+              "r": 68.35625,
+              "b": 225.96031928210687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 218.84236250000004,
+              "r": 212.91250000000002,
+              "b": 225.96031928210687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 218.84236250000004,
+              "r": 408.59999999999997,
+              "b": 225.96031928210687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 228.94236249999994,
+              "r": 68.35625,
+              "b": 236.06031928210678,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 228.94236249999994,
+              "r": 212.91250000000002,
+              "b": 236.06031928210678,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 228.94236249999994,
+              "r": 408.59999999999997,
+              "b": 236.06031928210678,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 239.04236250000008,
+              "r": 68.35625,
+              "b": 246.1603192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 239.04236250000008,
+              "r": 212.91250000000002,
+              "b": 246.1603192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 239.04236250000008,
+              "r": 408.59999999999997,
+              "b": 246.1603192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 249.1423625,
+              "r": 68.35625,
+              "b": 256.2603192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 249.1423625,
+              "r": 212.91250000000002,
+              "b": 256.2603192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 249.1423625,
+              "r": 408.59999999999997,
+              "b": 256.2603192821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 50.05,
+              "t": 259.2423625,
+              "r": 68.35625,
+              "b": 266.36031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.60625,
+              "t": 259.2423625,
+              "r": 212.91250000000002,
+              "b": 266.36031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 390.29375,
+              "t": 259.2423625,
+              "r": 408.59999999999997,
+              "b": 266.36031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "[***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 276.0375,
+              "t": 269.34236250000004,
+              "r": 319.278125,
+              "b": 276.46031928210687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 3,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 3,
+            "text": "Schedule 1-1",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 10,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 169.80938749999996,
+                "r": 62.675,
+                "b": 175.86597856351545,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Test",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 258.99375,
+                "t": 141.19861250000008,
+                "r": 336.63748737500026,
+                "b": 175.86597856351545,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Exhibit A Product Specifications Analytical Method",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 416.175,
+                "t": 169.80938749999996,
+                "r": 507.70624999999967,
+                "b": 175.86597856351545,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Specification Requirements",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 178.44236249999994,
+                "r": 68.35625,
+                "b": 185.56031928210678,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 178.44236249999994,
+                "r": 212.91250000000002,
+                "b": 185.56031928210678,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 178.44236249999994,
+                "r": 408.59999999999997,
+                "b": 185.56031928210678,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 193.59236250000004,
+                "r": 68.35625,
+                "b": 200.71031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 188.54236250000008,
+                "r": 212.91250000000002,
+                "b": 205.76031928210682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***] [***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 188.54236250000008,
+                "r": 408.59999999999997,
+                "b": 205.76031928210682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***] [***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 208.7423625,
+                "r": 68.35625,
+                "b": 215.86031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 208.7423625,
+                "r": 212.91250000000002,
+                "b": 215.86031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 208.7423625,
+                "r": 408.59999999999997,
+                "b": 215.86031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 218.84236250000004,
+                "r": 68.35625,
+                "b": 225.96031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 218.84236250000004,
+                "r": 212.91250000000002,
+                "b": 225.96031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 218.84236250000004,
+                "r": 408.59999999999997,
+                "b": 225.96031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 228.94236249999994,
+                "r": 68.35625,
+                "b": 236.06031928210678,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 228.94236249999994,
+                "r": 212.91250000000002,
+                "b": 236.06031928210678,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 228.94236249999994,
+                "r": 408.59999999999997,
+                "b": 236.06031928210678,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 239.04236250000008,
+                "r": 68.35625,
+                "b": 246.1603192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 239.04236250000008,
+                "r": 212.91250000000002,
+                "b": 246.1603192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 239.04236250000008,
+                "r": 408.59999999999997,
+                "b": 246.1603192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 249.1423625,
+                "r": 68.35625,
+                "b": 256.2603192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 249.1423625,
+                "r": 212.91250000000002,
+                "b": 256.2603192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 249.1423625,
+                "r": 408.59999999999997,
+                "b": 256.2603192821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 50.05,
+                "t": 259.2423625,
+                "r": 68.35625,
+                "b": 266.36031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.60625,
+                "t": 259.2423625,
+                "r": 212.91250000000002,
+                "b": 266.36031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 390.29375,
+                "t": 259.2423625,
+                "r": 408.59999999999997,
+                "b": 266.36031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "[***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 276.0375,
+                "t": 269.34236250000004,
+                "r": 319.278125,
+                "b": 276.46031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "Schedule 1-1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 276.0375,
+                "t": 269.34236250000004,
+                "r": 319.278125,
+                "b": 276.46031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "Schedule 1-1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 276.0375,
+                "t": 269.34236250000004,
+                "r": 319.278125,
+                "b": 276.46031928210687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "Schedule 1-1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 10
+    }
+  }
+}

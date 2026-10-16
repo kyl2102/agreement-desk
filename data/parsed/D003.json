@@ -1,0 +1,896 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_POWEROF",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 6283366066801447392,
+    "filename": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_POWEROF.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 226.79999999999998,
+            "t": 795.0615624999998,
+            "r": 368.1999494999998,
+            "b": 786.8485354437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "LIMITED POWER OF ATTORNEY",
+      "text": "LIMITED POWER OF ATTORNEY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 767.9178124999996,
+            "r": 500.1312310624997,
+            "b": 759.6588246861154,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "KNOW ALL MEN BY THESE PRESENTS, dated as of January 1, 2004, that FEDERATED INVESTMENT",
+      "text": "KNOW ALL MEN BY THESE PRESENTS, dated as of January 1, 2004, that FEDERATED INVESTMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 755.9240625,
+            "r": 543.6873106250002,
+            "b": 588.0047854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1795
+          ]
+        }
+      ],
+      "orig": "MANAGEMENT COMPANY, a statutory trust duly organized under the laws of the State of Delaware (the \"Adviser\"), does hereby nominate, constitute and appoint FEDERATED ADVISORY SERVICES COMPANY, a statutory trust duly organized under the laws of the State of Delaware (\"FASC\"), to act hereunder as the true and lawful agent and attorney-in-fact of the Adviser, acting on behalf of each of the funds or accounts for which Adviser acts as investment adviser or subadviser shown on Schedule 1 attached hereto and incorporated by reference herein (each such fund or account being hereinafter referred to as a \"Fund\" and collectively as the \"Funds\"), for the specific purpose of executing and delivering all such agreements, instruments, contracts, assignments, bond powers, stock powers, transfer instructions, receipts, waivers, consents and other documents, and performing all such acts, as Adviser, or FASC acting as agent for the Adviser pursuant to the Services Agreement dated as of January 1, 2004 between the Adviser and FASC (such agreement, as may be amended, supplemented or otherwise modified from time to time is hereinafter referred to as the \"Services Agreement\"), may deem necessary or reasonably desirable, related to the acquisition, disposition and/or reinvestment of the funds and assets of a Fund in accordance with Adviser's supervision of the investment, sale and reinvestment of the funds and assets of each Fund pursuant to the authority granted to the Adviser as investment adviser or subadviser of each Fund under the Adviser's investment advisory or subadvisory contract for such Fund (such investment advisory or subadvisory contract, as may be amended, supplemented or otherwise modified from time to time is hereinafter referred to as the \"Investment Advisory Contract\").",
+      "text": "MANAGEMENT COMPANY, a statutory trust duly organized under the laws of the State of Delaware (the \"Adviser\"), does hereby nominate, constitute and appoint FEDERATED ADVISORY SERVICES COMPANY, a statutory trust duly organized under the laws of the State of Delaware (\"FASC\"), to act hereunder as the true and lawful agent and attorney-in-fact of the Adviser, acting on behalf of each of the funds or accounts for which Adviser acts as investment adviser or subadviser shown on Schedule 1 attached hereto and incorporated by reference herein (each such fund or account being hereinafter referred to as a \"Fund\" and collectively as the \"Funds\"), for the specific purpose of executing and delivering all such agreements, instruments, contracts, assignments, bond powers, stock powers, transfer instructions, receipts, waivers, consents and other documents, and performing all such acts, as Adviser, or FASC acting as agent for the Adviser pursuant to the Services Agreement dated as of January 1, 2004 between the Adviser and FASC (such agreement, as may be amended, supplemented or otherwise modified from time to time is hereinafter referred to as the \"Services Agreement\"), may deem necessary or reasonably desirable, related to the acquisition, disposition and/or reinvestment of the funds and assets of a Fund in accordance with Adviser's supervision of the investment, sale and reinvestment of the funds and assets of each Fund pursuant to the authority granted to the Adviser as investment adviser or subadviser of each Fund under the Adviser's investment advisory or subadvisory contract for such Fund (such investment advisory or subadvisory contract, as may be amended, supplemented or otherwise modified from time to time is hereinafter referred to as the \"Investment Advisory Contract\")."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 574.7553124999997,
+            "r": 544.9500631250007,
+            "b": 475.64228544372304,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1156
+          ]
+        }
+      ],
+      "orig": "The Adviser hereby ratifies and confirms as good and effectual, at law or in equity, all that FASC, and its officers and employees, may do by virtue hereof. However, despite the above provisions, nothing herein shall be construed as imposing a duty on FASC to act or assume responsibility for any matters referred to above or other matters even though FASC may have power or authority hereunder to do so. Nothing in this Limited Power of Attorney shall be construed (i) to be an amendment or modifications of, or supplement to, the Investment Advisory Contract, (ii) to amend, modify, limit or denigrate any duties, obligations or liabilities of the Adviser under the terms of the Investment Advisory Contract or (iii) exonerate, relieve or release the Adviser from any losses, obligations, penalties, actions, judgments and suits and other costs, expenses and disbursements of any kind or nature whatsoever which may be imposed on, incurred by or asserted against the Adviser (x) under the terms of the Investment Advisory Contract or (y) at law, or in equity, for the performance of its duties as the investment adviser or subadviser of any of the Funds.",
+      "text": "The Adviser hereby ratifies and confirms as good and effectual, at law or in equity, all that FASC, and its officers and employees, may do by virtue hereof. However, despite the above provisions, nothing herein shall be construed as imposing a duty on FASC to act or assume responsibility for any matters referred to above or other matters even though FASC may have power or authority hereunder to do so. Nothing in this Limited Power of Attorney shall be construed (i) to be an amendment or modifications of, or supplement to, the Investment Advisory Contract, (ii) to amend, modify, limit or denigrate any duties, obligations or liabilities of the Adviser under the terms of the Investment Advisory Contract or (iii) exonerate, relieve or release the Adviser from any losses, obligations, penalties, actions, judgments and suits and other costs, expenses and disbursements of any kind or nature whatsoever which may be imposed on, incurred by or asserted against the Adviser (x) under the terms of the Investment Advisory Contract or (y) at law, or in equity, for the performance of its duties as the investment adviser or subadviser of any of the Funds."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 462.3928125,
+            "r": 544.3185543124998,
+            "b": 329.192285443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1524
+          ]
+        }
+      ],
+      "orig": "The Adviser hereby agrees to indemnify and save harmless FASC and its trustees, officers and employees (each of the foregoing an \"Indemnified Party\" and collectively the \"Indemnified Parties\") against and from any and all losses, obligations, penalties, actions, judgments and suits and other costs, expenses and disbursements of any kind or nature whatsoever which may be imposed on, incurred by or asserted against an Indemnified Party, other than as a consequence of gross negligence or willful misconduct on the part of an Indemnified Party, arising out of or in connection with this Limited Power of Attorney or any other agreement, instrument or document executed in connection with the exercise of the authority granted to FASC herein to act on behalf of the Adviser, including without limitation the reasonable costs, expenses and disbursements in connection with defending such Indemnified Party against any claim or liability related to the exercise or performance of any of FASC's powers or duties under this Limited Power of Attorney or any of the other agreements, instruments or documents executed in connection with the exercise of the authority granted to FASC herein to act on behalf of the Adviser, or the taking of any action under or in connection with any of the foregoing. The obligations of the Adviser under this paragraph shall survive the termination of this Limited Power of Attorney with respect to actions taken by FASC on behalf of the Adviser during the term of this Limited Power of Attorney.",
+      "text": "The Adviser hereby agrees to indemnify and save harmless FASC and its trustees, officers and employees (each of the foregoing an \"Indemnified Party\" and collectively the \"Indemnified Parties\") against and from any and all losses, obligations, penalties, actions, judgments and suits and other costs, expenses and disbursements of any kind or nature whatsoever which may be imposed on, incurred by or asserted against an Indemnified Party, other than as a consequence of gross negligence or willful misconduct on the part of an Indemnified Party, arising out of or in connection with this Limited Power of Attorney or any other agreement, instrument or document executed in connection with the exercise of the authority granted to FASC herein to act on behalf of the Adviser, including without limitation the reasonable costs, expenses and disbursements in connection with defending such Indemnified Party against any claim or liability related to the exercise or performance of any of FASC's powers or duties under this Limited Power of Attorney or any of the other agreements, instruments or documents executed in connection with the exercise of the authority granted to FASC herein to act on behalf of the Adviser, or the taking of any action under or in connection with any of the foregoing. The obligations of the Adviser under this paragraph shall survive the termination of this Limited Power of Attorney with respect to actions taken by FASC on behalf of the Adviser during the term of this Limited Power of Attorney."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 315.94281249999995,
+            "r": 543.0565656250013,
+            "b": 262.27978544372286,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            598
+          ]
+        }
+      ],
+      "orig": "Any person, partnership, corporation or other legal entity dealing with FASC in its capacity as attorney-in-fact hereunder for the Adviser on behalf of any Fund is hereby expressly put on notice that FASC is acting solely in the capacity as an agent of the Adviser as agent for the Fund and that any such person, partnership, corporation or other legal entity must look solely to the Fund in question for enforcement of any claim against the Fund, as FASC assumes no personal liability whatsoever for obligations of the Fund entered into by FASC in its capacity as attorney-in-fact for the Adviser.",
+      "text": "Any person, partnership, corporation or other legal entity dealing with FASC in its capacity as attorney-in-fact hereunder for the Adviser on behalf of any Fund is hereby expressly put on notice that FASC is acting solely in the capacity as an agent of the Adviser as agent for the Fund and that any such person, partnership, corporation or other legal entity must look solely to the Fund in question for enforcement of any claim against the Fund, as FASC assumes no personal liability whatsoever for obligations of the Fund entered into by FASC in its capacity as attorney-in-fact for the Adviser."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 249.0303124999998,
+            "r": 543.6877524999991,
+            "b": 172.6422854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            818
+          ]
+        }
+      ],
+      "orig": "Each person, partnership, corporation or other legal entity which deals with a Fund through FASC in its capacity as agent and attorney-in-fact of the Adviser, is hereby expressly put on notice (i) that all persons or entities dealing with the Fund must look solely to the assets of the Fund on whose behalf FASC is acting pursuant to its powers hereunder for enforcement of any claim against the Fund, as the trustees, officers and/or agents of such Fund, the shareholders of the various classes of shares of the Fund, and the other Funds of the trust or corporation of which a Fund may be a series, assume no personal liability whatsoever for obligations entered into on behalf of such Fund, and (ii) that the rights, liabilities and obligations of any one Fund are separate and distinct from those of any other Fund.",
+      "text": "Each person, partnership, corporation or other legal entity which deals with a Fund through FASC in its capacity as agent and attorney-in-fact of the Adviser, is hereby expressly put on notice (i) that all persons or entities dealing with the Fund must look solely to the assets of the Fund on whose behalf FASC is acting pursuant to its powers hereunder for enforcement of any claim against the Fund, as the trustees, officers and/or agents of such Fund, the shareholders of the various classes of shares of the Fund, and the other Funds of the trust or corporation of which a Fund may be a series, assume no personal liability whatsoever for obligations entered into on behalf of such Fund, and (ii) that the rights, liabilities and obligations of any one Fund are separate and distinct from those of any other Fund."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 159.39281249999976,
+            "r": 541.7939456874994,
+            "b": 94.36728544372295,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            668
+          ]
+        }
+      ],
+      "orig": "The execution of this Limited Power of Attorney by the Adviser acting on behalf of the several Funds shall not be deemed to evidence the existence of any express or implied joint undertaking or appointment by and among any or all of the Funds. Liability for or recourse under or upon any undertaking of FASC pursuant to the power or authority granted to FASC under this Limited Power of Attorney under any rule of law, statute or constitution or by the enforcement of any assessment or penalty or by legal or equitable proceedings or otherwise shall be limited only to the assets of the Fund on whose behalf FASC was acting pursuant to the authority granted hereunder.",
+      "text": "The execution of this Limited Power of Attorney by the Adviser acting on behalf of the several Funds shall not be deemed to evidence the existence of any express or implied joint undertaking or appointment by and among any or all of the Funds. Liability for or recourse under or upon any undertaking of FASC pursuant to the power or authority granted to FASC under this Limited Power of Attorney under any rule of law, statute or constitution or by the enforcement of any assessment or penalty or by legal or equitable proceedings or otherwise shall be limited only to the assets of the Fund on whose behalf FASC was acting pursuant to the authority granted hereunder."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 81.1178124999999,
+            "r": 538.0062373749986,
+            "b": 50.17978544372295,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            391
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.0304124999998,
+            "r": 543.0562500000008,
+            "b": 729.004885443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            392,
+            1057
+          ]
+        }
+      ],
+      "orig": "The Adviser hereby agrees that no person, partnership, corporation or other legal entity dealing with FASC shall be bound to inquire into FASC's power and authority hereunder and any such person, partnership, corporation or other legal entity shall be fully protected in relying on such power or authority unless such person, partnership, corporation or other legal entity has received prior written notice from the Adviser that this Limited Power of Attorney has been revoked. This Limited Power of Attorney shall be revoked and terminated automatically upon the cancellation or termination of the Services Agreement or as to any Fund upon the cancellation or termination of the Adviser's Investment Advisory Contract for such Fund. Except as provided in the immediately preceding sentence, the powers and authorities herein granted may be revoked or terminated by the Adviser at any time provided that no such revocation or termination shall be effective until FASC has received actual notice of such revocation or termination in writing from the Adviser.",
+      "text": "The Adviser hereby agrees that no person, partnership, corporation or other legal entity dealing with FASC shall be bound to inquire into FASC's power and authority hereunder and any such person, partnership, corporation or other legal entity shall be fully protected in relying on such power or authority unless such person, partnership, corporation or other legal entity has received prior written notice from the Adviser that this Limited Power of Attorney has been revoked. This Limited Power of Attorney shall be revoked and terminated automatically upon the cancellation or termination of the Services Agreement or as to any Fund upon the cancellation or termination of the Adviser's Investment Advisory Contract for such Fund. Except as provided in the immediately preceding sentence, the powers and authorities herein granted may be revoked or terminated by the Adviser at any time provided that no such revocation or termination shall be effective until FASC has received actual notice of such revocation or termination in writing from the Adviser."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 715.7554124999999,
+            "r": 539.9000757500005,
+            "b": 662.0923854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            611
+          ]
+        }
+      ],
+      "orig": "This Limited Power of Attorney constitutes the entire agreement between the Adviser and FASC and may be changed only by a writing signed by both of them, except that the Adviser may at any time change the list of Funds to which this Limited Power of Attorney relates by executing and delivering to FASC a later dated version of Schedule 1. This Limited Power of Attorney shall bind and benefit the respective successors and assigns of the Adviser and FASC\u037e provided, however, that FASC shall have no power or authority hereunder to appoint a successor or substitute attorney in fact for the Adviser or any Fund.",
+      "text": "This Limited Power of Attorney constitutes the entire agreement between the Adviser and FASC and may be changed only by a writing signed by both of them, except that the Adviser may at any time change the list of Funds to which this Limited Power of Attorney relates by executing and delivering to FASC a later dated version of Schedule 1. This Limited Power of Attorney shall bind and benefit the respective successors and assigns of the Adviser and FASC\u037e provided, however, that FASC shall have no power or authority hereunder to appoint a successor or substitute attorney in fact for the Adviser or any Fund."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 648.8429124999998,
+            "r": 532.9560543125008,
+            "b": 583.817385443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            705
+          ]
+        }
+      ],
+      "orig": "This Limited Power of Attorney shall be governed and construed in accordance with the laws of the Commonwealth of Pennsylvania without reference to principles of conflicts of laws. If any provision hereof, or any power or authority conferred upon FASC herein, would be invalid or unexercisable under applicable law, then such provision, power or authority shall be deemed modified to the extent necessary to render it valid or exercisable while most nearly preserving its original intent, and no provision hereof, or power or authority conferred upon FASC herein, shall be affected by the invalidity or the non-exercisability of another provision hereof, or of another power or authority conferred herein.",
+      "text": "This Limited Power of Attorney shall be governed and construed in accordance with the laws of the Commonwealth of Pennsylvania without reference to principles of conflicts of laws. If any provision hereof, or any power or authority conferred upon FASC herein, would be invalid or unexercisable under applicable law, then such provision, power or authority shall be deemed modified to the extent necessary to render it valid or exercisable while most nearly preserving its original intent, and no provision hereof, or power or authority conferred upon FASC herein, shall be affected by the invalidity or the non-exercisability of another provision hereof, or of another power or authority conferred herein."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 570.5679124999999,
+            "r": 539.89977275,
+            "b": 482.81738544372297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            992
+          ]
+        }
+      ],
+      "orig": "This Limited Power of Attorney may be executed in as many identical counterparts as may be convenient and by the different parties hereto on separate counterparts. This Limited Power of Attorney shall become binding on the Adviser when the Adviser shall have executed at least one counterpart and FASC shall have accepted its appointment by executing this Limited Power of Attorney. Immediately after the execution of a counterpart original of this Limited Power of Attorney and solely for the convenience of the parties hereto, the Adviser and FASC will execute sufficient counterparts so that FASC shall have a counterpart executed by it and the Adviser, and the Adviser shall have a counterpart executed by the Adviser and FASC. Each counterpart shall be deemed an original and all such taken together shall constitute but one and the same instrument, and it shall not be necessary in making proof of this Limited Power of Attorney to produce or account for more than one such counterpart.",
+      "text": "This Limited Power of Attorney may be executed in as many identical counterparts as may be convenient and by the different parties hereto on separate counterparts. This Limited Power of Attorney shall become binding on the Adviser when the Adviser shall have executed at least one counterpart and FASC shall have accepted its appointment by executing this Limited Power of Attorney. Immediately after the execution of a counterpart original of this Limited Power of Attorney and solely for the convenience of the parties hereto, the Adviser and FASC will execute sufficient counterparts so that FASC shall have a counterpart executed by it and the Adviser, and the Adviser shall have a counterpart executed by the Adviser and FASC. Each counterpart shall be deemed an original and all such taken together shall constitute but one and the same instrument, and it shall not be necessary in making proof of this Limited Power of Attorney to produce or account for more than one such counterpart."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 795.0619125,
+            "r": 526.6438131249993,
+            "b": 775.486385443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the Adviser has caused this Limited Power of Attorney to be executed by its duly authorized officer as of the date first written above.",
+      "text": "IN WITNESS WHEREOF, the Adviser has caused this Limited Power of Attorney to be executed by its duly authorized officer as of the date first written above."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 247.0,
+            "t": 761.6056625,
+            "r": 498.23760099999936,
+            "b": 753.3466746861151,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "FEDERATED INVESTMENT MANAGEMENT COMPANY",
+      "text": "FEDERATED INVESTMENT MANAGEMENT COMPANY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 247.0,
+            "t": 750.8744125,
+            "r": 346.7374494999995,
+            "b": 719.9363854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "By: /s/ Keith M. Schappert Name Keith M. Schappert Title: President",
+      "text": "By: /s/ Keith M. Schappert Name Keith M. Schappert Title: President"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 691.5369125000001,
+            "r": 154.20632574999996,
+            "b": 671.9613854437229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Accepted and agreed to this January 1, 2004",
+      "text": "Accepted and agreed to this January 1, 2004"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.1806625,
+            "r": 259.62497474999986,
+            "b": 659.9216746861151,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "FEDERATED ADVISORY SERVICES COMPANY",
+      "text": "FEDERATED ADVISORY SERVICES COMPANY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 657.4494125,
+            "r": 159.88746212500004,
+            "b": 649.236385443723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "By: /s/ G. Andrew Bonnewell",
+      "text": "By: /s/ G. Andrew Bonnewell"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 646.0869125,
+            "r": 160.5188005,
+            "b": 637.8738854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Name: G. Andrew Bonnewell",
+      "text": "Name: G. Andrew Bonnewell"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 634.7244125000001,
+            "r": 124.5375,
+            "b": 626.5113854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Title: Vice President",
+      "text": "Title: Vice President"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 242.58124999999998,
+            "t": 795.0619125,
+            "r": 352.4187310625,
+            "b": 752.7613854437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "Schedule 1 to Limited Power of Attorney dated as of October 1, 2016 revised March 1, 2020",
+      "text": "Schedule 1 to Limited Power of Attorney dated as of October 1, 2016 revised March 1, 2020"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 136.53125,
+            "t": 748.9806625,
+            "r": 458.4688005000005,
+            "b": 740.7216746861151,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "by FEDERATED INVESTMENT MANAGEMENT COMPANY (the Adviser \"),",
+      "text": "by FEDERATED INVESTMENT MANAGEMENT COMPANY (the Adviser \"),",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 152.94375,
+            "t": 737.6181625,
+            "r": 442.6876893749997,
+            "b": 729.4051354437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "acting on behalf of each of the funds and accounts listed below, and appointing",
+      "text": "acting on behalf of each of the funds and accounts listed below, and appointing"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.7125,
+            "t": 725.6244125,
+            "r": 402.28747474999983,
+            "b": 717.365424686115,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "FEDERATED ADVISORY SERVICES COMPANY",
+      "text": "FEDERATED ADVISORY SERVICES COMPANY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 145.36874999999998,
+            "t": 714.8931624999999,
+            "r": 449.6312878750004,
+            "b": 59.01763544372284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2356
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 195.23749999999998,
+            "t": 795.0619624999999,
+            "r": 399.7626325625003,
+            "b": 525.5114354437229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            2357,
+            3301
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 219.225,
+            "t": 512.2619625,
+            "r": 375.77502525000006,
+            "b": 401.78643544372295,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            3302,
+            3618
+          ]
+        }
+      ],
+      "orig": "the attorney-in-fact of the Adviser List of Funds and Accounts Emerging Markets Core Fund Federated Adjustable Rate Securities Fund Federated Bank Loan Core Fund Federated Bond Fund Federated California Municipal Cash Trust Federated Capital Reserves Fund Federated Corporate Bond Strategy Portfolio Federated Emerging Market Debt Fund Federated Equity Advantage Fund Federated Fixed Income Opportunity Fund Federated Floating Rate Strategic Income Fund Federated Fund for U.S. Government Securities Federated Hermes Fund for U.S. Government Securities II Federated Georgia Municipal Cash Trust Federated Government Income Securities, Inc. Federated Government Income Trust Federated Government Obligations Fund Federated Government Obligations Tax-Managed Fund Federated Government Reserves Fund Federated Government Ultrashort Duration Fund Federated Hermes Absolute Return Credit Fund Federated Hermes SDG Engagement High Yield Credit Fund Federated Hermes Unconstrained Credit Fund Federated Hermes High Income Bond Fund II Federated High Income Bond Fund, Inc. Federated High Yield Strategy Portfolio Federated High Yield Trust Federated Institutional High Yield Bond Fund Federated Intermediate Corporate Bond Fund Federated Intermediate Municipal Trust Federated International Bond Fund Federated International Bond Strategy Portfolio Federated Liberty U.S. Government Money Market Trust Federated Managed Risk Fund Federated Hermes Managed Volatility Fund II Federated Massachusetts Municipal Cash Trust Federated Michigan Intermediate Municipal Trust Federated Institutional Money Market Management Federated Mortgage Core Portfolio Federated Select Total Return Bond Fund (formerly Federated Mortgage Fund) Federated Mortgage Strategy Portfolio Federated Municipal Cash Series Federated Municipal High Yield Advantage Fund Federated Municipal Obligations Fund Federated Municipal Securities Fund, Inc. Federated Municipal Ultrashort Fund Federated New York Municipal Cash Trust Federated Ohio Municipal Income Fund Federated Pennsylvania Municipal Cash Trust Federated Pennsylvania Municipal Income Fund Federated Premier Intermediate Municipal Income Fund Federated Premier Municipal Income Fund Federated Prime Cash Obligations Fund Federated Prime Cash Series Federated Hermes Prime Money Fund II Federated Institutional Prime Obligations Fund Federated Institutional Prime Value Obligations Fund Federated Project and Trade Finance Core Fund Federated Hermes Quality Bond Fund II Federated Real Return Bond Fund Federated Short-Intermediate Duration Municipal Trust Federated Short-Intermediate Total Return Bond Fund Federated Short-Term Income Fund Federated Strategic Income Fund Federated Tax-Free Obligations Fund Federated Institutional Tax-Free Cash Trust Federated Total Return Bond Fund Federated Total Return Government Bond Fund Federated Trade Finance Income Fund Federated Treasury Cash Series Federated Treasury Obligations Fund Federated Trust for U.S. Treasury Obligations Federated U.S. Government Securities Fund: 1-3 Years Federated U.S. Government Securities Fund: 2-5 Years Federated U.S. Treasury Cash Reserves Federated Ultrashort Bond Fund Federated Unconstrained Bond Fund Federated Virginia Municipal Cash Trust High Yield Bond Portfolio Short Fixed Income Fund AS - Federated High Yield Bond Fund AS - Federated High Yield Portfolio BB&T Funds Prime Money Market Chesapeake Investors Gartmore- Federated GVIT High Income Great West- Maxim Federated Bond Fund IDEX Federated Tax Exempt ONatl - High Income Bond Portfolio SA - Corporate Bond Portfolio Trav - High Yield Portfolio",
+      "text": "the attorney-in-fact of the Adviser List of Funds and Accounts Emerging Markets Core Fund Federated Adjustable Rate Securities Fund Federated Bank Loan Core Fund Federated Bond Fund Federated California Municipal Cash Trust Federated Capital Reserves Fund Federated Corporate Bond Strategy Portfolio Federated Emerging Market Debt Fund Federated Equity Advantage Fund Federated Fixed Income Opportunity Fund Federated Floating Rate Strategic Income Fund Federated Fund for U.S. Government Securities Federated Hermes Fund for U.S. Government Securities II Federated Georgia Municipal Cash Trust Federated Government Income Securities, Inc. Federated Government Income Trust Federated Government Obligations Fund Federated Government Obligations Tax-Managed Fund Federated Government Reserves Fund Federated Government Ultrashort Duration Fund Federated Hermes Absolute Return Credit Fund Federated Hermes SDG Engagement High Yield Credit Fund Federated Hermes Unconstrained Credit Fund Federated Hermes High Income Bond Fund II Federated High Income Bond Fund, Inc. Federated High Yield Strategy Portfolio Federated High Yield Trust Federated Institutional High Yield Bond Fund Federated Intermediate Corporate Bond Fund Federated Intermediate Municipal Trust Federated International Bond Fund Federated International Bond Strategy Portfolio Federated Liberty U.S. Government Money Market Trust Federated Managed Risk Fund Federated Hermes Managed Volatility Fund II Federated Massachusetts Municipal Cash Trust Federated Michigan Intermediate Municipal Trust Federated Institutional Money Market Management Federated Mortgage Core Portfolio Federated Select Total Return Bond Fund (formerly Federated Mortgage Fund) Federated Mortgage Strategy Portfolio Federated Municipal Cash Series Federated Municipal High Yield Advantage Fund Federated Municipal Obligations Fund Federated Municipal Securities Fund, Inc. Federated Municipal Ultrashort Fund Federated New York Municipal Cash Trust Federated Ohio Municipal Income Fund Federated Pennsylvania Municipal Cash Trust Federated Pennsylvania Municipal Income Fund Federated Premier Intermediate Municipal Income Fund Federated Premier Municipal Income Fund Federated Prime Cash Obligations Fund Federated Prime Cash Series Federated Hermes Prime Money Fund II Federated Institutional Prime Obligations Fund Federated Institutional Prime Value Obligations Fund Federated Project and Trade Finance Core Fund Federated Hermes Quality Bond Fund II Federated Real Return Bond Fund Federated Short-Intermediate Duration Municipal Trust Federated Short-Intermediate Total Return Bond Fund Federated Short-Term Income Fund Federated Strategic Income Fund Federated Tax-Free Obligations Fund Federated Institutional Tax-Free Cash Trust Federated Total Return Bond Fund Federated Total Return Government Bond Fund Federated Trade Finance Income Fund Federated Treasury Cash Series Federated Treasury Obligations Fund Federated Trust for U.S. Treasury Obligations Federated U.S. Government Securities Fund: 1-3 Years Federated U.S. Government Securities Fund: 2-5 Years Federated U.S. Treasury Cash Reserves Federated Ultrashort Bond Fund Federated Unconstrained Bond Fund Federated Virginia Municipal Cash Trust High Yield Bond Portfolio Short Fixed Income Fund AS - Federated High Yield Bond Fund AS - Federated High Yield Portfolio BB&T Funds Prime Money Market Chesapeake Investors Gartmore- Federated GVIT High Income Great West- Maxim Federated Bond Fund IDEX Federated Tax Exempt ONatl - High Income Bond Portfolio SA - Corporate Bond Portfolio Trav - High Yield Portfolio"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    }
+  }
+}

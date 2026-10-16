@@ -1,0 +1,2090 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 15534360379726660949,
+    "filename": "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/tables/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8074875000002,
+            "r": 538.0059343749986,
+            "b": 762.4895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 214.17499999999998,
+            "t": 759.5074875,
+            "r": 380.8250631250006,
+            "b": 752.3496980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Amendment #3 to the Manufacturing Agreement",
+      "text": "Amendment #3 to the Manufacturing Agreement",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 749.4074875000001,
+            "r": 544.9500378750001,
+            "b": 711.9496980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            514
+          ]
+        }
+      ],
+      "orig": "This Amendment #3 to the Manufacturing Agreement (this \"Amendment #3\") is made effective as of December 21, 2017 (\"Amendment Effective Date\"), by and between ADMA BioManufacturing, LLC, a Delaware limited liability company, having a place of business at 5800 Park of Commerce Boulevard NW, Boca Raton, Florida 33487 USA (\"ADMA\") and Sanofi Pasteur S.A., a company existing and organized under the laws of France (\"Sanofi Pasteur\"), having its registered head office at 14, espace Henry Vallee, 69007, Lyon, France.",
+      "text": "This Amendment #3 to the Manufacturing Agreement (this \"Amendment #3\") is made effective as of December 21, 2017 (\"Amendment Effective Date\"), by and between ADMA BioManufacturing, LLC, a Delaware limited liability company, having a place of business at 5800 Park of Commerce Boulevard NW, Boca Raton, Florida 33487 USA (\"ADMA\") and Sanofi Pasteur S.A., a company existing and organized under the laws of France (\"Sanofi Pasteur\"), having its registered head office at 14, espace Henry Vallee, 69007, Lyon, France."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 709.0074875,
+            "r": 544.9504103124989,
+            "b": 661.4895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            555
+          ]
+        }
+      ],
+      "orig": "WHEREAS, ADMA (as successor-in-interest to Biotest Pharmaceuticals Corporation (\"BPC\") and Sanofi Pasteur are parties to that certain Manufacturing Agreement, effective September 30, 2011, as previously amended (including by that certain Amendment #2 to the Manufacturing Agreement, effective as of August 1, 2016, by and between BPC and Sanofi Pasteur (\"Amendment #2\")) (the \"Agreement\") for the production of Rabies Fraction II Paste (the \"Product,\" as further defined in the Agreement) for Sanofi Pasteur from human plasma containing rabies antibodies\u037e",
+      "text": "WHEREAS, ADMA (as successor-in-interest to Biotest Pharmaceuticals Corporation (\"BPC\") and Sanofi Pasteur are parties to that certain Manufacturing Agreement, effective September 30, 2011, as previously amended (including by that certain Amendment #2 to the Manufacturing Agreement, effective as of August 1, 2016, by and between BPC and Sanofi Pasteur (\"Amendment #2\")) (the \"Agreement\") for the production of Rabies Fraction II Paste (the \"Product,\" as further defined in the Agreement) for Sanofi Pasteur from human plasma containing rabies antibodies\u037e"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5074875,
+            "r": 544.9499116249985,
+            "b": 631.1895307178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            312
+          ]
+        }
+      ],
+      "orig": "WHEREAS, BPC and Sanofi Pasteur are Parties to that certain Plasma Supply Agreement, effective January 20, 2009, as amended (the \"Plasma Supply Agreement\"), for the production of human Rabies Hyperimmune Plasma (\"Rabies Plasma\") by BPC for Sanofi Pasteur to be used in the manufacturing of Rabies Immunoglobulin\u037e",
+      "text": "WHEREAS, BPC and Sanofi Pasteur are Parties to that certain Plasma Supply Agreement, effective January 20, 2009, as amended (the \"Plasma Supply Agreement\"), for the production of human Rabies Hyperimmune Plasma (\"Rabies Plasma\") by BPC for Sanofi Pasteur to be used in the manufacturing of Rabies Immunoglobulin\u037e"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 628.2074875000001,
+            "r": 544.9498358749997,
+            "b": 610.9895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "WHEREAS, the Rabies Plasma manufactured by BPC under the Plasma Supply Agreement may be transferred to ADMA to be fractionated into Product under the Agreement\u037e",
+      "text": "WHEREAS, the Rabies Plasma manufactured by BPC under the Plasma Supply Agreement may be transferred to ADMA to be fractionated into Product under the Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0074875,
+            "r": 544.949722249999,
+            "b": 590.7895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            148
+          ]
+        }
+      ],
+      "orig": "WHEREAS, ADMA and Sanofi Pasteur desire to further amend the Agreement in order to memorialize the amendment of certain provisions in the Agreement\u037e",
+      "text": "WHEREAS, ADMA and Sanofi Pasteur desire to further amend the Agreement in order to memorialize the amendment of certain provisions in the Agreement\u037e"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 587.8074875000002,
+            "r": 544.9497601249993,
+            "b": 570.5895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, in consideration of the respective promises contained herein and other valuable consideration, the receipt and sufficiency of which are hereby acknowledged, and intending to be legally bound hereby, the Parties hereto agree as follows:",
+      "text": "NOW, THEREFORE, in consideration of the respective promises contained herein and other valuable consideration, the receipt and sufficiency of which are hereby acknowledged, and intending to be legally bound hereby, the Parties hereto agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 567.6074875000002,
+            "r": 439.53133837500076,
+            "b": 560.4895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "1. All capitalized terms used and not defined in this Amendment shall have the meaning as set out in the Agreement.",
+      "text": "1. All capitalized terms used and not defined in this Amendment shall have the meaning as set out in the Agreement."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 557.5074875,
+            "r": 544.9501451875005,
+            "b": 540.2895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            265
+          ]
+        }
+      ],
+      "orig": "2. The supply terms set forth in Section 1 of Amendment #2 (the \"Prior Supply Terms\") are hereby deleted in their entirety. In their place, the Parties agree to the following (and Section 2.1 of the Agreement is hereby amended as needed to implement the following):",
+      "text": "2. The supply terms set forth in Section 1 of Amendment #2 (the \"Prior Supply Terms\") are hereby deleted in their entirety. In their place, the Parties agree to the following (and Section 2.1 of the Agreement is hereby amended as needed to implement the following):"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 537.3074875000002,
+            "r": 544.9500631250012,
+            "b": 499.8895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            567
+          ]
+        }
+      ],
+      "orig": "Sanofi Pasteur agrees to purchase and ADMA to manufacture [***] Batches of Product, which Batches will be produced over a period from Q3 2018 to Q3 2019. Attached hereto as Exhibit A is a detailed supply plan provided to ADMA by Sanofi Pasteur (the \"Updated Supply Plan\") that describes the agreed-upon timing for production of such Batches of Product, which supply plan is made an integral part hereof and shall be binding on the Parties. Prices for such [***] Batches of Product shall be in accordance with Section 3.2 of the Agreement (as amended in Amendment #2).",
+      "text": "Sanofi Pasteur agrees to purchase and ADMA to manufacture [***] Batches of Product, which Batches will be produced over a period from Q3 2018 to Q3 2019. Attached hereto as Exhibit A is a detailed supply plan provided to ADMA by Sanofi Pasteur (the \"Updated Supply Plan\") that describes the agreed-upon timing for production of such Batches of Product, which supply plan is made an integral part hereof and shall be binding on the Parties. Prices for such [***] Batches of Product shall be in accordance with Section 3.2 of the Agreement (as amended in Amendment #2)."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 456.575,
+            "t": 491.85748750000016,
+            "r": 544.9500757499998,
+            "b": 474.6395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "BPC Initials ___ Sanofi Pasteur Initials ___",
+      "text": "BPC Initials ___ Sanofi Pasteur Initials ___"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 295.60625,
+            "t": 471.6574875000001,
+            "r": 299.709375,
+            "b": 464.5395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8575875000001,
+            "r": 544.9503093125007,
+            "b": 767.5396307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 764.5575875,
+            "r": 544.9501578125005,
+            "b": 747.3396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "The Parties agree to amend the Agreement to impose on ADMA an obligation to supply a minimum of [***] Batches of Product for that period stalling from Q4 2018 up to Q4 2019, as further specified in Exhibit A attached hereto.",
+      "text": "The Parties agree to amend the Agreement to impose on ADMA an obligation to supply a minimum of [***] Batches of Product for that period stalling from Q4 2018 up to Q4 2019, as further specified in Exhibit A attached hereto."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 744.3575874999999,
+            "r": 544.9503913750016,
+            "b": 696.8396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            569
+          ]
+        }
+      ],
+      "orig": "Should ADMA fail to supply a minimum of [***] Batches of Product (the \"Minimum Volume\") of Product during the time period as specified in this Amendment #3, ADMA agrees that Sanofi Pasteur shall be entitled to obtain from ADMA as liquidated damages, and not a penalty, amounting to $[***] ([***]) USD. ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma.",
+      "text": "Should ADMA fail to supply a minimum of [***] Batches of Product (the \"Minimum Volume\") of Product during the time period as specified in this Amendment #3, ADMA agrees that Sanofi Pasteur shall be entitled to obtain from ADMA as liquidated damages, and not a penalty, amounting to $[***] ([***]) USD. ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 693.8575874999999,
+            "r": 544.9500631249992,
+            "b": 656.4396307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            483
+          ]
+        }
+      ],
+      "orig": "In addition to the Minimum Volume of Product to be manufactured by ADMA, should ADMA deliver the Minimum Volume of Product but fail to meet the Updated Supply Plan as provided in Exhibit A as attached hereto and made an integral part hereof, then it is agreed upon by the Parties that ADMA shall pay to Sanofi Pasteur an amount equal to $[***] ([***]) USD for each Batch of Product that is less than the agreed upon quantity in Exhibit A, as liquidated damages, and not as a penalty.",
+      "text": "In addition to the Minimum Volume of Product to be manufactured by ADMA, should ADMA deliver the Minimum Volume of Product but fail to meet the Updated Supply Plan as provided in Exhibit A as attached hereto and made an integral part hereof, then it is agreed upon by the Parties that ADMA shall pay to Sanofi Pasteur an amount equal to $[***] ([***]) USD for each Batch of Product that is less than the agreed upon quantity in Exhibit A, as liquidated damages, and not as a penalty."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 653.4575874999998,
+            "r": 544.9503093125004,
+            "b": 626.1396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            295
+          ]
+        }
+      ],
+      "orig": "The foregoing liquidated damages [***] respect to the [***] within the [***] agreed in this Amendment #3. [***] not be entitled to [***] by this Agreement as a result of [***], including without limitation [***]. Notwithstanding the foregoing, [***], sections 6.1 and 6.2 of the Agreement [***].",
+      "text": "The foregoing liquidated damages [***] respect to the [***] within the [***] agreed in this Amendment #3. [***] not be entitled to [***] by this Agreement as a result of [***], including without limitation [***]. Notwithstanding the foregoing, [***], sections 6.1 and 6.2 of the Agreement [***]."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 623.1575874999999,
+            "r": 544.9502525000007,
+            "b": 545.3396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1010
+          ]
+        }
+      ],
+      "orig": "3. Furthermore, should ADMA's compliance status under the FDA Warning Letter be escalated, and if such consequence limits ADMA's ability to supply the Batches of Product as specified in this Amendment #3 and the Updated Supply Plan or in case of failure by ADMA to supply any Batch of Product under this Amendment, Sanofi Pasteur shall be entitled to terminate immediately this Agreement upon written notice to ADMA and Sanofi Pasteur shall not be obligated to provide any additional payments (as outlined in Section 5 below and payments for any of the unproduced or delivered production batches) to ADMA from the date of such termination. In such a case, the remaining Source Plasma shall be immediately returned to Sanofi Pasteur, under ADMA's liability and expenses. Shipment of the Source Plasma to Sanofi Pasteur shall be made in compliance with the transportation conditions as provided in the Quality Agreement (as defined below), to be further amended by the Parties as contemplated in Section 9 below.",
+      "text": "3. Furthermore, should ADMA's compliance status under the FDA Warning Letter be escalated, and if such consequence limits ADMA's ability to supply the Batches of Product as specified in this Amendment #3 and the Updated Supply Plan or in case of failure by ADMA to supply any Batch of Product under this Amendment, Sanofi Pasteur shall be entitled to terminate immediately this Agreement upon written notice to ADMA and Sanofi Pasteur shall not be obligated to provide any additional payments (as outlined in Section 5 below and payments for any of the unproduced or delivered production batches) to ADMA from the date of such termination. In such a case, the remaining Source Plasma shall be immediately returned to Sanofi Pasteur, under ADMA's liability and expenses. Shipment of the Source Plasma to Sanofi Pasteur shall be made in compliance with the transportation conditions as provided in the Quality Agreement (as defined below), to be further amended by the Parties as contemplated in Section 9 below."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 456.575,
+            "t": 537.3075875,
+            "r": 544.9500757499998,
+            "b": 520.0896307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "BPC Initials ___ Sanofi Pasteur Initials ___",
+      "text": "BPC Initials ___ Sanofi Pasteur Initials ___"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 295.60625,
+            "t": 517.1075874999999,
+            "r": 299.709375,
+            "b": 509.9896307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8574875,
+            "r": 544.9503093125007,
+            "b": 767.5395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 764.5574875,
+            "r": 544.9503787499998,
+            "b": 717.0395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            633
+          ]
+        }
+      ],
+      "orig": "4. In the event of a non-conformance in the Source Plasma at the time of delivery of the Source plasma at ADMA's place, or in the event of damaged Source Plasma, which non-conformance, damage or loss in the Source Plasma occurred prior to the transfer of risks in the Source Plasma to ADMA as per Section 7 below, it is agreed upon by the Parties that Sanofi Pasteur shall not be responsible, nor liable, to compensate or indemnify ADMA for the loss of business arising from the fact that, in such a case, the Source Plasma will no longer be manufactured by ADMA and consequently Sanofi Pasteur will not pay for the unproduced batch.",
+      "text": "4. In the event of a non-conformance in the Source Plasma at the time of delivery of the Source plasma at ADMA's place, or in the event of damaged Source Plasma, which non-conformance, damage or loss in the Source Plasma occurred prior to the transfer of risks in the Source Plasma to ADMA as per Section 7 below, it is agreed upon by the Parties that Sanofi Pasteur shall not be responsible, nor liable, to compensate or indemnify ADMA for the loss of business arising from the fact that, in such a case, the Source Plasma will no longer be manufactured by ADMA and consequently Sanofi Pasteur will not pay for the unproduced batch."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 714.0574875,
+            "r": 544.9502398749994,
+            "b": 676.6395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            474
+          ]
+        }
+      ],
+      "orig": "5. In consideration for certain quantities of Product that ADMA would have been contractually obligated to supply, and that Sanofi Pasteur would have been contractually obligated to purchase, under the Agreement, but that will now not be supplied and purchased as a result of the Parties' agreement in Section 2 above, Sanofi Pasteur agrees to pay ADMA an amount of seven million (7,000,000 USD) (the \"Compensation Fee\") in five installments and will be invoiced as follows:",
+      "text": "5. In consideration for certain quantities of Product that ADMA would have been contractually obligated to supply, and that Sanofi Pasteur would have been contractually obligated to purchase, under the Agreement, but that will now not be supplied and purchased as a result of the Parties' agreement in Section 2 above, Sanofi Pasteur agrees to pay ADMA an amount of seven million (7,000,000 USD) (the \"Compensation Fee\") in five installments and will be invoiced as follows:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 83.50625,
+            "t": 673.6574875,
+            "r": 265.9376262500002,
+            "b": 666.5395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "(a) [***] USD upon execution of this Amendment #3",
+      "text": "(a) [***] USD upon execution of this Amendment #3",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 83.50625,
+            "t": 663.5574875,
+            "r": 195.23749999999995,
+            "b": 656.4395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "(b) [***] USD on March 1, 2018",
+      "text": "(b) [***] USD on March 1, 2018",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 83.50625,
+            "t": 653.4574875,
+            "r": 188.9250000000001,
+            "b": 646.3395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "(c) [***] USD on June 1, 2018",
+      "text": "(c) [***] USD on June 1, 2018",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 83.50625,
+            "t": 643.3574874999999,
+            "r": 208.49368687500024,
+            "b": 636.2395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "(d) [***] USD on September 1, 2018",
+      "text": "(d) [***] USD on September 1, 2018",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 83.50625,
+            "t": 633.2574875,
+            "r": 206.5999495,
+            "b": 626.1395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "(e) [***] USD on December 1, 2018",
+      "text": "(e) [***] USD on December 1, 2018",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 623.1574875,
+            "r": 544.95,
+            "b": 605.9395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            197
+          ]
+        }
+      ],
+      "orig": "Such payments shall be made in accordance with Section 3.4 of the Agreement\u037e provided, however, that the initial payment described in Section 5(a) above shall be due no later than December 31,2017.",
+      "text": "Such payments shall be made in accordance with Section 3.4 of the Agreement\u037e provided, however, that the initial payment described in Section 5(a) above shall be due no later than December 31,2017."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 602.9574875,
+            "r": 349.89397725000026,
+            "b": 595.8395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "Each invoice shall reference this Amendment 3 and shall be sent at the following address:",
+      "text": "Each invoice shall reference this Amendment 3 and shall be sent at the following address:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.35,
+            "t": 592.8574874999999,
+            "r": 195.2374242500001,
+            "b": 545.3395307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "Sanofi Pasteur SA DSFF Pole de Lyon - Carteret Tri C5-2-01 14 Espace Henry Vallee CS 90119 69361 LYON CEDEX 07 - FRANCE",
+      "text": "Sanofi Pasteur SA DSFF Pole de Lyon - Carteret Tri C5-2-01 14 Espace Henry Vallee CS 90119 69361 LYON CEDEX 07 - FRANCE"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 542.3574874999999,
+            "r": 544.9504040000008,
+            "b": 515.0395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            342
+          ]
+        }
+      ],
+      "orig": "Upon payment of the Compensation Fee, ADMA shall be fully compensated for any kind of prejudice or damages ADMA may suffer arising from or related to the decrease in the quantities of Product Sanofi Pasteur committed to purchase initially from ADMA as per the Prior Supply Terms. ADMA declares that the Compensation Fee is fair and equitable.",
+      "text": "Upon payment of the Compensation Fee, ADMA shall be fully compensated for any kind of prejudice or damages ADMA may suffer arising from or related to the decrease in the quantities of Product Sanofi Pasteur committed to purchase initially from ADMA as per the Prior Supply Terms. ADMA declares that the Compensation Fee is fair and equitable."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 512.0574875,
+            "r": 544.9500505000012,
+            "b": 464.5395307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            638
+          ]
+        }
+      ],
+      "orig": "6. Upon full payment of the Compensation Fee, each Party, with the intention of binding itself, its Affiliates, shareholders, successors and assigns, hereby releases, remises and forever discharges the other Party, and its Affiliates, employees, directors, shareholders, successors and assigns, from all actions, causes of action, suits, debts, dues, sums of money, accounts, covenants, contracts, controversies, agreements, promises, damages, claims and demands whatsoever, in law, contract or equity, arising directly out of, or relating to the Updated Supply Plan and/or the amount of the Compensation Fee Sanofi agrees to pay to ADMA.",
+      "text": "6. Upon full payment of the Compensation Fee, each Party, with the intention of binding itself, its Affiliates, shareholders, successors and assigns, hereby releases, remises and forever discharges the other Party, and its Affiliates, employees, directors, shareholders, successors and assigns, from all actions, causes of action, suits, debts, dues, sums of money, accounts, covenants, contracts, controversies, agreements, promises, damages, claims and demands whatsoever, in law, contract or equity, arising directly out of, or relating to the Updated Supply Plan and/or the amount of the Compensation Fee Sanofi agrees to pay to ADMA."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 456.575,
+            "t": 456.5074875,
+            "r": 544.9500757499998,
+            "b": 439.2895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "BPC Initials ___ Sanofi Pasteur Initials ___",
+      "text": "BPC Initials ___ Sanofi Pasteur Initials ___"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 295.60625,
+            "t": 436.3074875,
+            "r": 299.709375,
+            "b": 429.18953071789326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8575874999999,
+            "r": 544.9503093125007,
+            "b": 767.5396307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 764.5575875,
+            "r": 310.1249747499999,
+            "b": 757.4396307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "7. The Parties further agree to amend Section 6.5 of the Agreement as follows:",
+      "text": "7. The Parties further agree to amend Section 6.5 of the Agreement as follows:"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 80.35,
+            "t": 754.4575874999999,
+            "r": 544.9498232499984,
+            "b": 747.3396307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "(a) The liability cap set forth under section 6.5 is hereby amended to adapt to the provisions of this Amendment #3 and is therefore set at",
+      "text": "(a) The liability cap set forth under section 6.5 is hereby amended to adapt to the provisions of this Amendment #3 and is therefore set at"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 744.3575874999999,
+            "r": 140.94997475000002,
+            "b": 737.2396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\"[***]\" instead of \"[***]\".",
+      "text": "\"[***]\" instead of \"[***]\"."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 80.35,
+            "t": 734.2575874999999,
+            "r": 427.53744950000055,
+            "b": 727.1396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "(b) The last sentence of Section 6.5 of the Agreement is hereby deleted and replaced with the following:",
+      "text": "(b) The last sentence of Section 6.5 of the Agreement is hereby deleted and replaced with the following:"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 80.35,
+            "t": 724.1575875,
+            "r": 544.9502272500004,
+            "b": 636.2396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1178
+          ]
+        }
+      ],
+      "orig": "Unless Section 2.7 applies, and subject to any risk of loss assumed by BPC under the Plasma Agreement (as amended) or that certain [Termination, Settlement and Release Agreement] between BPC and Sanofi Pasteur, [of even date herewith], Sanofi Pasteur assumes all risk of loss for all Source Plasma (the \"Sanofi Pasteur Property\") while under storage conditions at BPC's warehouse except in case such loss occurs as a result of BPC negligence or willful misconduct, and Sanofi Pasteur hereby waives any and all rights of recovery against ADMA and its Affiliates, and against any of their respective directors, officers, employees, agents or representative, for any loss or damage to the Sanofi Pasteur Property while under storage conditions at BPC's warehouse. At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss.",
+      "text": "Unless Section 2.7 applies, and subject to any risk of loss assumed by BPC under the Plasma Agreement (as amended) or that certain [Termination, Settlement and Release Agreement] between BPC and Sanofi Pasteur, [of even date herewith], Sanofi Pasteur assumes all risk of loss for all Source Plasma (the \"Sanofi Pasteur Property\") while under storage conditions at BPC's warehouse except in case such loss occurs as a result of BPC negligence or willful misconduct, and Sanofi Pasteur hereby waives any and all rights of recovery against ADMA and its Affiliates, and against any of their respective directors, officers, employees, agents or representative, for any loss or damage to the Sanofi Pasteur Property while under storage conditions at BPC's warehouse. At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 633.2575875,
+            "r": 385.24398987499967,
+            "b": 626.1396307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "In consideration of the foregoing, Section 6.5 is deleted in its entirety and replaced by the following:",
+      "text": "In consideration of the foregoing, Section 6.5 is deleted in its entirety and replaced by the following:"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 623.1575875,
+            "r": 544.9504481874998,
+            "b": 545.3420592759365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1012
+          ]
+        }
+      ],
+      "orig": "6.5 Limitation of Liability: In no event shall either party be liable to the other party for incidental, indirect, special and consequential or punitive damages, including without limitation any claims for damages based upon lost profits or lost business opportunity. Except for the obligation of indemnity as set forth in Section 6.1 (c) with respect to claims by third parties for personal injury, illness or death (but not including property damage) resulting from the manufacture of the Product by BPC, aggregate damages for which ADMA shall be liable to Sanofi Pasteur hereunder, including without limitation costs of Source Plasma yield loss and/or rejected Batches, shall not exceed [***]. All claims by Sanofi Pasteur for breach or default under this Agreement shall be brought within [***] year after the cause of action comes into existence or otherwise shall be waived. This limitation of liability will not apply for damages that result from the gross negligence or the willful misconduct of a Party.",
+      "text": "6.5 Limitation of Liability: In no event shall either party be liable to the other party for incidental, indirect, special and consequential or punitive damages, including without limitation any claims for damages based upon lost profits or lost business opportunity. Except for the obligation of indemnity as set forth in Section 6.1 (c) with respect to claims by third parties for personal injury, illness or death (but not including property damage) resulting from the manufacture of the Product by BPC, aggregate damages for which ADMA shall be liable to Sanofi Pasteur hereunder, including without limitation costs of Source Plasma yield loss and/or rejected Batches, shall not exceed [***]. All claims by Sanofi Pasteur for breach or default under this Agreement shall be brought within [***] year after the cause of action comes into existence or otherwise shall be waived. This limitation of liability will not apply for damages that result from the gross negligence or the willful misconduct of a Party."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 456.575,
+            "t": 537.3075875,
+            "r": 544.9500757499998,
+            "b": 520.0896307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "BPC Initials ___ Sanofi Pasteur Initials ___",
+      "text": "BPC Initials ___ Sanofi Pasteur Initials ___"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 295.60625,
+            "t": 517.1075875,
+            "r": 299.709375,
+            "b": 509.9896307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8573875,
+            "r": 544.950000000001,
+            "b": 767.5394307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 764.5573875,
+            "r": 544.9503535000008,
+            "b": 676.0106092759365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1191
+          ]
+        }
+      ],
+      "orig": "Furthermore, unless Section 2.7 applies, and subject to any risk of loss assumed by BPC under the Plasma Agreement (as amended) or that certain [Termination, Settlement and Release Agreement] between BPC and Sanofi Pasteur, [of even date herewith], Sanofi Pasteur assumes all risk of loss for all Source Plasma (the \"Sanofi Pasteur Property\") while under storage conditions at BPC's warehouse except in case such loss occurs as a result of BPC negligence or willful misconduct, and Sanofi Pasteur hereby waives any and all rights of recovery against ADMA and its Affiliates, and against any of their respective directors, officers, employees, agents or representative, for any loss or damage to the Sanofi Pasteur Property while under storage conditions at BPC's warehouse. At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss.",
+      "text": "Furthermore, unless Section 2.7 applies, and subject to any risk of loss assumed by BPC under the Plasma Agreement (as amended) or that certain [Termination, Settlement and Release Agreement] between BPC and Sanofi Pasteur, [of even date herewith], Sanofi Pasteur assumes all risk of loss for all Source Plasma (the \"Sanofi Pasteur Property\") while under storage conditions at BPC's warehouse except in case such loss occurs as a result of BPC negligence or willful misconduct, and Sanofi Pasteur hereby waives any and all rights of recovery against ADMA and its Affiliates, and against any of their respective directors, officers, employees, agents or representative, for any loss or damage to the Sanofi Pasteur Property while under storage conditions at BPC's warehouse. At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA. ADMA agrees to assume the risks of loss to the Sanofi Pasteur Property and shall reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 673.0261375,
+            "r": 544.950302999999,
+            "b": 635.6081807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            512
+          ]
+        }
+      ],
+      "orig": "8. The Parties further agree to amend that certain Quality and Technical Agreement between Sanofi Pasteur and ADMA (as successor to BPC) effective as of September 15, 2015 (the \"Quality Agreement\") to modify the address where the Source Plasma shall be stocked and the conditions associated therewith, as well as to ensure consistency with the other terms of this Amendment. The Parties shall use best efforts to complete such amendment to the Quality Agreement within 60 days after the Amendment Effective Date.",
+      "text": "8. The Parties further agree to amend that certain Quality and Technical Agreement between Sanofi Pasteur and ADMA (as successor to BPC) effective as of September 15, 2015 (the \"Quality Agreement\") to modify the address where the Source Plasma shall be stocked and the conditions associated therewith, as well as to ensure consistency with the other terms of this Amendment. The Parties shall use best efforts to complete such amendment to the Quality Agreement within 60 days after the Amendment Effective Date."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 632.6261374999999,
+            "r": 514.6502524999999,
+            "b": 625.5081807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "9. All other terms of the Agreement shall remain in full force and effect except to the extent superseded by the terms of this Amendment #3.",
+      "text": "9. All other terms of the Agreement shall remain in full force and effect except to the extent superseded by the terms of this Amendment #3."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 622.5261375,
+            "r": 544.9501830624989,
+            "b": 605.3081807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties hereby have caused this Amendment #3 to the Agreement to be executed and the persons signing below warrant that they are duly authorized to sign for and on behalf of their respective Parties.",
+      "text": "IN WITNESS WHEREOF, the parties hereby have caused this Amendment #3 to the Agreement to be executed and the persons signing below warrant that they are duly authorized to sign for and on behalf of their respective Parties."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 602.3261375,
+            "r": 145.36866793750005,
+            "b": 595.2081807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Made in two original copies.",
+      "text": "Made in two original copies."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 592.2261374999999,
+            "r": 198.3936489999999,
+            "b": 544.7081807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Sanofi Pasteur, S.A. By:/s/ Vincent Hingot Name: Vincent Hingot Title: Senior Vice President Industrial Affairs Date: 22 Dec. 2017",
+      "text": "Sanofi Pasteur, S.A. By:/s/ Vincent Hingot Name: Vincent Hingot Title: Senior Vice President Industrial Affairs Date: 22 Dec. 2017"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 297.5,
+            "t": 592.2261374999999,
+            "r": 406.0750000000002,
+            "b": 585.0683480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "ADMA BioManufacturing, LLC",
+      "text": "ADMA BioManufacturing, LLC",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 297.5,
+            "t": 582.1261374999999,
+            "r": 375.7750504999999,
+            "b": 544.7081807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "By: /s/ Adam Grossman Name: Adam Grossman Title: President & CEO Date: 12-21-2017",
+      "text": "By: /s/ Adam Grossman Name: Adam Grossman Title: President & CEO Date: 12-21-2017"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 456.575,
+            "t": 536.6761375,
+            "r": 544.9500757499998,
+            "b": 519.4581807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "BPC Initials ___ Sanofi Pasteur Initials ___",
+      "text": "BPC Initials ___ Sanofi Pasteur Initials ___"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 295.60625,
+            "t": 516.4761374999999,
+            "r": 299.709375,
+            "b": 509.3581807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 794.8576375,
+            "r": 544.9503093125007,
+            "b": 767.5396807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended.",
+      "text": "Confidential treatment has been requested with respect to portions of this agreement as indicated by \"[***]\" and such confidential portions have been deleted and filed separately with the Securities and Exchange Commission pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended."
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.36909484863281,
+            "t": 766.0758972167969,
+            "r": 546.0180053710938,
+            "b": 716.3836975097656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 281.71875,
+              "t": 77.44236249999994,
+              "r": 313.28122475000015,
+              "b": 94.70015193870017,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Exhibit A [***]",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 479.93125,
+              "t": 97.64236249999999,
+              "r": 544.9500757499998,
+              "b": 114.86031928210673,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "ADMA Initials ___ Pasteur Initials ___",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 291.1875,
+              "t": 117.84236250000004,
+              "r": 303.8125,
+              "b": 124.96031928210675,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "A-1",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 3,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 281.71875,
+                "t": 77.44236249999994,
+                "r": 313.28122475000015,
+                "b": 94.70015193870017,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Exhibit A [***]",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 479.93125,
+                "t": 97.64236249999999,
+                "r": 544.9500757499998,
+                "b": 114.86031928210673,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "ADMA Initials ___ Pasteur Initials ___",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 291.1875,
+                "t": 117.84236250000004,
+                "r": 303.8125,
+                "b": 124.96031928210675,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "A-1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    }
+  }
+}

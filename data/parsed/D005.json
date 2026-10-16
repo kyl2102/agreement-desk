@@ -1,0 +1,2480 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR-",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 17710800872996183473,
+    "filename": "NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR-.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/groups/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.91141968,
+            "r": 352.84480014820025,
+            "b": 774.3138904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            207
+          ]
+        }
+      ],
+      "orig": "term under the Agreement will not be effective unless mutually agreed to in writing and signed by authorized representatives of both parties. Neither party shall be bound by typographical or clerical errors.",
+      "text": "term under the Agreement will not be effective unless mutually agreed to in writing and signed by authorized representatives of both parties. Neither party shall be bound by typographical or clerical errors."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 763.97805968,
+            "r": 335.6596860742002,
+            "b": 727.9138504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "G. Neither party is liable for its failure or delay to perform its obligations under the Agreement due to strikes, wars, revolutions, acts of terrorism, fires, floods, explosions, earthquakes, shortages in labor, components or materials, government regulations, or other causes beyond its control.",
+      "text": "G. Neither party is liable for its failure or delay to perform its obligations under the Agreement due to strikes, wars, revolutions, acts of terrorism, fires, floods, explosions, earthquakes, shortages in labor, components or materials, government regulations, or other causes beyond its control."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 717.57801968,
+            "r": 335.6596860742002,
+            "b": 681.5138104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            331
+          ]
+        }
+      ],
+      "orig": "H. This Agreement may not be assigned by either party without prior written permission from the other party, which permission shall not be unreasonably withheld or delayed. Any attempt by either party to assign any right, or delegate any duty or obligation which arises under the Agreement without such permission will be voidable.",
+      "text": "This Agreement may not be assigned by either party without prior written permission from the other party, which permission shall not be unreasonably withheld or delayed. Any attempt by either party to assign any right, or delegate any duty or obligation which arises under the Agreement without such permission will be voidable.",
+      "enumerated": true,
+      "marker": "H."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 671.17797968,
+            "r": 185.28910014820002,
+            "b": 666.0471304250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "19. ENTIRE AGREEMENT, GOVERNING LAW",
+      "text": "19. ENTIRE AGREEMENT, GOVERNING LAW"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 655.71129968,
+            "r": 357.14092829620097,
+            "b": 619.6470904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            332
+          ]
+        }
+      ],
+      "orig": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law.",
+      "text": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 609.31125968,
+            "r": 193.79891903980004,
+            "b": 604.1804104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 11",
+      "text": "INGRAM NETGEAR Distributor Agreement 11"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 609.31125968,
+            "r": 357.14092829620097,
+            "b": 604.1804104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 586.11123968,
+            "r": 331.3632571852007,
+            "b": 565.5137104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 547.44453968,
+            "r": 206.77052281480007,
+            "b": 542.3136904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 1",
+      "text": "EXHIBIT 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 151.03316217280002,
+            "t": 531.97785968,
+            "r": 223.95567125920005,
+            "b": 526.8470104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "DISCOUNT SCHEDULE",
+      "text": "DISCOUNT SCHEDULE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 516.51117968,
+            "r": 348.5482810369,
+            "b": 495.9136504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "The initial Discount offered Distributor for purchase or license of NETGEAR Products included on the NETGEAR Price List in effect on the Effective Date of this Agreement is [*] off of the then current NETGEAR list price.",
+      "text": "The initial Discount offered Distributor for purchase or license of NETGEAR Products included on the NETGEAR Price List in effect on the Effective Date of this Agreement is [*] off of the then current NETGEAR list price."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 485.57781968000006,
+            "r": 348.5482810369,
+            "b": 449.51361042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            346
+          ]
+        }
+      ],
+      "orig": "Distributor agrees that the foregoing Discount is only applicable to Products included on the NETGEAR Price List on the Effective Date of this Agreement. NETGEAR reserves the right to add Products to the Price List at its sole discretion and any such additional Products shall be offered to Distributor at discounts to be determined at that time.",
+      "text": "Distributor agrees that the foregoing Discount is only applicable to Products included on the NETGEAR Price List on the Effective Date of this Agreement. NETGEAR reserves the right to add Products to the Price List at its sole discretion and any such additional Products shall be offered to Distributor at discounts to be determined at that time."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 439.17777968000007,
+            "r": 168.00807547300002,
+            "b": 434.04693042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement",
+      "text": "INGRAM NETGEAR Distributor Agreement"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 185.37599711200002,
+            "t": 439.17777968000007,
+            "r": 193.79891903980004,
+            "b": 434.04693042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "12",
+      "text": "12"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 439.17777968000007,
+            "r": 357.14092829620097,
+            "b": 434.04693042509814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 408.2444196800001,
+            "r": 206.77052281480007,
+            "b": 403.11357042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 2",
+      "text": "EXHIBIT 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 129.52472007549994,
+            "t": 392.7777396800001,
+            "r": 245.43730444450034,
+            "b": 387.64689042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "DISTRIBUTOR'S ROUTING GUIDE",
+      "text": "DISTRIBUTOR'S ROUTING GUIDE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 377.3110596800001,
+            "r": 193.79891903980004,
+            "b": 372.18021042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 13",
+      "text": "INGRAM NETGEAR Distributor Agreement 13"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 377.3110596800001,
+            "r": 357.14092829620097,
+            "b": 372.18021042509815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 354.1110396800001,
+            "r": 142.32600133330007,
+            "b": 348.98019042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CONFIDENTIAL TREATMENT REQUEST",
+      "text": "CONFIDENTIAL TREATMENT REQUEST",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 338.6443596800001,
+            "r": 352.84480014820025,
+            "b": 318.04683042509816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 299.97765968,
+            "r": 206.77052281480007,
+            "b": 294.84681042509817,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 3",
+      "text": "EXHIBIT 3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 146.7332833549,
+            "t": 284.51097968,
+            "r": 223.95567125920005,
+            "b": 279.3801304250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "CMD NAMED ACCOUNTS",
+      "text": "CMD NAMED ACCOUNTS"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 276.77763968,
+            "r": 26.325940000000003,
+            "b": 271.6467904250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "[*]",
+      "text": "[*]"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 261.31095968,
+            "r": 193.79891903980004,
+            "b": 256.1801104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 14",
+      "text": "INGRAM NETGEAR Distributor Agreement 14"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 261.31095968,
+            "r": 357.14092829620097,
+            "b": 256.1801104250982,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "092696",
+      "text": "092696"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 168.24443212120002,
+            "t": 230.37759968,
+            "r": 206.77052281480007,
+            "b": 225.24675042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EXHIBIT 4",
+      "text": "EXHIBIT 4",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 155.33828677300014,
+            "t": 214.91091968,
+            "r": 215.36322592600033,
+            "b": 209.78007042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "MARKETING PLAN",
+      "text": "MARKETING PLAN",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 199.44423968,
+            "r": 193.79891903980004,
+            "b": 194.31339042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "INGRAM NETGEAR Distributor Agreement 15",
+      "text": "INGRAM NETGEAR Distributor Agreement 15"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 199.44423968,
+            "r": 357.14092829620097,
+            "b": 194.31339042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "083096",
+      "text": "083096"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 120.92412895749997,
+            "t": 176.24421968000001,
+            "r": 249.7336001482006,
+            "b": 171.11337042509808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CONFIDENTIAL TREATMENT REQUEST",
+      "text": "CONFIDENTIAL TREATMENT REQUEST",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 13.43704,
+            "t": 160.77753968000002,
+            "r": 352.84480014820025,
+            "b": 140.1800104250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 142.42915119999998,
+            "t": 114.37749968000003,
+            "r": 232.5483400000003,
+            "b": 70.5799504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND",
+      "text": "AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 172.54797568299995,
+            "t": 67.97745968000004,
+            "r": 202.47419703699995,
+            "b": 62.846610425098106,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "NETGEAR",
+      "text": "NETGEAR"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 794.91115968,
+            "r": 352.84480014820025,
+            "b": 766.580290425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            245
+          ]
+        }
+      ],
+      "orig": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by and between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay Networks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and its affiliates.",
+      "text": "This Amendment is entered into effective October 1,1996 (\"Amendment Date\") by and between NETGEAR, Inc. (\"NETGEAR\"), a wholly owned subsidiary of Bay Networks, Inc., and Ingram Micro (\"Distributor\") acting on behalf of itself and its affiliates."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 756.24445968,
+            "r": 348.5482810369,
+            "b": 735.646930425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            187
+          ]
+        }
+      ],
+      "orig": "NETGEAR and Distributor having previously entered into a Distributor Agreement (\"Agreement\") with an Effective Date of March 1,1996, now mutually agree to amend that Agreement as follows:",
+      "text": "NETGEAR and Distributor having previously entered into a Distributor Agreement (\"Agreement\") with an Effective Date of March 1,1996, now mutually agree to amend that Agreement as follows:"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 725.31109968,
+            "r": 357.14092829620097,
+            "b": 712.446910425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "1. Subject to the terms of this Amendment, the Territory listed in Section 2 of the Agreement is amended to be the United States and [*].",
+      "text": "Subject to the terms of this Amendment, the Territory listed in Section 2 of the Agreement is amended to be the United States and [*].",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 702.11107968,
+            "r": 357.14092829620097,
+            "b": 565.5134504250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1208
+          ]
+        }
+      ],
+      "orig": "2. During the initial one year period beginning on the Amendment Date, Distributor shall be the only distributor appointed by NETGEAR in [*], subject to Distributor conducting mutually agreed to marketing activities as described in the Marketing Plan for [*] to be developed and agreed to by and between the parties and which shall be attached to and made a part of this Agreement as Exhibit 4a. For the purposes of this provision, distributor shall mean a company acquiring products directly from NETGEAR for resale or license to dealers or other second tier resellers which in turn resell or license the products to end use customers. The foregoing notwithstanding, during the [*] and any subsequent period, NETGEAR reserves the right to sell or license Products in [*] to customers other than distributors such as, but not limited to resellers who procure Products at centralized locations for resale to end-use customers solely through their wholly or majority owned retail outlets, both store-front and catalog. Following the [*], for any extension or renewal term, Distributor's appointment as Distributor shall be non-exclusive and NETGEAR may appoint other distributors in [*] at its sole discretion.",
+      "text": "During the initial one year period beginning on the Amendment Date, Distributor shall be the only distributor appointed by NETGEAR in [*], subject to Distributor conducting mutually agreed to marketing activities as described in the Marketing Plan for [*] to be developed and agreed to by and between the parties and which shall be attached to and made a part of this Agreement as Exhibit 4a. For the purposes of this provision, distributor shall mean a company acquiring products directly from NETGEAR for resale or license to dealers or other second tier resellers which in turn resell or license the products to end use customers. The foregoing notwithstanding, during the [*] and any subsequent period, NETGEAR reserves the right to sell or license Products in [*] to customers other than distributors such as, but not limited to resellers who procure Products at centralized locations for resale to end-use customers solely through their wholly or majority owned retail outlets, both store-front and catalog. Following the [*], for any extension or renewal term, Distributor's appointment as Distributor shall be non-exclusive and NETGEAR may appoint other distributors in [*] at its sole discretion.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 555.17761968,
+            "r": 357.14092829620097,
+            "b": 534.5800904250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            187
+          ]
+        }
+      ],
+      "orig": "3. The terms and conditions of this Amendment, shall amend and supersede any conflicting terms of the original Agreement. All other terms of the original Agreement shall remain unchanged.",
+      "text": "The terms and conditions of this Amendment, shall amend and supersede any conflicting terms of the original Agreement. All other terms of the original Agreement shall remain unchanged.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 524.24425968,
+            "r": 352.84480014820025,
+            "b": 511.3800704250981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties have executed this Amendment to be effective as of the date first written above.",
+      "text": "IN WITNESS WHEREOF, the parties have executed this Amendment to be effective as of the date first written above."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 501.04423968000003,
+            "r": 47.65633912899999,
+            "b": 495.91339042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "NETGEAR:",
+      "text": "NETGEAR:"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.50246900900027,
+            "t": 501.04423968000003,
+            "r": 266.91882592600024,
+            "b": 495.91339042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "DISTRIBUTOR:",
+      "text": "DISTRIBUTOR:"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 485.57755968000004,
+            "r": 69.15266136399997,
+            "b": 480.44671042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "NETGEAR, INC.",
+      "text": "NETGEAR, INC."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 470.11087968000004,
+            "r": 99.23853322599997,
+            "b": 464.98003042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.50246900900027,
+            "t": 485.57755968000004,
+            "r": 266.91882592600024,
+            "b": 480.44671042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            21,
+            33
+          ]
+        }
+      ],
+      "orig": "By: /s/ Lloyd Cainey INGRAM MICRO",
+      "text": "By: /s/ Lloyd Cainey INGRAM MICRO"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.48025713800018,
+            "t": 470.11087968000004,
+            "r": 314.1781259260004,
+            "b": 464.98003042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "By: /s/ Michael Terrell",
+      "text": "By: /s/ Michael Terrell"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 30.632207416000004,
+            "t": 462.37753968,
+            "r": 94.93974137199997,
+            "b": 457.24669042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "---------------",
+      "text": "---------------"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 232.6754245540002,
+            "t": 462.37753968,
+            "r": 314.1781259260004,
+            "b": 457.24669042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "-------------------",
+      "text": "-------------------"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 454.64419968,
+            "r": 107.83611693399996,
+            "b": 449.51335042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.48025713800018,
+            "t": 454.64419968,
+            "r": 314.1781259260004,
+            "b": 449.51335042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            23,
+            44
+          ]
+        }
+      ],
+      "orig": "Name: /s/ Lloyd Cainey Name: Michael Terrell",
+      "text": "Name: /s/ Lloyd Cainey Name: Michael Terrell"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 446.91085968,
+            "r": 185.20197118420003,
+            "b": 441.78001042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.4653146066001,
+            "t": 446.91085968,
+            "r": 357.14092829620097,
+            "b": 441.78001042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            41,
+            73
+          ]
+        }
+      ],
+      "orig": "Title: Exec VP Enterprise Business Group Title: Vice President Purchasing",
+      "text": "Title: Exec VP Enterprise Business Group Title: Vice President Purchasing"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 439.17751968,
+            "r": 73.4500268464,
+            "b": 434.04667042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Date: 4/30/97",
+      "text": "Date: 4/30/97"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 215.4956035216004,
+            "t": 439.17751968,
+            "r": 279.8077087408006,
+            "b": 434.04667042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Date: 2/21/97",
+      "text": "Date: 2/21/97"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 423.71083968,
+            "r": 82.03859691699998,
+            "b": 418.57999042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Ingram Amendment",
+      "text": "Ingram Amendment"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 185.37599711200002,
+            "t": 423.71083968,
+            "r": 189.50044511200005,
+            "b": 418.57999042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 331.5241106572008,
+            "t": 423.71083968,
+            "r": 357.14092829620097,
+            "b": 418.57999042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "111296",
+      "text": "111296"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 120.92412895749997,
+            "t": 400.51081968,
+            "r": 249.7336001482006,
+            "b": 395.37997042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "CONFIDENTIAL TREATMENT REQUEST",
+      "text": "CONFIDENTIAL TREATMENT REQUEST"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 385.04413968,
+            "r": 352.84480014820025,
+            "b": 364.446610425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "* Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "text": "Portions denoted with an asterisk have been omitted and filed separately with the Securities and Exchange Commission pursuant to a request for confidential treatment.",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 346.37743968,
+            "r": 95.06672281479999,
+            "b": 341.246590425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "[INGRAM MICRO LOGO]",
+      "text": "[INGRAM MICRO LOGO]"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 138.12941415999995,
+            "t": 330.91075968,
+            "r": 232.5483400000003,
+            "b": 318.046570425098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "AMENDMENT #2 TO THE DISTRIBUTION AGREEMENT",
+      "text": "AMENDMENT #2 TO THE DISTRIBUTION AGREEMENT"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 307.71073967999996,
+            "r": 339.95573259250085,
+            "b": 294.84655042509803,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "THIS AMENDMENT (the \"Amendment\") is entered into this 15th day of July 1998, by and between INGRAM MICRO INC. (\"Ingram\") and NETGEAR, INC. (\"Vendor\").",
+      "text": "THIS AMENDMENT (the \"Amendment\") is entered into this 15th day of July 1998, by and between INGRAM MICRO INC. (\"Ingram\") and NETGEAR, INC. (\"Vendor\")."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 284.51071967999997,
+            "r": 335.6596860742002,
+            "b": 271.64653042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "The parties have agreed to amend their Distribution Agreement (\"Agreement\") dated October 1,1996.",
+      "text": "The parties have agreed to amend their Distribution Agreement (\"Agreement\") dated October 1,1996."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 261.31069967999997,
+            "r": 301.2891228148008,
+            "b": 256.17985042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "1. Section 2, TERRITORY, is amended to be United States, [*].",
+      "text": "Section 2, TERRITORY, is amended to be United States, [*].",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 245.84401967999997,
+            "r": 335.6596860742002,
+            "b": 232.97983042509804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "2. This Amendment shall remain in effect for the current term and any renewal term of the Agreement.",
+      "text": "This Amendment shall remain in effect for the current term and any renewal term of the Agreement.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 222.64399967999998,
+            "r": 339.95573259250085,
+            "b": 202.04647042509805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            203
+          ]
+        }
+      ],
+      "orig": "Notwithstanding the foregoing, all other provisions of the Agreement remain unchanged. The undersigned has read this Amendment, agrees hereto, and is an authorized representative of its respective party.",
+      "text": "Notwithstanding the foregoing, all other provisions of the Agreement remain unchanged. The undersigned has read this Amendment, agrees hereto, and is an authorized representative of its respective party."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 191.71063967999999,
+            "r": 125.02408804750006,
+            "b": 171.11311042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "INGRAM MICRO INC. 1600 East St. Andrew Place Santa Ana, CA 92705",
+      "text": "INGRAM MICRO INC. 1600 East St. Andrew Place Santa Ana, CA 92705"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 153.04393968,
+            "r": 77.74264921359999,
+            "b": 147.91309042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 241.25775210070015,
+            "t": 191.71063967999999,
+            "r": 352.84480014820025,
+            "b": 163.37977042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            16,
+            98
+          ]
+        }
+      ],
+      "orig": "By: /S/ AC Mann NETGEAR, INC. 4401 Great America Parkway P.O. Box 58185 Santa Clara, CA 95052-8185",
+      "text": "By: /S/ AC Mann NETGEAR, INC. 4401 Great America Parkway P.O. Box 58185 Santa Clara, CA 95052-8185"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 254.16168485440048,
+            "t": 153.04393968,
+            "r": 331.3632571852007,
+            "b": 147.91309042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "By: /s/ PATRICK Lo",
+      "text": "By: /s/ PATRICK Lo"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 30.6309357112,
+            "t": 145.31059968,
+            "r": 99.23249262819996,
+            "b": 140.17975042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "----------------",
+      "text": "----------------"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 271.3454756680004,
+            "t": 145.31059968,
+            "r": 357.14092829620097,
+            "b": 140.17975042509806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "--------------------",
+      "text": "--------------------"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 137.57725968,
+            "r": 99.24220656249997,
+            "b": 124.71307042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Name: AC Mann Title: VP Purchasing",
+      "text": "Name: AC Mann Title: VP Purchasing"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 13.43704,
+            "t": 114.37723968,
+            "r": 69.14931024999998,
+            "b": 101.51305042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Netgear, Inc. Doc Rev 2/97",
+      "text": "Netgear, Inc. Doc Rev 2/97"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 241.27300826200022,
+            "t": 137.57725968,
+            "r": 314.1781259260004,
+            "b": 132.44641042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Name: PATRICK Lo",
+      "text": "Name: PATRICK Lo"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 241.28325493750023,
+            "t": 129.84391968,
+            "r": 292.69654000000037,
+            "b": 124.71307042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Title: V. P.",
+      "text": "Title: V. P."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 241.28325493750023,
+            "t": 114.37723968,
+            "r": 292.69654000000037,
+            "b": 101.51305042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Confidential 7/15/98",
+      "text": "Confidential 7/15/98"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 159.60253637500006,
+            "t": 114.37723968,
+            "r": 163.7269843750001,
+            "b": 109.24639042509807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    }
+  }
+}

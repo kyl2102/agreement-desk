@@ -1,0 +1,4685 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2561983653302387646,
+    "filename": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/texts/125"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/127"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/texts/129"
+      },
+      {
+        "$ref": "#/texts/130"
+      },
+      {
+        "$ref": "#/texts/131"
+      },
+      {
+        "$ref": "#/texts/132"
+      },
+      {
+        "$ref": "#/texts/133"
+      },
+      {
+        "$ref": "#/texts/134"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/texts/143"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 173.14374999999998,
+            "t": 789.1588625000004,
+            "r": 421.85623106250034,
+            "b": 778.6974779357461,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "SOFTWARE DEVELOPMENT AGREEMENT",
+      "text": "SOFTWARE DEVELOPMENT AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 775.2890374999997,
+            "r": 544.9502524999988,
+            "b": 737.8710807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            439
+          ]
+        }
+      ],
+      "orig": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC, OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and collectively as the Parties).",
+      "text": "THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC, OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and collectively as the Parties)."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 732.5332125,
+            "r": 106.231237375,
+            "b": 717.6670344350073,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "1. Term",
+      "text": "1. Term",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 714.6890374999998,
+            "r": 544.9503913750004,
+            "b": 697.4710807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            235
+          ]
+        }
+      ],
+      "orig": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of Developer's services and work product as mutually agreed upon between the Parties (the Project).",
+      "text": "Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of Developer's services and work product as mutually agreed upon between the Parties (the Project)."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 692.1332124999999,
+            "r": 207.2312626249999,
+            "b": 677.2670344350072,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "2. Statement of Work",
+      "text": "2. Statement of Work",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 674.2890374999997,
+            "r": 544.9501325624993,
+            "b": 616.6710807178929,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            823
+          ]
+        }
+      ],
+      "orig": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program), and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOW\u037e as provided in APPENDIX A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency between the terms of this Agreement and any SOW, the terms of this Agreement will control.",
+      "text": "Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program), and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOW\u037e as provided in APPENDIX A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency between the terms of this Agreement and any SOW, the terms of this Agreement will control."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 611.3332124999997,
+            "r": 416.8061237500003,
+            "b": 596.467034435007,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "3. Delivery Schedule\u037e Acceptance\u037e Change Orders",
+      "text": "3. Delivery Schedule\u037e Acceptance\u037e Change Orders",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 593.4890375,
+            "r": 197.7624999999999,
+            "b": 586.3312480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "3.1 DELIVERY SCHEDULE\u037e MILESTONES",
+      "text": "3.1 DELIVERY SCHEDULE\u037e MILESTONES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 583.3890375000001,
+            "r": 544.9503156250015,
+            "b": 556.071080717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            349
+          ]
+        }
+      ],
+      "orig": "Each SOW will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final Subject Program delivery date (Final Delivery Date).",
+      "text": "Each SOW will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final Subject Program delivery date (Final Delivery Date)."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.34375,
+            "t": 547.4077874999998,
+            "r": 301.91875,
+            "b": 540.289830717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "12",
+      "text": "12"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8077874999999,
+            "r": 217.33130049999986,
+            "b": 782.6499980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "3.2 PROJECT DELIVERY AND INSTALLATION",
+      "text": "3.2 PROJECT DELIVERY AND INSTALLATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7077875,
+            "r": 544.9503661250008,
+            "b": 732.1898307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            668
+          ]
+        }
+      ],
+      "orig": "As detailed in a SOW hereto, Developer will provide certain Services, Deliverables and Documentation to Client upon a designated Milestone in accordance with such Milestone's specific Specifications (collectively, Specific Specifications). Prior to completing a Milestone, Developer will: (a) inform Client of the availability of each portion of a Deliverable otherwise required be delivered by such Milestone date for testing by Client (he Acceptance Test Date)\u037e and (b) deliver to Client sue Deliverable (each a Milestone Deliverable) including the source code and object code form compatible with the platform(s) described in the SOW for such Milestone Deliverable.",
+      "text": "As detailed in a SOW hereto, Developer will provide certain Services, Deliverables and Documentation to Client upon a designated Milestone in accordance with such Milestone's specific Specifications (collectively, Specific Specifications). Prior to completing a Milestone, Developer will: (a) inform Client of the availability of each portion of a Deliverable otherwise required be delivered by such Milestone date for testing by Client (he Acceptance Test Date)\u037e and (b) deliver to Client sue Deliverable (each a Milestone Deliverable) including the source code and object code form compatible with the platform(s) described in the SOW for such Milestone Deliverable."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2077875,
+            "r": 181.98122475000005,
+            "b": 722.0499980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "3.3 ACCEPTANCE AND BETA TESTS",
+      "text": "3.3 ACCEPTANCE AND BETA TESTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 719.1077874999996,
+            "r": 544.9502461874993,
+            "b": 671.5898307178927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            629
+          ]
+        }
+      ],
+      "orig": "Within the time periods designated in the SOW, Client shall perform any tests or evaluation of the Subject Program (collectively, the Acceptance Tests) after the Acceptance Test Date, to determine whether each Deliverable: (a) conforms to the SOW\u037e and (b) performs repetitively on an appropriate variety of data and platforms, without failure, as more fully described in the Specifications. Upon completion of II Deliverables, the Acceptance Tests shall be performed on the Subject Program in its entirety in order to determine whether the Subject Program (i) meets the Specifications and (ii) operates with internal consistency.",
+      "text": "Within the time periods designated in the SOW, Client shall perform any tests or evaluation of the Subject Program (collectively, the Acceptance Tests) after the Acceptance Test Date, to determine whether each Deliverable: (a) conforms to the SOW\u037e and (b) performs repetitively on an appropriate variety of data and platforms, without failure, as more fully described in the Specifications. Upon completion of II Deliverables, the Acceptance Tests shall be performed on the Subject Program in its entirety in order to determine whether the Subject Program (i) meets the Specifications and (ii) operates with internal consistency."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6077874999996,
+            "r": 310.75634468750013,
+            "b": 661.4499980613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE\u037e CHANGE REQUESTS",
+      "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE\u037e CHANGE REQUESTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5077874999997,
+            "r": 544.9503282499988,
+            "b": 621.0898307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            564
+          ]
+        }
+      ],
+      "orig": "Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections, corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client.",
+      "text": "Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections, corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.1077874999996,
+            "r": 222.3812563125,
+            "b": 610.9499980613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+      "text": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0077874999997,
+            "r": 544.9502524999989,
+            "b": 550.3898307178929,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            801
+          ]
+        }
+      ],
+      "orig": "If any Milestone Deliverable does not satisfy the Client's Acceptance Test and Client provides Developer a Change Request concerning the same, Developer will have twenty (20) days from the receipt of such Change Request to correct the deficiencies, errors, corrections, modifications, bugfixes or changes to the Deliverables as identified in the Change Request. Upon Client's receipt of a Milestone Deliverable following Developer's modification pursuant to Change Request (a Modified Deliverable), Client will have five (5) days to inspect, test and reevaluate such Modified Deliverable to determine acceptance. If Client does not notify Developer of any further failures, objections, changes, defects, or bugs in such Modified Deliverable, the Modified Deliverable will be deemed accepted by Client.",
+      "text": "If any Milestone Deliverable does not satisfy the Client's Acceptance Test and Client provides Developer a Change Request concerning the same, Developer will have twenty (20) days from the receipt of such Change Request to correct the deficiencies, errors, corrections, modifications, bugfixes or changes to the Deliverables as identified in the Change Request. Upon Client's receipt of a Milestone Deliverable following Developer's modification pursuant to Change Request (a Modified Deliverable), Client will have five (5) days to inspect, test and reevaluate such Modified Deliverable to determine acceptance. If Client does not notify Developer of any further failures, objections, changes, defects, or bugs in such Modified Deliverable, the Modified Deliverable will be deemed accepted by Client."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 294.34375,
+            "t": 541.7265374999997,
+            "r": 301.91875,
+            "b": 534.6085807178929,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "13",
+      "text": "13"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8075374999999,
+            "r": 245.73762624999995,
+            "b": 782.6497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "3.6 FAILURE OF DEVELOPER TO CORRECT DEFECTS",
+      "text": "3.6 FAILURE OF DEVELOPER TO CORRECT DEFECTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7075375,
+            "r": 544.9503787500016,
+            "b": 742.2895807178929,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            449
+          ]
+        }
+      ],
+      "orig": "Should Developer reasonably fail to meet the requirements of Section 3. or Section 3.5 of this Agreement such that a Milestone Deliverable or Modified Deliverable does not satisfy Client's reasonable acceptance criteria within the time periods set forth in the same, Client will have the option of: (a) repeating the procedures set forth in Section 3.4 or Section 3.5 Above\u037e or (b) terminating this Agreement pursuant to Section 8 of this agreement.",
+      "text": "Should Developer reasonably fail to meet the requirements of Section 3. or Section 3.5 of this Agreement such that a Milestone Deliverable or Modified Deliverable does not satisfy Client's reasonable acceptance criteria within the time periods set forth in the same, Client will have the option of: (a) repeating the procedures set forth in Section 3.4 or Section 3.5 Above\u037e or (b) terminating this Agreement pursuant to Section 8 of this agreement."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 739.3075374999999,
+            "r": 276.03747475000023,
+            "b": 732.1497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "3.7 FINAL DELIVERABLE AND SUBJECT PROGRAM TESTING",
+      "text": "3.7 FINAL DELIVERABLE AND SUBJECT PROGRAM TESTING",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2075375,
+            "r": 544.9503534999988,
+            "b": 631.189580717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1353
+          ]
+        }
+      ],
+      "orig": "Notwithstanding anything contained herein, upon completion of the Final Deliverable set out in the Specifications thereto, Client will perform Acceptance Test on the Subject Program within fifteen (15) calendar days from the Acceptance Test Date in order to determine whether the Subject Program satisfies the acceptance criteria and operates with internal consistency. If the completed Subject Program does not satisfy the Client's Acceptance Tests and Client provides Developer a Change Request concerning the same, Developer will have fifteen (15) calendar days from the receipt of such Change Request to correct the deficiencies errors, corrections, modifications, bug-fixes or changes. Client shall then have ten (10) additional days to inspect, test and reevaluate the completed and modified Subject Program or Final Deliverable. If the Subject Program or Final Deliverable still does not satisfy the Client's acceptance criteria and/or the Acceptance Tests, Client shall have the option of either: (a) repeating the procedure set forth above\u037e or (b) terminating this Agreement pursuant to Section 12 of this Agreement . If the Client does not notify the Developer of any further failures, objections, changes, or other defects, or bugs of or in the Subject Program via a Change Request, Client will be deemed to have accepted the Subject Program.",
+      "text": "Notwithstanding anything contained herein, upon completion of the Final Deliverable set out in the Specifications thereto, Client will perform Acceptance Test on the Subject Program within fifteen (15) calendar days from the Acceptance Test Date in order to determine whether the Subject Program satisfies the acceptance criteria and operates with internal consistency. If the completed Subject Program does not satisfy the Client's Acceptance Tests and Client provides Developer a Change Request concerning the same, Developer will have fifteen (15) calendar days from the receipt of such Change Request to correct the deficiencies errors, corrections, modifications, bug-fixes or changes. Client shall then have ten (10) additional days to inspect, test and reevaluate the completed and modified Subject Program or Final Deliverable. If the Subject Program or Final Deliverable still does not satisfy the Client's acceptance criteria and/or the Acceptance Tests, Client shall have the option of either: (a) repeating the procedure set forth above\u037e or (b) terminating this Agreement pursuant to Section 12 of this Agreement . If the Client does not notify the Developer of any further failures, objections, changes, or other defects, or bugs of or in the Subject Program via a Change Request, Client will be deemed to have accepted the Subject Program."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 628.2075375,
+            "r": 142.21249999999998,
+            "b": 621.0497480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "3.8 CLIENT ASSISTANCE",
+      "text": "3.8 CLIENT ASSISTANCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.1075374999996,
+            "r": 544.9498169374988,
+            "b": 570.5895807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            666
+          ]
+        }
+      ],
+      "orig": "Client shall provide Developer assistance to complete the Services, and produce the Deliverables, as reasonably requested, including but not limited to providing the necessary information or documentation required from Developer for the development of the Subject Program. Client shall conduct all Acceptance Tests in good faith and shall not delay any acceptance of any Service or Deliverable without reasonable justification. The evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program.",
+      "text": "Client shall provide Developer assistance to complete the Services, and produce the Deliverables, as reasonably requested, including but not limited to providing the necessary information or documentation required from Developer for the development of the Subject Program. Client shall conduct all Acceptance Tests in good faith and shall not delay any acceptance of any Service or Deliverable without reasonable justification. The evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 567.6075374999996,
+            "r": 238.16262625000022,
+            "b": 560.4497480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "3.9 DEVELOPER DUTIES FOR ACCEPTANCE TESTS",
+      "text": "3.9 DEVELOPER DUTIES FOR ACCEPTANCE TESTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 557.5075374999997,
+            "r": 544.9504418750005,
+            "b": 530.189580717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            436
+          ]
+        }
+      ],
+      "orig": "Unless otherwise agreed by the Parties in writing, regardless of the acceptance or rejection of any Milestone Deliverable, Developer shall continue to perform all Services and deliver all Deliverables in accordance with the Delivery Schedule. Developer shall use its best efforts to make any necessary corrections, modifications, bug-fixes, or other changes promptly to complete the Services and Deliverables by the Final Delivery Date.",
+      "text": "Unless otherwise agreed by the Parties in writing, regardless of the acceptance or rejection of any Milestone Deliverable, Developer shall continue to perform all Services and deliver all Deliverables in accordance with the Delivery Schedule. Developer shall use its best efforts to make any necessary corrections, modifications, bug-fixes, or other changes promptly to complete the Services and Deliverables by the Final Delivery Date."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 294.34375,
+            "t": 521.5262874999999,
+            "r": 301.91875,
+            "b": 514.408330717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "14",
+      "text": "14"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8072874999996,
+            "r": 192.08128787499993,
+            "b": 782.6494980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "4.10 CLIENT TERMINATION SERVICES",
+      "text": "4.10 CLIENT TERMINATION SERVICES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7072874999997,
+            "r": 515.9125883750006,
+            "b": 772.5893307178928,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "If elected pursuant to the Agreement, Developer will provide Client Termination Assistance Services at an hourly rate of $[125.00 per hour].",
+      "text": "If elected pursuant to the Agreement, Developer will provide Client Termination Assistance Services at an hourly rate of $[125.00 per hour]."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 767.2514624999997,
+            "r": 180.71875000000003,
+            "b": 752.385284435007,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "4. Change Orders",
+      "text": "4. Change Orders",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.05,
+            "t": 749.4072874999999,
+            "r": 544.950265125001,
+            "b": 722.0893307178928,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            351
+          ]
+        }
+      ],
+      "orig": "Sometimes during the term of this Agreement change order may or may not be requested by Client. However, If Client requests that Developer provide any additional Services or Deliverables or functionalities beyond those detail d in an applicable SOW, or requests a modification or change to any of the Services or Deliverables if possible, client will:",
+      "text": "Sometimes during the term of this Agreement change order may or may not be requested by Client. However, If Client requests that Developer provide any additional Services or Deliverables or functionalities beyond those detail d in an applicable SOW, or requests a modification or change to any of the Services or Deliverables if possible, client will:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.2,
+            "t": 719.1072874999998,
+            "r": 544.9502525000014,
+            "b": 701.889330717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "(A) Submit to Developer, by means of a written order, all requests r additional services that alter, amend, enhance, add to, or delete any of the Services or Deliverables (a Change Order)\u037e",
+      "text": "(A) Submit to Developer, by means of a written order, all requests r additional services that alter, amend, enhance, add to, or delete any of the Services or Deliverables (a Change Order)\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.2,
+            "t": 698.9072874999999,
+            "r": 544.950126250001,
+            "b": 661.4893307178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            464
+          ]
+        }
+      ],
+      "orig": "(B) Developer will evaluate each Change Order, and within five (5) days of its receipt, will provide Client with (i) the change in Fee costs as a result of the Change Order, (ii) the impact, if any, of the Change Order on an aspect of the Delivery Schedule including any Milestone Date, Acceptance Test Date, or the Final Delivery Date, and (iii) the availability of Developer' resources to carry out the additional requested services detailed in the Change Order\u037e",
+      "text": "(B) Developer will evaluate each Change Order, and within five (5) days of its receipt, will provide Client with (i) the change in Fee costs as a result of the Change Order, (ii) the impact, if any, of the Change Order on an aspect of the Delivery Schedule including any Milestone Date, Acceptance Test Date, or the Final Delivery Date, and (iii) the availability of Developer' resources to carry out the additional requested services detailed in the Change Order\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.2,
+            "t": 658.5072874999998,
+            "r": 544.9498106249991,
+            "b": 641.2893307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "(C) If Developer agrees to carry out the proposed Change Order, the Parties will execute an amended SOW or Change Order reflecting the Service and Deliverable changes\u037e",
+      "text": "(C) If Developer agrees to carry out the proposed Change Order, the Parties will execute an amended SOW or Change Order reflecting the Service and Deliverable changes\u037e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.2,
+            "t": 638.3072875,
+            "r": 544.9503724375008,
+            "b": 600.889330717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            405
+          ]
+        }
+      ],
+      "orig": "(D) Upon duly executing an amended SOW or executed Change Ord r, Developer will begin performance in accordance with the same. Developer has no obligation to perform any additional services before receiving the duly- executed amended SOW or executed Change Order, and Client has no obligation to pay Developer any Fees for services performed pursuant to an amended SOW or Change Order before the same\u037e and",
+      "text": "(D) Upon duly executing an amended SOW or executed Change Ord r, Developer will begin performance in accordance with the same. Developer has no obligation to perform any additional services before receiving the duly- executed amended SOW or executed Change Order, and Client has no obligation to pay Developer any Fees for services performed pursuant to an amended SOW or Change Order before the same\u037e and",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.2,
+            "t": 597.9072874999999,
+            "r": 544.9496843749996,
+            "b": 580.6893307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            198
+          ]
+        }
+      ],
+      "orig": "(E) Once fully completed and executed, each amended SOW or Change Order will be deemed to be incorporated into and be part of this Agreement and will constitute a formal amendment to this Agreement.",
+      "text": "(E) Once fully completed and executed, each amended SOW or Change Order will be deemed to be incorporated into and be part of this Agreement and will constitute a formal amendment to this Agreement.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 294.34375,
+            "t": 572.0260375,
+            "r": 301.91875,
+            "b": 564.9080807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "15",
+      "text": "15"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 787.4512124999997,
+            "r": 132.1125315625,
+            "b": 772.5850344350074,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "5. Payment",
+      "text": "5. Payment",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 769.6070374999999,
+            "r": 141.58125,
+            "b": 762.4492480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "5.1 FEES AND EXPENSES",
+      "text": "5.1 FEES AND EXPENSES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 759.5070375,
+            "r": 544.9499747499989,
+            "b": 742.2890807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "Client will pay fees to Developer for Project Services and Deliverables as Described in the SOW (the Fees). Developer will pay its own expenses for the Project (collectively, the Expenses) unless stated otherwise in the SOW.",
+      "text": "Client will pay fees to Developer for Project Services and Deliverables as Described in the SOW (the Fees). Developer will pay its own expenses for the Project (collectively, the Expenses) unless stated otherwise in the SOW."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 739.3070375000002,
+            "r": 141.58125,
+            "b": 732.1492480612997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "5.2 FEES AND EXPENSES",
+      "text": "5.2 FEES AND EXPENSES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2070374999998,
+            "r": 544.950403999999,
+            "b": 711.9890807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            235
+          ]
+        }
+      ],
+      "orig": "All Fees shall be due pursuant to the Fee payment schedule provided in a SOW hereto (the Fee Payment Schedule). Client's failure to remit payment to Developer for Fees due and owning will constitute a material breach of this Agreement.",
+      "text": "All Fees shall be due pursuant to the Fee payment schedule provided in a SOW hereto (the Fee Payment Schedule). Client's failure to remit payment to Developer for Fees due and owning will constitute a material breach of this Agreement."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 709.0070375,
+            "r": 90.45002524999998,
+            "b": 701.8492480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "5.3 BONUS",
+      "text": "5.3 BONUS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 698.9070375000001,
+            "r": 544.9503535000015,
+            "b": 681.6890807178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            271
+          ]
+        }
+      ],
+      "orig": "If Developer completes the Services, and delivers the Deliverables, as reasonably accepted by Client, upon a date prior to the Final Delivery Date as specific in a SOW hereto, Client will pay Developer a bonus Fee in the amount detailed in the applicable SOW (the Bonus).",
+      "text": "If Developer completes the Services, and delivers the Deliverables, as reasonably accepted by Client, upon a date prior to the Final Delivery Date as specific in a SOW hereto, Client will pay Developer a bonus Fee in the amount detailed in the applicable SOW (the Bonus)."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 678.7070374999998,
+            "r": 99.2875,
+            "b": 671.5492480612997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "5.4 PAYMENT",
+      "text": "5.4 PAYMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6070374999999,
+            "r": 416.8065277499999,
+            "b": 661.4890807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "Client shall pay Fees, Expenses (if any), and any Bonus to Developer via w re to Developer's bank account at:",
+      "text": "Client shall pay Fees, Expenses (if any), and any Bonus to Developer via w re to Developer's bank account at:"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5070375,
+            "r": 89.81876893750001,
+            "b": 651.3890807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Chase Bank",
+      "text": "Chase Bank"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 648.4070375000001,
+            "r": 223.01252524999992,
+            "b": 641.2890807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "1955 156th Avenue NE Bellevue, Washington 98007",
+      "text": "1955 156th Avenue NE Bellevue, Washington 98007"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 638.3070375000002,
+            "r": 92.97502524999999,
+            "b": 631.1890807178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "425-590-4010",
+      "text": "425-590-4010"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 628.2070374999998,
+            "r": 115.06870581250001,
+            "b": 621.089080717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Routing: 325070760",
+      "text": "Routing: 325070760"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.1070374999999,
+            "r": 117.59373106250003,
+            "b": 610.9890807178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Account :676313880",
+      "text": "Account :676313880"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 294.34375,
+            "t": 602.3257874999999,
+            "r": 301.91875,
+            "b": 595.2078307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "16",
+      "text": "16"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 787.4519624999996,
+            "r": 220.4874747500001,
+            "b": 772.5857844350073,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "6. Intellectual Property",
+      "text": "6. Intellectual Property",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 769.6077874999999,
+            "r": 267.83123737500017,
+            "b": 762.4499980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "6.1 WORK MADE FOR HIRE AND ASSIGNMENT OF RIGHTS",
+      "text": "6.1 WORK MADE FOR HIRE AND ASSIGNMENT OF RIGHTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 759.5077875,
+            "r": 544.9504418749988,
+            "b": 671.5898307178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1159
+          ]
+        }
+      ],
+      "orig": "Except as otherwise detailed in this Agreement, the Parties acknowledge and agree that the Subject Program including without limitation the Deliverables and Documentation (collectively, the Works) are \"work made for hire\" in accordance with the U.S. Copyright Act, 17 U.S.C. \u00a7 101 et seq. Accordingly, Client will be the copyright author and owner of all of the Works. To the extent permissible, Developer hereby assigns and transfers to Client all copyright and other intellectual property ownership in the Works. Developer agrees to assist Client, as well as execute any documents reasonably necessary, to perfect the assignment of such rights to Client. Developer acknowledges and agrees that the payment of Fees and a Bonus (if any), as referenced in Section 5 of this Agreement, shall be the full consideration to Developer for the assignment of rights herein. Upon payment in full of all obligations hereunder, Developer unconditionally and irrevocably grants to Client all software, improvements, code and other work produce produced by the Developer during the course of this agreement. The code shall be the sole and exclusive property of the Client.",
+      "text": "Except as otherwise detailed in this Agreement, the Parties acknowledge and agree that the Subject Program including without limitation the Deliverables and Documentation (collectively, the Works) are \"work made for hire\" in accordance with the U.S. Copyright Act, 17 U.S.C. \u00a7 101 et seq. Accordingly, Client will be the copyright author and owner of all of the Works. To the extent permissible, Developer hereby assigns and transfers to Client all copyright and other intellectual property ownership in the Works. Developer agrees to assist Client, as well as execute any documents reasonably necessary, to perfect the assignment of such rights to Client. Developer acknowledges and agrees that the payment of Fees and a Bonus (if any), as referenced in Section 5 of this Agreement, shall be the full consideration to Developer for the assignment of rights herein. Upon payment in full of all obligations hereunder, Developer unconditionally and irrevocably grants to Client all software, improvements, code and other work produce produced by the Developer during the course of this agreement. The code shall be the sole and exclusive property of the Client."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6077874999999,
+            "r": 220.48755049999986,
+            "b": 661.4499980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "6.2 DEVELOPER'S INTELLECTUAL PROPERTY",
+      "text": "6.2 DEVELOPER'S INTELLECTUAL PROPERTY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5077875,
+            "r": 544.9502524999986,
+            "b": 610.9898307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            670
+          ]
+        }
+      ],
+      "orig": "Notwithstanding the provisions of Section 6.1 of this Agreement, the Par acknowledge and agree that: (a) Developer may use its proprietary information software (collectively, Developer Technology) in providing Services, and Deliverables, to Client\u037e and (b) Developer shall retain full ownership over its Developer Technology. If Developer uses any of its Developer Technology in any of the Works, Client will: (i) not acquire any proprietary or ownership rights to any of Developer Technology by virtue of this Agreement\u037e and (ii) agree not to market or use any Developer Technology as an independent \"stand-alone\" program without the prior written consent of Developer.",
+      "text": "Notwithstanding the provisions of Section 6.1 of this Agreement, the Par acknowledge and agree that: (a) Developer may use its proprietary information software (collectively, Developer Technology) in providing Services, and Deliverables, to Client\u037e and (b) Developer shall retain full ownership over its Developer Technology. If Developer uses any of its Developer Technology in any of the Works, Client will: (i) not acquire any proprietary or ownership rights to any of Developer Technology by virtue of this Agreement\u037e and (ii) agree not to market or use any Developer Technology as an independent \"stand-alone\" program without the prior written consent of Developer."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0077875000002,
+            "r": 250.15617424999994,
+            "b": 600.8499980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "6.3 LICENSE TO CLIENT'S INTELLECTUAL PROPERTY",
+      "text": "6.3 LICENSE TO CLIENT'S INTELLECTUAL PROPERTY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.05,
+            "t": 597.9077875,
+            "r": 544.9504545000009,
+            "b": 520.0898307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1110
+          ]
+        }
+      ],
+      "orig": "To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds, music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content)\u037e (b) any trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks)\u037e and (c) any know-how, methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures)\u037e and (d) Client's Confidential Information (as defined below). As such, Client hereby grants Developer a royalty-free, worldwide, license to use its Content, Marks, Procedures and Confidential Information in order to complete the Project. Client hereby acknowledge and agrees that Client waives all moral rights to be identified as the author on any and all material or content identified under this subsection of this Agreement.",
+      "text": "To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds, music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content)\u037e (b) any trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks)\u037e and (c) any know-how, methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures)\u037e and (d) Client's Confidential Information (as defined below). As such, Client hereby grants Developer a royalty-free, worldwide, license to use its Content, Marks, Procedures and Confidential Information in order to complete the Project. Client hereby acknowledge and agrees that Client waives all moral rights to be identified as the author on any and all material or content identified under this subsection of this Agreement."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 294.34375,
+            "t": 511.4265375,
+            "r": 301.91875,
+            "b": 504.30858071789316,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "17",
+      "text": "17"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8075375000001,
+            "r": 224.90627524999996,
+            "b": 782.6497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE",
+      "text": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7075375,
+            "r": 544.9503156249993,
+            "b": 711.9895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            963
+          ]
+        }
+      ],
+      "orig": "6.4.1 Confidential Information. Each Party acknowledges and agrees that it will receive confidential information and trade secrets from the other Party in otherwise carrying out the actions contemplated by this Agreement (collective, Confidential Information). Confidential Information does not include information at: (a) is available to the public or that becomes available to the public through no act or failure to act by the receiving Party (Receiving Party)\u037e (b) is known to the Receiving Party prior to the date of disclosure by the disclosing Party (Disclosing Party), unless the Receiving Party agreed to keep such information in confidence at the time of receipt of the information\u037e (c) is properly obtained hereafter from a source that is not under an obligation of confidentiality with respect to such information\u037e or (d) is developed independently by the Receiving Party without reference to or use of the Disclosing Party's Confidential Information.",
+      "text": "6.4.1 Confidential Information. Each Party acknowledges and agrees that it will receive confidential information and trade secrets from the other Party in otherwise carrying out the actions contemplated by this Agreement (collective, Confidential Information). Confidential Information does not include information at: (a) is available to the public or that becomes available to the public through no act or failure to act by the receiving Party (Receiving Party)\u037e (b) is known to the Receiving Party prior to the date of disclosure by the disclosing Party (Disclosing Party), unless the Receiving Party agreed to keep such information in confidence at the time of receipt of the information\u037e (c) is properly obtained hereafter from a source that is not under an obligation of confidentiality with respect to such information\u037e or (d) is developed independently by the Receiving Party without reference to or use of the Disclosing Party's Confidential Information."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 709.0075374999999,
+            "r": 544.9500189374987,
+            "b": 681.689580717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            419
+          ]
+        }
+      ],
+      "orig": "6.4.2 Non-Disclosure. Neither Party shall use or disclose Confidential Information of the other Party to any third party, without the written consent of the Disclosing Party of such Confidential Information. Receiving Party agrees to undertake reasonable measures to maintain and preserve the Confidential Information of the Disclosing Party in confidence, which measures shall be no less than the measures taken by the",
+      "text": "6.4.2 Non-Disclosure. Neither Party shall use or disclose Confidential Information of the other Party to any third party, without the written consent of the Disclosing Party of such Confidential Information. Receiving Party agrees to undertake reasonable measures to maintain and preserve the Confidential Information of the Disclosing Party in confidence, which measures shall be no less than the measures taken by the"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 678.7075375,
+            "r": 544.9503029999989,
+            "b": 641.2895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            522
+          ]
+        }
+      ],
+      "orig": "Receiving Party to protect its own confidential information and in no vent shall be less than reasonable care. Upon expiration or termination of this Agreement, Receiving Party will immediately destroy or erase all copies of documents or materials containing any Confidential Information provided by Disclosing Party and, upon the Disclosing Party's request, promptly confirm destruction of same by signing and returning to the Disclosing Party a certificate of destruction reasonably satisfactory to the Disclosing Party.",
+      "text": "Receiving Party to protect its own confidential information and in no vent shall be less than reasonable care. Upon expiration or termination of this Agreement, Receiving Party will immediately destroy or erase all copies of documents or materials containing any Confidential Information provided by Disclosing Party and, upon the Disclosing Party's request, promptly confirm destruction of same by signing and returning to the Disclosing Party a certificate of destruction reasonably satisfactory to the Disclosing Party."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 638.3075375000001,
+            "r": 544.9504292500008,
+            "b": 580.689580717893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            781
+          ]
+        }
+      ],
+      "orig": "6.4.3 Derivatives. All Confidential Information, and any Derivatives thereof whether created by Client or Developer, remain the property of the Disclosing Party and no license or other rights to any Confidential Information or Derivatives is granted or implied hereby. For purposes of this Agreement, Derivatives shall mean: (a) for copyrightable or copyrighted material, any translation, abridgment, revision or other form in which an existing work may be recast, transformed or adapted \u037e(b) for patentable or patented material, any improvement thereon\u037e and (c) for material which is protected by trade secret, any new material derived from such existing trade secret material, including new material which may be protected under applicable copyright, patent, or trade secret law.",
+      "text": "6.4.3 Derivatives. All Confidential Information, and any Derivatives thereof whether created by Client or Developer, remain the property of the Disclosing Party and no license or other rights to any Confidential Information or Derivatives is granted or implied hereby. For purposes of this Agreement, Derivatives shall mean: (a) for copyrightable or copyrighted material, any translation, abridgment, revision or other form in which an existing work may be recast, transformed or adapted \u037e(b) for patentable or patented material, any improvement thereon\u037e and (c) for material which is protected by trade secret, any new material derived from such existing trade secret material, including new material which may be protected under applicable copyright, patent, or trade secret law."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.05,
+            "t": 577.7075375,
+            "r": 544.9500000000014,
+            "b": 560.4895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            272
+          ]
+        }
+      ],
+      "orig": "6.4.4 Notification of Suspected Disclosure. The Receiving Party further agrees to immediately notify Disclosing Party of any actual or suspected misuse misappropriation, or unauthorized disclosure of Confidential Information, which may come to Receiving Party's attention.",
+      "text": "6.4.4 Notification of Suspected Disclosure. The Receiving Party further agrees to immediately notify Disclosing Party of any actual or suspected misuse misappropriation, or unauthorized disclosure of Confidential Information, which may come to Receiving Party's attention."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 294.34375,
+            "t": 551.8262875,
+            "r": 301.91875,
+            "b": 544.7083307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "18",
+      "text": "18"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8074875000001,
+            "r": 544.9504103125001,
+            "b": 742.2895307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            629
+          ]
+        }
+      ],
+      "orig": "6.4.5 Injunctive Relief for Breach. Because of the unique nature of the Confidential Information and other elements of the Parties business relationship, the Parties acknowledge and agree that a breach of any of the provisions of Section 6 of this Agreement by Receiving Party will irreparably harm the Disclosing Party. Accordingly, in the event of a breach or threatened breach of Section 6 of this Agreement, Disclosing Party will be entitled to seek injunctive relief to enforce the terms of Section 6 of this Agreement without the necessity of posting a bond or if a bond is required, at the minimum amount legally required.",
+      "text": "6.4.5 Injunctive Relief for Breach. Because of the unique nature of the Confidential Information and other elements of the Parties business relationship, the Parties acknowledge and agree that a breach of any of the provisions of Section 6 of this Agreement by Receiving Party will irreparably harm the Disclosing Party. Accordingly, in the event of a breach or threatened breach of Section 6 of this Agreement, Disclosing Party will be entitled to seek injunctive relief to enforce the terms of Section 6 of this Agreement without the necessity of posting a bond or if a bond is required, at the minimum amount legally required."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 736.9516624999998,
+            "r": 218.59375,
+            "b": 722.0854844350075,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "7. Parties Relationship",
+      "text": "7. Parties Relationship",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 719.1074875,
+            "r": 175.66874999999993,
+            "b": 711.9496980613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "7.1 INDEPENDENT CONTRACTOR",
+      "text": "7.1 INDEPENDENT CONTRACTOR",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 709.0074875000001,
+            "r": 544.9502525,
+            "b": 671.5895307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            530
+          ]
+        }
+      ],
+      "orig": "Developer is undertaking the services set forth in this Agreement as an independent contractor, working at Developer's own hours and using Developer's own equipment and at Developer's own chosen place of work, with discretion concerning the revision of Services and Deliverables within Client's general direction. Nothing contained in this Agreement will be construed to constitute the Parties as partners, employees, agents or joint ventures of each other. No Party will have the authority to bind the other Party in any respect.",
+      "text": "Developer is undertaking the services set forth in this Agreement as an independent contractor, working at Developer's own hours and using Developer's own equipment and at Developer's own chosen place of work, with discretion concerning the revision of Services and Deliverables within Client's general direction. Nothing contained in this Agreement will be construed to constitute the Parties as partners, employees, agents or joint ventures of each other. No Party will have the authority to bind the other Party in any respect."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6074875,
+            "r": 134.63751262499994,
+            "b": 661.4496980613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "7.2 NON-EXCLUSIVITY",
+      "text": "7.2 NON-EXCLUSIVITY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5074875000001,
+            "r": 544.9503787499982,
+            "b": 631.1895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            380
+          ]
+        }
+      ],
+      "orig": "Subject to the terms and conditions herein, the Parties expressly acknowledge that this Agreement does not create an exclusive business relationship between the Parties. Subject to the terms and conditions herein, Developer shall be entitled to offer and provide software design and development services to third parties solicit other clients and otherwise advertise its services.",
+      "text": "Subject to the terms and conditions herein, the Parties expressly acknowledge that this Agreement does not create an exclusive business relationship between the Parties. Subject to the terms and conditions herein, Developer shall be entitled to offer and provide software design and development services to third parties solicit other clients and otherwise advertise its services."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 625.8516624999999,
+            "r": 108.7562563125,
+            "b": 610.9854844350074,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "8. Taxes",
+      "text": "8. Taxes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0074875000001,
+            "r": 544.9503471875003,
+            "b": 580.6895307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            347
+          ]
+        }
+      ],
+      "orig": "Developer acknowledges and agrees that as an independent contractor, developer is responsible for the payment of such taxes and withholding on its income and activities as may be due under federal, state and local law and regulations. If appropriate, Developer will furnish Client with a Form 1099 or equivalent for the payments made to Developer.",
+      "text": "Developer acknowledges and agrees that as an independent contractor, developer is responsible for the payment of such taxes and withholding on its income and activities as may be due under federal, state and local law and regulations. If appropriate, Developer will furnish Client with a Form 1099 or equivalent for the payments made to Developer."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 294.34375,
+            "t": 572.0262375000001,
+            "r": 301.91875,
+            "b": 564.9082807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "19",
+      "text": "19"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 787.4519124999997,
+            "r": 306.9686742499998,
+            "b": 772.5857344350075,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "9. Warranties and Representations",
+      "text": "9. Warranties and Representations",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 769.6077375,
+            "r": 91.08125631249999,
+            "b": 762.4499480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "9.1 CLIENT",
+      "text": "9.1 CLIENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 759.5077375000001,
+            "r": 544.9503156249991,
+            "b": 701.8897807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            864
+          ]
+        }
+      ],
+      "orig": "Client represents, warrants and covenants that: (a) Client is a duly organized, validly existing and in good standing (b) Client has the full right and legal author y to enter into and fully perform its duties and obligations under this Agreement\u037e (c) Client owns all right, title, and interest in, or otherwise has full right and authority to permit Developer's use of Content, Marks, Procedures and Client's Confidential Information, as detailed in this Agreement\u037e (d) is solely responsible for compliance with all federal, ate, and local laws, rules, regulations, executive orders, ordinances, standards, and best practices applicable to Client's business or industry\u037e and (e) Client will comply with all federal, state, and local laws, rules, regulations, executive orders, ordinances, standards, and best practices applicable to Client's business or industry.",
+      "text": "Client represents, warrants and covenants that: (a) Client is a duly organized, validly existing and in good standing (b) Client has the full right and legal author y to enter into and fully perform its duties and obligations under this Agreement\u037e (c) Client owns all right, title, and interest in, or otherwise has full right and authority to permit Developer's use of Content, Marks, Procedures and Client's Confidential Information, as detailed in this Agreement\u037e (d) is solely responsible for compliance with all federal, ate, and local laws, rules, regulations, executive orders, ordinances, standards, and best practices applicable to Client's business or industry\u037e and (e) Client will comply with all federal, state, and local laws, rules, regulations, executive orders, ordinances, standards, and best practices applicable to Client's business or industry."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 696.5519124999998,
+            "r": 193.97503787500006,
+            "b": 681.6857344350074,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "10. Indemnification",
+      "text": "10. Indemnification",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 678.7077375000001,
+            "r": 95.5,
+            "b": 671.5499480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "10 1 CLIENT",
+      "text": "10 1 CLIENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 668.6077375,
+            "r": 544.3189456875014,
+            "b": 621.0897807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            747
+          ]
+        }
+      ],
+      "orig": "Client shall defend, indemnify and hold harmless Developer, its member owners, officers, employees, independent contractors and agents, from and against all losses, claims, liabilities or damages and any related costs and expenses, including attorneys' fees and costs arising out of, or in any way related to any claim or action against Developer arising out of or in any way related to: (a) Client's breach of this Agreement\u037e (b) a breach of any agreement between Client and its clients or customer\u037e (c) Client's gross negligence or willful misconduct\u037e (d) Client's act or omission constituting a violation of applicable federal, state, local law or regulation\u037e or (e) any claim made against Client asserting a violation of any third party right.",
+      "text": "Client shall defend, indemnify and hold harmless Developer, its member owners, officers, employees, independent contractors and agents, from and against all losses, claims, liabilities or damages and any related costs and expenses, including attorneys' fees and costs arising out of, or in any way related to any claim or action against Developer arising out of or in any way related to: (a) Client's breach of this Agreement\u037e (b) a breach of any agreement between Client and its clients or customer\u037e (c) Client's gross negligence or willful misconduct\u037e (d) Client's act or omission constituting a violation of applicable federal, state, local law or regulation\u037e or (e) any claim made against Client asserting a violation of any third party right."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 618.1077375,
+            "r": 113.80624368749999,
+            "b": 610.9499480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "10.2 DEVELOPER",
+      "text": "10.2 DEVELOPER",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 50.05,
+            "t": 608.0077374999998,
+            "r": 543.056679249999,
+            "b": 560.4897807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            744
+          ]
+        }
+      ],
+      "orig": "Developer shall defend, indemnify and hold harmless Client, its members owners, officers, employees, independent contractors and agents, from and against all losses, claims, liabilities or damages and any related costs and expenses, including attorneys' fees and costs arising out of, or in any way related to any claim or action against Client arising out of or in any way related to: (a) Developer's material breach of his Agreement\u037e (b) Developer's gross negligence or willful misconduct\u037e (c) De eloper's act or omission constituting a violation of applicable federal, state, local law or regulation\u037e or (d) any claim made against Client asserting a violation of any third party intellectual property right pertaining to the Subject Program.",
+      "text": "Developer shall defend, indemnify and hold harmless Client, its members owners, officers, employees, independent contractors and agents, from and against all losses, claims, liabilities or damages and any related costs and expenses, including attorneys' fees and costs arising out of, or in any way related to any claim or action against Client arising out of or in any way related to: (a) Developer's material breach of his Agreement\u037e (b) Developer's gross negligence or willful misconduct\u037e (c) De eloper's act or omission constituting a violation of applicable federal, state, local law or regulation\u037e or (d) any claim made against Client asserting a violation of any third party intellectual property right pertaining to the Subject Program."
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 294.34375,
+            "t": 551.8264875,
+            "r": 301.91875,
+            "b": 544.7085307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8075875,
+            "r": 186.40002524999994,
+            "b": 782.6497980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "10.3 NON DISPARAGEMENT CLAUSE",
+      "text": "10.3 NON DISPARAGEMENT CLAUSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7075875,
+            "r": 544.9500378749993,
+            "b": 732.1896307178934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            625
+          ]
+        }
+      ],
+      "orig": "The Client and the Designer both agree to never to disparage or speak ill of the other party to anyone and or post negative or disparaging comments Online regarding any of the Designer's products, services, affiliates, subsidiaries, officers, directors, employees or shareholders, and will take reasonable steps to prevent and will not knowingly permit any of their respective employees or agents to, disparage or speak ill of such persons. For purposes of this Section, \"disparage\" shall mean any negative statement whether written or oral, about Seattle Software Developers, Inc., Dot Com LLC. and or any of its affiliates.",
+      "text": "The Client and the Designer both agree to never to disparage or speak ill of the other party to anyone and or post negative or disparaging comments Online regarding any of the Designer's products, services, affiliates, subsidiaries, officers, directors, employees or shareholders, and will take reasonable steps to prevent and will not knowingly permit any of their respective employees or agents to, disparage or speak ill of such persons. For purposes of this Section, \"disparage\" shall mean any negative statement whether written or oral, about Seattle Software Developers, Inc., Dot Com LLC. and or any of its affiliates."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2075875,
+            "r": 544.9504418750012,
+            "b": 701.8896307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            408
+          ]
+        }
+      ],
+      "orig": "The Client and Designer both agree not to post on defamatory websites or review websites any negative posts concerning each other, the names of our companies, and our employees. Both the Client and the Designer both agree and acknowledge that this non-disparagement provision is a material term of this Agreement, the absence of which would have resulted in the Company refusing to enter into this Agreement.",
+      "text": "The Client and Designer both agree not to post on defamatory websites or review websites any negative posts concerning each other, the names of our companies, and our employees. Both the Client and the Designer both agree and acknowledge that this non-disparagement provision is a material term of this Agreement, the absence of which would have resulted in the Company refusing to enter into this Agreement."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 698.9075874999999,
+            "r": 544.9500883749993,
+            "b": 661.4896307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            517
+          ]
+        }
+      ],
+      "orig": "Subject to the terms, conditions, express representations and warranties provided in this Agreement, Designer and Client both agree to indemnify, save and hold armless each other from any and all damages, liabilities, costs, losses or expenses arising out of any finding of fact which is inconsistent with Designer's representations and warranties made herein, except in the event any such claims, damages, liabilities, costs, losses or expenses arise directly as a result of gross negligence or misconduct of Client.",
+      "text": "Subject to the terms, conditions, express representations and warranties provided in this Agreement, Designer and Client both agree to indemnify, save and hold armless each other from any and all damages, liabilities, costs, losses or expenses arising out of any finding of fact which is inconsistent with Designer's representations and warranties made herein, except in the event any such claims, damages, liabilities, costs, losses or expenses arise directly as a result of gross negligence or misconduct of Client."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 656.1517624999999,
+            "r": 166.19998737499998,
+            "b": 641.2855844350073,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "11. Termination",
+      "text": "11. Termination",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 638.3075875,
+            "r": 188.92508837499992,
+            "b": 631.1497980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "11.1 TERMINATION WITHOUT CAUSE",
+      "text": "11.1 TERMINATION WITHOUT CAUSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 628.2075874999999,
+            "r": 544.950195687499,
+            "b": 590.7896307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            553
+          ]
+        }
+      ],
+      "orig": "Either Party may terminate this Agreement at any time during the term of this Agreement for any reason upon two weeks written notice to the other Party. Upon termination of this Agreement for any reason: (a) all provision of Service and Deliverables by Developer will immediately cease\u037e (b) Client will pay Fees or all Services and Deliverables provided by Developer to Client up to and including the ate of termination\u037e and (c) in compliance with Section 6.1 of this Agreement, Developer will transfer all Works to Client as of the date of termination.",
+      "text": "Either Party may terminate this Agreement at any time during the term of this Agreement for any reason upon two weeks written notice to the other Party. Upon termination of this Agreement for any reason: (a) all provision of Service and Deliverables by Developer will immediately cease\u037e (b) Client will pay Fees or all Services and Deliverables provided by Developer to Client up to and including the ate of termination\u037e and (c) in compliance with Section 6.1 of this Agreement, Developer will transfer all Works to Client as of the date of termination."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 587.8075875,
+            "r": 167.46249999999998,
+            "b": 580.6497980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "11.2 TERMINATION FOR CAUSE",
+      "text": "11.2 TERMINATION FOR CAUSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 50.05,
+            "t": 577.7075874999999,
+            "r": 544.9499999999985,
+            "b": 530.1896307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            694
+          ]
+        }
+      ],
+      "orig": "This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within ten (10) calendar days after receipt of a notice of default from the terminating Party\u037e (b) if Client fails to pay to Developer any undisputed Fees when du and fails to cure any such breach within ten (10) calendar days after receiving notice from Developer of such failure\u037e (c) misappropriation or unauthorized disclosure of Confidential Information by the Receiving Party\u037e or (d) the other Party engages in any act or omission that is determined to be illegal or in violation of any applicable law or regulation.",
+      "text": "This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within ten (10) calendar days after receipt of a notice of default from the terminating Party\u037e (b) if Client fails to pay to Developer any undisputed Fees when du and fails to cure any such breach within ten (10) calendar days after receiving notice from Developer of such failure\u037e (c) misappropriation or unauthorized disclosure of Confidential Information by the Receiving Party\u037e or (d) the other Party engages in any act or omission that is determined to be illegal or in violation of any applicable law or regulation."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 294.34375,
+            "t": 521.5263375,
+            "r": 301.91875,
+            "b": 514.4083807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "21",
+      "text": "21"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8078275,
+            "r": 202.18119949999985,
+            "b": 782.6500380612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "11.3 OBLIGATIONS UPON TERMINATION",
+      "text": "11.3 OBLIGATIONS UPON TERMINATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7078275,
+            "r": 544.9503787500005,
+            "b": 732.1898707178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            624
+          ]
+        }
+      ],
+      "orig": "If Client terminates this Agreement or any SOW for any reason, Client will pay Developer any Fees due and payable on the effective date of such termination or expiration, and Developer will refund to Client any non-accrued pre-paid Fees. In the event of a termination or expiration of this Agreement or any SOW for any reason, developer will, as requested by and at additional cost to Client, provide up to three (3) months of Fee billable assistance (collectively, the Termination Assistance Services) in transitioning from Developer to an alternative software service provider including, without limitation, the following:",
+      "text": "If Client terminates this Agreement or any SOW for any reason, Client will pay Developer any Fees due and payable on the effective date of such termination or expiration, and Developer will refund to Client any non-accrued pre-paid Fees. In the event of a termination or expiration of this Agreement or any SOW for any reason, developer will, as requested by and at additional cost to Client, provide up to three (3) months of Fee billable assistance (collectively, the Termination Assistance Services) in transitioning from Developer to an alternative software service provider including, without limitation, the following:"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 50.05,
+            "t": 729.2078275,
+            "r": 544.9503535000003,
+            "b": 681.6898707178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            655
+          ]
+        }
+      ],
+      "orig": "(a) knowledge transfer regarding the operation, use, and support of the subject Program\u037e return of all documentation containing Content, Marks, Procedures a d Confidential Information in a format reasonably specified by Client and assistance with data migration to an alternative solution\u037e and (c) any related additional services as requested by Client. Developer shall provide Termination Assistance Services to Client in a manner that does not interfere with, interrupt or degrade the Subject Program. The term of this Agreement or applicable SOW shall not be deemed to have expired or terminated until the Termination Assistance Services are completed.",
+      "text": "(a) knowledge transfer regarding the operation, use, and support of the subject Program\u037e return of all documentation containing Content, Marks, Procedures a d Confidential Information in a format reasonably specified by Client and assistance with data migration to an alternative solution\u037e and (c) any related additional services as requested by Client. Developer shall provide Termination Assistance Services to Client in a manner that does not interfere with, interrupt or degrade the Subject Program. The term of this Agreement or applicable SOW shall not be deemed to have expired or terminated until the Termination Assistance Services are completed."
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 50.05,
+            "t": 676.3520025,
+            "r": 135.90000000000003,
+            "b": 661.4858244350073,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "12. General",
+      "text": "12. General",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5078275,
+            "r": 175.03748737500004,
+            "b": 651.3500380612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "12.1 CHOICE OF LAW AND VENUE",
+      "text": "12.1 CHOICE OF LAW AND VENUE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 50.05,
+            "t": 648.4078274999999,
+            "r": 544.9503471874996,
+            "b": 600.8898707178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            720
+          ]
+        }
+      ],
+      "orig": "This Agreement will be governed by the laws of the State of Washington without regards for its conflict of laws principle. The Parties will conduct friendly negotiations to resolve any dispute arising from this Agreement, including mediation if requested by either Party. Should mediation fail, each party consents to the personal jurisdiction of the state and federal courts located in King County, Washington. If there is a dispute between the Parties relating to this Agreement, the Party substantially prevailing will be entitled to recover all costs and expenses of any subsequent proceeding (including trial, appellate, and arbitration proceedings), including reasonable attorneys' fees and costs incurred therein.",
+      "text": "This Agreement will be governed by the laws of the State of Washington without regards for its conflict of laws principle. The Parties will conduct friendly negotiations to resolve any dispute arising from this Agreement, including mediation if requested by either Party. Should mediation fail, each party consents to the personal jurisdiction of the state and federal courts located in King County, Washington. If there is a dispute between the Parties relating to this Agreement, the Party substantially prevailing will be entitled to recover all costs and expenses of any subsequent proceeding (including trial, appellate, and arbitration proceedings), including reasonable attorneys' fees and costs incurred therein."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 294.34375,
+            "t": 592.2265775,
+            "r": 301.91875,
+            "b": 585.1086207178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "22",
+      "text": "22"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8077875,
+            "r": 96.76249999999999,
+            "b": 782.6499980612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "12.2 NOTICE",
+      "text": "12.2 NOTICE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7077875,
+            "r": 544.9500000000016,
+            "b": 752.3898307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            374
+          ]
+        }
+      ],
+      "orig": "A notice required or permitted under this Agreement will be deemed given if in writing, and delivered by a Party in person, one (1) business day after being sent via overnight carrier, or three (3) business days after being sent by certified mail return receipt requested to the address set forth below, or such other address as may be supplied by either Party subsequently:",
+      "text": "A notice required or permitted under this Agreement will be deemed given if in writing, and delivered by a Party in person, one (1) business day after being sent via overnight carrier, or three (3) business days after being sent by certified mail return receipt requested to the address set forth below, or such other address as may be supplied by either Party subsequently:"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 625.6827874999999,
+            "r": 123.90625,
+            "b": 618.5249980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "12.3 SEVERABILITY",
+      "text": "12.3 SEVERABILITY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 615.5827875,
+            "r": 544.9499999999987,
+            "b": 588.2648307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            385
+          ]
+        }
+      ],
+      "orig": "If any provision of this Agreement is held by a court of law to be illegal, invalid or unenforceable: (a) that provision shall be deemed amended to achieve s nearly as possible the same economic and/or protective effect as the original provision\u037e and (b) the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby.",
+      "text": "If any provision of this Agreement is held by a court of law to be illegal, invalid or unenforceable: (a) that provision shall be deemed amended to achieve s nearly as possible the same economic and/or protective effect as the original provision\u037e and (b) the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 585.2827875,
+            "r": 98.02499999999999,
+            "b": 578.1249980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "12.4 WAIVER",
+      "text": "12.4 WAIVER",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 575.1827874999999,
+            "r": 544.9502272500015,
+            "b": 527.6648307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            721
+          ]
+        }
+      ],
+      "orig": "No delay or omission by either Party hereto to exercise any right or pow r occurring upon any noncompliance or default by the other Party with respect to a y of the terms of this Agreement shall impair any such right or power or be construed to be a waiver thereof. A waiver by either of the Parties hereto of any of the covenants, conditions, or agreements to be performed by the other shall not be construed to be a waiver of any succeeding breach thereof or of any covenant, condition, or agreement herein contained. Unless stated otherwise, all remedies provided for in is Agreement will be cumulative and in addition to and not in lieu of any other remedies available to either Party at law, in equity, or otherwise.",
+      "text": "No delay or omission by either Party hereto to exercise any right or pow r occurring upon any noncompliance or default by the other Party with respect to a y of the terms of this Agreement shall impair any such right or power or be construed to be a waiver thereof. A waiver by either of the Parties hereto of any of the covenants, conditions, or agreements to be performed by the other shall not be construed to be a waiver of any succeeding breach thereof or of any covenant, condition, or agreement herein contained. Unless stated otherwise, all remedies provided for in is Agreement will be cumulative and in addition to and not in lieu of any other remedies available to either Party at law, in equity, or otherwise."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 524.6827874999999,
+            "r": 118.85624999999999,
+            "b": 517.5249980612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "12.5 ASSIGNMENT",
+      "text": "12.5 ASSIGNMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 50.05,
+            "t": 514.5827875,
+            "r": 544.950366125001,
+            "b": 467.0648307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            649
+          ]
+        }
+      ],
+      "orig": "This Agreement will be binding on and inure to the benefit of the Parties their respective successors, assigns, heirs and personal representatives. Unless as provided herein, neither Party may assign, delegate, assign, nor subcontract their obligations and duties hereunder without the prior written consent of the non-assigning Party. Notwithstanding the foregoing, Developer may assign it rights and benefits under this Agreement, and delegate the performance of its obligations and duties hereunder, to any corporation or unincorporated business that is the successor to the business of Developer, without Client express or implied authorization.",
+      "text": "This Agreement will be binding on and inure to the benefit of the Parties their respective successors, assigns, heirs and personal representatives. Unless as provided herein, neither Party may assign, delegate, assign, nor subcontract their obligations and duties hereunder without the prior written consent of the non-assigning Party. Notwithstanding the foregoing, Developer may assign it rights and benefits under this Agreement, and delegate the performance of its obligations and duties hereunder, to any corporation or unincorporated business that is the successor to the business of Developer, without Client express or implied authorization."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 294.34375,
+            "t": 458.4015375,
+            "r": 301.91875,
+            "b": 451.2835807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "23",
+      "text": "23"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 50.05,
+            "t": 789.8075375,
+            "r": 288.66237375000026,
+            "b": 782.6497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "12.6 OTHER DEFINITIONAL TERMS, TERMS OF CONSTRUCTION",
+      "text": "12.6 OTHER DEFINITIONAL TERMS, TERMS OF CONSTRUCTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.7075375,
+            "r": 544.9502966875009,
+            "b": 701.8895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1011
+          ]
+        }
+      ],
+      "orig": "The words hereof, herein and hereunder and words of similar import when used in this Agreement refer to this Agreement as a whole and not to any particular provision of this Agreement. The words include, includes and including shall be deemed to be followed by the phrase without limitation. Unless the context in which used herein otherwise clearly requires, or has the inclusive meaning represented by the phrase and/or. All incorporations by reference of covenants, terms, definitions or other provisions from other agreements are incorporated into this Agreement as if such provisions were fully set forth herein, and include all necessary definitions and related provisions from such other agreements. All covenants, terms, definition and other provisions from other agreements incorporated into this Agreement by reference will survive termination of this Agreement. References to statutes, regulations or laws, include any amendments, modifications or replacements of such statutes, regulations, or laws.",
+      "text": "The words hereof, herein and hereunder and words of similar import when used in this Agreement refer to this Agreement as a whole and not to any particular provision of this Agreement. The words include, includes and including shall be deemed to be followed by the phrase without limitation. Unless the context in which used herein otherwise clearly requires, or has the inclusive meaning represented by the phrase and/or. All incorporations by reference of covenants, terms, definitions or other provisions from other agreements are incorporated into this Agreement as if such provisions were fully set forth herein, and include all necessary definitions and related provisions from such other agreements. All covenants, terms, definition and other provisions from other agreements incorporated into this Agreement by reference will survive termination of this Agreement. References to statutes, regulations or laws, include any amendments, modifications or replacements of such statutes, regulations, or laws."
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 50.05,
+            "t": 698.9075375,
+            "r": 130.21877524999996,
+            "b": 691.7497480612999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "12.7 COUNTERPARTS",
+      "text": "12.7 COUNTERPARTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 50.05,
+            "t": 688.8075375,
+            "r": 541.1628156249988,
+            "b": 661.4895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            406
+          ]
+        }
+      ],
+      "orig": "This Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and t e same instrument. Counterparts may be delivered via facsimile, e-mail (including pdf) or other transmission method, and any counterpart so delivered shall be deemed to have been duly and validly delivered and be valid and effective for all purposes.",
+      "text": "This Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and t e same instrument. Counterparts may be delivered via facsimile, e-mail (including pdf) or other transmission method, and any counterpart so delivered shall be deemed to have been duly and validly delivered and be valid and effective for all purposes."
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 50.05,
+            "t": 658.5075375,
+            "r": 232.48126262500014,
+            "b": 651.3497480612998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "12.8 ENTIRE AGREEMENT AND UNDERSTANDING",
+      "text": "12.8 ENTIRE AGREEMENT AND UNDERSTANDING",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 50.05,
+            "t": 648.4075375,
+            "r": 544.9500757499985,
+            "b": 610.9895807178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            432
+          ]
+        }
+      ],
+      "orig": "This Agreement and Appendices hereto are the complete and exclusive statement of agreement of the Parties as to matters covered by it. This Agreement and its Appendices replaces and supersedes all prior written or oral agreement or statements by and among the Parties with respect to the matters covered by it. This Agreement may not be modified or amended except in writing signed by a duly authorized representative of each Party.",
+      "text": "This Agreement and Appendices hereto are the complete and exclusive statement of agreement of the Parties as to matters covered by it. This Agreement and its Appendices replaces and supersedes all prior written or oral agreement or statements by and among the Parties with respect to the matters covered by it. This Agreement may not be modified or amended except in writing signed by a duly authorized representative of each Party."
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 294.34375,
+            "t": 602.3262875,
+            "r": 301.91875,
+            "b": 595.2083307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "24",
+      "text": "24"
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 50.05,
+            "t": 787.4520625,
+            "r": 282.35002524999993,
+            "b": 772.5858844350074,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "13. Acknowledgement by Client",
+      "text": "13. Acknowledgement by Client",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 50.05,
+            "t": 769.6078875000001,
+            "r": 460.9935227499994,
+            "b": 762.4899307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "Client agrees to the terms of this Agreement and Appendices hereto an acknowledges receipt of a copy of this Agreement.",
+      "text": "Client agrees to the terms of this Agreement and Appendices hereto an acknowledges receipt of a copy of this Agreement."
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 50.05,
+            "t": 759.5078875,
+            "r": 356.83732325000045,
+            "b": 752.3899307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date",
+      "text": "IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date"
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 51.94375,
+            "t": 749.4078875,
+            "r": 139.68747475000004,
+            "b": 742.2899307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Acceptance by Developer",
+      "text": "Acceptance by Developer"
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 51.94375,
+            "t": 739.3078875,
+            "r": 131.4812184375,
+            "b": 732.1899307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "By: /s/ Julian Valentine",
+      "text": "By: /s/ Julian Valentine"
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 51.94375,
+            "t": 729.2078875,
+            "r": 116.96247474999998,
+            "b": 722.0899307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Julian Valentine, VP",
+      "text": "Julian Valentine, VP"
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 175.66875,
+            "t": 749.4078875,
+            "r": 250.15624999999977,
+            "b": 742.2899307178932,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Acceptance by Client:",
+      "text": "Acceptance by Client:"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 175.66875,
+            "t": 739.3078875,
+            "r": 247.0,
+            "b": 732.1899307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "By: /s/ Dave Comeau",
+      "text": "By: /s/ Dave Comeau"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 175.66875,
+            "t": 729.2078875,
+            "r": 266.5687500000003,
+            "b": 722.0899307178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Dave Comeau, Shareholder",
+      "text": "Dave Comeau, Shareholder"
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 294.34375,
+            "t": 713.4266375,
+            "r": 301.91875,
+            "b": 706.3086807178933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "25",
+      "text": "25"
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 236.9765625,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020",
+      "text": "Source: PELICAN DELIVERS, INC., S-1, 2/11/2020"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 56.76820755004883,
+            "t": 753.7910919189453,
+            "r": 272.1449279785156,
+            "b": 628.6724395751953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 56.3625,
+              "t": 92.59221250000007,
+              "r": 168.72497475000003,
+              "b": 213.3351692821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "If to Developer: SEATTLE SOFTWARE DEVELOPERS, INC 4-102 ND AvenueNE, Suite 300 Bellevue, Washington 98004 IF to attorney: Copy to: Perkins Coie 1201 third avenue, Seattle, Washington 98101 Attn: LUCAS S. MICHELS, ESQ.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 202.18125,
+              "t": 92.59221250000007,
+              "r": 270.9874431875002,
+              "b": 150.2101692821068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "If to Client: Pelican Delivers Inc. Dave Comeau 5452 Pineridge Drive Bremerton, WA 983 360-731-6611",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 56.3625,
+                "t": 92.59221250000007,
+                "r": 168.72497475000003,
+                "b": 213.3351692821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "If to Developer: SEATTLE SOFTWARE DEVELOPERS, INC 4-102 ND AvenueNE, Suite 300 Bellevue, Washington 98004 IF to attorney: Copy to: Perkins Coie 1201 third avenue, Seattle, Washington 98101 Attn: LUCAS S. MICHELS, ESQ.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 202.18125,
+                "t": 92.59221250000007,
+                "r": 270.9874431875002,
+                "b": 150.2101692821068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "If to Client: Pelican Delivers Inc. Dave Comeau 5452 Pineridge Drive Bremerton, WA 983 360-731-6611",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 10
+    },
+    "11": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 11
+    },
+    "12": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 12
+    },
+    "13": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 13
+    },
+    "14": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 14
+    },
+    "15": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 15
+    }
+  }
+}

@@ -1,0 +1,1299 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 3251791065170453049,
+    "filename": "RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/38"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 507.075,
+            "t": 789.8074875,
+            "r": 544.9499873750001,
+            "b": 782.6895307178931,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Exhibit 10.3",
+      "text": "Exhibit 10.3"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.64374999999998,
+            "t": 769.5986499999999,
+            "r": 371.9874621250001,
+            "b": 760.7890629985229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "GAS FRANCHISE AGREEMENT",
+      "text": "GAS FRANCHISE AGREEMENT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 745.61115,
+            "r": 544.9501388750008,
+            "b": 712.8630878066376,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            236
+          ]
+        }
+      ],
+      "orig": "THIS AGREEMENT (\"Agreement\"), made and entered into this 17th day of November, 2015, by and between the TOWN OF VINTON, VIRGINIA, a Virginia municipal corporation (\"Grantor\"), and ROANOKE GAS COMPANY, a Virginia corporation (\"Grantee\").",
+      "text": "THIS AGREEMENT (\"Agreement\"), made and entered into this 17th day of November, 2015, by and between the TOWN OF VINTON, VIRGINIA, a Virginia municipal corporation (\"Grantor\"), and ROANOKE GAS COMPANY, a Virginia corporation (\"Grantee\")."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 697.63615,
+            "r": 406.0748737499993,
+            "b": 688.8265629985228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Grantor has reviewed the proposal for a Gas Franchise of Grantee\u037e and",
+      "text": "WHEREAS, Grantor has reviewed the proposal for a Gas Franchise of Grantee\u037e and"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 673.6486499999999,
+            "r": 544.9500631250005,
+            "b": 652.8943378066376,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            198
+          ]
+        }
+      ],
+      "orig": "WHEREAS, Grantor, at a duly authorized and regular meeting of its Town Council, did vote to grant a renewal of the Gas Franchise to Grantee pursuant to provisions of the State Code and Town Charter.",
+      "text": "WHEREAS, Grantor, at a duly authorized and regular meeting of its Town Council, did vote to grant a renewal of the Gas Franchise to Grantee pursuant to provisions of the State Code and Town Charter."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 637.6674,
+            "r": 516.5435479999995,
+            "b": 628.8578129985228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "NOW, THEREFORE, in consideration of said grant of renewal of the Gas Franchise, the parties agree as follows:",
+      "text": "NOW, THEREFORE, in consideration of said grant of renewal of the Gas Franchise, the parties agree as follows:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 613.6798999999999,
+            "r": 544.9503661250005,
+            "b": 568.9380878066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            494
+          ]
+        }
+      ],
+      "orig": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate, maintain, repair, and extend a Gas Distribution System within Grantor's Territorial Limits in accordance with the terms and conditions set forth below (\"Franchise\"). The Franchise is granted pursuant to Grantor's Franchise Ordinance (Ordinance No. 967), adopted November 17, 2015, (\"Ordinance\"), which is incorporated by reference herein, including any applicable definitions.",
+      "text": "1. GRANT. Grantor hereby grants to Grantee and Grantee hereby accepts a franchise to construct, reconstruct, operate, maintain, repair, and extend a Gas Distribution System within Grantor's Territorial Limits in accordance with the terms and conditions set forth below (\"Franchise\"). The Franchise is granted pursuant to Grantor's Franchise Ordinance (Ordinance No. 967), adopted November 17, 2015, (\"Ordinance\"), which is incorporated by reference herein, including any applicable definitions."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 553.7111499999999,
+            "r": 450.89361112499984,
+            "b": 544.9505878066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016.",
+      "text": "2. TERM. The term of the Franchise shall be twenty (20) years, commencing on January 1, 2016."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.35,
+            "t": 529.7236499999999,
+            "r": 167.46249999999998,
+            "b": 520.9630878066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "3. FRANCHISE FEE.",
+      "text": "3. FRANCHISE FEE.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 505.73614999999995,
+            "r": 544.9503598125,
+            "b": 413.0193378066376,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1021
+          ]
+        }
+      ],
+      "orig": "(a) Grantee shall pay to Grantor a Franchise Fee which shall be calculated pursuant to this Section. It is understood that Grantee has or will enter into franchise agreements with the City of Roanoke (\"Roanoke\") and the City of Salem (\"Salem\") and the Town of Vinton (\"Vinton\") (Grantor, Roanoke and Salem being hereinafter sometimes collectively referred to as the \"localities\" and singularly as a \"locality\") with fee provisions identical to this one, and that the total annual Franchise Fee to be paid to the three localities in aggregate is $98,196 for calendar year 2016 (\"base year total annual Franchise Fee\"). Grantor's Franchise Fee shall be a percentage share of the base year total annual Franchise Fee, which shall be determined on a pro rata basis according to its percentage share of the total dollar value of Grantee's gas sales occurring within the localities during the calendar year. For each calendar year of the Franchise, each locality's percentage share shall be determined by the following formula:",
+      "text": "(a) Grantee shall pay to Grantor a Franchise Fee which shall be calculated pursuant to this Section. It is understood that Grantee has or will enter into franchise agreements with the City of Roanoke (\"Roanoke\") and the City of Salem (\"Salem\") and the Town of Vinton (\"Vinton\") (Grantor, Roanoke and Salem being hereinafter sometimes collectively referred to as the \"localities\" and singularly as a \"locality\") with fee provisions identical to this one, and that the total annual Franchise Fee to be paid to the three localities in aggregate is $98,196 for calendar year 2016 (\"base year total annual Franchise Fee\"). Grantor's Franchise Fee shall be a percentage share of the base year total annual Franchise Fee, which shall be determined on a pro rata basis according to its percentage share of the total dollar value of Grantee's gas sales occurring within the localities during the calendar year. For each calendar year of the Franchise, each locality's percentage share shall be determined by the following formula:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 397.79239999999993,
+            "r": 293.0813131250003,
+            "b": 365.0443378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "total dollar value of Grantee's gas sales within Locality's percentage share = the Territorial Limits of the locality total dollar value of Grantee's gas sales in the three localities",
+      "text": "total dollar value of Grantee's gas sales within Locality's percentage share = the Territorial Limits of the locality total dollar value of Grantee's gas sales in the three localities"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.05,
+            "t": 349.8174,
+            "r": 423.11872474999967,
+            "b": 341.05683780663765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "For calendar year 2016, the Franchise Fee shall be paid to Grantor on or before March 31, 2017.",
+      "text": "For calendar year 2016, the Franchise Fee shall be paid to Grantor on or before March 31, 2017."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 229.01953125,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Source: RGC RESOURCES INC, 8-K, 12/16/2015",
+      "text": "Source: RGC RESOURCES INC, 8-K, 12/16/2015"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 540.53125,
+            "t": 315.94326249999995,
+            "r": 545.265625,
+            "b": 307.7302354437228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 780.32995,
+            "r": 544.9499999999994,
+            "b": 735.5881378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            476
+          ]
+        }
+      ],
+      "orig": "(b) For each succeeding calendar year during the term of this Franchise, the total annual Franchise Fee paid by Grantee to the localities shall be the base year total annual Franchise Fee increased by three (3) percent compounded annually over the term of the Franchise. For each calendar year during the term of this Franchise, Grantor's percentage share shall be determined pursuant to this Section, and paid to Grantor on or before March 31 of the succeeding calendar year.",
+      "text": "(b) For each succeeding calendar year during the term of this Franchise, the total annual Franchise Fee paid by Grantee to the localities shall be the base year total annual Franchise Fee increased by three (3) percent compounded annually over the term of the Franchise. For each calendar year during the term of this Franchise, Grantor's percentage share shall be determined pursuant to this Section, and paid to Grantor on or before March 31 of the succeeding calendar year."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 720.3612,
+            "r": 544.9499179374992,
+            "b": 687.6131378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            271
+          ]
+        }
+      ],
+      "orig": "4. BUSINESS OFFICE. Grantee shall during the term of this Franchise maintain at least one business office within the Territorial Limits of Grantor. Such office shall be open at least forty (40) hours per week for the conduct of business between Grantee and its customers.",
+      "text": "4. BUSINESS OFFICE. Grantee shall during the term of this Franchise maintain at least one business office within the Territorial Limits of Grantor. Such office shall be open at least forty (40) hours per week for the conduct of business between Grantee and its customers."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 672.3862,
+            "r": 544.9502840625001,
+            "b": 639.6381378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            337
+          ]
+        }
+      ],
+      "orig": "5. NONDISCRIMINATION. Grantee shall not discriminate on the basis of race, religion, color, sex, national origin, age, disability, or any other basis prohibited by state law relating to discrimination in employment, except where there is a bona fide occupational qualification reasonably necessary to the normal operation of the Grantee.",
+      "text": "5. NONDISCRIMINATION. Grantee shall not discriminate on the basis of race, religion, color, sex, national origin, age, disability, or any other basis prohibited by state law relating to discrimination in employment, except where there is a bona fide occupational qualification reasonably necessary to the normal operation of the Grantee."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 624.4112,
+            "r": 544.9500315624987,
+            "b": 591.6631378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            374
+          ]
+        }
+      ],
+      "orig": "6. NOTICE. All notices required under this Agreement or the Ordinance shall be in writing and shall be deemed validly given, unless otherwise required, when sent by certified mail, return receipt requested, or by a nationally recognized overnight courier, addressed as follows (or any other address the party to be notified may have designated to the sender by like notice):",
+      "text": "6. NOTICE. All notices required under this Agreement or the Ordinance shall be in writing and shall be deemed validly given, unless otherwise required, when sent by certified mail, return receipt requested, or by a nationally recognized overnight courier, addressed as follows (or any other address the party to be notified may have designated to the sender by like notice):"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.94375,
+            "t": 576.4362,
+            "r": 118.22500631249999,
+            "b": 567.6756378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Grantor: Grantee:",
+      "text": "Grantor: Grantee:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.94375,
+            "t": 552.4486999999999,
+            "r": 236.26877525000006,
+            "b": 495.71313780663786,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "Town of Vinton Roanoke Gas Company Attention: Town Manager Attention: President 311 S. Pollard Street 519 Kimball Avenue, N.E. Vinton, Virginia 24179 P.O. Box 13007 Roanoke, Virginia 24030",
+      "text": "Town of Vinton Roanoke Gas Company Attention: Town Manager Attention: President 311 S. Pollard Street 519 Kimball Avenue, N.E. Vinton, Virginia 24179 P.O. Box 13007 Roanoke, Virginia 24030"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.05,
+            "t": 480.48619999999994,
+            "r": 544.9503598125007,
+            "b": 459.7318878066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "The parties may, by notice given under this Section, designate such other addresses as they may deem appropriate for the receipt of notices under this Agreement.",
+      "text": "The parties may, by notice given under this Section, designate such other addresses as they may deem appropriate for the receipt of notices under this Agreement."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.35,
+            "t": 432.5111999999999,
+            "r": 397.86869318749933,
+            "b": 423.7506378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "7. EFFECTIVE DATE. The effective date of the Franchise will be January 1, 2016.",
+      "text": "7. EFFECTIVE DATE. The effective date of the Franchise will be January 1, 2016."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 187.03125,
+            "t": 396.52995,
+            "r": 408.5999684374998,
+            "b": 387.72036299852283,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "SIGNATURES APPEAR ON FOLLOWING PAGES",
+      "text": "SIGNATURES APPEAR ON FOLLOWING PAGES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 229.01953125,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Source: RGC RESOURCES INC, 8-K, 12/16/2015",
+      "text": "Source: RGC RESOURCES INC, 8-K, 12/16/2015"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 540.53125,
+            "t": 266.7058125,
+            "r": 545.265625,
+            "b": 258.49278544372294,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.05,
+            "t": 779.6986499999999,
+            "r": 362.518787875,
+            "b": 758.9443378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "IN WITNESS WHEREOF, the parties hereto have signed this Agreement by their authorized representatives.",
+      "text": "IN WITNESS WHEREOF, the parties hereto have signed this Agreement by their authorized representatives."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 736.1424,
+            "r": 98.0249936875,
+            "b": 727.3818378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "WITNESS:",
+      "text": "WITNESS:"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 705.8424,
+            "r": 128.32503787499996,
+            "b": 697.0818378066379,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.64375,
+            "t": 736.1424,
+            "r": 447.73756312499984,
+            "b": 727.3818378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            20,
+            39
+          ]
+        }
+      ],
+      "orig": "/s/ Diane L. Conner ROANOKE GAS COMPANY",
+      "text": "/s/ Diane L. Conner ROANOKE GAS COMPANY"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.64375,
+            "t": 705.8424,
+            "r": 414.9124747499998,
+            "b": 697.0818378066379,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "By /s/ John S. D'Orazio",
+      "text": "By /s/ John S. D'Orazio"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 674.9111499999999,
+            "r": 188.29374999999993,
+            "b": 666.1505878066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Diane L. Conner, Assistant to CEO",
+      "text": "Diane L. Conner, Assistant to CEO"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 659.1298999999999,
+            "r": 140.9499747499999,
+            "b": 650.3693378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Printed Name and Title",
+      "text": "Printed Name and Title"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 628.8299,
+            "r": 98.0249936875,
+            "b": 620.0693378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "WITNESS:",
+      "text": "WITNESS:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.64375,
+            "t": 690.06115,
+            "r": 469.8313004999999,
+            "b": 666.1505878066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "John S. D'Orazio, President and CEO 12/14/2015",
+      "text": "John S. D'Orazio, President and CEO 12/14/2015"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.64375,
+            "t": 628.8299,
+            "r": 460.99373106250056,
+            "b": 620.0693378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "TOWN OF VINTON, VIRGINIA",
+      "text": "TOWN OF VINTON, VIRGINIA"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 598.5299,
+            "r": 133.37498106249996,
+            "b": 589.7693378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.64375,
+            "t": 598.5299,
+            "r": 445.2124179374997,
+            "b": 589.7693378066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            21,
+            51
+          ]
+        }
+      ],
+      "orig": "/s/ Susan N. Johnson By /s/ Christopher S. Lawrence",
+      "text": "/s/ Susan N. Johnson By /s/ Christopher S. Lawrence"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 567.59865,
+            "r": 172.51248737499992,
+            "b": 558.8380878066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Susan N. Johnson, Town Clerk",
+      "text": "Susan N. Johnson, Town Clerk"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 53.20625,
+            "t": 551.8174,
+            "r": 140.9499747499999,
+            "b": 543.0568378066378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.64375,
+            "t": 582.74865,
+            "r": 483.71877525000065,
+            "b": 573.9880878066377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            23,
+            60
+          ]
+        }
+      ],
+      "orig": "Printed Name and Title Christopher S. Lawrence, Town Manager",
+      "text": "Printed Name and Title Christopher S. Lawrence, Town Manager"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.0,
+            "t": 41.847999999999956,
+            "r": 229.01953125,
+            "b": 35.57680000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Source: RGC RESOURCES INC, 8-K, 12/16/2015",
+      "text": "Source: RGC RESOURCES INC, 8-K, 12/16/2015"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 540.53125,
+            "t": 504.05576249999996,
+            "r": 545.265625,
+            "b": 495.8427354437229,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    }
+  }
+}
