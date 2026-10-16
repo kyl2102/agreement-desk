@@ -200,7 +200,7 @@ def family_answer(tool, field, value=None, op=None, number=None):
         note = f"{len(family)} docs" + ("; master not in sample" if doc_type != "master" else "")
         if tool == "list_where":
             wants_none = str(value).lower() in ("none", "not found", "missing", "no")
-            keep = (v is None) if wants_none else (v is not None and str(value).lower() in str(v).lower())
+            keep = (v is None) if wants_none else (v is not None and norm_value(value) in str(v).lower())
         elif tool == "compare":
             keep = v is not None and eval_op(float(v), op, float(number))
         else:
@@ -229,6 +229,11 @@ def absence_evidence(root, field):
                        f"ORDER BY (LOWER(c.heading_path) LIKE '%liab%') DESC, bm25(chunks_fts)",
                        [query] + docs).fetchall()
     return (len(hits), hits[0][0].split(" > ")[-1][:50], hits[0][1]) if hits else (0, None, None)
+
+def norm_value(v):
+    """'New York law' -> 'new york': drop filler words the AI copies from the question."""
+    v = re.sub(r"(?i)\b(law|laws|the|state of|commonwealth of)\b", " ", str(v))
+    return re.sub(r"\s+", " ", v).strip().lower()
 
 def eval_op(a, op, b):
     return {"<": a < b, "<=": a <= b, ">": a > b, ">=": a >= b, "=": a == b}[op]
@@ -317,7 +322,14 @@ def print_all(question, p, result):
 def print_family(question, p, rows):
     print(f'\nQuestion: "{question}"   (exhaustive, per AGREEMENT: each master merged with its amendments)')
     print(f"AI's plan: {json.dumps({k: v for k, v in p.items() if v is not None})}\n")
-    if p["tool"] == "count_by":
+    if p["tool"] == "count_by" and p.get("value"):
+        # The AI asked for a count but also named a value ("how many ... New York?"): count_by can't use a value,
+        # so code answers the question actually asked instead of dumping every state.
+        want = norm_value(p["value"])
+        match = [root for root, v, hit, note in rows if v is not None and want in str(v).lower()]
+        print(f"{len(match)} of {len(rows)} agreements have {p['field']} = {p['value']}: {', '.join(match) or '-'}")
+        print("(The AI picked count_by with a value; code filtered to that value.)")
+    elif p["tool"] == "count_by":
         counts = {}
         for root, v, hit, note in rows:
             counts.setdefault(v if v is not None else "(not found)", []).append(root)
@@ -352,17 +364,63 @@ def print_family(question, p, rows):
                 print(f"  {root}  {'-':28} no clause found in any family document: unverified, could be a miss  [{note}]")
     print("\n" + accuracy_note(p["field"]))
 
+# ============================================================
+# Part 6c: ROUTER. Which desk answers this question?
+#   "find all / how many"  -> SQL tools over the extraction table (exact, complete)
+#   "find examples"        -> hybrid search over the text (best matches, NOT complete)
+# ============================================================
+# (label shown to the user, pattern)
+EXHAUSTIVE = [("how many", r"\bhow many\b"), ("count", r"\bcount\b"), ("number of", r"\bnumber of\b"),
+              ("all", r"\ball\b"), ("every", r"\bevery\b"), ("list", r"\blist\b"),
+              ("which contracts", r"\bwhich (contracts|agreements)\b"),
+              ("find contracts", r"\bfind (the )?(contracts|agreements)\b"), ("any contract", r"\bany (contracts?|agreements?)\b"),
+              ("terms in force", r"\bterms in force\b"),
+              ("more/less than", r"\b(longer|shorter|more|less|greater|fewer) than\b"),
+              ("over/under a number", r"\b(over|under|above|below) \$?\d"), ("no cap", r"\bno (liability )?cap\b"),
+              ("per state", r"\bper (state|governing law)\b")]
+EXAMPLES = [("example", r"\bexamples?\b"), ("show me", r"\bshow me\b"), ("find a/some", r"\bfind (me )?(a|an|some)\b"),
+            ("like", r"\blike\b"), ("similar", r"\bsimilar\b"), ("sample", r"\bsample\b"),
+            ("what does ... say", r"\bwhat does .* say\b"), ("how do we", r"\bhow do (we|they)\b"),
+            ("wording", r"\bwording\b"), ("language", r"\blanguage\b")]
+
+def route(question, mode="auto"):
+    """Returns (desk, reason). An explicit mode always wins. Otherwise rules on the wording.
+    If both kinds of signal appear, the exhaustive desk wins: in legal work a missed contract
+    (search returning only the top few) costs more than a slower, complete answer."""
+    if mode == "all":
+        return "sql", "you chose --mode all"
+    if mode == "examples":
+        return "search", "you chose --mode examples"
+    q = question.lower()
+    ex = [label for label, pat in EXHAUSTIVE if re.search(pat, q)]
+    eg = [label for label, pat in EXAMPLES if re.search(pat, q)]
+    clean = lambda labels: ", ".join(f"'{l}'" for l in labels[:2])
+    if ex:
+        return "sql", f"wording sounds exhaustive ({clean(ex)})" + (" (also had example wording; exhaustive wins)" if eg else "")
+    if eg:
+        return "search", f"wording asks for examples ({clean(eg)})"
+    return "search", "no clear signal, defaulted to examples. If you need EVERY match, re-run with --mode all"
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("search", help="find examples (hybrid search)")
     s.add_argument("query")
     s.add_argument("--show-lists", action="store_true", help="also show the keyword-only and meaning-only rankings")
+    k = sub.add_parser("ask", help="ask anything: the router picks search or SQL")
+    k.add_argument("question")
+    k.add_argument("--mode", choices=["auto", "examples", "all"], default="auto")
+    k.add_argument("--level", choices=["family", "document"], default="family")
     a = sub.add_parser("all", help="find all / how many (SQL tools)")
     a.add_argument("question")
     a.add_argument("--level", choices=["family", "document"], default="family",
                    help="count agreements (master + amendments merged, default) or individual PDFs")
     args = ap.parse_args()
+    if args.cmd == "ask":
+        desk, reason = route(args.question, args.mode)
+        print(f"Router: -> {'SQL (find all)' if desk == 'sql' else 'SEARCH (find examples)'}  because {reason}")
+        args.cmd = "all" if desk == "sql" else "search"
+        args.query, args.show_lists = args.question, False
     if args.cmd == "all":
         p = plan(args.question)
         try:
