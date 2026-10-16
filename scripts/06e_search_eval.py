@@ -1,4 +1,4 @@
-"""Step 6e: grade search quality: keyword only vs meaning only vs hybrid.
+"""Step 6e: grade search quality: keyword only vs meaning only vs hybrid vs hybrid + reranker.
 
 Each test question has a RELEVANCE RULE: a pattern a correct chunk must match (written in legal terms).
 Most questions are phrased in plain English that does NOT use those terms, so keyword search gets no free ride.
@@ -36,7 +36,9 @@ def relevant(chunk_id, rule):
     return all(re.search(p, t) for p in rule)
 
 methods = {"keyword only": Q.keyword_search, "meaning only": Q.vector_search,
-           "hybrid (RRF)": lambda q: Q.rrf(Q.keyword_search(q), Q.vector_search(q))}
+           "hybrid (RRF)": lambda q: Q.rrf(Q.keyword_search(q), Q.vector_search(q)),
+           "rerank MiniLM": lambda q: Q.rerank(q, Q.rrf(Q.keyword_search(q), Q.vector_search(q))[:Q.RERANK_POOL], model="minilm"),
+           "rerank BGE": lambda q: Q.rerank(q, Q.rrf(Q.keyword_search(q), Q.vector_search(q))[:Q.RERANK_POOL], model="bge")}
 totals = {m: [0, 0.0] for m in methods}
 print(f"{'question':46} " + "  ".join(f"{m:>14}" for m in methods) + "   relevant chunks")
 for question, rule in TESTS:

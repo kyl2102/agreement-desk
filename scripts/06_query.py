@@ -104,10 +104,44 @@ def rrf(*ranked_lists, k=RRF_K):
             scores[chunk_id] = scores.get(chunk_id, 0) + 1 / (k + rank)
     return sorted(scores, key=scores.get, reverse=True)
 
-def hybrid_search(query, top_n=5):
+# ============================================================
+# 3b. RERANKER (Step 9b): a second, slower look at the top candidates
+# ============================================================
+# Keyword and meaning search score the question and each chunk SEPARATELY, then compare.
+# A cross-encoder reads the question and the chunk TOGETHER, so it can tell "notice to terminate"
+# from "notice of a price change". Too slow to run on all 2,398 chunks, so it only reorders the top 20.
+# Turned on only after 06e_search_eval.py showed it beat plain hybrid: the test decided, not the hype.
+# Two candidates, compared in 06e_search_eval.py (a bake-off on OUR questions, not a public leaderboard):
+RERANK_MODELS = {
+    "minilm": "cross-encoder/ms-marco-MiniLM-L-6-v2",   # ~90 MB, fast baseline; trained on web search only
+    "bge":    "BAAI/bge-reranker-v2-m3",                 # ~2.3 GB, newer and stronger on general benchmarks
+}
+RERANK_MODEL = "bge"      # won the bake-off: precision@5 52% vs 44% hybrid, 46% MiniLM; hit@5 90% vs 80%
+USE_RERANK = True
+RERANK_POOL = 20
+_rerankers = {}
+
+def rerank(query, chunk_ids, top_n=5, model=None):
+    model = model or RERANK_MODEL
+    if not chunk_ids:
+        return []
+    if model not in _rerankers:
+        from sentence_transformers import CrossEncoder   # imported here so the rest of the tool works without it
+        _rerankers[model] = CrossEncoder(RERANK_MODELS[model])
+    _reranker = _rerankers[model]
+    rows = dict(((c, (h, t)) for c, h, t in con.execute(
+        f"SELECT chunk_id, heading_path, text FROM chunks WHERE chunk_id IN ({','.join('?' * len(chunk_ids))})", chunk_ids)))
+    pairs = [(query, f"{rows[c][0]}\n{rows[c][1]}") for c in chunk_ids]   # heading included: it carries meaning
+    scores = _reranker.predict(pairs)
+    order = sorted(range(len(chunk_ids)), key=lambda i: -scores[i])
+    return [chunk_ids[i] for i in order[:top_n]]
+
+def hybrid_search(query, top_n=5, use_rerank=None):
     kw, vec = keyword_search(query), vector_search(query)
-    fused = rrf(kw, vec)[:top_n]
-    return fused, kw, vec
+    fused = rrf(kw, vec)
+    if USE_RERANK if use_rerank is None else use_rerank:
+        return rerank(query, fused[:RERANK_POOL], top_n), kw, vec
+    return fused[:top_n], kw, vec
 
 def describe(chunk_id):
     doc_id, heading, page_start, page_end, text = con.execute(
@@ -163,8 +197,9 @@ def list_where(field, value):
         cond = f"(e.found = 0 OR {expr} IS NULL OR LOWER({expr}) = 'none')"
         params = [src]
     else:
+        term = party_term(value) if field == "parties" else str(value).lower()
         cond = f"e.found = 1 AND LOWER({expr}) LIKE ?"
-        params = [src, f"%{str(value).lower()}%"]
+        params = [src, f"%{term}%"]
     sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM current_extractions e "
            f"WHERE e.field = ? AND {cond} ORDER BY e.doc_id")
     return sql, params, _rows(sql, params)
@@ -236,7 +271,8 @@ def family_answer(tool, field, value=None, op=None, number=None, start=None, end
         note = f"{len(family)} docs" + ("; master not in sample" if doc_type != "master" else "")
         if tool == "list_where":
             wants_none = str(value).lower() in ("none", "not found", "missing", "no")
-            keep = (v is None) if wants_none else (v is not None and norm_value(value) in str(v).lower())
+            want = party_term(value) if field == "parties" else norm_value(value)
+            keep = (v is None) if wants_none else (v is not None and want in str(v).lower())
         elif tool == "compare":
             keep = v is not None and eval_op(float(v), op, float(number))
         elif tool == "date_between":
@@ -278,6 +314,35 @@ def norm_value(v):
     """'New York law' -> 'new york': drop filler words the AI copies from the question."""
     v = re.sub(r"(?i)\b(law|laws|the|state of|commonwealth of)\b", " ", str(v))
     return re.sub(r"\s+", " ", v).strip().lower()
+
+# Company suffixes people type but the stored name may not have: "Ingram Micro Inc" -> "ingram micro".
+# Only the search term is trimmed. Matching is "contains", so "netgear" still finds "netgear, inc.".
+SUFFIX = re.compile(r"(?i)[,\s]+(inc|incorporated|corp|corporation|co|company|llc|ltd|limited|plc|lp|llp|gmbh|ag|sa)\.?$")
+
+def party_term(v):
+    v = norm_value(v)
+    while SUFFIX.search(v):          # loop handles stacked suffixes like "Co., Ltd."
+        v = SUFFIX.sub("", v).strip()
+    return v
+
+def party_mentions(v):
+    """A second check for an EMPTY party search: the name may be in the text but not in the parties field
+    (a parent company, an affiliate, a former name). Returns one row per document: (doc_id, passages, heading, page, snippet)."""
+    words = re.findall(r"[a-z0-9]+", party_term(v))
+    if not words:
+        return []
+    phrase = '"' + " ".join(words) + '"'              # FTS5 phrase: the words together, in order
+    hits = con.execute("SELECT c.doc_id, c.heading_path, c.page_start, c.text FROM chunks_fts f "
+                       "JOIN chunks c ON c.chunk_id = f.chunk_id WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts)",
+                       (phrase,)).fetchall()
+    by_doc = {}
+    for doc, heading, page, text in hits:
+        if doc not in by_doc:
+            m = re.search(re.escape(words[0]), text, re.I)
+            start = max(0, (m.start() if m else 0) - 40)
+            by_doc[doc] = [doc, 0, heading, page, text[start:start + 240].strip()]
+        by_doc[doc][1] += 1
+    return [tuple(r) for r in sorted(by_doc.values(), key=lambda r: -r[1])]
 
 def scope_unknown():
     """Agreements with no known effective date: a date-scoped answer can't include them, so say how many."""
@@ -324,6 +389,8 @@ Tools:
   "agreements signed between 2000 and 2004" -> effective_date, start 2000-01-01, end 2004-12-31
   "contracts effective before 2005" -> start 1900-01-01, end 2004-12-31
 - terms_in_force(doc_id): current terms of one agreement family, e.g. "terms in force for D001".
+  If the question names a company instead of an ID ("notice period for Ingram"), set doc_id null,
+  value = the company name, field = the term asked about (or parties if no term is named).
 Any of count_by, list_where and compare can ALSO be limited to agreements effective in a date range: set start/end
 (YYYY-MM-DD). "notice periods for agreements after 2000" -> count_by termination_notice, start 2000-01-01, end null.
 Never drop part of the question: if it mentions a year or date range, set start/end.
@@ -339,10 +406,23 @@ def plan(question):
 
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
+def agreements_with(party):
+    """Agreement roots whose parties include this name (suffixes ignored): 'ingram' -> ['D006']."""
+    return [root for root, v, hit, note in family_answer("list_where", "parties", party)]
+
 def repair_plan(p):
     """Fix predictable AI plan shapes instead of refusing them (each repair is a known model habit).
     Returns (plan, note) where note says what was changed, so the repair is visible to the user."""
     p = dict(p)
+    if p.get("tool") == "terms_in_force" and not re.match(r"^D\d{3}$", str(p.get("doc_id") or "").upper()):
+        # People name agreements by counterparty, not by our IDs: "termination notice for Ingram".
+        # The model puts the name in doc_id or value. Code looks it up; it never guesses between several.
+        name = p.get("doc_id") or p.get("value")
+        roots = agreements_with(name) if name else []
+        if len(roots) == 1:
+            p.update(doc_id=roots[0], value=None)
+            return p, f"found the agreement by party name: {name!r} is a party to {roots[0]}"
+        p["party"] = name                              # validate_plan explains the 0 or many case
     if p.get("field") == "effective_date" and p.get("tool") in ("list_where", "count_by", "compare") \
             and (p.get("start") or p.get("end")):
         # "agreements executed between 2000 and 2004" planned as list_where + a date scope -> date_between
@@ -376,7 +456,13 @@ def validate_plan(p):
         if tool != "date_between" and p.get(k) and not ISO.match(str(p[k])):
             raise ValueError(f"date scope {k}={p[k]!r} must be YYYY-MM-DD")
     if tool == "terms_in_force" and not re.match(r"^D\d{3}$", str(p.get("doc_id") or "").upper()):
-        raise ValueError("terms_in_force needs a document id like D006")
+        name = p.get("party")
+        if not name:
+            raise ValueError("name the agreement: a party such as 'Ingram Micro', or an ID like D006")
+        roots = agreements_with(name)
+        if roots:
+            raise ValueError(f"{name!r} is a party to {len(roots)} agreements ({', '.join(roots)}); say which one")
+        raise ValueError(f"no agreement lists {name!r} as a party")
 
 def run_plan(p):
     """Code checks the AI's plan before running anything: an invalid plan is refused, never guessed at."""
@@ -395,6 +481,17 @@ def run_plan(p):
         if not p["doc_id"]:
             raise ValueError("terms_in_force needs a doc_id")
         return terms_in_force(p["doc_id"].upper())
+
+def print_mentions(value):
+    """Never answer an empty party search with a bare zero: say where else the name appears."""
+    m = party_mentions(value)
+    if not m:
+        print(f"  No agreement lists {value!r} as a party, and the name doesn't appear in any agreement's text.")
+        return
+    print(f"  No agreement lists {value!r} as a party, but {sum(r[1] for r in m)} passages in {len(m)} documents "
+          f"mention it (a parent, affiliate or former name?):")
+    for doc, n, heading, page, snippet in m:
+        print(f"    {doc}  {n} passages; start at {heading.split(' > ')[-1][:40]}, p.{page}: \"{snippet[:130]}\"")
 
 ZERO_WARNING = ("  Zero results can mean \"none exist\" OR \"the question didn't fit the tools.\"\n"
                 "  Check the AI's plan above. Does it match what you asked? If not, rephrase or use --mode examples.")
@@ -415,7 +512,9 @@ def print_all(question, p, result):
             print(f"  {str(value)[:50]:50} {n:3} contracts" + (f"  ({flagged} flagged for review)" if flagged else ""))
         return
     print(f"{len(rows)} contracts:")
-    if not rows:
+    if not rows and p["field"] == "parties":
+        print_mentions(p["value"])
+    elif not rows:
         print(ZERO_WARNING)
     for doc, value, page, quote, review in rows:
         cite = f'p.{page}: "{(quote or "")[:90]}"' if quote else "(no clause found: unverified, could be a miss)"
@@ -461,7 +560,9 @@ def print_family(question, p, rows):
                   f"{', '.join(unknown)}")
     else:
         print(f"{len(rows)} agreements:")
-        if not rows:
+        if not rows and p["field"] == "parties":
+            print_mentions(p["value"])
+        elif not rows:
             print(ZERO_WARNING)
         for root, v, hit, note in rows:
             if hit:

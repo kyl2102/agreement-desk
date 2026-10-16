@@ -197,7 +197,7 @@ def quote_block(text, limit=420):
 # ============================================================
 # Navigation
 # ============================================================
-NAV = {"Work": ["Start here", "Ask", "Agreements", "Benchmarks", "Review"], "About this demo": ["Quality", "Demo vs production"]}
+NAV = {"Work": ["Start here", "Ask", "Agreements", "Review"], "About this demo": ["Quality", "Demo vs production"]}
 PAGES = [p for group in NAV.values() for p in group]
 
 def go_to(page):
@@ -314,6 +314,9 @@ def answer_complete(question, level, details):
     try:
         Q.validate_plan(p)
     except ValueError as e:
+        if p.get("party") and not Q.agreements_with(p["party"]):
+            show_mentions(question, p["party"])        # a named company we have no agreement with: say where it appears
+            return
         st.error(f"This question doesn't fit the available queries ({e}). Try rephrasing, or choose Examples in Options.")
         return
     field = p["field"]
@@ -344,16 +347,36 @@ def answer_complete(question, level, details):
         st.info(f"Limited to agreements effective {rng}. {len(unknown)} agreements have no known effective date "
                 f"and are left out: {', '.join(unknown)}.")
     if p["tool"] == "terms_in_force":
-        st.info(f"Open {p['doc_id']} on the Agreements page to see its terms in force.")
+        # One agreement: answer the term asked about, with its source, instead of sending people elsewhere.
+        family, terms = Q.terms_in_force(p["doc_id"].upper())
+        root = family[0][0] if family else p["doc_id"].upper()
+        root = next((d for d, t, _ in family if t == "master"), root)
+        if field in terms and field != "parties":
+            v, d, pg, q = terms[field]
+            st.markdown(f"<p class='answer'>{label} for <b>{name(root)}</b>: <b>{nice_value(field, v)}</b> "
+                        f"<span class='muted'>({market_note(field, v) or 'in force'})</span></p>", unsafe_allow_html=True)
+            rows = [(field, terms[field])]
+        else:
+            if field not in terms and field != "parties":
+                st.markdown(f"<p class='answer'>No {label.lower()} was extracted for <b>{name(root)}</b>. "
+                            f"Its other terms in force:</p>", unsafe_allow_html=True)
+            else:
+                st.markdown(f"<p class='answer'>Terms in force for <b>{name(root)}</b>:</p>", unsafe_allow_html=True)
+            rows = list(terms.items())
+        selectable_table(question, [{"term": FIELD_NAMES.get(f, f), "value": nice_value(f, v), "from": d, "page": pg,
+                                     "quote": q or "", "_doc": d, "_pg": pg} for f, (v, d, pg, q) in rows], key="ask-terms")
         return
     if level == "Documents" and p["tool"] != "count_by":
         sql, params, rows = Q.run_plan(p)
         details["sql"] = sql + f"\n-- params: {params}"
         table = [{"agreement": name(d), "id": d, label: nice_value(field, v), "page": pg, "quote": q or "",
                   "_doc": d, "_pg": pg} for d, v, pg, q, r in rows]
-        st.markdown(f"<p class='answer'><b>{len(rows)} documents</b> match (amendments counted on their own).</p>",
-                    unsafe_allow_html=True)
-        selectable_table(question, table, key="ask-docs")
+        if not rows and field == "parties":
+            show_mentions(question, p["value"])
+        else:
+            st.markdown(f"<p class='answer'><b>{len(rows)} documents</b> match (amendments counted on their own).</p>",
+                        unsafe_allow_html=True)
+            selectable_table(question, table, key="ask-docs")
     else:
         rows = Q.family_answer(p["tool"], field, p["value"], p["op"], p["number"], p.get("start"), p.get("end"))
         complete_family(question, p, rows, label)
@@ -404,6 +427,9 @@ def complete_family(question, p, rows, label):
                     f"worth checking.</p>", unsafe_allow_html=True)
         selectable_table(question, table, key="ask-absent")
         return
+    if not rows and field == "parties":
+        show_mentions(question, p["value"])
+        return
     st.markdown(f"<p class='answer'><b>{len(rows)} agreements</b> match.</p>", unsafe_allow_html=True)
     if not rows:
         st.warning("No agreements match. That can mean none exist, or that the question didn't map to the data "
@@ -411,6 +437,20 @@ def complete_family(question, p, rows, label):
     selectable_table(question, [{"agreement": name(r), "id": r, label: nice_value(field, v),
                                  "from": h[1] if h else "", "page": h[2] if h else "", "quote": (h[3] or "") if h else "",
                                  "_doc": h[1] if h else r, "_pg": h[2] if h else 1} for r, v, h, n in rows], key="ask-list")
+
+def show_mentions(question, value):
+    """An empty party search is the most dangerous zero: it reads as "we have no contracts with them".
+    So check the text itself, and say plainly which kind of "no" this is."""
+    m = Q.party_mentions(value)
+    if not m:
+        st.markdown(f"<p class='answer'>No agreement lists <b>{value}</b> as a party, and the name doesn't "
+                    f"appear anywhere in the agreements' text.</p>", unsafe_allow_html=True)
+        return
+    st.markdown(f"<p class='answer'>No agreement lists <b>{value}</b> as a party, but <b>{sum(r[1] for r in m)} "
+                f"passages in {len(m)} documents</b> mention it. It may be a parent company, affiliate or "
+                f"former name.</p>", unsafe_allow_html=True)
+    selectable_table(question, [{"agreement": name(d), "id": d, "mentions": n, "page": pg, "quote": snip,
+                                 "_doc": d, "_pg": pg} for d, n, h, pg, snip in m], key="ask-mentions")
 
 def selectable_table(question, table, key):
     if not table:
@@ -478,10 +518,10 @@ def page_agreements():
             else:
                 st.markdown("<p class='muted'>Later amendments override the master. Select a row to see its source.</p>",
                             unsafe_allow_html=True)
-                table = [{"term": FIELD_NAMES.get(f, f), "value": nice_value(f, v), "from": d, "page": pg,
-                          "quote": q or "", "_doc": d, "_pg": pg} for f, (v, d, pg, q) in terms.items()]
+                table = [{"term": FIELD_NAMES.get(f, f), "value": nice_value(f, v), "vs. other agreements": market_note(f, v),
+                          "from": d, "page": pg, "quote": q or "", "_doc": d, "_pg": pg} for f, (v, d, pg, q) in terms.items()]
                 df = pd.DataFrame(table)
-                event = st.dataframe(df[["term", "value", "from", "page", "quote"]], hide_index=True,
+                event = st.dataframe(df[["term", "value", "vs. other agreements", "from", "page", "quote"]], hide_index=True,
                                      use_container_width=True, on_select="rerun", selection_mode="single-row",
                                      key="ag-terms")
                 chosen = table[event.selection.rows[0]] if event.selection.rows else table[0]
@@ -496,6 +536,27 @@ def page_agreements():
                      hide_index=True, use_container_width=True)
     with tab_read:
         reader(root, key=f"ag-read-{root}")
+
+# Benchmarks used to be their own page. Nobody opens a benchmarks page out of curiosity: the question
+# "is this normal?" comes up while looking at a term, so the answer lives next to the term.
+@st.cache_data(show_spinner=False)
+def market_values(field):
+    return [v for r, v, h, n in Q.family_answer("count_by", field) if v is not None]
+
+def market_note(field, v):
+    if v is None or field not in ("termination_notice", "cap_type", "governing_law"):
+        return ""
+    others = market_values(field)
+    if len(others) < 2:
+        return ""
+    if field == "termination_notice":
+        days = sorted(float(x) for x in others)
+        shorter = sum(d < float(v) for d in days)
+        median = days[len(days) // 2]
+        side = "above" if float(v) > median else "below" if float(v) < median else "at"
+        return f"Longer than {shorter} of {len(days)}; {side} the median ({median:.0f} days)"
+    same = sum(str(x) == str(v) for x in others)
+    return f"Same as {same} of {len(others)} agreements"
 
 def reader(root, key):
     docs = family_docs(root)
@@ -638,52 +699,6 @@ def review_item(it, i):
         source_panel(d, page, text, key=f"rv-src-{i}", docs=family_docs(root))
 
 # ============================================================
-# Benchmarks
-# ============================================================
-def page_benchmarks():
-    import altair as alt
-    st.title("Benchmarks")
-    st.markdown("<p class='answer'>What have we agreed to before? Each bar counts agreements, with reviewers' "
-                "corrections applied.</p>", unsafe_allow_html=True)
-    labels = {"termination_notice": "Termination notice", "cap_type": "Liability cap", "governing_law": "Governing law"}
-    field = st.segmented_control("Term", list(labels), format_func=labels.get, default="termination_notice",
-                                 label_visibility="collapsed") if hasattr(st, "segmented_control") else \
-        st.radio("Term", list(labels), format_func=labels.get, horizontal=True)
-    field = field or "termination_notice"
-    rows = Q.family_answer("count_by", field)
-    found = [(r, v, h) for r, v, h, n in rows if v is not None]
-    if not found:
-        st.write("Nothing extracted for this term.")
-        return
-    shown = lambda v: nice_value(field, v)
-    df = pd.DataFrame([{"value": shown(v), "agreement": r} for r, v, h in found])
-    counts = df.groupby("value").size().reset_index(name="agreements")
-    if field == "termination_notice":
-        order = sorted(counts["value"], key=lambda x: int(x.split()[0]))
-        days = sorted(int(float(v)) for _, v, _ in found)
-        st.markdown(f"<p class='muted'>{len(found)} of {len(rows)} agreements state a notice period. "
-                    f"Median {days[len(days) // 2]} days, from {days[0]} to {days[-1]}.</p>", unsafe_allow_html=True)
-    else:
-        order = list(counts.sort_values("agreements", ascending=False)["value"])
-        st.markdown(f"<p class='muted'>{len(found)} of {len(rows)} agreements have a value.</p>", unsafe_allow_html=True)
-    left, right = st.columns([3, 2], gap="large")
-    with left:
-        chart = alt.Chart(counts).mark_bar(cornerRadiusTopLeft=4, cornerRadiusTopRight=4, color="#2a78d6", size=30).encode(
-            x=alt.X("value:N", sort=order, title=None, axis=alt.Axis(labelAngle=0 if field != "governing_law" else -30)),
-            y=alt.Y("agreements:Q", title="Agreements", axis=alt.Axis(tickMinStep=1, grid=True, gridOpacity=0.3)),
-            tooltip=[alt.Tooltip("value:N", title=labels[field]), alt.Tooltip("agreements:Q", title="Agreements")],
-        ).properties(height=330)
-        st.altair_chart(chart, use_container_width=True)
-        st.caption(accuracy_line(field))
-    with right:
-        pick = st.selectbox("Agreements with", order)
-        for r, v, h in found:
-            if shown(v) == pick:
-                st.markdown(f"<div class='result-title'>{name(r)}</div><div class='muted'>{h[1]}, page {h[2]}</div>",
-                            unsafe_allow_html=True)
-                quote_block(h[3], 240)
-
-# ============================================================
 # Quality
 # ============================================================
 SERIES = {"precision": "#2a78d6", "recall": "#eb6834"}   # validated palette, categorical slots 1 and 2
@@ -729,7 +744,11 @@ def page_quality():
             {"method": "Meaning only (embeddings)", "found something useful": "60%", "top 5 that were right": "38%",
              "strongest at": "plain-English questions"},
             {"method": "Both, merged", "found something useful": "80%", "top 5 that were right": "44%",
-             "strongest at": "both; a reranker is the next step"},
+             "strongest at": "both"},
+            {"method": "Merged, then reranked (MiniLM)", "found something useful": "80%", "top 5 that were right": "46%",
+             "strongest at": "small, fast; barely better"},
+            {"method": "Merged, then reranked (BGE): in use", "found something useful": "90%", "top 5 that were right": "52%",
+             "strongest at": "plain-English questions; one regression on governing law"},
         ], hide_index=True, use_container_width=True)
     with t3:
         st.markdown("<p class='muted'>39 held-out questions. The costly miss is a \"find all\" question sent to "
@@ -798,5 +817,5 @@ with st.sidebar:
             st.button(pg, key=f"nav-{pg}", use_container_width=True, on_click=go_to, args=(pg,),
                       type="primary" if st.session_state.page == pg else "secondary")
 
-{"Start here": page_start, "Ask": page_ask, "Agreements": page_agreements, "Benchmarks": page_benchmarks,
+{"Start here": page_start, "Ask": page_ask, "Agreements": page_agreements,
  "Review": page_review, "Quality": page_quality, "Demo vs production": page_production}[st.session_state.page]()

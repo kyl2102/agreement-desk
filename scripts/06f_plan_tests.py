@@ -25,6 +25,9 @@ TESTS = [
     ("Contracts effective before 2005",                        {"tool": "date_between", "end": "2004-12-31"}),
     ("Which agreements cap liability at a fixed dollar amount?", {"field": "cap_type"}),
     ("Count agreements by liability cap type",                 {"tool": "count_by", "field": "cap_type"}),
+    # People name agreements by counterparty, not by ID (Ken's question that was refused):
+    ("whats the termination notice period for ingram",         {"tool": "terms_in_force", "doc_id": "D006", "field": "termination_notice"}),
+    ("What law governs the Netgear agreement?",               {"tool": "terms_in_force", "doc_id": "D006", "field": "governing_law"}),
 ]
 
 passed = 0
