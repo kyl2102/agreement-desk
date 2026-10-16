@@ -23,6 +23,29 @@ RRF_K = 60   # standard RRF constant: dampens the gap between rank 1 and rank 2
 
 con = sqlite3.connect(DB)
 
+# Human review (Step 8). Model output in `extractions` is NEVER overwritten: reviews live in their own
+# table, with who and when (an audit trail), and the view below layers them on top. Queries read the view,
+# so a correction changes every answer, while evals keep measuring the model's own output.
+con.executescript("""
+CREATE TABLE IF NOT EXISTS reviews (
+    doc_id TEXT, field TEXT,
+    status TEXT,              -- accepted / corrected / absent
+    value TEXT, quote TEXT, page INTEGER, note TEXT,
+    reviewer TEXT, reviewed_at TEXT,
+    PRIMARY KEY (doc_id, field));
+DROP VIEW IF EXISTS current_extractions;   -- recreated each run, so the definition is always current
+CREATE VIEW current_extractions AS
+SELECT e.doc_id, e.field,
+       CASE WHEN r.status = 'absent' THEN 0 WHEN r.status = 'corrected' THEN 1 ELSE e.found END AS found,
+       e.value_raw,
+       CASE WHEN r.status = 'absent' THEN NULL WHEN r.status = 'corrected' THEN r.value ELSE e.value_norm END AS value_norm,
+       COALESCE(r.quote, e.quote) AS quote, COALESCE(r.page, e.page) AS page,
+       e.quote_check, e.model_confidence, e.confidence,
+       CASE WHEN r.status IS NOT NULL THEN 0 ELSE e.needs_review END AS needs_review,
+       e.model, e.prompt_version, r.status AS review_status, r.reviewer
+FROM extractions e LEFT JOIN reviews r ON r.doc_id = e.doc_id AND r.field = e.field;
+""")
+
 # ============================================================
 # 1. Keyword search (BM25)
 # ============================================================
@@ -130,7 +153,7 @@ def _rows(sql, params):
 def count_by(field):
     src, expr = FIELD_SQL[field]
     sql = (f"SELECT COALESCE(CASE WHEN e.found = 1 THEN {expr} END, '(not found)') AS value, COUNT(*) AS contracts, "
-           f"SUM(e.needs_review) AS flagged FROM extractions e WHERE e.field = ? GROUP BY value ORDER BY contracts DESC")
+           f"SUM(e.needs_review) AS flagged FROM current_extractions e WHERE e.field = ? GROUP BY value ORDER BY contracts DESC")
     return sql, [src], _rows(sql, [src])
 
 def list_where(field, value):
@@ -142,7 +165,7 @@ def list_where(field, value):
     else:
         cond = f"e.found = 1 AND LOWER({expr}) LIKE ?"
         params = [src, f"%{str(value).lower()}%"]
-    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM extractions e "
+    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM current_extractions e "
            f"WHERE e.field = ? AND {cond} ORDER BY e.doc_id")
     return sql, params, _rows(sql, params)
 
@@ -150,14 +173,14 @@ def compare(field, op, number):
     if field not in NUMERIC or op not in OPS:
         raise ValueError(f"compare needs a numeric field {sorted(NUMERIC)} and an operator {sorted(OPS)}")
     src, expr = FIELD_SQL[field]
-    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM extractions e "
+    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM current_extractions e "
            f"WHERE e.field = ? AND e.found = 1 AND {expr} {op} ? ORDER BY value DESC")
     return sql, [src, number], _rows(sql, [src, number])
 
 def date_between(field, start, end):
     """Dates are stored as YYYY-MM-DD text, so a plain BETWEEN compares them correctly."""
     src, expr = FIELD_SQL[field]
-    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM extractions e "
+    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM current_extractions e "
            f"WHERE e.field = ? AND e.found = 1 AND {expr} BETWEEN ? AND ? ORDER BY value")
     return sql, [src, start, end], _rows(sql, [src, start, end])
 
@@ -175,7 +198,7 @@ def family_roots():
 
 def family_terms(root_id):
     root = (root_id,)
-    family = _rows("SELECT d.doc_id, d.doc_type, (SELECT value_norm FROM extractions WHERE doc_id = d.doc_id "
+    family = _rows("SELECT d.doc_id, d.doc_type, (SELECT value_norm FROM current_extractions WHERE doc_id = d.doc_id "
                    "AND field = 'effective_date') AS eff FROM documents d WHERE d.doc_id = ? OR d.master_id = ?",
                    (root[0], root[0]))
     # master first, then amendments by effective date
@@ -188,7 +211,7 @@ def family_terms(root_id):
             if field in ("effective_date", "parties") and doc_type != "master":
                 continue                  # the agreement's start date and parties come from the master;
                                           # an amendment's date is when ITS changes took effect
-            row = con.execute(f"SELECT {expr}, e.page, e.quote FROM extractions e WHERE e.doc_id = ? AND e.field = ? "
+            row = con.execute(f"SELECT {expr}, e.page, e.quote FROM current_extractions e WHERE e.doc_id = ? AND e.field = ? "
                               f"AND e.found = 1", (doc, src)).fetchone()
             if row and row[0] not in (None, "none"):
                 terms[field] = (row[0], doc, row[1], row[2])
@@ -224,6 +247,12 @@ ABSENCE_CHECK = {
     "cap_type": '("liability" OR "liable") AND ("exceed" OR "limit" OR "limited" OR "limitation" '
                 'OR "consequential" OR "maximum")',
 }
+
+def confirmed_absent(root, field):
+    """Did a reviewer confirm this agreement really has none? (any family document marked 'absent')"""
+    src = FIELD_SQL[field][0]
+    return con.execute("SELECT 1 FROM reviews r JOIN documents d ON d.doc_id = r.doc_id WHERE r.field = ? "
+                       "AND r.status = 'absent' AND (d.doc_id = ? OR d.master_id = ?)", (src, root, root)).fetchone() is not None
 
 def absence_evidence(root, field):
     """Return (number of matching chunks, best chunk's heading, page) within this agreement's family."""
@@ -430,6 +459,30 @@ EXAMPLES = [("example", r"\bexamples?\b"), ("show me", r"\bshow me\b"), ("find a
             ("what does ... say", r"\bwhat does .* say\b"), ("how do we", r"\bhow do (we|they)\b"),
             ("wording", r"\bwording\b"), ("language", r"\blanguage\b")]
 
+# ---------- Coverage: can the SQL desk actually answer this? ----------
+# Topics we extracted into fields (Step 4). SQL can list or count these completely.
+EXTRACTED_TOPICS = [r"\bpart(y|ies)\b", r"counterpart", r"\bdate|effective|executed|signed|\b(19|20)\d\d\b",
+                    r"govern|jurisdiction|\blaw\b|state", r"notice|terminat|renewal", r"\bcap\b|liability|limit",
+                    r"amendment|master|family|in force"]
+# Common clause topics we did NOT extract: (pattern, name shown to the user).
+UNEXTRACTED_TOPICS = [("indemnif", "indemnification"), ("warrant", "warranties"), ("confidential", "confidentiality"),
+                      ("non-?compete", "non-compete"), ("exclusiv", "exclusivity"), ("assign", "assignment"),
+                      ("force majeure", "force majeure"), ("audit", "audit rights"), ("insurance", "insurance"),
+                      ("intellectual property|\\bip\\b", "intellectual property"), ("non-?solicit", "non-solicitation"),
+                      ("most favou?red", "most favored nation"), ("change of control", "change of control"),
+                      ("royalt", "royalties"), ("rebate", "rebates"), ("arbitrat|dispute", "dispute resolution"),
+                      ("licen[cs]e", "license grants"), ("payment terms", "payment terms"),
+                      ("service level", "service levels"), ("subcontract", "subcontracting"),
+                      ("data protection|privacy", "data protection"), ("trademark", "trademarks")]
+
+def coverage_gap(question):
+    """If a find-all question is about a topic we never extracted (and no extracted topic), name that topic."""
+    q = question.lower()
+    gap = next((name for pat, name in UNEXTRACTED_TOPICS if re.search(pat, q)), None)
+    if gap and not any(re.search(t, q) for t in EXTRACTED_TOPICS):
+        return gap
+    return None
+
 def route(question, mode="auto"):
     """Returns (desk, reason). Order: (1) explicit mode always wins, (2) rules on the wording,
     (3) if no rule fires, the trained model when it's at least 65% sure, (4) otherwise run BOTH desks.
@@ -444,6 +497,11 @@ def route(question, mode="auto"):
     eg = [label for label, pat in EXAMPLES if re.search(pat, q)]
     clean = lambda labels: ", ".join(f"'{l}'" for l in labels[:2])
     if ex:
+        gap = coverage_gap(question)
+        if gap:
+            return "search", (f"wording sounds exhaustive ({clean(ex)}), BUT '{gap}' isn't an extracted field, so a "
+                              f"complete list isn't available. Showing best matches instead. (To support find-all "
+                              f"questions about it, add it to the extraction schema. --mode all forces SQL.)")
         return "sql", f"wording sounds exhaustive ({clean(ex)})" + (" (also had example wording; exhaustive wins)" if eg else "")
     if eg:
         return "search", f"wording asks for examples ({clean(eg)})"
