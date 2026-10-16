@@ -1,7 +1,5 @@
 doc_id,field,kind,gold,model,model_quote,flagged_for_review,your_notes
-D021,parties,missed,"Clear Capital; RadialSpark, LLC",,,0,
-D001,governing_law,wrong,Pennsylvania,Commonwealth,This Agreement shall be governed by and construed in accordance with the laws of the Commonwealth,0,Commonweather of Pennsylvania
-D034,termination_notice_days,missed,60,,,0,
+D001,governing_law,wrong,Pennsylvania,Commonwealth,This Agreement shall be governed by and construed in accordance with the laws of the Commonwealth,1,Commonweather of Pennsylvania
 D001,cap_type,missed,exclusion_only,,,0,standard-of-conduct limitation
 D018,cap_type,wrong,exclusion_only,"{""cap_type"": ""fixed_amount"", ""cap_amount"": 150000.0}","AJR's liability under this Section 11 shall not exceed One Hundred Fifty Thousand Dollars ($150,000).",0,"Part of a registration rights section, not explicit liability section"
 D018,cap_amount,made_up,,"{""cap_type"": ""fixed_amount"", ""cap_amount"": 150000.0}","AJR's liability under this Section 11 shall not exceed One Hundred Fifty Thousand Dollars ($150,000).",0,

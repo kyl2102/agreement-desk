@@ -24,7 +24,7 @@ from pathlib import Path
 import ollama
 
 MODEL = "qwen2.5:14b"
-PROMPT_VERSION = "v2"        # bump this whenever the prompts change, so results stay traceable
+PROMPT_VERSION = "v3"        # bump this whenever the prompts change, so results stay traceable
 PARSED = Path("data/parsed")
 DB = Path("data/legal.db")
 
@@ -33,15 +33,21 @@ DB = Path("data/legal.db")
 # ============================================================
 FIELDS = {
     "parties": {
-        "keywords": ["by and between", "between", "entered into", "party", "parties", "inc", "corporation", "llc"],
+        # v3: dropped "party"/"parties": long contracts use them hundreds of times, so body text
+        # outscored the opening paragraph where the names actually are.
+        "keywords": ["by and between", "between", "entered into", "made", "inc", "corporation", "llc", "ltd"],
         "use_opening": True,   # parties are almost always in the first paragraph
-        "question": "Who are the parties that signed this agreement? List each party's legal name.",
+        "question": ("Who are the parties that signed this agreement? List each party's full legal name as "
+                     "written in the opening paragraph. Do not use defined-term nicknames or roles "
+                     "(such as 'the Company' or 'Licensor'). If the names are left blank, set found=false."),
         "value_schema": {"type": "array", "items": {"type": "string"}},
     },
     "effective_date": {
         "keywords": ["effective date", "effective as of", "dated as of", "entered into", "dated", "effective"],
         "use_opening": True,
-        "question": "What is the effective date of this agreement? If only a signing/agreement date is given, use that.",
+        "question": ("What is the effective date of this agreement? If only a signing/agreement date is given, "
+                     "use that. If this document is an amendment, give the amendment's own effective date, "
+                     "not the date of the original agreement it amends."),
         "value_schema": {"type": "string"},
     },
     "governing_law": {
@@ -54,7 +60,7 @@ FIELDS = {
         "keywords": ["terminate", "termination", "notice", "days", "prior written notice", "months"],
         "use_opening": False,
         "question": ("How much advance notice must a party give to terminate this agreement (for convenience "
-                     "or to end it / prevent renewal)? Answer as written, e.g. 'ninety (90) days'. "
+                     "or to end it, including notice of non-renewal before a renewal date)? Answer as written, e.g. 'ninety (90) days'. "
                      "Ignore cure periods for breach."),
         "value_schema": {"type": "string"},
     },
@@ -65,7 +71,8 @@ FIELDS = {
         "question": ("Does this agreement cap or limit either party's liability? Classify the cap: "
                      "'fixed_amount' (a stated dollar figure), 'fees_based' (tied to fees or amounts paid), "
                      "'exclusion_only' (only excludes types of damages, e.g. consequential, with no overall cap), "
-                     "or 'none'. If there is a dollar figure, give it as written."),
+                     "or 'none'. If there is a dollar figure, give it as written. The cap must limit liability under the "
+                     "agreement as a whole; a cap on only one section's obligations is not the overall cap."),
         "value_schema": {"type": "object",
                          "properties": {"cap_type": {"type": "string",
                                                      "enum": ["fixed_amount", "fees_based", "exclusion_only", "none"]},
@@ -93,18 +100,27 @@ def load_passages(doc_id, max_len=1500, overlap=250):
             passages.append({"text": text[start:start + max_len], "pages": pages})
     return passages
 
-def retrieve(passages, field, budget=5000):
-    """Pick the highest-scoring passages for this field, up to ~budget characters in total."""
+def retrieve(passages, field, budget=5000, opening_chars=3000):
+    """Pick the highest-scoring passages for this field, up to ~budget characters in total.
+    v3: for fields that live in the opening paragraph (parties, dates), the first ~3000 characters
+    are ALWAYS included, then the rest of the budget goes to keyword matches. (v2 only gave the first
+    3 passages a small bonus, and those were often just 'Exhibit 10.1' headers.)"""
     spec = FIELDS[field]
+    chosen, used = [], 0
+    if spec["use_opening"]:
+        for i, p in enumerate(passages):
+            if used >= opening_chars:
+                break
+            chosen.append(i)
+            used += len(p["text"])
     scored = []
     for i, p in enumerate(passages):
+        if i in chosen:
+            continue
         low = p["text"].lower()
         score = sum(low.count(k) for k in spec["keywords"])
-        if spec["use_opening"] and i < 3:
-            score += 5   # boost the opening passages
         if score > 0:
             scored.append((score, i))
-    chosen, used = [], 0
     for score, i in sorted(scored, reverse=True):
         if used + len(passages[i]["text"]) > budget:
             continue
@@ -214,7 +230,8 @@ def norm_notice_days(s):
     return n * {"day": 1, "week": 7, "month": 30, "year": 365}[unit]
 
 def norm_law(s):
-    s = re.sub(r"(?i)\b(the\s+)?(laws?\s+of\s+)?(the\s+)?(state|commonwealth)\s+of\s+", "", s)
+    s = re.sub(r"(?i)\s+and\s+the\s+federal\s+laws.*$", "", s)                       # v3
+    s = re.sub(r"(?i)\b(the\s+)?(laws?\s+of\s+)?(the\s+)?(state|commonwealth|province)\s+of\s+", "", s)
     s = re.sub(r"(?i)^(the\s+)?laws?\s+of\s+(the\s+)?", "", s).strip(" .,")
     small = {"and", "of", "the"}
     return " ".join(w if w.lower() in small else w[:1].upper() + w[1:] for w in s.split()) if s else None
@@ -228,12 +245,13 @@ def norm_amount(s):
 
 # Words that start a description AFTER a party's legal name, e.g.
 # "NETGEAR, Inc., a wholly owned subsidiary of..." or "Holiday RV Superstores, Inc., d/b/a Recreation USA".
-PARTY_DESCRIPTORS = re.compile(r",?\s+(?:a|an)\s+(?=[A-Za-z])|,?\s+d/b/a\b|\s+through\s+its\b|,\s*(?:organized|having|located)\b|\s+\(", re.I)
+PARTY_DESCRIPTORS = re.compile(r",?\s+(?:a|an)\s+(?=[A-Za-z])|,?\s+(?:d/b/a|doing business as)\b|\s+through\s+its\b|,\s*(?:organized|having|located)\b|\s+\(", re.I)
 
 def clean_party(name):
     """Keep the legal name, drop the description: 'XYBERNAUT CORPORATION, a Virginia corporation' -> 'XYBERNAUT CORPORATION'."""
     name = re.sub(r"\s+", " ", name).strip()
-    return PARTY_DESCRIPTORS.split(name, maxsplit=1)[0].strip(" ,")
+    name = PARTY_DESCRIPTORS.split(name, maxsplit=1)[0].strip(" ,")
+    return name if re.search(r"[A-Za-z]", name) else ""     # v3: template blanks like "_____" are not names
 
 def normalize(field, value):
     if field == "parties":
@@ -271,8 +289,24 @@ CREATE TABLE IF NOT EXISTS extractions (
     PRIMARY KEY (doc_id, field));
 """
 
-def adjusted_confidence(result, quote_check, value_norm):
+# v3: an independent check the model can't fake. A governing law answer must name a known jurisdiction.
+JURISDICTIONS = {j.lower() for j in """Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia
+Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota
+Mississippi Missouri Montana Nebraska Nevada Ohio Oklahoma Oregon Pennsylvania Tennessee Texas Utah Vermont
+Virginia Washington Wisconsin Wyoming England Wales Scotland Ireland Canada Israel China Japan Germany France
+Switzerland Netherlands Singapore Australia India Korea Ontario Quebec Alberta Bermuda Luxembourg Sweden Italy
+Spain Mexico Brazil Taiwan""".split()} | {"new hampshire", "new jersey", "new mexico", "new york", "north carolina",
+"north dakota", "rhode island", "south carolina", "south dakota", "west virginia", "district of columbia",
+"hong kong", "british columbia", "united kingdom", "united states", "cayman islands", "new zealand"}
+
+def known_jurisdiction(value):
+    v = (value or "").lower()
+    return any(re.search(r"\b" + re.escape(j) + r"\b", v) for j in JURISDICTIONS)
+
+def adjusted_confidence(result, quote_check, value_norm, field=None):
     c = max(0.0, min(1.0, float(result.get("confidence") or 0)))
+    if field == "governing_law" and result.get("found") and value_norm and not known_jurisdiction(value_norm):
+        c *= 0.5                       # e.g. "Commonwealth": not a jurisdiction on its own
     if not result.get("found"):
         return c                       # a "not found" has no quote to check; trust the model's number
     if quote_check == "partial":
@@ -287,6 +321,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--doc", help="only this doc_id, e.g. D004")
     ap.add_argument("--redo", action="store_true", help="re-extract even if already stored")
+    ap.add_argument("--fields", help="comma-separated subset, e.g. parties,effective_date")
     ap.add_argument("--renormalize", action="store_true",
                     help="re-clean stored raw answers with the current normalize() code; no model calls")
     args = ap.parse_args()
@@ -295,7 +330,7 @@ def main():
         rows = con.execute("SELECT doc_id, field, found, value_raw, quote_check, model_confidence FROM extractions").fetchall()
         for doc_id, field, found, value_raw, quote_check, model_conf in rows:
             value_norm = normalize(field, json.loads(value_raw)) if found else None
-            conf = adjusted_confidence({"found": found, "confidence": model_conf}, quote_check, value_norm)
+            conf = adjusted_confidence({"found": found, "confidence": model_conf}, quote_check, value_norm, field)
             review = int(conf < 0.7 or (found and quote_check == "not_found"))
             con.execute("UPDATE extractions SET value_norm=?, confidence=?, needs_review=? WHERE doc_id=? AND field=?",
                         (value_norm, conf, review, doc_id, field))
@@ -320,7 +355,7 @@ def main():
     run_start = time.time()
     for n, doc_id in enumerate(doc_ids, start=1):
         passages = load_passages(doc_id)
-        for field in FIELDS:
+        for field in (args.fields.split(",") if args.fields else FIELDS):
             done = con.execute("SELECT 1 FROM extractions WHERE doc_id=? AND field=?", (doc_id, field)).fetchone()
             if done and not args.redo:
                 continue
@@ -333,7 +368,7 @@ def main():
                 result = {"found": False, "value": None, "quote": "", "confidence": 0.8}
             quote_check, page = verify_quote(result.get("quote", ""), passages) if result.get("found") else ("n/a", None)
             value_norm = normalize(field, result.get("value")) if result.get("found") else None
-            conf = adjusted_confidence(result, quote_check, value_norm)
+            conf = adjusted_confidence(result, quote_check, value_norm, field)
             review = int(conf < 0.7 or (result.get("found") and quote_check == "not_found"))
             con.execute("INSERT OR REPLACE INTO extractions VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))",
                         (doc_id, field, int(bool(result.get("found"))), json.dumps(result.get("value")),
