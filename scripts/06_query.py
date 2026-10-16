@@ -339,6 +339,18 @@ def plan(question):
 
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
+def repair_plan(p):
+    """Fix predictable AI plan shapes instead of refusing them (each repair is a known model habit).
+    Returns (plan, note) where note says what was changed, so the repair is visible to the user."""
+    p = dict(p)
+    if p.get("field") == "effective_date" and p.get("tool") in ("list_where", "count_by", "compare") \
+            and (p.get("start") or p.get("end")):
+        # "agreements executed between 2000 and 2004" planned as list_where + a date scope -> date_between
+        p.update(tool="date_between", start=p.get("start") or "0001-01-01", end=p.get("end") or "9999-12-31",
+                 value=None, op=None, number=None)
+        return p, "turned a date filter on the wrong query type into a date-range query"
+    return p, None
+
 def validate_plan(p):
     """Code checks the AI's plan BEFORE running it. A plan that can't be right is refused, not run."""
     tool, field = p.get("tool"), p.get("field")
@@ -348,8 +360,10 @@ def validate_plan(p):
         v = str(p.get("value") or "")
         if not v:
             raise ValueError("list_where needs a value")
-        if len(re.findall(r"\d{4}", v)) >= 2 or (field == "effective_date"):
-            raise ValueError(f"value {v!r} looks like a date range: that needs date_between, not list_where")
+        if len(re.findall(r"\d{4}", v)) >= 2:
+            raise ValueError(f"value {v!r} looks like a date range, which needs a date-range query")
+        if field == "effective_date":
+            raise ValueError("dates can't be matched as text; ask for a date range instead (e.g. 'between 2000 and 2004')")
     if tool == "compare":
         if field not in NUMERIC or p.get("op") not in OPS or p.get("number") is None:
             raise ValueError("compare needs a numeric field, an operator and a number")

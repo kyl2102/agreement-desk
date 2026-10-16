@@ -30,6 +30,10 @@ h1 { font-size: 2.1rem !important; }
 .answer { font-size: 1.15rem; line-height: 1.5; margin: 0.4rem 0 0.8rem; }
 .muted { color: #5B6475; font-size: 0.92rem; }
 .result-title { font-weight: 600; margin-bottom: 0.1rem; }
+.badge { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.85rem; font-weight: 600; margin: 0.2rem 0 0.3rem; }
+.badge-complete { background: #DDEBDD; color: #1E5B2A; }
+.badge-examples { background: #F6E7C8; color: #7A4B00; }
+.chip { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.85rem; background: #E9EDF3; color: #1C2333; margin: 0 0.3rem 0.3rem 0; border: 1px solid #CDD5E1; }
 .quote { border-left: 3px solid #2A5DB0; padding: 0.3rem 0 0.3rem 0.8rem; color: #2B3446; margin: 0.4rem 0 0.6rem; }
 </style>
 """, unsafe_allow_html=True)
@@ -193,7 +197,8 @@ def quote_block(text, limit=420):
 # ============================================================
 # Navigation
 # ============================================================
-PAGES = ["Start here", "Ask", "Agreements", "Benchmarks", "Review", "Quality", "Demo vs production"]
+NAV = {"Work": ["Start here", "Ask", "Agreements", "Benchmarks", "Review"], "About this demo": ["Quality", "Demo vs production"]}
+PAGES = [p for group in NAV.values() for p in group]
 
 def go_to(page):
     """Button callback: runs before the page redraws, so it may change the sidebar's selection."""
@@ -302,7 +307,10 @@ def pick_source(question, doc, page, snippet):
 def answer_complete(question, level, details):
     with st.spinner("Working out the query..."):
         p = plan_question(question)
+    p, repaired = Q.repair_plan(p)
     details["plan"] = {k: v for k, v in p.items() if v is not None}
+    if repaired:
+        details["router"] += f" | Plan repaired by code: {repaired}."
     try:
         Q.validate_plan(p)
     except ValueError as e:
@@ -314,7 +322,22 @@ def answer_complete(question, level, details):
     if years and not (p.get("start") or p.get("end")) and p["tool"] != "date_between":
         st.warning(f"Your question mentions {', '.join(years)}, but this answer is not filtered by date. "
                    "Try rephrasing, e.g. \"agreements effective after 2000\".")
+    if st.session_state.get("drop_scope") == question:
+        p = dict(p, start=None, end=None)                       # user removed the date filter
+    st.markdown("<span class='badge badge-complete'>Complete list from the extracted data</span>", unsafe_allow_html=True)
+    chips = [FIELD_NAMES.get(field, field)]
+    if p.get("value"):
+        chips.append(f"= {p['value']}")
+    if p.get("op") and p.get("number") is not None:
+        chips.append(f"{p['op']} {p['number']:g}")
+    if p.get("start") or p.get("end"):
+        chips.append(f"effective {p.get('start') or 'any date'} to {p.get('end') or 'today'}")
+    chips.append("per agreement" if level == "Agreements" else "per document")
+    st.markdown("Applied: " + "".join(f"<span class='chip'>{c}</span>" for c in chips), unsafe_allow_html=True)
     scoped = p["tool"] != "date_between" and (p.get("start") or p.get("end"))
+    if scoped and st.button("Remove the date filter", key="drop-scope"):
+        st.session_state.drop_scope = question
+        st.rerun()
     if scoped:
         unknown = Q.scope_unknown()
         rng = f"{p.get('start') or 'any date'} to {p.get('end') or 'today'}"
@@ -404,7 +427,7 @@ def selectable_table(question, table, key):
 
 def answer_examples(question, details):
     fused, kw, vec = Q.hybrid_search(question)
-    st.markdown("<p class='answer'><b>Best-matching clauses</b>, not a complete list:</p>", unsafe_allow_html=True)
+    st.markdown("<span class='badge badge-examples'>Best matches, not a complete list</span>", unsafe_allow_html=True)
     details["ranks"] = []
     for n, cid in enumerate(fused, start=1):
         doc_id, heading, pages, text = Q.describe(cid)
@@ -413,18 +436,25 @@ def answer_examples(question, details):
                     f"<div class='muted'>{section_of(heading)}, {pages.replace('p.', 'page ').replace('pp.', 'pages ')}</div>",
                     unsafe_allow_html=True)
         quote_block(text, 300)
-        if st.button("View source", key=f"src-{cid}"):
+        if st.button(f"Show page {page}", key=f"src-{cid}"):
             pick_source(question, doc_id, page, text)
             st.rerun()
         details["ranks"].append({"result": n, "agreement": doc_id, "keyword rank": kw.index(cid) + 1 if cid in kw else None,
                                  "meaning rank": vec.index(cid) + 1 if cid in vec else None})
 
 def accuracy_line(field):
+    """Uncertainty is only useful if it says what to do. Lowest measured recall decides the advice."""
     rows = Q.con.execute("SELECT eval_set, precision, recall, n FROM eval_results WHERE field = ?", (field,)).fetchall()
     if not rows:
-        return "Accuracy for this field hasn't been measured."
-    parts = [f"{p:.0%} precision and {r:.0%} recall on {s}" for s, p, r, n in rows]
-    return f"How far to trust this: the AI's {FIELD_NAMES.get(field, field).lower()} answers measured " + "; ".join(parts) + "."
+        return "Not yet measured: spot-check against the source before relying on this."
+    worst = min(rows, key=lambda r: r[2])
+    misses = round((1 - worst[2]) * 10)
+    measured = "; ".join(f"{p:.0%} precision, {r:.0%} recall on {s}" for s, p, r, n in rows)
+    if worst[2] >= 0.9:
+        advice = "Reliable on the contracts tested; open the source for anything high-stakes."
+    else:
+        advice = f"Spot-check before relying on this: the AI missed about {misses} in 10 on {worst[0]}."
+    return f"{advice} (Measured: {measured}.)"
 
 # ============================================================
 # Agreements
@@ -529,6 +559,9 @@ def page_review():
     st.markdown(f"<p class='answer'><b>{len(items)}</b> answers waiting, <b>{done}</b> reviewed. Your decisions are "
                 f"saved separately from the AI's answers, with your name and the time, and every answer in the app "
                 f"uses them right away.</p>", unsafe_allow_html=True)
+    st.markdown("<p class='muted'>Reviewing as Ken. In a real system this comes from your login, so the audit "
+                "trail can't be edited.</p>", unsafe_allow_html=True)
+    st.session_state.reviewer = "Ken"
     tab_queue, tab_log = st.tabs(["Queue", "Decisions so far"])
     with tab_queue:
         if not items:
@@ -589,13 +622,15 @@ def review_item(it, i):
                                       value=it["value"] or "", key=f"cv-{i}")
         note = st.text_input("Note (optional)", key=f"nt-{i}")
         reviewer = st.session_state.get("reviewer", "Ken")
+        # Intentional friction against rubber-stamping: deciding requires confirming you read the source.
+        checked = st.checkbox("I checked the source document", key=f"chk-{i}")
         b1, b2, b3 = st.columns(3)
-        if b1.button("Accept", key=f"ok-{i}", disabled=it["value"] is None, use_container_width=True):
+        if b1.button("Accept", key=f"ok-{i}", disabled=it["value"] is None or not checked, use_container_width=True):
             save_review(it["doc"], it["field"], "accepted", None, None, None, note, reviewer); st.rerun()
-        if b2.button("Save correction", key=f"fix-{i}", type="primary", use_container_width=True):
+        if b2.button("Save correction", key=f"fix-{i}", type="primary", use_container_width=True, disabled=not checked):
             save_review(it["doc"], it["field"], "corrected", corrected, (it["quote"] or "")[:300] or None,
                         it["page"], note, reviewer); st.rerun()
-        if b3.button("Not in agreement", key=f"no-{i}", use_container_width=True,
+        if b3.button("Not in agreement", key=f"no-{i}", use_container_width=True, disabled=not checked,
                      help="Confirm the agreement has no such clause"):
             save_review(it["doc"], it["field"], "absent", None, None, None, note, reviewer); st.rerun()
     with right:
@@ -725,6 +760,10 @@ def page_production():
     st.title("Demo vs production")
     st.markdown("<p class='answer'>What this demo does at each layer, and what a real agreement platform would add.</p>",
                 unsafe_allow_html=True)
+    st.markdown("<p class='muted'>Built with: Docling (parsing), qwen2.5:14b (extraction) and nomic-embed-text "
+                "(embeddings) running locally through Ollama, SQLite with FTS5 (storage and keyword search), "
+                "scikit-learn (router), Streamlit (this app). Contracts: CUAD v1, The Atticus Project, CC BY 4.0.</p>",
+                unsafe_allow_html=True)
     st.dataframe([
         {"layer": "Ingestion", "this demo": "40 PDFs from a fixed sample, fingerprinted; re-runs skip finished work",
          "production adds": "Connectors to the document system and deal rooms; incremental updates; source permissions"},
@@ -753,10 +792,11 @@ if "page" not in st.session_state:
     st.session_state.page = "Start here"
 with st.sidebar:
     st.markdown("### Agreement desk")
-    st.radio("Go to", PAGES, key="page", label_visibility="collapsed")
-    st.divider()
-    st.text_input("Reviewer name", value="Ken", key="reviewer")
-    st.caption("Local demo on public SEC contracts (CUAD). Docling, qwen2.5:14b and nomic-embed-text via Ollama, SQLite.")
+    for group, pages in NAV.items():
+        st.caption(group)
+        for pg in pages:
+            st.button(pg, key=f"nav-{pg}", use_container_width=True, on_click=go_to, args=(pg,),
+                      type="primary" if st.session_state.page == pg else "secondary")
 
 {"Start here": page_start, "Ask": page_ask, "Agreements": page_agreements, "Benchmarks": page_benchmarks,
  "Review": page_review, "Quality": page_quality, "Demo vs production": page_production}[st.session_state.page]()
