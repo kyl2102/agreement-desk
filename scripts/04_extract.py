@@ -226,10 +226,19 @@ def norm_amount(s):
     n = float(m[1].replace(",", ""))
     return n * 1_000_000 if m[2] else n
 
+# Words that start a description AFTER a party's legal name, e.g.
+# "NETGEAR, Inc., a wholly owned subsidiary of..." or "Holiday RV Superstores, Inc., d/b/a Recreation USA".
+PARTY_DESCRIPTORS = re.compile(r",?\s+(?:a|an)\s+(?=[A-Za-z])|,?\s+d/b/a\b|\s+through\s+its\b|,\s*(?:organized|having|located)\b|\s+\(", re.I)
+
+def clean_party(name):
+    """Keep the legal name, drop the description: 'XYBERNAUT CORPORATION, a Virginia corporation' -> 'XYBERNAUT CORPORATION'."""
+    name = re.sub(r"\s+", " ", name).strip()
+    return PARTY_DESCRIPTORS.split(name, maxsplit=1)[0].strip(" ,")
+
 def normalize(field, value):
     if field == "parties":
-        names = [re.sub(r"\s+", " ", v).strip() for v in (value or []) if v and v.strip()]
-        return "; ".join(names) or None
+        names = [clean_party(v) for v in (value or []) if v and v.strip()]
+        return "; ".join(n for n in names if n) or None
     if field == "effective_date":
         return norm_date(value or "")
     if field == "governing_law":
@@ -278,7 +287,21 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--doc", help="only this doc_id, e.g. D004")
     ap.add_argument("--redo", action="store_true", help="re-extract even if already stored")
+    ap.add_argument("--renormalize", action="store_true",
+                    help="re-clean stored raw answers with the current normalize() code; no model calls")
     args = ap.parse_args()
+    if args.renormalize:
+        con = sqlite3.connect(DB)
+        rows = con.execute("SELECT doc_id, field, found, value_raw, quote_check, model_confidence FROM extractions").fetchall()
+        for doc_id, field, found, value_raw, quote_check, model_conf in rows:
+            value_norm = normalize(field, json.loads(value_raw)) if found else None
+            conf = adjusted_confidence({"found": found, "confidence": model_conf}, quote_check, value_norm)
+            review = int(conf < 0.7 or (found and quote_check == "not_found"))
+            con.execute("UPDATE extractions SET value_norm=?, confidence=?, needs_review=? WHERE doc_id=? AND field=?",
+                        (value_norm, conf, review, doc_id, field))
+        con.commit()
+        print(f"Re-normalized {len(rows)} stored answers (no model calls).")
+        return
 
     con = sqlite3.connect(DB)
     con.executescript(SCHEMA)

@@ -1,61 +1,61 @@
 doc_id,field,found,value,page,notes,filename
 D001,parties,yes,FEDERATED INVESTMENT MANAGEMENT COMPANY; FEDERATED ADVISORY SERVICES COMPANY,1,,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
-D001,effective_date,yes,2004-01-01,1,,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
+D001,effective_date,yes,1/1/04,1,,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
 D001,governing_law,yes,Pennsylvania,2,Commonweather of Pennsylvania,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
 D001,termination_notice_days,yes,60,1,"not less than, written notice",FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
-D001,cap_type,yes,exclusion_only,1,,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
+D001,cap_type,yes,exclusion_only,1,standard-of-conduct limitation,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
 D001,cap_amount,no,,,,FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT.PDF
 D006,parties,yes,"Ingram Micro; NETGEAR, Inc.",1,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
-D006,effective_date,yes,1996-03-01,1,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
+D006,effective_date,yes,3/1/96,1,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
 D006,governing_law,yes,California,8,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
 D006,termination_notice_days,yes,90,6,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
-D006,cap_type,yes,exclusion_only,7,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
+D006,cap_type,yes,fees_based,9,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
 D006,cap_amount,no,,,,"NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.pdf"
-D008,parties,,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
-D008,effective_date,,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
-D008,governing_law,,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
-D008,termination_notice_days,,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
-D008,cap_type,,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
-D008,cap_amount,,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
-D012,parties,,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
-D012,effective_date,,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
-D012,governing_law,,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
-D012,termination_notice_days,,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
-D012,cap_type,,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
-D012,cap_amount,,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
-D018,parties,,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
-D018,effective_date,,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
-D018,governing_law,,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
-D018,termination_notice_days,,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
-D018,cap_type,,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
-D018,cap_amount,,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
-D020,parties,,,,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
-D020,effective_date,,,,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
-D020,governing_law,,,,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
-D020,termination_notice_days,,,,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
-D020,cap_type,,,,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
-D020,cap_amount,,,,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
-D021,parties,,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
-D021,effective_date,,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
-D021,governing_law,,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
-D021,termination_notice_days,,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
-D021,cap_type,,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
-D021,cap_amount,,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
-D026,parties,,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
-D026,effective_date,,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
-D026,governing_law,,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
-D026,termination_notice_days,,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
-D026,cap_type,,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
-D026,cap_amount,,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
-D031,parties,,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
-D031,effective_date,,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
-D031,governing_law,,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
-D031,termination_notice_days,,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
-D031,cap_type,,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
-D031,cap_amount,,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
-D034,parties,,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
-D034,effective_date,,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
-D034,governing_law,,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
-D034,termination_notice_days,,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
-D034,cap_type,,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
-D034,cap_amount,,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+D008,parties,yes,"Cargill, Incorporated; BioAmber S.A.S.",1,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
+D008,effective_date,yes,7/5/11,1,Amendment,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
+D008,governing_law,no,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
+D008,termination_notice_days,no,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
+D008,cap_type,no,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
+D008,cap_amount,no,,,,BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT - First Amendment.pdf
+D012,parties,yes,"ADMA BioManufacturing, LLC; Sanofi Pasteur S.A.",1,Amendment,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+D012,effective_date,yes,12/21/17,1,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+D012,governing_law,no,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+D012,termination_notice_days,no,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+D012,cap_type,yes,fixed_amount,4,looks like liability exists if case of personal injury illness or death from the manufacture of product with a cap that does no exceed a placeholder amount,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+D012,cap_amount,no,,,,"ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF"
+D018,parties,yes,"XYBERNAUT CORPORATION; ALEX JOB RACING, INC.",1,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
+D018,effective_date,yes,5/1/02,1,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
+D018,governing_law,yes,Virginia,11,pdf pages don't match headers that indicate page numbers,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
+D018,termination_notice_days,no,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
+D018,cap_type,yes,exclusion_only,2,"Part of a registration rights section, not explicit liability section",XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
+D018,cap_amount,no,,,,XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.PDF
+D020,parties,yes,McDATA CORPORATION; MTI TECHNOLOGY CORPORATION,1,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
+D020,effective_date,yes,9/29/04,1,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
+D020,governing_law,yes,Colorado,4,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
+D020,termination_notice_days,yes,60,1,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
+D020,cap_type,yes,fixed_amount,3,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
+D020,cap_amount,yes,500000,3,,MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.PDF
+D021,parties,yes,"Clear Capital; RadialSpark, LLC",2,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
+D021,effective_date,yes,9/24/18,2,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
+D021,governing_law,yes,Arizona,8,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
+D021,termination_notice_days,yes,15,7,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
+D021,cap_type,yes,fees_based,7,ap excludes attorney fees and indemnification,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
+D021,cap_amount,no,,,,MERITLIFEINSURANCECO_06_19_2020-EX-10.(XIV)-MASTER SERVICES AGREEMENT.PDF
+D026,parties,yes,"TOWN OF VINTON, VIRGINIA,; ROANOKE GAS COMPANY",1,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
+D026,effective_date,yes,1/1/16,1,"agreement was entered 2015-11-17, but franchise is effective 2016-01-01",RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
+D026,governing_law,no,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
+D026,termination_notice_days,no,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
+D026,cap_type,no,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
+D026,cap_amount,no,,,,RgcResourcesInc_20151216_8-K_EX-10.3_9372751_EX-10.3_Franchise Agreement.pdf
+D031,parties,yes,"Holiday RV Superstores, Inc.; Affinity Group, Inc.",1,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
+D031,effective_date,yes,3/20/02,1,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
+D031,governing_law,yes,California,3,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
+D031,termination_notice_days,yes,60,1,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
+D031,cap_type,no,,,"unclear whether this is not in here or not, but could not find any liability language",HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
+D031,cap_amount,no,,,,HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.PDF
+D034,parties,yes,"LifeUSA/ Envision Health, Inc.; Sierra Mountain Minerals, Inc.",1,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+D034,effective_date,yes,12/8/05,1,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+D034,governing_law,yes,Colorado,3,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+D034,termination_notice_days,yes,60,1,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+D034,cap_type,no,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"
+D034,cap_amount,no,,,,"LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT.PDF"

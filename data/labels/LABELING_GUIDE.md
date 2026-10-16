@@ -21,4 +21,13 @@ Rules for hard cases (decide once, apply everywhere):
 - effective_date: use the stated effective date; if none, the agreement/signing date at the top.
 - termination_notice_days: notice to terminate for convenience OR to prevent renewal. Ignore cure periods for breach. If several, use the general one and note the others.
 - cap_type: exclusion_only = only excludes damage TYPES (e.g. consequential) with no overall cap.
+- cap_type with both an exclusion AND a ceiling: pick the ceiling's type; mention the exclusion in notes.
+- Redacted amount (e.g. "[***]"): cap_type = the type the clause describes; cap_amount = blank, note "redacted".
+- found = no for cap_type means the same as none.
+- cap_type comes ONLY from a limitation of liability clause covering claims in general ("in no event shall total liability exceed..."). These are NOT caps:
+  - Indemnification (one party covers the other's third-party claims): shifts cost, doesn't limit it.
+  - Attorney fee provisions (who pays legal fees in a dispute).
+  - Warranty disclaimers, and warranty exclusive remedies (limit warranty claims only): note them.
+  - Insurance requirements ("carry $1 million per occurrence"): minimum coverage, NOT a ceiling on liability.
+- Carve-outs ("the cap does not apply to indemnification / attorney fees / confidentiality"): label the general cap; list the carve-outs in notes.
 - If you are unsure, still pick an answer and write why in notes. Those notes are the most valuable part.
