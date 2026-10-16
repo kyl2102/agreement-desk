@@ -8,6 +8,7 @@ dependencies = [
     "docling>=2.139.0",
     "numpy>=2.5.4",
     "ollama>=0.6.3",
+    "scikit-learn>=1.9.1",
 ]
 
 [project.scripts]

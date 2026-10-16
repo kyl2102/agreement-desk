@@ -1,0 +1,157 @@
+question,label
+How many contracts are governed by New York law?,sql
+How many agreements have no liability cap?,sql
+Which contracts have a fees-based cap?,sql
+Which agreements are governed by Delaware law?,sql
+List every contract with a notice period over 60 days,sql
+List all agreements governed by California law,sql
+Count the contracts with a fixed dollar liability cap,sql
+How many agreements per governing law?,sql
+Which contracts have no governing law clause?,sql
+What are the terms in force for D006?,sql
+Show me all contracts with a 90 day notice period,sql
+Find contracts governed by Texas law,sql
+Which agreements require more than 30 days notice to terminate?,sql
+Number of contracts with an exclusion-only cap,sql
+Give me every agreement with a cap over $1 million,sql
+Are there any contracts governed by English law?,sql
+Which deals have a liability cap tied to fees paid?,sql
+How many of our agreements are governed by Pennsylvania law?,sql
+Every contract whose notice period is less than 30 days,sql
+What is the breakdown of governing law across the portfolio?,sql
+Which contracts were effective before 2005?,sql
+Tell me which agreements have no cap on liability,sql
+How often do we accept fees-based caps?,sql
+What percentage of contracts have a liability cap?,sql
+Pull every agreement with a termination notice of 90 days,sql
+Which counterparties signed agreements governed by New York law?,sql
+What notice periods do our contracts have?,sql
+Total number of agreements with a fixed amount cap,sql
+Which contracts have the longest notice periods?,sql
+Do any agreements lack a liability cap?,sql
+Which master agreements have amendments?,sql
+For each governing law how many contracts are there?,sql
+What is the current governing law for the Netgear agreement?,sql
+Contracts with notice under 15 days,sql
+Agreements with caps above $500000,sql
+Which of our contracts are governed by Colorado law?,sql
+Has any contract chosen Hong Kong law?,sql
+Find all deals with a 60 day notice requirement,sql
+Get me a full list of contracts without a cap,sql
+Which agreements use fees-based liability caps and which use fixed amounts?,sql
+How many contracts have an effective date in 2018?,sql
+Is there a contract with a notice period longer than 120 days?,sql
+Which contracts list Ingram Micro as a party?,sql
+How many agreements does NETGEAR have with us?,sql
+Every agreement where the cap type is none,sql
+What share of agreements are governed by New York?,sql
+Report the cap type for every contract,sql
+Which documents still have unverified caps?,sql
+How many amendments are in the portfolio?,sql
+Which agreements are under Washington law?,sql
+Show every contract governed by Israeli law,sql
+Name all contracts with 30 days notice,sql
+What's the most common governing law?,sql
+Which agreements renew automatically with 60 days notice of non-renewal?,sql
+Are any contracts governed by Minnesota law?,sql
+Rank contracts by notice period,sql
+Contracts governed by Virginia,sql
+All fixed amount caps,sql
+How many contracts in total?,sql
+Which parties appear in more than one agreement?,sql
+Which contracts limit liability to fees paid in the prior 12 months?,sql
+How many caps exclude consequential damages only?,sql
+Count agreements by cap type,sql
+Which agreements have a notice period of exactly 90 days?,sql
+Is every contract governed by US law?,sql
+Which contracts have British Columbia law?,sql
+List contracts with no termination notice clause,sql
+How many franchise agreements do we have?,sql
+Which deals are governed by Arizona law?,sql
+What are all the different cap amounts?,sql
+Breakdown of contracts by effective year,sql
+Show me examples of termination for convenience,search
+Find me a sample indemnification clause,search
+What does a typical limitation of liability clause look like?,search
+Show me some exclusivity provisions,search
+Give me an example of a most favored nation clause,search
+How do we usually word a confidentiality obligation?,search
+Find clauses similar to termination without cause,search
+What does the Netgear agreement say about exclusivity?,search
+Show me language about audit rights,search
+Find a clause about force majeure,search
+Examples of non-compete wording,search
+How do contracts handle assignment to affiliates?,search
+What does a change of control provision say?,search
+Show me a clause like the one about returning confidential information,search
+Find language on insurance requirements,search
+How do they word warranty disclaimers?,search
+Give me a few examples of non-solicitation clauses,search
+What does the IBM hosting agreement say about service levels?,search
+Show me how termination for breach is written,search
+Find an example of a right of first refusal,search
+termination for convenience,search
+indemnification for third party claims,search
+force majeure,search
+exclusive distribution rights,search
+What happens to inventory after termination?,search
+How is confidential information defined?,search
+Find a clause about price protection,search
+Show me wording on intellectual property ownership,search
+What does a cure period clause look like?,search
+Find me a provision about late payment interest,search
+How is the territory defined in distributor agreements?,search
+Show me a sample notice clause,search
+What do our contracts say about data protection?,search
+Find text about publicity and use of logos,search
+Give me an example of a governing law clause,search
+How do contracts describe the term and renewal?,search
+Find similar language to the Section 14.A carve-out,search
+Show me examples of liquidated damages,search
+What does a typical payment terms section look like?,search
+Example of an audit clause in a supply agreement,search
+How do franchise agreements handle training?,search
+Show me how minimum purchase commitments are worded,search
+Find a clause that excludes consequential damages,search
+What does a severability clause say?,search
+Show me examples of survival clauses,search
+Find language about dispute resolution and arbitration,search
+How is a material breach described?,search
+Sample wording for an assignment restriction,search
+Find a clause where a party can terminate on bankruptcy,search
+Show me examples of non-disparagement language,search
+What does a sponsorship agreement say about trademarks?,search
+How do contracts describe service credits?,search
+Find a passage about product recalls,search
+What wording do we use for a license grant?,search
+Give me an example of an entire agreement clause,search
+How do agreements address personnel non-solicitation?,search
+Show me a representative warranty clause,search
+Find text describing reporting obligations,search
+What does the Pretzel Time agreement say about royalties?,search
+How are rebates described in reseller agreements?,search
+Find wording about records retention,search
+Give me sample language for an exclusivity carve-out,search
+indemnity cap carve-outs,search
+non-renewal notice wording,search
+What does the BioAmber amendment change?,search
+How is the effective date defined in the Federated agreement?,search
+Show me the clause about Section 11 indemnification in the sponsorship agreement,search
+What does it mean when a contract says sole remedy?,search
+Find me something about most favored customer pricing,search
+How do our contracts treat subcontractors?,search
+Show some clauses requiring insurance coverage,search
+What does a typical audit rights clause allow?,search
+Show me an example of a liability cap tied to fees,search
+Find a provision limiting liability to direct damages,search
+What language do agreements use to disclaim implied warranties?,search
+How is a change in control defined?,search
+Show me how notice must be delivered,search
+Find wording about returning materials at termination,search
+What does the McDATA agreement say about termination without cause?,search
+Give me an illustration of a non-compete scope,search
+Show me differences between our indemnification clauses, search
+Which of our 2023 agreements have product liability clauses?, sql
+Are there favorable states for agreements?, search
+Which agreement has the most amendments, sql
+Agreements that were executed between 2000 to 2004, sql

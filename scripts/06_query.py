@@ -154,6 +154,13 @@ def compare(field, op, number):
            f"WHERE e.field = ? AND e.found = 1 AND {expr} {op} ? ORDER BY value DESC")
     return sql, [src, number], _rows(sql, [src, number])
 
+def date_between(field, start, end):
+    """Dates are stored as YYYY-MM-DD text, so a plain BETWEEN compares them correctly."""
+    src, expr = FIELD_SQL[field]
+    sql = (f"SELECT e.doc_id, {expr} AS value, e.page, e.quote, e.needs_review FROM extractions e "
+           f"WHERE e.field = ? AND e.found = 1 AND {expr} BETWEEN ? AND ? ORDER BY value")
+    return sql, [src, start, end], _rows(sql, [src, start, end])
+
 def terms_in_force(doc_id):
     """A master plus its amendments, in date order: a value stated in a later amendment overrides the earlier one.
     Simplification: we treat any stated value as a full replacement (real amendments can change part of a clause)."""
@@ -188,7 +195,7 @@ def family_terms(root_id):
     return family, terms
 
 # ---------- Family level: the unit is the AGREEMENT, not the PDF ----------
-def family_answer(tool, field, value=None, op=None, number=None):
+def family_answer(tool, field, value=None, op=None, number=None, start=None, end=None):
     """Same questions as the SQL tools, asked of each family's terms in force.
     Amendments roll up into their master, so a cap stated only in the master still counts."""
     rows = []
@@ -203,6 +210,8 @@ def family_answer(tool, field, value=None, op=None, number=None):
             keep = (v is None) if wants_none else (v is not None and norm_value(value) in str(v).lower())
         elif tool == "compare":
             keep = v is not None and eval_op(float(v), op, float(number))
+        elif tool == "date_between":
+            keep = v is not None and start <= str(v) <= end
         else:
             keep = True
         if keep:
@@ -254,14 +263,16 @@ def accuracy_note(field):
 PLAN_SCHEMA = {
     "type": "object",
     "properties": {
-        "tool": {"type": "string", "enum": ["count_by", "list_where", "compare", "terms_in_force"]},
+        "tool": {"type": "string", "enum": ["count_by", "list_where", "compare", "date_between", "terms_in_force"]},
         "field": {"type": "string", "enum": list(FIELD_SQL)},
         "value": {"type": ["string", "null"]},
         "op": {"type": ["string", "null"], "enum": sorted(OPS) + [None]},
         "number": {"type": ["number", "null"]},
         "doc_id": {"type": ["string", "null"]},
+        "start": {"type": ["string", "null"]},
+        "end": {"type": ["string", "null"]},
     },
-    "required": ["tool", "field", "value", "op", "number", "doc_id"],
+    "required": ["tool", "field", "value", "op", "number", "doc_id", "start", "end"],
 }
 PLAN_PROMPT = """You translate a question about a contract database into ONE tool call. Do not answer the question.
 Tools:
@@ -270,6 +281,9 @@ Tools:
   "Which contracts have no liability cap?" -> field cap_type, value none
 - compare(field, op, number): numeric fields only (termination_notice in DAYS, cap_amount in dollars).
   "notice periods longer than 60 days" -> termination_notice > 60
+- date_between(field, start, end): dates in a range, as YYYY-MM-DD. Only for effective_date.
+  "agreements signed between 2000 and 2004" -> effective_date, start 2000-01-01, end 2004-12-31
+  "contracts effective before 2005" -> start 1900-01-01, end 2004-12-31
 - terms_in_force(doc_id): current terms of one agreement family, e.g. "terms in force for D001".
 Fields: governing_law, effective_date, parties, termination_notice (days), cap_type
 (fixed_amount, fees_based, exclusion_only, none), cap_amount.
@@ -280,6 +294,30 @@ def plan(question):
     r = ollama.chat(model="qwen2.5:14b", format=PLAN_SCHEMA, options={"temperature": 0},
                     messages=[{"role": "system", "content": PLAN_PROMPT}, {"role": "user", "content": question}])
     return json.loads(r["message"]["content"])
+
+ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+def validate_plan(p):
+    """Code checks the AI's plan BEFORE running it. A plan that can't be right is refused, not run."""
+    tool, field = p.get("tool"), p.get("field")
+    if field not in FIELD_SQL:
+        raise ValueError(f"unknown field {field!r}")
+    if tool == "list_where":
+        v = str(p.get("value") or "")
+        if not v:
+            raise ValueError("list_where needs a value")
+        if len(re.findall(r"\d{4}", v)) >= 2 or (field == "effective_date"):
+            raise ValueError(f"value {v!r} looks like a date range: that needs date_between, not list_where")
+    if tool == "compare":
+        if field not in NUMERIC or p.get("op") not in OPS or p.get("number") is None:
+            raise ValueError("compare needs a numeric field, an operator and a number")
+    if tool == "date_between":
+        if field != "effective_date":
+            raise ValueError("date_between only works on effective_date")
+        if not (ISO.match(str(p.get("start"))) and ISO.match(str(p.get("end")))) or p["start"] > p["end"]:
+            raise ValueError(f"date_between needs start <= end as YYYY-MM-DD, got {p.get('start')}..{p.get('end')}")
+    if tool == "terms_in_force" and not re.match(r"^D\d{3}$", str(p.get("doc_id") or "").upper()):
+        raise ValueError("terms_in_force needs a document id like D006")
 
 def run_plan(p):
     """Code checks the AI's plan before running anything: an invalid plan is refused, never guessed at."""
@@ -292,10 +330,15 @@ def run_plan(p):
         return list_where(field, p["value"])
     if tool == "compare":
         return compare(field, p["op"], p["number"])
+    if tool == "date_between":
+        return date_between(field, p["start"], p["end"])
     if tool == "terms_in_force":
         if not p["doc_id"]:
             raise ValueError("terms_in_force needs a doc_id")
         return terms_in_force(p["doc_id"].upper())
+
+ZERO_WARNING = ("  Zero results can mean \"none exist\" OR \"the question didn't fit the tools.\"\n"
+                "  Check the AI's plan above. Does it match what you asked? If not, rephrase or use --mode examples.")
 
 def print_all(question, p, result):
     print(f'\nQuestion: "{question}"   (exhaustive: answered from the extraction table with SQL)')
@@ -313,6 +356,8 @@ def print_all(question, p, result):
             print(f"  {str(value)[:50]:50} {n:3} contracts" + (f"  ({flagged} flagged for review)" if flagged else ""))
         return
     print(f"{len(rows)} contracts:")
+    if not rows:
+        print(ZERO_WARNING)
     for doc, value, page, quote, review in rows:
         cite = f'p.{page}: "{(quote or "")[:90]}"' if quote else "(no clause found: unverified, could be a miss)"
         print(f"  {doc}  {str(value)[:30]:30} {cite}" + ("  [needs review]" if review else ""))
@@ -357,6 +402,8 @@ def print_family(question, p, rows):
                   f"{', '.join(unknown)}")
     else:
         print(f"{len(rows)} agreements:")
+        if not rows:
+            print(ZERO_WARNING)
         for root, v, hit, note in rows:
             if hit:
                 print(f"  {root}  {str(v)[:28]:28} from {hit[1]}, p.{hit[2]}: \"{(hit[3] or '')[:70]}\"  [{note}]")
@@ -384,7 +431,8 @@ EXAMPLES = [("example", r"\bexamples?\b"), ("show me", r"\bshow me\b"), ("find a
             ("wording", r"\bwording\b"), ("language", r"\blanguage\b")]
 
 def route(question, mode="auto"):
-    """Returns (desk, reason). An explicit mode always wins. Otherwise rules on the wording.
+    """Returns (desk, reason). Order: (1) explicit mode always wins, (2) rules on the wording,
+    (3) if no rule fires, the trained model when it's at least 65% sure, (4) otherwise run BOTH desks.
     If both kinds of signal appear, the exhaustive desk wins: in legal work a missed contract
     (search returning only the top few) costs more than a slower, complete answer."""
     if mode == "all":
@@ -399,7 +447,27 @@ def route(question, mode="auto"):
         return "sql", f"wording sounds exhaustive ({clean(ex)})" + (" (also had example wording; exhaustive wins)" if eg else "")
     if eg:
         return "search", f"wording asks for examples ({clean(eg)})"
+    # No rule fired: ask the trained model (Step 6d), but only trust it when it's fairly sure.
+    model = _router_model()
+    if model is not None:
+        probs = dict(zip(model.classes_, model.predict_proba([question])[0]))
+        best = max(probs, key=probs.get)
+        if probs[best] >= 0.65:
+            return best, f"no rule matched; trained model says {best} ({probs[best]:.0%} sure)"
+        return "both", (f"no rule matched and the trained model is unsure (sql {probs.get('sql', 0):.0%}); "
+                        "running BOTH desks so nothing is silently missed")
     return "search", "no clear signal, defaulted to examples. If you need EVERY match, re-run with --mode all"
+
+_model_cache = []
+def _router_model():
+    """Load the trained router once, if it exists. The tool still works without it (rules only)."""
+    if not _model_cache:
+        try:
+            import joblib
+            _model_cache.append(joblib.load("data/router/router_model.joblib"))
+        except Exception:
+            _model_cache.append(None)
+    return _model_cache[0]
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
@@ -418,18 +486,26 @@ if __name__ == "__main__":
     args = ap.parse_args()
     if args.cmd == "ask":
         desk, reason = route(args.question, args.mode)
-        print(f"Router: -> {'SQL (find all)' if desk == 'sql' else 'SEARCH (find examples)'}  because {reason}")
-        args.cmd = "all" if desk == "sql" else "search"
+        label = {"sql": "SQL (find all)", "search": "SEARCH (find examples)", "both": "BOTH desks"}[desk]
+        print(f"Router: -> {label}  because {reason}")
         args.query, args.show_lists = args.question, False
+        if desk == "both":
+            fused, kw, vec = hybrid_search(args.question)
+            print_results(args.question, fused, kw, vec)
+            args.cmd = "all"
+        else:
+            args.cmd = "all" if desk == "sql" else "search"
     if args.cmd == "all":
         p = plan(args.question)
         try:
-            if args.level == "family" and p["tool"] in ("count_by", "list_where", "compare"):
-                print_family(args.question, p, family_answer(p["tool"], p["field"], p["value"], p["op"], p["number"]))
+            validate_plan(p)
+            if args.level == "family" and p["tool"] in ("count_by", "list_where", "compare", "date_between"):
+                print_family(args.question, p, family_answer(p["tool"], p["field"], p["value"], p["op"], p["number"],
+                                                             p.get("start"), p.get("end")))
             else:
                 print_all(args.question, p, run_plan(p))
         except ValueError as e:
-            print(f"Can't run that plan ({e}). AI's plan was: {p}. Try rephrasing.")
+            print(f"\nRefused to run the AI's plan: {e}.\nPlan was: {json.dumps(p)}\nTry rephrasing, or use --mode examples.")
     if args.cmd == "search":
         fused, kw, vec = hybrid_search(args.query)
         print_results(args.query, fused, kw, vec, args.show_lists)
