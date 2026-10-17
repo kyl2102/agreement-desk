@@ -380,7 +380,8 @@ def accuracy_note(field):
 PLAN_SCHEMA = {
     "type": "object",
     "properties": {
-        "tool": {"type": "string", "enum": ["count_by", "list_where", "compare", "date_between", "terms_in_force"]},
+        "tool": {"type": "string", "enum": ["count_by", "list_where", "compare", "date_between", "terms_in_force",
+                                                  "count_documents"]},
         "field": {"type": "string", "enum": list(FIELD_SQL)},
         "value": {"type": ["string", "null"]},
         "op": {"type": ["string", "null"], "enum": sorted(OPS) + [None]},
@@ -401,6 +402,8 @@ Tools:
 - date_between(field, start, end): dates in a range, as YYYY-MM-DD. Only for effective_date.
   "agreements signed between 2000 and 2004" -> effective_date, start 2000-01-01, end 2004-12-31
   "contracts effective before 2005" -> start 1900-01-01, end 2004-12-31
+- count_documents(): how many documents of each kind (master agreements, amendments, related documents).
+  "how many amendments are there", "which agreements have been amended". Set field to parties (it is ignored).
 - terms_in_force(doc_id): current terms of one agreement family, e.g. "terms in force for D001".
   If the question names a company instead of an ID ("notice period for Ingram"), set doc_id null,
   value = the company name, field = the term asked about (or parties if no term is named).
@@ -444,9 +447,35 @@ def repair_plan(p):
         return p, "turned a date filter on the wrong query type into a date-range query"
     return p, None
 
+def document_counts():
+    """Structure, not terms: every document with its kind and the agreement it belongs to."""
+    return _rows("SELECT doc_id, doc_type, COALESCE(master_id, doc_id) FROM documents ORDER BY doc_type, doc_id", ())
+
+# A plan must be ABOUT something the question mentions. "how many amendments are there" once came back as a
+# governing-law count: a confident answer to a different question. This check turns that into a visible warning.
+FIELD_WORDS = {
+    "governing_law": r"govern|\blaw\b|laws|jurisdiction|state|courts?\b",
+    "termination_notice": r"notice|terminat|cancel|end the|warning|renew",
+    "cap_type": r"\bcap|liabil|limit|damages",
+    "cap_amount": r"\bcap|liabil|limit|damages|\$|amount",
+    "effective_date": r"date|effective|executed|signed|start|when|year|\b(19|20)\d\d\b|before|after|between",
+    "parties": r"part(y|ies)|with\b|counterpart|compan|who\b|vendor|customer|supplier",
+}
+
+def plan_mismatch(question, p):
+    if p.get("tool") in ("count_documents", "terms_in_force"):
+        return None
+    words = FIELD_WORDS.get(p.get("field"))
+    if words and not re.search(words, question.lower()):
+        return (f"This answer is about {p['field'].replace('_', ' ')}, which your question doesn't mention, so it may "
+                "not be what you asked. Check \"How this was answered\", or rephrase.")
+    return None
+
 def validate_plan(p):
     """Code checks the AI's plan BEFORE running it. A plan that can't be right is refused, not run."""
     tool, field = p.get("tool"), p.get("field")
+    if tool == "count_documents":
+        return                                         # no field, value or dates to check
     if field not in FIELD_SQL:
         raise ValueError(f"unknown field {field!r}")
     if tool == "list_where":
@@ -640,12 +669,16 @@ def route(question, mode="auto"):
     ex = [label for label, pat in EXHAUSTIVE if re.search(pat, q)]
     eg = [label for label, pat in EXAMPLES if re.search(pat, q)]
     clean = lambda labels: ", ".join(f"'{l}'" for l in labels[:2])
+    # Coverage FIRST, whatever the wording: a topic we never extracted can't be answered from the database.
+    # (Oct 16: "agreements with indemnification clause" skipped this check, ran both desks, and the planner
+    # answered with the nearest field it had, liability cap: a confident answer to a different question.)
+    gap = coverage_gap(question)
+    if gap:
+        how = f"wording sounds exhaustive ({clean(ex)}), BUT " if ex else ""
+        return "search", (f"{how}'{gap}' isn't an extracted field, so a complete list isn't available. Showing best "
+                          f"matches instead. (To support find-all questions about it, add it to the extraction schema. "
+                          f"--mode all forces SQL.)")
     if ex:
-        gap = coverage_gap(question)
-        if gap:
-            return "search", (f"wording sounds exhaustive ({clean(ex)}), BUT '{gap}' isn't an extracted field, so a "
-                              f"complete list isn't available. Showing best matches instead. (To support find-all "
-                              f"questions about it, add it to the extraction schema. --mode all forces SQL.)")
         return "sql", f"wording sounds exhaustive ({clean(ex)})" + (" (also had example wording; exhaustive wins)" if eg else "")
     if eg:
         return "search", f"wording asks for examples ({clean(eg)})"

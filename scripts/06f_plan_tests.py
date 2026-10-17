@@ -28,6 +28,8 @@ TESTS = [
     # People name agreements by counterparty, not by ID (Ken's question that was refused):
     ("whats the termination notice period for ingram",         {"tool": "terms_in_force", "doc_id": "D006", "field": "termination_notice"}),
     ("What law governs the Netgear agreement?",               {"tool": "terms_in_force", "doc_id": "D006", "field": "governing_law"}),
+    # Structure questions once came back as a governing-law count (Ken, Oct 16):
+    ("how many amendments are there",                          {"tool": "count_documents"}),
 ]
 
 passed = 0

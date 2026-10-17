@@ -59,6 +59,7 @@ details { border-top: 1px solid var(--line); padding-top: 14px; }
 summary { cursor: pointer; font-weight: 600; font-size: 14px; }
 pre { background: var(--paper); border-radius: 8px; padding: 12px; overflow-x: auto; font-size: 13px; }
 .quote { margin: 0; padding: 14px 16px; background: var(--paper); border-radius: 8px; font-family: var(--serif); font-size: 16px; line-height: 1.55; }
+.quote b.key { font-weight: 700; background: #FFF1C2; border-radius: 2px; padding: 0 1px; }
 .example { display: flex; flex-direction: column; gap: 6px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .example:last-child { border-bottom: 0; }
 /* source pane */

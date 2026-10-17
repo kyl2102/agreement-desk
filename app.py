@@ -346,8 +346,14 @@ def answer_complete(question, level, details):
             return
         st.error(f"This question doesn't fit the available queries ({e}). Try rephrasing, or choose Examples in Options.")
         return
+    if p["tool"] == "count_documents":
+        documents_answer(question)
+        return
     field = p["field"]
     label = FIELD_NAMES.get(field, field)
+    mismatch = Q.plan_mismatch(question, p)     # a plan about a term the question never mentioned: say so
+    if mismatch:
+        st.warning(mismatch)
     years = re.findall(r"\b(?:19|20)\d\d\b", question)
     if years and not (p.get("start") or p.get("end")) and p["tool"] != "date_between":
         st.warning(f"Your question mentions {', '.join(years)}, but this answer is not filtered by date. "
@@ -410,6 +416,27 @@ def answer_complete(question, level, details):
         rows = Q.family_answer(p["tool"], field, p["value"], p["op"], p["number"], p.get("start"), p.get("end"))
         complete_family(question, p, rows, label)
     st.caption(accuracy_line(field))
+
+def documents_answer(question):
+    """'How many amendments are there?': structure from the documents table, no extraction involved."""
+    kinds = {"master": "Master agreements", "amendment": "Amendments", "ancillary": "Related documents"}
+    docs = Q.document_counts()
+    amendments = [(d, r) for d, t, r in docs if t == "amendment"]
+    orphans = sum(1 for d, r in amendments if d == r)
+    st.markdown("<span class='badge badge-complete'>Complete list</span><span class='muted'>Every document in the set "
+                "was checked</span>", unsafe_allow_html=True)
+    st.markdown(f"<p class='headline'>{len(amendments)} amendments, across {len({r for _, r in amendments})} "
+                f"agreements</p>", unsafe_allow_html=True)
+    if orphans:
+        st.markdown(f"<p class='muted'>{orphans} of them are amendments whose master agreement isn't in this set.</p>",
+                    unsafe_allow_html=True)
+    order = ["amendment", "master", "ancillary"]
+    groups = {}
+    for d, t, r in docs:
+        groups.setdefault(t, []).append(f"{name(d)} ({d})")
+    st.dataframe([{"kind": kinds.get(t, t), "documents": len(v), "which": "; ".join(v)}
+                  for t, v in sorted(groups.items(), key=lambda kv: order.index(kv[0]) if kv[0] in order else 9)],
+                 hide_index=True, use_container_width=True)
 
 def complete_family(question, p, rows, label):
     field = p["field"]

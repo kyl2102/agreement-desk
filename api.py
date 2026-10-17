@@ -126,19 +126,41 @@ def short_name(doc_id):
 def _squash(s):
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
-def page_png(doc_id, page_no, snippet):
+def page_png(doc_id, page_no, snippet, crop=False):
+    """One PDF page with the cited text boxed in red. crop=True cuts the image down to the boxed clause plus a
+    margin, so the citation fills the pane (a zoom); with no box found it returns the whole page."""
+    S = 3 if crop else 2                                  # render sharper when the crop will be enlarged
     doc = json.load(open(f"data/parsed/{doc_id}.json"))
     height = doc["pages"][str(page_no)]["size"]["height"]
-    img = pdfium.PdfDocument(SAMPLE[doc_id]["pdf_path"])[page_no - 1].render(scale=2).to_pil().convert("RGB")
-    draw, target = ImageDraw.Draw(img), _squash(snippet)[:120]
+    img = pdfium.PdfDocument(SAMPLE[doc_id]["pdf_path"])[page_no - 1].render(scale=S).to_pil().convert("RGB")
+    # Match ignoring spaces and punctuation: the PDF text can drop spaces ("NICEshall"), and a quote can start
+    # mid-paragraph, so look for the quote's opening anywhere in a paragraph (or the paragraph's opening in the quote).
+    draw, target = ImageDraw.Draw(img), _squash(snippet).replace(" ", "")[:100]
+    boxes = []
     for item in doc["texts"]:
-        text = _squash(item["text"])
-        if target and text and (target[:60] in text or text[:60] in target):
+        text = _squash(item["text"]).replace(" ", "")
+        if target and len(text) > 15 and (target[:45] in text or text[:45] in target):
             for prov in item["prov"]:
                 if prov["page_no"] == page_no:
                     b = prov["bbox"]
-                    draw.rectangle((b["l"] * 2, (height - b["t"]) * 2, b["r"] * 2, (height - b["b"]) * 2),
-                                   outline="#C8102E", width=4)
+                    pad = 4 * S                           # Docling's boxes are tight; pad so the line isn't cut
+                    box = (b["l"] * S - pad, (height - b["t"]) * S - pad, b["r"] * S + pad, (height - b["b"]) * S + pad)
+                    draw.rectangle(box, outline="#C8102E", width=2 * S)
+                    boxes.append(box)
+    if crop and boxes:
+        W, H = img.size
+        x0, y0 = min(b[0] for b in boxes), min(b[1] for b in boxes)
+        x1, y1 = max(b[2] for b in boxes), max(b[3] for b in boxes)
+        min_w = 0.55 * W                                  # never zoom past roughly 2x: keep some context
+        if x1 - x0 + 2 * 30 * S < min_w:
+            mid = (x0 + x1) / 2
+            x0, x1 = mid - min_w / 2, mid + min_w / 2
+        else:
+            x0, x1 = x0 - 30 * S, x1 + 30 * S
+        y0, y1 = y0 - 70 * S, y1 + 70 * S                 # a few lines above and below for context
+        x0, x1 = max(0, x0), min(W, x1)
+        y0, y1 = max(0, y0), min(H, y1)
+        img = img.crop((int(x0), int(y0), int(x1), int(y1)))
     buf = io.BytesIO()
     img.save(buf, format="PNG")
     return buf.getvalue()
@@ -227,6 +249,37 @@ def term_history(family, field, root):
         prev = v
     return steps
 
+# ---------- key terms to bold in a quote ----------
+def key_terms(doc_id, field):
+    """The words in the quote that ARE the answer: the model's own wording ('ninety (90) days'), plus the clean value.
+    Liability cap: the category isn't in the text, so only a stated amount is bolded."""
+    if not field or field not in Q.FIELD_SQL:
+        return []
+    src = Q.FIELD_SQL[field][0]
+    row = Q.con.execute("SELECT value_raw, value_norm FROM current_extractions WHERE doc_id = ? AND field = ? AND found = 1",
+                        (doc_id, src)).fetchone()
+    if not row:
+        return []
+    raw, norm = row
+    try:
+        raw = json.loads(raw) if raw else None
+    except ValueError:
+        pass
+    terms = []
+    if isinstance(raw, str):
+        terms.append(raw)
+    elif isinstance(raw, dict):
+        amount = str(raw.get("cap_amount") or "").strip()
+        if amount and len(amount) < 40:
+            terms.append(amount)
+    if field == "parties" and norm:
+        terms += [p.strip() for p in norm.split(";")]
+    elif field == "termination_notice" and norm:
+        terms.append(str(int(float(norm))))
+    elif field in ("governing_law",) and norm:
+        terms.append(norm)
+    return [t for t in dict.fromkeys(t.strip(" .,") for t in terms) if len(t) >= 2]
+
 # ---------- review queue (copied from app.py) ----------
 CHECK_QUESTION = {
     "termination_notice": "Does the clause on page {p} give {v} notice to terminate?",
@@ -280,9 +333,10 @@ def answer_labels(it):
     return {"yes": None, "diff": f"Yes, the {term} is:", "none": f"No, it doesn't state a {term}"}
 
 # ---------- answer builders: the same decisions as the Streamlit Ask page, returned as data ----------
-def row(agreement_id, cells, doc, page, quote):
+def row(agreement_id, cells, doc, page, quote, field=None, highlight=None):
     return {"agreement": short_name(agreement_id), "id": agreement_id, "cells": cells,
-            "doc": doc, "page": page or 1, "quote": quote or "", "pages": page_count(doc), "doc_name": short_name(doc)}
+            "doc": doc, "page": page or 1, "quote": quote or "", "pages": page_count(doc), "doc_name": short_name(doc),
+            "highlight": highlight if highlight is not None else key_terms(doc, field)}
 
 def mentions_answer(value):
     m = Q.party_mentions(value)
@@ -292,7 +346,25 @@ def mentions_answer(value):
     return {"headline": f"No agreement lists {value} as a party, but {sum(r[1] for r in m)} passages in {len(m)} "
                         f"documents mention it. It may be a parent company, affiliate or former name.",
             "columns": ["Agreement", "Mentions", "Where"],
-            "rows": [row(d, [str(n), f"{section_of(h)}, p.{pg}"], d, pg, snip) for d, n, h, pg, snip in m]}
+            "rows": [row(d, [str(n), f"{section_of(h)}, p.{pg}"], d, pg, snip, highlight=[value])
+                     for d, n, h, pg, snip in m]}
+
+def documents_answer():
+    """'How many amendments are there?': structure from the documents table, no extraction involved."""
+    kinds = {"master": "Master agreements", "amendment": "Amendments", "ancillary": "Related documents"}
+    groups = {}
+    for doc, doc_type, root in Q.document_counts():
+        groups.setdefault(doc_type, []).append({"id": root, "name": f"{short_name(doc)} ({doc})"})
+    n_amend = len(groups.get("amendment", []))
+    amended = len({a["id"] for a in groups.get("amendment", [])})
+    orphans = sum(1 for d, t, r in Q.document_counts() if t == "amendment" and r == d)
+    return {"headline": f"{n_amend} amendments, across {amended} agreements",
+            "subhead": (f"{orphans} of them are amendments whose master agreement isn't in this set." if orphans else ""),
+            "filters": ["Document type", f"all {len(Q.document_counts())} documents"],
+            "columns": ["Kind"], "rows": [],
+            "groups": [{"value": kinds.get(t, t), "count": len(v), "agreements": v}
+                       for t, v in sorted(groups.items(), key=lambda kv: ["amendment", "master", "ancillary"].index(kv[0])
+                                          if kv[0] in ("amendment", "master", "ancillary") else 9)]}
 
 def complete_answer(question, level, drop_scope, how):
     p = plan_question(question)
@@ -308,8 +380,13 @@ def complete_answer(question, level, drop_scope, how):
             return {**out, **mentions_answer(p["party"])}
         return {**out, "headline": "This question doesn't fit the available queries",
                 "notes": [{"kind": "error", "text": f"{e}. Try rephrasing, or answer as Examples."}]}
+    if p["tool"] == "count_documents":
+        return {**out, **documents_answer()}
     field = p["field"]
     label = FIELD_NAMES.get(field, field)
+    mismatch = Q.plan_mismatch(question, p)
+    if mismatch:
+        out["notes"].append({"kind": "warn", "text": mismatch})
     years = re.findall(r"\b(?:19|20)\d\d\b", question)
     if years and not (p.get("start") or p.get("end")) and p["tool"] != "date_between":
         out["notes"].append({"kind": "warn", "text": f"Your question mentions {', '.join(years)}, but this answer is "
@@ -347,7 +424,8 @@ def complete_answer(question, level, drop_scope, how):
                                if field not in terms and field != "parties" else f"Terms in force for {short_name(root)}")
             rows = list(terms.items())
         out["columns"] = ["Agreement", "Term", "Value", "Source"]
-        out["rows"] = [row(root, [FIELD_NAMES.get(f, f), nice_value(f, v), f"p.{pg}"], d, pg, q) for f, (v, d, pg, q) in rows]
+        out["rows"] = [row(root, [FIELD_NAMES.get(f, f), nice_value(f, v), f"p.{pg}"], d, pg, q, field=f)
+                       for f, (v, d, pg, q) in rows]
         return out
 
     if level == "documents" and p["tool"] != "count_by":
@@ -358,7 +436,7 @@ def complete_answer(question, level, drop_scope, how):
         out["headline"] = f"{len(rows)} documents match"
         out["subhead"] = "Amendments counted on their own."
         out["columns"] = ["Document", label, "Source"]
-        out["rows"] = [row(d, [nice_value(field, v), f"p.{pg}"], d, pg, q) for d, v, pg, q, r in rows]
+        out["rows"] = [row(d, [nice_value(field, v), f"p.{pg}"], d, pg, q, field=field) for d, v, pg, q, r in rows]
         return out
 
     rows = Q.family_answer(p["tool"], field, p["value"], p["op"], p["number"], p.get("start"), p.get("end"))
@@ -369,7 +447,7 @@ def complete_answer(question, level, drop_scope, how):
             match = [(r, v, h) for r, v, h, n in rows if v is not None and want in str(v).lower()]
             out["headline"] = f"{len(match)} of {len(rows)} agreements have {label.lower()} {p['value']}"
             out["columns"] = ["Agreement", label, "Source"]
-            out["rows"] = [row(r, [nice_value(field, v), f"p.{h[2]}"], h[1], h[2], h[3]) for r, v, h in match]
+            out["rows"] = [row(r, [nice_value(field, v), f"p.{h[2]}"], h[1], h[2], h[3], field=field) for r, v, h in match]
             return out
         missing = f"No {label.lower()} found"
         counts = {}
@@ -413,7 +491,7 @@ def complete_answer(question, level, drop_scope, how):
                              "question didn't map to the data the way you meant. Check \"How this was answered\"."})
     out["columns"] = ["Agreement", label, "Source"]
     out["rows"] = [row(r, [nice_value(field, v), f"p.{h[2]}" if h else "none found"],
-                       h[1] if h else r, h[2] if h else 1, (h[3] or "") if h else "") for r, v, h, n in rows]
+                       h[1] if h else r, h[2] if h else 1, (h[3] or "") if h else "", field=field) for r, v, h, n in rows]
     return out
 
 def examples_answer(question, how):
@@ -493,6 +571,7 @@ def agreement(root: str):
                               for i, (d, t, e) in enumerate(family, 1)],
                 "terms": [{"field": f, "term": FIELD_NAMES.get(f, f), "value": nice_value(f, v),
                            "history": term_history(family, f, root), "market": market_note(f, v),
+                           "highlight": key_terms(d, f),
                            "doc": d, "page": pg, "quote": q or ""} for f, (v, d, pg, q) in terms.items()]}
 
 @app.get("/api/review")
@@ -503,6 +582,7 @@ def review():
         return {"done": done, "items": [{**it, "agreement": short_name(root_of(it["doc"])), "term": FIELD_NAMES.get(it["field"]),
                                          "display_value": nice_value(it["field"], it["value"]),
                                          "question": task_question(it), "labels": answer_labels(it),
+                                         "highlight": key_terms(it["doc"], it["field"]),
                                          "hint": (FIELD_HINT.get(it["field"], "") if it["field"] != "liability_cap"
                                                   else "fixed_amount, fees_based or exclusion_only"),
                                          "pages": page_count(it["doc"])} for it in items]}
@@ -529,13 +609,13 @@ def save_review(body: ReviewIn):
         return {"ok": True}
 
 @app.get("/api/page/{doc_id}/{page_no}")
-def page(doc_id: str, page_no: int, q: str = ""):
+def page(doc_id: str, page_no: int, q: str = "", crop: int = 0):
     if doc_id not in SAMPLE:
         raise HTTPException(404, "unknown document")
     total = page_count(doc_id)
     if not 1 <= page_no <= total:
         raise HTTPException(404, f"page must be 1 to {total}")
-    return Response(page_png(doc_id, page_no, q), media_type="image/png")
+    return Response(page_png(doc_id, page_no, q, crop=bool(crop)), media_type="image/png")
 
 @app.get("/api/pdf/{doc_id}")
 def pdf(doc_id: str):
