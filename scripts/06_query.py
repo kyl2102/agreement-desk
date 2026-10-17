@@ -231,13 +231,26 @@ def family_roots():
     """One root per agreement relationship: each master, plus each orphan (an amendment whose master isn't here)."""
     return [r[0] for r in con.execute("SELECT doc_id FROM documents WHERE master_id IS NULL ORDER BY doc_id")]
 
+ORDINALS = {"first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5, "sixth": 6, "seventh": 7, "eighth": 8}
+
+def amendment_number(filename):
+    """'AMENDMENT #2 TO ...' -> 2, 'Second Amendment' -> 2, plain 'Amendment' -> 1 (the first, unnumbered)."""
+    f = filename.lower()
+    m = re.search(r"amend\w*\s*(?:#|no\.?\s*|number\s*)(\d+)", f)
+    if m:
+        return int(m.group(1))
+    m = re.search(r"\b(" + "|".join(ORDINALS) + r")\s+amend", f)
+    return ORDINALS[m.group(1)] if m else 1
+
 def family_terms(root_id):
     root = (root_id,)
     family = _rows("SELECT d.doc_id, d.doc_type, (SELECT value_norm FROM current_extractions WHERE doc_id = d.doc_id "
-                   "AND field = 'effective_date') AS eff FROM documents d WHERE d.doc_id = ? OR d.master_id = ?",
+                   "AND field = 'effective_date') AS eff, d.filename FROM documents d WHERE d.doc_id = ? OR d.master_id = ?",
                    (root[0], root[0]))
-    # master first, then amendments by effective date
-    family.sort(key=lambda r: (r[1] != "master", r[2] or "9999"))
+    # Order: master first, then amendments by effective date. Ties (two amendments signed the same day, as in Netgear)
+    # break by amendment number, then by filing order (doc id, assigned in sample order). Date alone can't order them.
+    family.sort(key=lambda r: (r[1] != "master", r[2] or "9999", amendment_number(r[3] or ""), r[0]))
+    family = [(d, t, e) for d, t, e, _ in family]
     terms = {}
     for doc, doc_type, eff in family:
         if doc_type == "ancillary":

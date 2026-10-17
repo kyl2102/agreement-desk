@@ -19,22 +19,40 @@ import pypdfium2 as pdfium
 import streamlit as st
 from PIL import ImageDraw
 
-st.set_page_config(page_title="Agreement desk", page_icon="⚖️", layout="wide")
+st.set_page_config(page_title="Agreement Desk", page_icon="⚖️", layout="wide", initial_sidebar_state="collapsed")
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
-html, body, [class*="css"], .stMarkdown, .stText, input, textarea, button { font-family: 'Public Sans', sans-serif; }
-h1, h2, h3 { font-family: 'Source Serif 4', Georgia, serif !important; font-weight: 600 !important; letter-spacing: -0.01em; }
-h1 { font-size: 2.1rem !important; }
-.block-container { padding-top: 2.2rem; max-width: 1250px; }
-.answer { font-size: 1.15rem; line-height: 1.5; margin: 0.4rem 0 0.8rem; }
-.muted { color: #5B6475; font-size: 0.92rem; }
+/* Tokens from the Claude Design canvas: cool paper, ink, one ledger-blue accent, citation red. */
+:root { --paper:#F6F7F9; --card:#FFFFFF; --ink:#1C2333; --muted:#4A5366; --line:#D9DEE7; --blue:#2A5DB0;
+        --blue-ink:#1C3F7A; --blue-tint:#E8EEF8; --red:#C8102E; --amber-ink:#8A3B00; --amber-tint:#FDF1E6; }
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
+html, body, [class*="css"], .stMarkdown, .stText, input, textarea, button { font-family: 'Public Sans', 'Helvetica Neue', sans-serif; }
+h1, h2, h3 { font-family: 'Source Serif 4', Georgia, serif !important; font-weight: 600 !important; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: 1.9rem !important; } h2 { font-size: 1.35rem !important; } h3 { font-size: 1.15rem !important; }
+.block-container { padding-top: 1rem; max-width: 1360px; }
+[data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"], [data-testid="collapsedControl"] { display: none; }
+/* white cards on grey paper */
+[data-testid="stVerticalBlockBorderWrapper"]:has(> div > [data-testid="stVerticalBlock"]) { background: var(--card); border-color: var(--line) !important; border-radius: 10px; }
+.brand { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 1.3rem; padding-top: 0.35rem; }
+.topline { border-bottom: 1px solid var(--line); margin: 0.2rem 0 1.2rem; }
+.answer { font-size: 1.05rem; line-height: 1.5; margin: 0.3rem 0 0.8rem; }
+.headline { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 1.7rem; line-height: 1.25; margin: 0.4rem 0 0.7rem; color: var(--ink); text-wrap: pretty; }
+.muted { color: var(--muted); font-size: 0.92rem; }
 .result-title { font-weight: 600; margin-bottom: 0.1rem; }
-.badge { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.85rem; font-weight: 600; margin: 0.2rem 0 0.3rem; }
-.badge-complete { background: #DDEBDD; color: #1E5B2A; }
-.badge-examples { background: #F6E7C8; color: #7A4B00; }
-.chip { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.85rem; background: #E9EDF3; color: #1C2333; margin: 0 0.3rem 0.3rem 0; border: 1px solid #CDD5E1; }
-.quote { border-left: 3px solid #2A5DB0; padding: 0.3rem 0 0.3rem 0.8rem; color: #2B3446; margin: 0.4rem 0 0.6rem; }
+.badge { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 4px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin: 0.2rem 0.5rem 0.3rem 0; }
+.badge-complete { background: var(--blue-tint); color: var(--blue-ink); border: 1px solid #A9BEE0; }
+.badge-examples { background: var(--amber-tint); color: var(--amber-ink); border: 1px solid #F0C9A4; }
+.chip { display: inline-block; padding: 0.2rem 0.75rem; border-radius: 999px; font-size: 0.86rem; background: var(--card); color: var(--ink); margin: 0 0.35rem 0.35rem 0; border: 1px solid #B7C0CF; }
+.quote { background: var(--paper); border-radius: 8px; padding: 0.7rem 0.9rem; font-family: 'Source Serif 4', Georgia, serif; font-size: 1rem; line-height: 1.55; color: var(--ink); margin: 0.4rem 0 0.7rem; }
+.quote mark { background: #FFE08A; color: var(--ink); padding: 0 2px; }
+.task-label { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--blue-ink); margin-top: 0.4rem; }
+.task { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 1.5rem; line-height: 1.3; margin: 0.2rem 0 0.6rem; }
+.flag { background: var(--amber-tint); border: 1px solid #F0C9A4; border-radius: 8px; padding: 0.6rem 0.8rem; font-size: 0.92rem; color: #3A2410; margin: 0.3rem 0 0.8rem; }
+.docstrip { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0.4rem 0 0.2rem; }
+.doc { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 14px 6px 6px; }
+.num { width: 24px; height: 24px; border-radius: 12px; background: var(--ink); color: #fff; font-size: 12px; font-weight: 700; display: grid; place-items: center; }
+.arrow { color: #8A93A5; }
+.st-key-nav-home button p { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 1.3rem; color: var(--ink); }
 </style>
 """, unsafe_allow_html=True)
 
@@ -171,7 +189,7 @@ def source_panel(doc_id, page, snippet, key, docs=None):
                               format_func=name, key=f"{key}-d")
     total = page_count(doc_id)
     c1, c2 = st.columns([1, 1])
-    p = c1.number_input(f"Page, of {total}", 1, total, min(int(page or 1), total), key=f"{key}-p-{doc_id}")
+    p = c1.number_input(f"Page, of {total}", 1, total, min(int(page or 1), total), key=f"{key}-p-{doc_id}-{page}")   # page in the key: a new citation resets the viewer to its page
     if c2.button("Open original PDF", key=f"{key}-o", use_container_width=True):
         subprocess.run(["open", SAMPLE[doc_id]["pdf_path"]])
     st.image(page_image(doc_id, int(p), snippet if int(p) == int(page or 1) else ""), use_container_width=True)
@@ -253,20 +271,27 @@ EXAMPLES = ["Which agreements have no liability cap?", "How many agreements are 
             "Notice periods longer than 60 days", "Which agreements have strong indemnification clauses?"]
 
 def page_ask():
-    st.title("Ask")
     if "q" not in st.session_state:
         st.session_state.q = ""
-    pick = st.pills("Try one", EXAMPLES, key="ask-pick") if hasattr(st, "pills") else None
-    if pick and pick != st.session_state.get("last_pick"):
-        st.session_state.q, st.session_state.last_pick = pick, pick
-    c1, c2 = st.columns([5, 1])
-    question = c1.text_input("Your question", key="q", placeholder="Ask about parties, dates, governing law, "
-                             "termination notice or liability caps", label_visibility="collapsed")
-    with c2.popover("Options", use_container_width=True):
-        mode = st.radio("Answer type", ["Decide for me", "Complete list", "Examples"],
-                        help="A complete list counts the extracted data. Examples search the text.")
-        level = st.radio("Count", ["Agreements", "Documents"],
-                         help="Agreements merge each master with its amendments.")
+    if st.session_state.get("q-pending"):
+        st.session_state.q = st.session_state.pop("q-pending")
+    with st.container(border=True):
+        question = st.text_input("Ask about the agreements", key="q", placeholder="e.g. Which agreements can be "
+                                 "terminated on 60 days notice?")
+        c1, c2, c3 = st.columns([3.2, 1.1, 2.7], vertical_alignment="center")
+        # The mode is visible, not hidden in a menu: "complete list" vs "examples" is the most important choice here.
+        mode = c1.segmented_control("Answer as", ["Let the desk decide", "Complete list", "Examples"],
+                                    default="Let the desk decide", key="mode") or "Let the desk decide"
+        with c2.popover("Count by", use_container_width=True):
+            level = st.radio("Count", ["Agreements", "Documents"], label_visibility="collapsed",
+                             help="Agreements merge each master with its amendments.")
+        pick = c3.selectbox("Try one", [""] + EXAMPLES, key="ask-pick", format_func=lambda x: x or "Try an example…",
+                            label_visibility="collapsed")
+        if pick and pick != st.session_state.get("last_pick"):
+            st.session_state.last_pick = pick
+            st.session_state["q-pending"] = pick
+            st.rerun()
+    mode = {"Let the desk decide": "Decide for me"}.get(mode, mode)
     if not question:
         st.markdown("<p class='muted'>Questions about every agreement (\"which\", \"how many\", \"list\") get a "
                     "complete answer from the extracted data. Questions about wording get the best-matching clauses.</p>",
@@ -278,19 +303,21 @@ def page_ask():
         st.warning(f"A complete list isn't available: {topic} isn't one of the fields this system extracts. "
                    f"Here are the best-matching clauses instead.")
     details = {"router": reason}
-    left, right = st.columns([3, 2], gap="large")
-    with left:
+    left, right = st.columns([3, 2], gap="medium")
+    with left.container(border=True):
         if desk in ("sql", "both"):
             answer_complete(question, level, details)
         if desk in ("search", "both"):
             answer_examples(question, details)
-    with right:
+        how = st.expander("How this was answered")
+    with right.container(border=True):
         sel = st.session_state.get("ask-source")
         if sel and sel.get("q") == question:
             source_panel(sel["doc"], sel["page"], sel["snippet"], key="ask-src")
         else:
-            st.markdown("<p class='muted'>Select a result to see its source page here.</p>", unsafe_allow_html=True)
-    with st.expander("How this was answered"):
+            st.markdown("<p class='muted'>Source</p><p>Select a result to see the page it came from, "
+                        "with the cited text boxed in red.</p>", unsafe_allow_html=True)
+    with how:
         st.write(f"**Routing:** {details['router']}")
         if "plan" in details:
             st.write("**The AI's plan** (it only fills these blanks; code builds the query):")
@@ -327,7 +354,8 @@ def answer_complete(question, level, details):
                    "Try rephrasing, e.g. \"agreements effective after 2000\".")
     if st.session_state.get("drop_scope") == question:
         p = dict(p, start=None, end=None)                       # user removed the date filter
-    st.markdown("<span class='badge badge-complete'>Complete list from the extracted data</span>", unsafe_allow_html=True)
+    st.markdown("<span class='badge badge-complete'>Complete list</span><span class='muted'>Every agreement in the set "
+                "was checked, not a sample</span>", unsafe_allow_html=True)
     chips = [FIELD_NAMES.get(field, field)]
     if p.get("value"):
         chips.append(f"= {p['value']}")
@@ -336,7 +364,8 @@ def answer_complete(question, level, details):
     if p.get("start") or p.get("end"):
         chips.append(f"effective {p.get('start') or 'any date'} to {p.get('end') or 'today'}")
     chips.append("per agreement" if level == "Agreements" else "per document")
-    st.markdown("Applied: " + "".join(f"<span class='chip'>{c}</span>" for c in chips), unsafe_allow_html=True)
+    st.markdown("<span class='muted'>Filters&nbsp;&nbsp;</span>" + "".join(f"<span class='chip'>{c}</span>" for c in chips),
+                unsafe_allow_html=True)
     scoped = p["tool"] != "date_between" and (p.get("start") or p.get("end"))
     if scoped and st.button("Remove the date filter", key="drop-scope"):
         st.session_state.drop_scope = question
@@ -353,15 +382,15 @@ def answer_complete(question, level, details):
         root = next((d for d, t, _ in family if t == "master"), root)
         if field in terms and field != "parties":
             v, d, pg, q = terms[field]
-            st.markdown(f"<p class='answer'>{label} for <b>{name(root)}</b>: <b>{nice_value(field, v)}</b> "
+            st.markdown(f"<p class='headline'>{label} for <b>{name(root)}</b>: <b>{nice_value(field, v)}</b> "
                         f"<span class='muted'>({market_note(field, v) or 'in force'})</span></p>", unsafe_allow_html=True)
             rows = [(field, terms[field])]
         else:
             if field not in terms and field != "parties":
-                st.markdown(f"<p class='answer'>No {label.lower()} was extracted for <b>{name(root)}</b>. "
+                st.markdown(f"<p class='headline'>No {label.lower()} was extracted for <b>{name(root)}</b>. "
                             f"Its other terms in force:</p>", unsafe_allow_html=True)
             else:
-                st.markdown(f"<p class='answer'>Terms in force for <b>{name(root)}</b>:</p>", unsafe_allow_html=True)
+                st.markdown(f"<p class='headline'>Terms in force for <b>{name(root)}</b>:</p>", unsafe_allow_html=True)
             rows = list(terms.items())
         selectable_table(question, [{"term": FIELD_NAMES.get(f, f), "value": nice_value(f, v), "from": d, "page": pg,
                                      "quote": q or "", "_doc": d, "_pg": pg} for f, (v, d, pg, q) in rows], key="ask-terms")
@@ -374,7 +403,7 @@ def answer_complete(question, level, details):
         if not rows and field == "parties":
             show_mentions(question, p["value"])
         else:
-            st.markdown(f"<p class='answer'><b>{len(rows)} documents</b> match (amendments counted on their own).</p>",
+            st.markdown(f"<p class='headline'>{len(rows)} documents match</p><p class='muted'>Amendments counted on their own.</p>",
                         unsafe_allow_html=True)
             selectable_table(question, table, key="ask-docs")
     else:
@@ -388,7 +417,7 @@ def complete_family(question, p, rows, label):
         if p.get("value"):
             want = Q.norm_value(p["value"])
             match = [(r, v, h) for r, v, h, n in rows if v is not None and want in str(v).lower()]
-            st.markdown(f"<p class='answer'><b>{len(match)} of {len(rows)} agreements</b> have {label.lower()} "
+            st.markdown(f"<p class='headline'><b>{len(match)} of {len(rows)} agreements</b> have {label.lower()} "
                         f"{p['value']}.</p>", unsafe_allow_html=True)
             selectable_table(question, [{"agreement": name(r), "id": r, label: nice_value(field, v),
                                          "from": h[1], "page": h[2], "quote": h[3], "_doc": h[1], "_pg": h[2]}
@@ -399,7 +428,7 @@ def complete_family(question, p, rows, label):
         for r, v, h, n in rows:
             counts.setdefault(nice_value(field, v) or missing, []).append(r)
         ordered = sorted(counts.items(), key=lambda kv: (kv[0] == missing, -len(kv[1])))
-        st.markdown(f"<p class='answer'>{label} across <b>{len(rows)} agreements</b>:</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='headline'>{label} across <b>{len(rows)} agreements</b>:</p>", unsafe_allow_html=True)
         st.dataframe([{label: v, "agreements": len(r), "which": ", ".join(r)} for v, r in ordered],
                      hide_index=True, use_container_width=True)
         return
@@ -422,7 +451,7 @@ def complete_family(question, p, rows, label):
                           "_pg": ev[2] if ev and ev[0] else 1, "quote": ""})
         table.sort(key=lambda t: t["_o"])
         to_check = sum(t["_o"] == 0 for t in table)
-        st.markdown(f"<p class='answer'><b>{len(rows)} agreements</b> have no {label.lower()} extracted. "
+        st.markdown(f"<p class='headline'><b>{len(rows)} agreements</b> have no {label.lower()} extracted. "
                     f"<b>{to_check}</b> of them mention limiting liability somewhere, so those may be misses "
                     f"worth checking.</p>", unsafe_allow_html=True)
         selectable_table(question, table, key="ask-absent")
@@ -430,7 +459,7 @@ def complete_family(question, p, rows, label):
     if not rows and field == "parties":
         show_mentions(question, p["value"])
         return
-    st.markdown(f"<p class='answer'><b>{len(rows)} agreements</b> match.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p class='headline'>{len(rows)} agreements match</p>", unsafe_allow_html=True)
     if not rows:
         st.warning("No agreements match. That can mean none exist, or that the question didn't map to the data "
                    "the way you meant. Check \"How this was answered\" below.")
@@ -443,10 +472,10 @@ def show_mentions(question, value):
     So check the text itself, and say plainly which kind of "no" this is."""
     m = Q.party_mentions(value)
     if not m:
-        st.markdown(f"<p class='answer'>No agreement lists <b>{value}</b> as a party, and the name doesn't "
+        st.markdown(f"<p class='headline'>No agreement lists <b>{value}</b> as a party, and the name doesn't "
                     f"appear anywhere in the agreements' text.</p>", unsafe_allow_html=True)
         return
-    st.markdown(f"<p class='answer'>No agreement lists <b>{value}</b> as a party, but <b>{sum(r[1] for r in m)} "
+    st.markdown(f"<p class='headline'>No agreement lists <b>{value}</b> as a party, but <b>{sum(r[1] for r in m)} "
                 f"passages in {len(m)} documents</b> mention it. It may be a parent company, affiliate or "
                 f"former name.</p>", unsafe_allow_html=True)
     selectable_table(question, [{"agreement": name(d), "id": d, "mentions": n, "page": pg, "quote": snip,
@@ -467,7 +496,8 @@ def selectable_table(question, table, key):
 
 def answer_examples(question, details):
     fused, kw, vec = Q.hybrid_search(question)
-    st.markdown("<span class='badge badge-examples'>Best matches, not a complete list</span>", unsafe_allow_html=True)
+    st.markdown("<span class='badge badge-examples'>Examples</span><span class='muted'>Best-matching clauses, "
+                "not a complete list</span>", unsafe_allow_html=True)
     details["ranks"] = []
     for n, cid in enumerate(fused, start=1):
         doc_id, heading, pages, text = Q.describe(cid)
@@ -499,34 +529,79 @@ def accuracy_line(field):
 # ============================================================
 # Agreements
 # ============================================================
+def doc_label(doc_id, doc_type):
+    if doc_type == "master":
+        return "Master agreement"
+    if doc_type == "amendment":
+        row = Q.con.execute("SELECT filename FROM documents WHERE doc_id = ?", (doc_id,)).fetchone()
+        n = Q.amendment_number(row[0] if row else "")
+        return "Amendment" + (f" #{n}" if n > 1 else "")
+    return "Related document"
+
+def nice_date(iso):
+    try:
+        import datetime
+        return datetime.date.fromisoformat(iso).strftime("%b %-d, %Y")
+    except (TypeError, ValueError):
+        return "date unknown"
+
+def term_history(family, field, root):
+    """One term, document by document, keyed to the strip's numbers: '1 Set p.6 · 2 Restated p.1'."""
+    src, expr = Q.FIELD_SQL[field]
+    parts, prev = [], None
+    for n, (doc, doc_type, eff) in enumerate(family, 1):
+        if doc_type == "ancillary" or (field in ("effective_date", "parties") and doc != root):
+            continue
+        row = Q.con.execute(f"SELECT {expr}, e.page FROM current_extractions e WHERE e.doc_id = ? AND e.field = ? "
+                            f"AND e.found = 1", (doc, src)).fetchone()
+        if not row or row[0] in (None, "none"):
+            continue
+        v = nice_value(field, row[0])
+        parts.append(f"{n} Set (p.{row[1]})" if prev is None else
+                     f"{n} Restated, no change (p.{row[1]})" if v == prev else f"{n} Changed from {prev} (p.{row[1]})")
+        prev = v
+    return " · ".join(parts)
+
 def page_agreements():
-    st.title("Agreements")
     roots = Q.family_roots()
     root = st.selectbox("Agreement", roots, format_func=lambda d: f"{name(d)} ({d})", label_visibility="collapsed")
     family, terms = Q.family_terms(root)
-    n_amend = sum(t == "amendment" for _, t, _ in family)
-    root_type = next(t for d, t, _ in family if d == root)
-    summary = ("A master agreement" if root_type == "master" else "An amendment whose master agreement isn't in this set")
-    summary += f" with {n_amend} amendment{'s' if n_amend != 1 else ''}" if root_type == "master" else ""
-    st.markdown(f"<p class='answer'>{summary}.</p>", unsafe_allow_html=True)
-    tab_terms, tab_docs, tab_read = st.tabs(["Terms in force", "Documents", "Read and search"])
+    master = next((d for d, t, _ in family if t == "master"), root)
+    st.markdown(f"<h1 style='margin-bottom:0'>{name(master).split(',')[0]}</h1>"
+                f"<p class='muted' style='font-size:1rem'>{', '.join(name(master).split(', ')[1:])}</p>",
+                unsafe_allow_html=True)
+    if not any(t == "master" for _, t, _ in family):
+        st.markdown("<div class='flag'>The master agreement isn't in this set, so terms come from this amendment alone.</div>",
+                    unsafe_allow_html=True)
+    # The documents strip: what this agreement consists of, numbered, in the order later ones override earlier ones.
+    strip = []
+    for n, (d, t, eff) in enumerate(family, 1):
+        strip.append(f"<div class='doc'><span class='num'>{n}</span><span><b>{doc_label(d, t)}</b> "
+                     f"<span class='muted'>· {nice_date(eff)} · {d}</span></span></div>")
+    st.markdown("<div class='docstrip'>" + "<span class='arrow'>›</span>".join(strip) + "</div>"
+                "<p class='muted'>Ordered by date, then amendment number, then filing order. Later documents override "
+                "earlier ones.</p>", unsafe_allow_html=True)
+    tab_terms, tab_docs, tab_read = st.tabs(["Terms in force", "Why these are linked", "Read and search"])
     with tab_terms:
-        left, right = st.columns([3, 2], gap="large")
-        with left:
+        left, right = st.columns([3, 2], gap="medium")
+        with left.container(border=True):
             if not terms:
                 st.write("Nothing was extracted for this agreement.")
             else:
-                st.markdown("<p class='muted'>Later amendments override the master. Select a row to see its source.</p>",
-                            unsafe_allow_html=True)
-                table = [{"term": FIELD_NAMES.get(f, f), "value": nice_value(f, v), "vs. other agreements": market_note(f, v),
-                          "from": d, "page": pg, "quote": q or "", "_doc": d, "_pg": pg} for f, (v, d, pg, q) in terms.items()]
+                st.markdown("<h3 style='margin-top:0'>Terms in force</h3><p class='muted'>Select a term to see its "
+                            "source.</p>", unsafe_allow_html=True)
+                table = [{"term": FIELD_NAMES.get(f, f), "in force today": nice_value(f, v),
+                          "history, by document": term_history(family, f, root),
+                          "vs. other agreements": market_note(f, v),
+                          "page": pg, "quote": q or "", "_doc": d, "_pg": pg} for f, (v, d, pg, q) in terms.items()]
                 df = pd.DataFrame(table)
-                event = st.dataframe(df[["term", "value", "vs. other agreements", "from", "page", "quote"]], hide_index=True,
-                                     use_container_width=True, on_select="rerun", selection_mode="single-row",
-                                     key="ag-terms")
+                event = st.dataframe(df[["term", "in force today", "history, by document", "vs. other agreements"]],
+                                     hide_index=True, use_container_width=True, on_select="rerun",
+                                     selection_mode="single-row", key="ag-terms")
                 chosen = table[event.selection.rows[0]] if event.selection.rows else table[0]
-        with right:
+        with right.container(border=True):
             if terms:
+                st.markdown(f"<p class='muted'>Source for {chosen['term']}</p>", unsafe_allow_html=True)
                 source_panel(chosen["_doc"], chosen["_pg"], chosen["quote"], key=f"ag-src-{root}",
                              docs=family_docs(root))
     with tab_docs:
@@ -614,7 +689,7 @@ def save_review(doc, field, status, value, quote, page, note, reviewer):
     Q.con.commit()
 
 def page_review():
-    st.title("Review")
+    st.title("Review queue")
     items = review_queue()
     done = Q.con.execute("SELECT COUNT(*) FROM reviews").fetchone()[0]
     st.markdown(f"<p class='answer'><b>{len(items)}</b> answers waiting, <b>{done}</b> reviewed. Your decisions are "
@@ -646,15 +721,33 @@ def page_review():
                 Q.con.commit()
                 st.rerun()
 
+# A review item is phrased as ONE question the reviewer can answer in one look, and the buttons are its answers.
+CHECK_QUESTION = {
+    "termination_notice": "Does the clause on page {p} give {v} notice to terminate?",
+    "governing_law": "Does the clause on page {p} make {v} law govern the agreement?",
+    "effective_date": "Does page {p} show the agreement taking effect on {v}?",
+    "parties": "Are the parties {v}, as page {p} says?",
+    "liability_cap": "Does the clause on page {p} cap liability as: {v}?",
+}
+
+def task_question(it):
+    v = nice_value(it["field"], it["value"])
+    if not v:
+        return "The AI found no liability cap. Do any of these passages limit liability?"
+    return CHECK_QUESTION.get(it["field"], "Is {v} correct, per page {p}?").format(v=v, p=it["page"] or "?")
+
 def review_item(it, i):
     root = root_of(it["doc"])
-    left, right = st.columns([2, 3], gap="large")
-    with left:
-        st.subheader(QUESTION_FOR.get(it["field"], it["field"]))
-        st.markdown(f"<p class='muted'>{name(it['doc'])} ({it['doc']}). {it['why']}</p>", unsafe_allow_html=True)
-        st.markdown(f"**The AI's answer:** {nice_value(it['field'], it['value']) or 'nothing found'}")
+    left, right = st.columns([2, 3], gap="medium")
+    with left.container(border=True):
+        st.markdown(f"<p class='muted'>{name(it['doc'])} · {FIELD_NAMES.get(it['field'], it['field'])}</p>"
+                    f"<div class='task-label'>Your task</div><div class='task'>{task_question(it)}</div>",
+                    unsafe_allow_html=True)
         if it["quote"]:
             quote_block(it["quote"], 500)
+            if it["page"] and st.button(f"Show this clause on page {it['page']}", key=f"jump-{i}"):
+                st.session_state[f"rv-sel-{i}"] = (it["doc"], it["page"], it["quote"])
+        st.markdown(f"<div class='flag'><b>Why it's here:</b> {it['why']}</div>", unsafe_allow_html=True)
         if it["field"] == "liability_cap" and it["value"] is None:
             evidence = search_within(family_docs(root), Q.ABSENCE_CHECK["cap_type"])
             with st.expander(f"All {len(evidence)} passages about limiting liability"):
@@ -671,31 +764,37 @@ def review_item(it, i):
             for k, (d, heading, page, text) in enumerate(found[:20]):
                 if st.button(f"{d}, page {page}: {section_of(heading)[:50]}", key=f"rvs-{i}-{k}"):
                     st.session_state[f"rv-sel-{i}"] = (d, page, text)
-        st.divider()
-        st.markdown("**Your decision**")
-        if it["field"] == "liability_cap":
-            kinds = list(CAP_NAMES)
-            cap_type = st.selectbox("Cap", kinds, format_func=CAP_NAMES.get, key=f"ct-{i}")
-            amount = st.number_input("Dollar amount (fixed amount only)", min_value=0.0, step=1000.0, key=f"ca-{i}")
-            corrected = json.dumps({"cap_type": cap_type, "cap_amount": amount or None})
-        else:
-            corrected = st.text_input(f"Correct answer ({FIELD_HINT.get(it['field'], '')})",
-                                      value=it["value"] or "", key=f"cv-{i}")
-        note = st.text_input("Note (optional)", key=f"nt-{i}")
+        st.markdown("<h3>Your answer</h3>", unsafe_allow_html=True)
         reviewer = st.session_state.get("reviewer", "Ken")
-        # Intentional friction against rubber-stamping: deciding requires confirming you read the source.
-        checked = st.checkbox("I checked the source document", key=f"chk-{i}")
-        b1, b2, b3 = st.columns(3)
-        if b1.button("Accept", key=f"ok-{i}", disabled=it["value"] is None or not checked, use_container_width=True):
-            save_review(it["doc"], it["field"], "accepted", None, None, None, note, reviewer); st.rerun()
-        if b2.button("Save correction", key=f"fix-{i}", type="primary", use_container_width=True, disabled=not checked):
-            save_review(it["doc"], it["field"], "corrected", corrected, (it["quote"] or "")[:300] or None,
-                        it["page"], note, reviewer); st.rerun()
-        if b3.button("Not in agreement", key=f"no-{i}", use_container_width=True, disabled=not checked,
-                     help="Confirm the agreement has no such clause"):
-            save_review(it["doc"], it["field"], "absent", None, None, None, note, reviewer); st.rerun()
-    with right:
+        # Intentional friction against rubber-stamping: answers unlock only after confirming you read the clause.
+        checked = st.checkbox(f"I read the source{' on page ' + str(it['page']) if it['page'] else ''}", key=f"chk-{i}")
+        v = nice_value(it["field"], it["value"])
+        if v and st.button(f"Yes, {v} is correct", key=f"ok-{i}", type="primary", disabled=not checked,
+                           use_container_width=True):
+            save_review(it["doc"], it["field"], "accepted", None, None, None, st.session_state.get(f"nt-{i}", ""), reviewer)
+            st.rerun()
+        with st.expander("No, it says something else" if v else "Yes, there is a cap: record it"):
+            if it["field"] == "liability_cap":
+                cap_type = st.selectbox("Cap", list(CAP_NAMES), format_func=CAP_NAMES.get, key=f"ct-{i}")
+                amount = st.number_input("Dollar amount (fixed amount only)", min_value=0.0, step=1000.0, key=f"ca-{i}")
+                corrected = json.dumps({"cap_type": cap_type, "cap_amount": amount or None})
+            else:
+                corrected = st.text_input(f"What it actually says ({FIELD_HINT.get(it['field'], '')})",
+                                          value=it["value"] or "", key=f"cv-{i}")
+            if st.button("Save correction", key=f"fix-{i}", disabled=not checked, use_container_width=True):
+                save_review(it["doc"], it["field"], "corrected", corrected, (it["quote"] or "")[:300] or None,
+                            it["page"], st.session_state.get(f"nt-{i}", ""), reviewer); st.rerun()
+        absent = ("No, this agreement has no such clause" if v else "No, there's no cap in this agreement")
+        if st.button(absent, key=f"no-{i}", disabled=not checked, use_container_width=True):
+            save_review(it["doc"], it["field"], "absent", None, None, None, st.session_state.get(f"nt-{i}", ""), reviewer)
+            st.rerun()
+        st.text_input("Note (optional)", key=f"nt-{i}")
+        st.markdown("<p class='muted'>Saved alongside the AI's answer, never over it, with your name and the time.</p>",
+                    unsafe_allow_html=True)
+    with right.container(border=True):
         d, page, text = st.session_state.get(f"rv-sel-{i}", (it["doc"], it["page"] or 1, it["quote"]))
+        st.markdown("<p class='muted' style='color:#C8102E;font-weight:700'>Clause at issue, boxed in red</p>",
+                    unsafe_allow_html=True)
         source_panel(d, page, text, key=f"rv-src-{i}", docs=family_docs(root))
 
 # ============================================================
@@ -808,13 +907,23 @@ def page_production():
 # ============================================================
 if "page" not in st.session_state:
     st.session_state.page = "Start here"
-with st.sidebar:
-    st.markdown("### Agreement desk")
-    for group, pages in NAV.items():
-        st.caption(group)
-        for pg in pages:
-            st.button(pg, key=f"nav-{pg}", use_container_width=True, on_click=go_to, args=(pg,),
-                      type="primary" if st.session_state.page == pg else "secondary")
+
+@st.cache_data(ttl=15, show_spinner=False)
+def waiting_count():
+    return len(review_queue())
+
+# Top bar, as on the design canvas: the three work screens up front, demo plumbing tucked under "About this demo".
+bar = st.columns([2.2, 0.8, 1.1, 1.0, 4.2, 1.7], vertical_alignment="center")
+bar[0].button("Agreement Desk", key="nav-home", type="tertiary", on_click=go_to, args=("Start here",))
+for col, pg, label in [(bar[1], "Ask", "Ask"), (bar[2], "Agreements", "Agreements"),
+                       (bar[3], "Review", f"Review ({waiting_count()})")]:
+    col.button(label, key=f"nav-{pg}", on_click=go_to, args=(pg,), use_container_width=True,
+               type="primary" if st.session_state.page == pg else "tertiary")
+with bar[5].popover("About this demo", use_container_width=True):
+    for pg in ["Start here", "Quality", "Demo vs production"]:
+        st.button(pg, key=f"nav-{pg}", on_click=go_to, args=(pg,), use_container_width=True, type="tertiary")
+    st.caption("40 agreements, CUAD sample. Runs entirely on this Mac.")
+st.markdown("<div class='topline'></div>", unsafe_allow_html=True)
 
 {"Start here": page_start, "Ask": page_ask, "Agreements": page_agreements,
  "Review": page_review, "Quality": page_quality, "Demo vs production": page_production}[st.session_state.page]()
