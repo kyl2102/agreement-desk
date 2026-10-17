@@ -736,20 +736,19 @@ def page_quality():
         ], hide_index=True, use_container_width=True)
         st.caption("Precision / recall. Recorded from the runs on Oct 16.")
     with t2:
-        st.markdown("<p class='muted'>10 test questions, mostly in plain English. A hit means at least one correct "
-                    "clause in the top 5.</p>", unsafe_allow_html=True)
+        st.markdown("<p class='muted'>40 plain-English questions. Each top-5 result was graded by an LLM judge "
+                    "(Gemma 4 12B, a different model family from the one that extracts), calibrated first against "
+                    "hand labels: right on 21 of 23 cases where it disagreed with keyword rules, and 15 of 15 on a "
+                    "blind spot-check. A hit means at least one relevant clause in the top 5.</p>", unsafe_allow_html=True)
         st.dataframe([
-            {"method": "Words only (BM25)", "found something useful": "70%", "top 5 that were right": "26%",
-             "strongest at": "exact references and numbers"},
-            {"method": "Meaning only (embeddings)", "found something useful": "60%", "top 5 that were right": "38%",
-             "strongest at": "plain-English questions"},
-            {"method": "Both, merged", "found something useful": "80%", "top 5 that were right": "44%",
-             "strongest at": "both"},
-            {"method": "Merged, then reranked (MiniLM)", "found something useful": "80%", "top 5 that were right": "46%",
-             "strongest at": "small, fast; barely better"},
-            {"method": "Merged, then reranked (BGE): in use", "found something useful": "90%", "top 5 that were right": "52%",
-             "strongest at": "plain-English questions; one regression on governing law"},
+            {"method": "Words only (BM25)", "found something useful": "72%", "top 5 that were right": "28%"},
+            {"method": "Meaning only (embeddings)", "found something useful": "78%", "top 5 that were right": "60%"},
+            {"method": "Both, merged", "found something useful": "82%", "top 5 that were right": "51%"},
+            {"method": "Merged, then reranked (MiniLM)", "found something useful": "85%", "top 5 that were right": "64%"},
+            {"method": "Merged, then reranked (BGE): in use", "found something useful": "90%", "top 5 that were right": "70%"},
         ], hide_index=True, use_container_width=True)
+        st.caption("Of the 4 questions with nothing found: 2 have no such clause in these contracts (correct), and 2 "
+                   "are real misses on non-solicitation clauses (\"poaching staff\" vs \"solicit personnel\").")
     with t3:
         st.markdown("<p class='muted'>39 held-out questions. The costly miss is a \"find all\" question sent to "
                     "search, which returns a partial list that looks complete.</p>", unsafe_allow_html=True)

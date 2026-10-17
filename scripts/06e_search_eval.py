@@ -10,24 +10,14 @@ import importlib.util
 import re
 import sys
 
+sys.path.insert(0, "scripts")
+
 spec = importlib.util.spec_from_file_location("query", "scripts/06_query.py")
 Q = importlib.util.module_from_spec(spec)
 sys.argv = ["x"]
 spec.loader.exec_module(Q)
 
-# (question, relevance rule: ALL patterns must match the chunk text, case-insensitive)
-TESTS = [
-    ("how much warning to end the deal early",       [r"terminat", r"convenience|without cause|for any reason|at any time", r"notice"]),
-    ("who pays the lawyers if we fight",              [r"attorneys?'? ?fees|prevailing party|legal fees"]),
-    ("can they hand this contract to someone else",   [r"\bassign", r"consent"]),
-    ("what if a hurricane stops them from performing", [r"force majeure|acts? of god"]),
-    ("keeping each other's secrets",                  [r"confidential", r"disclos"]),
-    ("stop poaching each other's staff",              [r"solicit", r"employ"]),
-    ("can we check their books",                      [r"audit|inspect", r"records|books"]),
-    ("which state's law applies",                     [r"governed by|governing law|laws of the state"]),
-    ("Section 14.A",                                  [r"\b14\.a\b"]),
-    ("$150,000",                                      [r"150,000"]),
-]
+from search_tests import TESTS   # shared with the LLM judge (06g)
 
 texts = dict(Q.con.execute("SELECT chunk_id, text FROM chunks").fetchall())
 
