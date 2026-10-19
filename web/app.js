@@ -181,7 +181,10 @@ function renderExamples(a, i, question) {
         <div class="cell-title">${esc(x.agreement)}</div>
         <div class="muted">${esc(x.section)}, ${esc(x.pages)}</div>
         <blockquote class="quote">${highlight(x.text.slice(0, 320), a.terms)}${x.text.length > 320 ? "…" : ""}</blockquote>
-        <div><button class="btn link" type="button" data-cite="x${i}:${k}">Show page ${x.page}</button></div>
+        <div class="row">
+          <button class="btn link" type="button" data-cite="x${i}:${k}">Show page ${x.page}</button>
+          <a class="btn ghost" href="#/agreements/${esc(x.doc)}">Open agreement</a>
+        </div>
       </div>`).join("")}`;
 }
 
