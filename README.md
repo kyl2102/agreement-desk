@@ -56,7 +56,7 @@ All numbers are from small sets, stated with their sample sizes.
 | Search: hybrid + BGE reranker | 90% found something relevant in the top 5; 70% of the top 5 relevant | 40 plain-English questions, graded by an LLM judge |
 | Search: hybrid without reranker | 82% / 51% | same 40 |
 | LLM judge vs my labels | right on 21 of 23 disagreements with rule-based grading; 15 of 15 on a blind spot-check | 10 questions, 119 passages |
-| Query planner | [UPDATE AFTER RUN: 13 of 13?] regression tests | questions that previously broke it |
+| Query planner | 15 of 15 regression tests | questions that previously broke it |
 | API smoke test | 10 of 10 | known answers |
 
 ## What broke, and what I changed
