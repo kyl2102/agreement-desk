@@ -32,6 +32,7 @@ TESTS = [
     ("how many amendments are there",                          {"tool": "count_documents"}),
     # The planner wrote value "null" and "> 0", which counted agreements whose notice IS "null": 0 of 33 (Oct 19)
     ("how many agreements have notice of termination clauses", {"tool": "count_by", "field": "termination_notice", "value": None}),
+    ("which agreements have notice of termination clauses",    {"tool": "list_where", "field": "termination_notice", "value": "any"}),
 ]
 
 passed = 0

@@ -190,11 +190,17 @@ def count_by(field):
            f"SUM(e.needs_review) AS flagged FROM current_extractions e WHERE e.field = ? GROUP BY value ORDER BY contracts DESC")
     return sql, [src], _rows(sql, [src])
 
+HAS_ANY = ("any", "yes", "present", "exists", "has", "found")
+
 def list_where(field, value):
     src, expr = FIELD_SQL[field]
     if str(value).lower() in ("none", "not found", "missing", "no"):
         # "no cap" means: cap_type is 'none' OR the model found no cap clause at all
         cond = f"(e.found = 0 OR {expr} IS NULL OR LOWER({expr}) = 'none')"
+        params = [src]
+    elif str(value).lower() in HAS_ANY:
+        # "which agreements HAVE a notice clause": any value found (the counterpart of "none")
+        cond = f"(e.found = 1 AND {expr} IS NOT NULL AND LOWER({expr}) != 'none')"
         params = [src]
     else:
         term = party_term(value) if field == "parties" else str(value).lower()
@@ -284,8 +290,11 @@ def family_answer(tool, field, value=None, op=None, number=None, start=None, end
         note = f"{len(family)} docs" + ("; master not in sample" if doc_type != "master" else "")
         if tool == "list_where":
             wants_none = str(value).lower() in ("none", "not found", "missing", "no")
-            want = party_term(value) if field == "parties" else norm_value(value)
-            keep = (v is None) if wants_none else (v is not None and want in str(v).lower())
+            if str(value).lower() in HAS_ANY:
+                keep = v is not None                   # "which agreements have a notice clause"
+            else:
+                want = party_term(value) if field == "parties" else norm_value(value)
+                keep = (v is None) if wants_none else (v is not None and want in str(v).lower())
         elif tool == "compare":
             keep = v is not None and eval_op(float(v), op, float(number))
         elif tool == "date_between":
@@ -395,7 +404,8 @@ PLAN_SCHEMA = {
 PLAN_PROMPT = """You translate a question about a contract database into ONE tool call. Do not answer the question.
 Tools:
 - count_by(field): how many contracts per value. "How many contracts per governing law?"
-- list_where(field, value): which contracts have a value. value "none" means missing/no such clause.
+- list_where(field, value): which contracts have a value. value "none" means missing/no such clause;
+  value "any" means the clause is present ("which agreements have a termination notice clause").
   "Which contracts have no liability cap?" -> field cap_type, value none
 - compare(field, op, number): numeric fields only (termination_notice in DAYS, cap_amount in dollars).
   "notice periods longer than 60 days" -> termination_notice > 60
@@ -437,6 +447,18 @@ def repair_plan(p):
         if isinstance(p.get(k), str) and p[k].strip().lower() in ("null", "nil", "n/a", ""):
             p[k] = None
             notes.append(f"treated {k}='null' as empty")
+    # A list with no value means "which agreements HAVE one" (the model has no word for "any value").
+    if p.get("tool") == "list_where" and not p.get("value"):
+        p.update(value="any", op=None, number=None)
+        notes.append("a list with no value means 'has one': listing agreements where it was found")
+    # "any" / "none" are list words. On a count, "any" means "how many HAVE one" (the count's headline already says
+    # that), and "none" means "which are missing it". As text to match they'd find nothing: a confident zero (Oct 19).
+    if p.get("tool") == "count_by" and str(p.get("value") or "").lower() in HAS_ANY:
+        p.update(value=None)
+        notes.append("'any' on a count means 'how many have one': counted by value instead")
+    if p.get("tool") == "count_by" and str(p.get("value") or "").lower() in ("none", "missing", "not found", "no"):
+        p.update(tool="list_where", value="none")
+        notes.append("'none' on a count means 'which are missing it': listed those instead")
     # A count with "> 0" means "has one": counting by value already answers that, so the comparison is dropped.
     if p.get("tool") == "count_by" and (p.get("op") or p.get("number") is not None) and not p.get("value"):
         if p.get("number") in (0, None):
