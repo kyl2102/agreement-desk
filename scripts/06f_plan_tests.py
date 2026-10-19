@@ -30,6 +30,8 @@ TESTS = [
     ("What law governs the Netgear agreement?",               {"tool": "terms_in_force", "doc_id": "D006", "field": "governing_law"}),
     # Structure questions once came back as a governing-law count (Ken, Oct 16):
     ("how many amendments are there",                          {"tool": "count_documents"}),
+    # The planner wrote value "null" and "> 0", which counted agreements whose notice IS "null": 0 of 33 (Oct 19)
+    ("how many agreements have notice of termination clauses", {"tool": "count_by", "field": "termination_notice", "value": None}),
 ]
 
 passed = 0

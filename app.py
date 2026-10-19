@@ -455,7 +455,10 @@ def complete_family(question, p, rows, label):
         for r, v, h, n in rows:
             counts.setdefault(nice_value(field, v) or missing, []).append(r)
         ordered = sorted(counts.items(), key=lambda kv: (kv[0] == missing, -len(kv[1])))
-        st.markdown(f"<p class='headline'>{label} across <b>{len(rows)} agreements</b>:</p>", unsafe_allow_html=True)
+        have = len(rows) - len(counts.get(missing, []))
+        st.markdown(f"<p class='headline'>{have} of {len(rows)} agreements have a {label.lower()}</p>"
+                    f"<p class='muted'>Breakdown by value below. {len(counts.get(missing, []))} have none extracted.</p>",
+                    unsafe_allow_html=True)
         st.dataframe([{label: v, "agreements": len(r), "which": ", ".join(r)} for v, r in ordered],
                      hide_index=True, use_container_width=True)
         return

@@ -430,6 +430,18 @@ def repair_plan(p):
     """Fix predictable AI plan shapes instead of refusing them (each repair is a known model habit).
     Returns (plan, note) where note says what was changed, so the repair is visible to the user."""
     p = dict(p)
+    notes = []
+    # The model sometimes writes "empty" as text: value "null" searched for agreements whose value IS "null" (Oct 19:
+    # "how many agreements have notice of termination clauses" -> 0 of 33). Text "null" means no value.
+    for k in ("value", "op", "doc_id", "start", "end"):
+        if isinstance(p.get(k), str) and p[k].strip().lower() in ("null", "nil", "n/a", ""):
+            p[k] = None
+            notes.append(f"treated {k}='null' as empty")
+    # A count with "> 0" means "has one": counting by value already answers that, so the comparison is dropped.
+    if p.get("tool") == "count_by" and (p.get("op") or p.get("number") is not None) and not p.get("value"):
+        if p.get("number") in (0, None):
+            p.update(op=None, number=None)
+            notes.append("dropped '> 0' from a count (counting by value already shows which agreements have one)")
     if p.get("tool") == "terms_in_force" and not re.match(r"^D\d{3}$", str(p.get("doc_id") or "").upper()):
         # People name agreements by counterparty, not by our IDs: "termination notice for Ingram".
         # The model puts the name in doc_id or value. Code looks it up; it never guesses between several.
@@ -437,15 +449,15 @@ def repair_plan(p):
         roots = agreements_with(name) if name else []
         if len(roots) == 1:
             p.update(doc_id=roots[0], value=None)
-            return p, f"found the agreement by party name: {name!r} is a party to {roots[0]}"
+            return p, "; ".join(notes + [f"found the agreement by party name: {name!r} is a party to {roots[0]}"])
         p["party"] = name                              # validate_plan explains the 0 or many case
     if p.get("field") == "effective_date" and p.get("tool") in ("list_where", "count_by", "compare") \
             and (p.get("start") or p.get("end")):
         # "agreements executed between 2000 and 2004" planned as list_where + a date scope -> date_between
         p.update(tool="date_between", start=p.get("start") or "0001-01-01", end=p.get("end") or "9999-12-31",
                  value=None, op=None, number=None)
-        return p, "turned a date filter on the wrong query type into a date-range query"
-    return p, None
+        return p, "; ".join(notes + ["turned a date filter on the wrong query type into a date-range query"])
+    return p, ("; ".join(notes) or None)
 
 def document_counts():
     """Structure, not terms: every document with its kind and the agreement it belongs to."""

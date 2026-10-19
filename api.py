@@ -454,7 +454,10 @@ def complete_answer(question, level, drop_scope, how):
         for r, v, h, n in rows:
             counts.setdefault(nice_value(field, v) or missing, []).append(r)
         ordered = sorted(counts.items(), key=lambda kv: (kv[0] == missing, -len(kv[1])))
-        out["headline"] = f"{label} across {len(rows)} agreements"
+        have = len(rows) - len(counts.get(missing, []))
+        # Lead with the question people usually mean ("how many HAVE one?"), then the breakdown.
+        out["headline"] = f"{have} of {len(rows)} agreements have a {label.lower()}"
+        out["subhead"] = f"Breakdown by value below. {len(counts.get(missing, []))} have none extracted."
         out["columns"] = [label, "Agreements", "Which"]
         out["groups"] = [{"value": v, "count": len(r), "agreements": [{"id": x, "name": short_name(x)} for x in r]}
                          for v, r in ordered]
